@@ -21,6 +21,10 @@ https://bloomberg-bloombergtv-1-it.samsung.wurl.com/manifest/playlist.m3u8
 https://bnr-cache-cdp.triple-it.nl/studio/index.m3u8
 #EXTINF:-1 tvg-id="BR6TV.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/4aUcHnd.png" group-title="Undefined",BR6 TV (720p)
 https://58c04fb1d143f.streamlock.net/slob/slob/playlist.m3u8
+#EXTINF:-1 tvg-id="CGTN.cn" tvg-country="INT" tvg-language="Chinese;English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/512px-CGTN.svg.png" group-title="News",CGTN (576p)
+http://live.cgtn.com/500/prog_index.m3u8
+#EXTINF:-1 tvg-id="CGTNDocumentary.cn" tvg-country="INT" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d6/CGTN_Documentary_logo.png" group-title="Documentary",CGTN Documentary (576p)
+http://39.135.138.59:18890/PLTV/88888910/224/3221225645/index.m3u8
 #EXTINF:-1 tvg-id="CNBCEurope.uk" tvg-country="EUR" tvg-language="English" tvg-logo="https://i.imgur.com/B6sfpDa.png" group-title="Business" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",CNBC Europe (480p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s65/index.m3u8
@@ -32,7 +36,7 @@ http://wowza5.video-streams.nl:1935/denhaag/denhaag/playlist.m3u8
 https://broadcasttr.com:446/drt/bant1/chunklist_w172830844.m3u8?hash=ff9087a17e9ff7a7a214048d240d21c0
 #EXTINF:-1 tvg-id="DWEnglish.de" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/A1xzjOI.png" group-title="News",DW English (1080p)
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
-#EXTINF:-1 tvg-id="EDETV.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="" group-title="Undefined",EDE TV (480p) [Not 24/7]
+#EXTINF:-1 tvg-id="" tvg-country="NL" tvg-language="" tvg-logo="" group-title="Undefined",EDE TV (480p) [Not 24/7]
 https://ms7.mx-cd.net/tv/113-474263/EdeTV.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="NL" tvg-language="" tvg-logo="" group-title="Undefined",Euronews English (720p)
 https://rakuten-euronews-1-nl.samsung.wurl.com/manifest/playlist.m3u8
@@ -42,25 +46,25 @@ https://fashiontv-fashiontv-2-es.samsung.wurl.com/manifest/playlist.m3u8
 https://58c04fb1d143f.streamlock.net/feel_good_radio_1/feel_good_radio_1/playlist.m3u8
 #EXTINF:-1 tvg-id="France24English.fr" tvg-country="INT" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8a/France24.png" group-title="News",France 24 English (1080p)
 http://f24hls-i.akamaihd.net/hls/live/221147/F24_EN_HI_HLS/master.m3u8
+#EXTINF:-1 tvg-id="GigantFM.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/7AC8etU.png" group-title="Undefined",Gigant FM (720p)
+https://streams.uitzending.tv/gigantfm/gigantfm/playlist.m3u8
 #EXTINF:-1 tvg-id="GORTV.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/zAFt893.png" group-title="Music",GO-RTV (720p)
 http://593aed234297b.streamlock.net:1935/gotvsjoerd/gotvsjoerd/playlist.m3u8
-#EXTINF:-1 tvg-id="Groningen1.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="" group-title="Undefined",Groningen1 (1080p) [Not 24/7]
+#EXTINF:-1 tvg-id="Groningen1.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/Ze4uC7j.png" group-title="Undefined",Groningen1 (1080p) [Not 24/7]
 http://59132e529e3d1.streamlock.net/Groningen1/Groningen1/playlist.m3u8
-#EXTINF:-1 tvg-id="HK13TV.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="" group-title="Undefined",HK13 TV (1080p) [Not 24/7]
+#EXTINF:-1 tvg-id="HK13TV.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/q5Potd2.png" group-title="Undefined",HK13 TV (1080p) [Not 24/7]
 http://mtxstr001.matrixdata.nl/live/hk13/playlist.m3u8
 #EXTINF:-1 tvg-id="IdeaalTV.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/HojvMxK.png" group-title="Undefined",Ideaal TV (480p) [Not 24/7]
 https://ms2.mx-cd.net/dtv-09/236-2051366/Ideaal_TV.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="InsightTV.nl" tvg-country="NL" tvg-language="English" tvg-logo="https://images.pluto.tv/channels/5f06bc60e236570007793f31/colorLogoPNG.png" group-title="Sports",Insight TV (1080p)
+#EXTINF:-1 tvg-id="InsightTV.nl" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/7xmaoL0.png" group-title="Sports",Insight TV (1080p)
 https://insighttv-vizio.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="InsightPlus.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="" group-title="Undefined",Insight+ (720p)
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ad9b73efd87eb3a2717ccde/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=1&deviceId=d54bbd90-1c0f-11eb-8801-b9710ba01352&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=DE&serverSideAds=false&sid=f10cd89a-c878-4a4d-8b3d-f5238f421aa0&terminate=false&userId=
 #EXTINF:-1 tvg-id="InTrouble.nl" tvg-country="NL" tvg-language="English" tvg-logo="https://i.imgur.com/gKhDcQY.png" group-title="Undefined",InTrouble (1080p)
 https://introuble-rakuten.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="InWild.nl" tvg-country="NL" tvg-language="English" tvg-logo="https://i.imgur.com/VSiG39E.png" group-title="Undefined",InWild (720p)
 https://inwild-samsung-uk.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="InWonder.nl" tvg-country="NL" tvg-language="English" tvg-logo="https://i.imgur.com/YqF4usD.png" group-title="Undefined",InWonder (720p)
 https://inwonder-eng-rakuten.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="JenZ.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="" group-title="Undefined",JenZ (1080p)
+#EXTINF:-1 tvg-id="JenzTV.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/OwAFCRj.png" group-title="Undefined",JenZ (1080p)
 https://ms2.mx-cd.net/tv/192-840604/Jenz_TV.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="NL" tvg-language="" tvg-logo="" group-title="Undefined",JENZ (1080p)
 https://ms7.mx-cd.net/tv/192-840604/Jenz_TV.smil/playlist.m3u8
@@ -94,7 +98,7 @@ https://cdn.appv.jagobd.com:444/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeF
 https://d3slqp9xhts6qb.cloudfront.net/live/omroepbrabant/tv/index.m3u8
 #EXTINF:-1 tvg-id="OmroepBrabantRadio.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/KLYsKKC.png" group-title="Undefined",Omroep Brabant Radio (1080p)
 https://d3slqp9xhts6qb.cloudfront.net/live/omroepbrabant/visualradio/index.m3u8
-#EXTINF:-1 tvg-id="OmroepCentraalTV.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="" group-title="Undefined",Omroep Centraal TV (480p)
+#EXTINF:-1 tvg-id="OmroepCentraalTV.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/t7ndN3z.png" group-title="Undefined",Omroep Centraal TV (480p)
 https://ms7.mx-cd.net/tv/208-1258878/Omroep_Centraal_GB.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="OmroepFlevolandTV.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/9MMDos2.png" group-title="Undefined",Omroep Flevoland (720p) [Not 24/7]
 https://d5ms27yy6exnf.cloudfront.net/live/omroepflevoland/tv/index.m3u8
@@ -102,7 +106,7 @@ https://d5ms27yy6exnf.cloudfront.net/live/omroepflevoland/tv/index.m3u8
 https://web.omroepgelderland.nl/live/livetv.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="NL" tvg-language="" tvg-logo="" group-title="Undefined",Omroep Gelderland (1080p)
 https://rrr.sz.xlcdn.com/?account=omroepgelderland&file=livetv&output=playlist.m3u8&protocol=http&service=wowza&type=live
-#EXTINF:-1 tvg-id="OmroepOnsWestBrabant.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="" group-title="Undefined",Omroep Ons West Brabant (480p)
+#EXTINF:-1 tvg-id="OmroepOnsWestBrabantTV.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/XlWTK7s.png" group-title="Undefined",Omroep Ons West Brabant (480p)
 https://ms2.mx-cd.net/tv/177-710139/Ons_West_Brabant_TV.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="OmroepPMTV.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/1uxxeWX.png" group-title="Undefined",Omroep P&M TV (1080p) [Not 24/7]
 https://ms7.mx-cd.net/dtv-10/153-840564/Omroep_Peel_en_Maas_TV.smil/playlist.m3u8
@@ -116,7 +120,7 @@ https://d3isaxd2t6q8zm.cloudfront.net/live/omroepzeeland/tv/index.m3u8
 https://d3pvma9xb2775h.cloudfront.net/live/omropfryslan/stream04/index.m3u8
 #EXTINF:-1 tvg-id="OpenRotterdam.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/bDwQ1g1.png" group-title="Undefined",Open Rotterdam (480p) [Not 24/7]
 http://ms2.mx-cd.net/tv/141-573555/OPEN_Rotterdam.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="ORTS.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="" group-title="Undefined",ORTS (480p) [Not 24/7]
+#EXTINF:-1 tvg-id="ORTSTV.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/eZV6Kz1.png" group-title="Undefined",ORTS (480p) [Not 24/7]
 http://ms7.mx-cd.net/tv/200-1006554/ORTS_TV.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="EuronewsEnglish.fr" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Pluto TV Euronews (720p) [Not 24/7]
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60d3583ef310610007fb02b1/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&serverSideAds=false&studio_id=viacom&tags=ROKU_CONTENT_TAGS
@@ -128,15 +132,15 @@ http://rrr.sz.xlcdn.com/?account=ndc_mediagroep&file=NDC3&output=playlist.m3u8&s
 http://rrr.sz.xlcdn.com/?account=ndc_mediagroep&file=NDC1&output=playlist.m3u8&service=wowza&type=live
 #EXTINF:-1 tvg-id="Qmusic.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/P8cVMle.jpg" group-title="Music",Qmusic (720p)
 https://dpp-qmusicnl-live.akamaized.net/streamx/QmusicNL.m3u8
-#EXTINF:-1 tvg-id="Radio350.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="" group-title="Undefined",Radio 350 (360p) [Not 24/7]
+#EXTINF:-1 tvg-id="Radio350.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/ttSoBle.png" group-title="Undefined",Radio 350 (360p) [Not 24/7]
 https://stream.radio350.nl/hls/radio350.m3u8
 #EXTINF:-1 tvg-id="RadioAalsmeerTV.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/0RMDdTr.png" group-title="Undefined",Radio Aalsmeer TV (720p) [Not 24/7]
 https://radioaalsmeer.nl:4443/live/tv.m3u8
-#EXTINF:-1 tvg-id="RadioRN7.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="" group-title="Undefined",Radio RN7 (576p) [Geo-blocked]
+#EXTINF:-1 tvg-id="RN7.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/YAIYfOv.png" group-title="Undefined",Radio RN7 (576p) [Geo-blocked]
 http://streaming.rn7.nl/rn7tv/live_576/playlist.m3u8
-#EXTINF:-1 tvg-id="RedBullTV.at" tvg-country="INT" tvg-language="English;German" tvg-logo="https://i.imgur.com/7NeBmWX.jpg" group-title="Sports",Red Bull TV (360p)
-https://rbmn-live.akamaized.net/hls/live/622817/BoRB-US/master_928.m3u8
-#EXTINF:-1 tvg-id="Regio8TV.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="" group-title="Undefined",Regio8 TV (1080p)
+#EXTINF:-1 tvg-id="RedBullTV.at" tvg-country="INT" tvg-language="English;German" tvg-logo="https://i.imgur.com/7NeBmWX.jpg" group-title="Sports",Red Bull TV (1080p)
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
+#EXTINF:-1 tvg-id="Regio8TV.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/EA8lB8J.png" group-title="Undefined",Regio8 TV (1080p)
 https://ms7.mx-cd.net/tv/71-475821/Regio8TV.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RegioTVNieuws.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/PIUI2zZ.png" group-title="Undefined",Regio TV Nieuws (1080p) [Not 24/7]
 http://highvolume04.streampartner.nl/regiomedia/regiomedia/playlist.m3u8
@@ -154,15 +158,15 @@ https://ms2.mx-cd.net/tv/163-669433/RTV_Arnhem.smil/playlist.m3u8
 https://ms7.mx-cd.net/tv/163-669433/RTV_Arnhem.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RTVDordrecht.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/vryzDJk.jpg" group-title="Undefined",RTV Dordrecht (480p)
 https://ms2.mx-cd.net/dtv-02/107-475823/RTV_Dordrecht.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="RTVDrenthe.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/DsD7Tsu.png" group-title="Undefined",RTV Drenthe (1080p)
+#EXTINF:-1 tvg-id="RTVDrenthe.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/usBIZo2.png" group-title="Undefined",RTV Drenthe (1080p)
 https://cdn.rtvdrenthe.nl/live/rtvdrenthe/tv/index.m3u8
-#EXTINF:-1 tvg-id="RTVGO.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="" group-title="Undefined",RTV GO! (1080p) [Not 24/7]
+#EXTINF:-1 tvg-id="RTVGO.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/WUClFUJ.png" group-title="Undefined",RTV GO! (1080p) [Not 24/7]
 http://59132e529e3d1.streamlock.net:1935/Groningen1/Groningen1/playlist.m3u8
 #EXTINF:-1 tvg-id="RTVMaastricht.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/5m3d7cP.jpg" group-title="Undefined",RTV Maastricht (720p) [Not 24/7]
 http://stream.rtvmaastricht.nl:8081/rtvm_live/tv/playlist.m3u8
-#EXTINF:-1 tvg-id="RTVNOF1.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="" group-title="Undefined",RTV NOF 1 (720p)
+#EXTINF:-1 tvg-id="" tvg-country="NL" tvg-language="" tvg-logo="" group-title="Undefined",RTV NOF 1 (720p)
 http://593aed234297b.streamlock.net:1935/rtvnof/rtvnof/playlist.m3u8
-#EXTINF:-1 tvg-id="RTVNOF2.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="" group-title="Undefined",RTV NOF 2 (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="" tvg-country="NL" tvg-language="" tvg-logo="" group-title="Undefined",RTV NOF 2 (720p) [Not 24/7]
 http://593aed234297b.streamlock.net:1935/rtvnof2/live/playlist.m3u8
 #EXTINF:-1 tvg-id="RTVNoord.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/yZEsfsv.png" group-title="Undefined",RTV Noord (720p) [Not 24/7]
 https://media.rtvnoord.nl/live/rtvnoord/tv/index.m3u8
@@ -170,9 +174,9 @@ https://media.rtvnoord.nl/live/rtvnoord/tv/index.m3u8
 https://media.rtvnoord.nl/live/rtvnoord/extra/index.m3u8
 #EXTINF:-1 tvg-id="RTVNoordoostFriesland.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/xC9hOVK.png" group-title="Undefined",RTV Noordoost Friesland (720p) [Not 24/7]
 http://cdn15.streampartner.nl:1935/rtvnof2/live/playlist.m3u8
-#EXTINF:-1 tvg-id="RTVPurmerend.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="" group-title="Undefined",RTV Purmerend (720p)
+#EXTINF:-1 tvg-id="RTVPurmerend.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/dLKSpqz.png" group-title="Undefined",RTV Purmerend (720p)
 https://ms2.mx-cd.net/dtv-10/268-2641474/RTV_Purmerend_TV.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="RTVSlingeland.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="" group-title="Undefined",RTV Slingeland (1080p) [Not 24/7]
+#EXTINF:-1 tvg-id="RTVSlingeland.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/PREoM2y.png" group-title="Undefined",RTV Slingeland (1080p) [Not 24/7]
 https://ms7.mx-cd.net/dtv-10/105-475831/RTV_Slingeland.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RTVUtrecht.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/5cVkPR3.png" group-title="Undefined",RTV Utrecht (1080p)
 https://d18rwjdhpr8dcw.cloudfront.net/live/rtvutrecht/rtvutrecht/index.m3u8
@@ -182,11 +186,11 @@ http://media.rtvutrecht.nl/live/rtvutrecht/rtvutrecht/index.m3u8
 https://live.salto.nl/hls/at5_high.m3u8
 #EXTINF:-1 tvg-id="SaltoBrasaMusic.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.vimeocdn.com/portrait/31947989_640x640" group-title="Music",Salto Brasa Music (1080p)
 https://salto-streams.nl/hls/sotv1_high.m3u8
-#EXTINF:-1 tvg-id="Samen1TV.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="" group-title="Undefined",Samen1 TV (720p)
+#EXTINF:-1 tvg-id="Samen1TV.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/2ow3ApR.png" group-title="Undefined",Samen1 TV (720p)
 https://server-67.stream-server.nl:1936/Samen1TV/Samen1TV/playlist.m3u8
 #EXTINF:-1 tvg-id="SilenceTV.nl" tvg-country="NL" tvg-language="English" tvg-logo="https://i.imgur.com/826gz7r.jpg" group-title="Undefined",Silence TV (720p) [Not 24/7]
 http://93.190.140.42:8081/SilenceTV/live/playlist.m3u8
-#EXTINF:-1 tvg-id="SirisTV.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="" group-title="Undefined",Siris TV (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="SirisTV.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/Fj9tnpG.png" group-title="Undefined",Siris TV (720p) [Not 24/7]
 https://videostream.siris.nl/hls/playoutweb/index.m3u8
 #EXTINF:-1 tvg-id="StingrayDjazz.nl" tvg-country="NL" tvg-language="French" tvg-logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/djazz.png" group-title="Music",Stingray Djazz (1080p)
 https://dai.google.com/linear/hls/event/C-lfmhUVTGeDNWwU13_EgA/master.m3u8
@@ -216,5 +220,7 @@ https://xite-samsung-de.amagi.tv/playlist.m3u8
 https://ms2.mx-cd.net/tv/226-1855782/XITE_NL.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="NL" tvg-language="" tvg-logo="" group-title="Undefined",XITE (BE) (720p) [Not 24/7]
 https://ms7.mx-cd.net/tv/226-1855782/XITE_NL.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="ZO34.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/KrEBHLw.jpg" group-title="Undefined",ZO!34 (720p)
+https://streams.uitzending.tv/zo34/zo34/playlist.m3u8
 #EXTINF:-1 tvg-id="ZuidWestTV.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/SqslIN7.png" group-title="Undefined",ZuidWest TV (480p)
 https://live.zuidwesttv.nl/live/zwtv.m3u8

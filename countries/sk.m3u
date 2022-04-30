@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/bf/canalplus-afrique.com.epg.xml,https://iptv-org.github.io/epg/guides/cz/m.tv.sms.cz.epg.xml,https://iptv-org.github.io/epg/guides/dk/allente.se.epg.xml,https://iptv-org.github.io/epg/guides/fr/chaines-tv.orange.fr.epg.xml,https://iptv-org.github.io/epg/guides/gr/cosmote.gr.epg.xml,https://iptv-org.github.io/epg/guides/hu/musor.tv.epg.xml,https://iptv-org.github.io/epg/guides/it/guidatv.sky.it.epg.xml,https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml,https://iptv-org.github.io/epg/guides/se/allente.se.epg.xml,https://iptv-org.github.io/epg/guides/tr/digiturk.com.tr.epg.xml,https://iptv-org.github.io/epg/guides/uk/bt.com.epg.xml"
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/bf/canalplus-afrique.com.epg.xml,https://iptv-org.github.io/epg/guides/cz/m.tv.sms.cz.epg.xml,https://iptv-org.github.io/epg/guides/dk/allente.se.epg.xml,https://iptv-org.github.io/epg/guides/fr/chaines-tv.orange.fr.epg.xml,https://iptv-org.github.io/epg/guides/gr/cosmote.gr.epg.xml,https://iptv-org.github.io/epg/guides/hu/musor.tv.epg.xml,https://iptv-org.github.io/epg/guides/it/guidatv.sky.it.epg.xml,https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml,https://iptv-org.github.io/epg/guides/nl/delta.nl.epg.xml,https://iptv-org.github.io/epg/guides/se/allente.se.epg.xml,https://iptv-org.github.io/epg/guides/tr/digiturk.com.tr.epg.xml,https://iptv-org.github.io/epg/guides/uk/bt.com.epg.xml"
 #EXTINF:-1 tvg-id="AlJazeeraChannel.qa" tvg-country="INT" tvg-language="Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Aljazeera.svg/512px-Aljazeera.svg.png" group-title="News",Al Jazeera Arabic (1080p)
 https://live-hls-web-aja.getaj.net/AJA/index.m3u8
 #EXTINF:-1 tvg-id="AlJazeeraDocumentary.qa" tvg-country="ARAB;EUR" tvg-language="Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/e6/Al_Jazeera_Doc.png" group-title="News",Al Jazeera Documentary (270p) [Geo-blocked]
@@ -17,6 +17,10 @@ http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/index.m3u8
 https://www.bloomberg.com/media-manifest/streams/eu-event.m3u8
 #EXTINF:-1 tvg-id="BloombergTVEurope.us" tvg-country="EUR" tvg-language="English" tvg-logo="https://rndcdn.dstv.com/dstvcms/2018/01/16/Bloomberg_new_4-3_light_background_001_xlrg.png" group-title="Business",Bloomberg TV Europe UHD (2160p)
 https://bloomberg-bloombergtv-1-it.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-id="CGTN.cn" tvg-country="INT" tvg-language="Chinese;English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/512px-CGTN.svg.png" group-title="News",CGTN (576p)
+http://live.cgtn.com/500/prog_index.m3u8
+#EXTINF:-1 tvg-id="CGTNDocumentary.cn" tvg-country="INT" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d6/CGTN_Documentary_logo.png" group-title="Documentary",CGTN Documentary (576p)
+http://39.135.138.59:18890/PLTV/88888910/224/3221225645/index.m3u8
 #EXTINF:-1 tvg-id="CNBCEurope.uk" tvg-country="EUR" tvg-language="English" tvg-logo="https://i.imgur.com/B6sfpDa.png" group-title="Business" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",CNBC Europe (480p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s65/index.m3u8
@@ -30,6 +34,8 @@ https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 https://fashiontv-fashiontv-2-es.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="France24English.fr" tvg-country="INT" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8a/France24.png" group-title="News",France 24 English (1080p)
 http://f24hls-i.akamaihd.net/hls/live/221147/F24_EN_HI_HLS/master.m3u8
+#EXTINF:-1 tvg-id="InsightTV.nl" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/7xmaoL0.png" group-title="Sports",Insight TV (1080p)
+https://insighttv-vizio.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="JOJ.sk" tvg-country="SK" tvg-language="Slovak" tvg-logo="https://i.imgur.com/wKJpGke.jpg" group-title="Undefined",JOJ (720p) [Not 24/7]
 https://nn.geo.joj.sk/hls/joj-720.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="SK" tvg-language="" tvg-logo="" group-title="Undefined",JOJ Family (360p) [Not 24/7]
@@ -44,8 +50,6 @@ http://86.110.233.68:1935/lifetv/lifetv.stream_360p/playlist.m3u8
 http://tv.geniusnet.sk:8081/localltv/pl.m3u8
 #EXTINF:-1 tvg-id="MavTVSelect.us" tvg-country="EUR" tvg-language="English" tvg-logo="https://i.imgur.com/KMGUuAX.png" group-title="Sports",MavTV Select (720p)
 https://mavtv-mavtvglobal-1-eu.rakuten.wurl.com/manifest/playlist.m3u8
-#EXTINF:-1 tvg-id="NoveZamky.sk" tvg-country="SK" tvg-language="Slovak" tvg-logo="" group-title="Undefined",Nove Zamky (486p)
-http://s1.media-planet.sk/live/novezamky/playlist.m3u8
 #EXTINF:-1 tvg-id="NTVEurope.bd" tvg-country="EUR" tvg-language="Bengali" tvg-logo="https://europentv.ntvbd.com/sites/all/themes/sloth/logo.png" group-title="General",NTV Europe (720p) [Not 24/7]
 https://cdn.appv.jagobd.com:444/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/ntvuk00332211.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="Ocko.cz" tvg-country="CZ;SK" tvg-language="Czech" tvg-logo="https://i.imgur.com/jKPRYdM.png" group-title="Music",Óčko (540p)
@@ -56,9 +60,9 @@ https://nn.geo.joj.sk/live/hls/jojplus-540.m3u8
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60d3583ef310610007fb02b1/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&serverSideAds=false&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-id="RajTV.sk" tvg-country="SK" tvg-language="Slovak" tvg-logo="https://i.imgur.com/GKBwOFF.jpg" group-title="Undefined",Raj TV (720p) [Not 24/7]
 https://ottst05.flexitv.sk/2827-tv-pc.m3u8
-#EXTINF:-1 tvg-id="RedBullTV.at" tvg-country="INT" tvg-language="English;German" tvg-logo="https://i.imgur.com/7NeBmWX.jpg" group-title="Sports",Red Bull TV (360p)
-https://rbmn-live.akamaized.net/hls/live/622817/BoRB-US/master_928.m3u8
-#EXTINF:-1 tvg-id="Reduta.sk" tvg-country="SK" tvg-language="Slovak" tvg-logo="" group-title="Undefined",Reduta (486p)
+#EXTINF:-1 tvg-id="RedBullTV.at" tvg-country="INT" tvg-language="English;German" tvg-logo="https://i.imgur.com/7NeBmWX.jpg" group-title="Sports",Red Bull TV (1080p)
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
+#EXTINF:-1 tvg-id="TVReduta.sk" tvg-country="SK" tvg-language="Slovak" tvg-logo="https://i.imgur.com/gBMtpOS.png" group-title="Undefined",Reduta (486p)
 http://s1.media-planet.sk/live/reduta/playlist.m3u8
 #EXTINF:-1 tvg-id="RetroMusicTV.cz" tvg-country="CZ;SK" tvg-language="Czech" tvg-logo="https://i.postimg.cc/C53XtK5f/zaltv.png" group-title="Music",Retro Music TV (360p)
 http://89.185.253.55/retrotv/retrotvHQ1/playlist.m3u8
@@ -76,15 +80,13 @@ http://92.62.234.233/slagr2.m3u
 http://109.74.145.11:1935/tv8/mp4:tv8.stream_360p/playlist.m3u8
 #EXTINF:-1 tvg-id="TRTWorld.tr" tvg-country="INT" tvg-language="English" tvg-logo="https://i.ibb.co/phw4pjP/mjTjJ1N.png" group-title="News",TRT World (720p) [Not 24/7]
 https://tv-trtworld.live.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="TVDK.sk" tvg-country="SK" tvg-language="Slovak" tvg-logo="" group-title="Undefined",TV DK (486p) [Not 24/7]
-http://80.94.54.11:1935/live/dolnykubin1/playlist.m3u8
 #EXTINF:-1 tvg-id="TVLux.sk" tvg-country="SK" tvg-language="Slovak" tvg-logo="https://i.imgur.com/QQK4sJs.jpg" group-title="Undefined",TV Lux (1080p) [Not 24/7]
 http://live.tvlux.sk:1935/lux/lux.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="TVMarkiza.sk" tvg-country="SK" tvg-language="Slovak" tvg-logo="https://static-media.streema.com/media/cache/da/4f/da4f346af8f63ae80914f9b565315cbe.jpg" group-title="Undefined",TV Markíza (720p) [Geo-blocked]
 http://ntv-st01-vod01-bts10-stage.orange.sk:8000/dna-5106-tv-pc/hls/4001v102.m3u8
 #EXTINF:-1 tvg-id="TVNoveZamky.sk" tvg-country="SK" tvg-language="Slovak" tvg-logo="https://i.imgur.com/k4IK5OS.png" group-title="Undefined",TV Nové Zámky (486p) [Not 24/7]
 http://s1.media-planet.sk/live/novezamky/BratuMarian.m3u8
-#EXTINF:-1 tvg-id="TVPoprad.sk" tvg-country="SK" tvg-language="Slovak" tvg-logo="" group-title="Undefined",TV Poprad (1080p) [Not 24/7]
+#EXTINF:-1 tvg-id="" tvg-country="SK" tvg-language="" tvg-logo="" group-title="Undefined",TV Poprad (1080p) [Not 24/7]
 http://213.81.153.221:8080/poprad
 #EXTINF:-1 tvg-id="TVRuzinov.sk" tvg-country="SK" tvg-language="Slovak" tvg-logo="https://i.imgur.com/wmkg1FG.png" group-title="Undefined",TV Ružinov (1080p) [Not 24/7]
 http://lb.streaming.sk/tvruzinov/stream/playlist.m3u8
@@ -92,6 +94,8 @@ http://lb.streaming.sk/tvruzinov/stream/playlist.m3u8
 http://88.212.7.11/live/test_severka_web_player/playlist.m3u8
 #EXTINF:-1 tvg-id="TVWAU.sk" tvg-country="SK" tvg-language="Slovak" tvg-logo="https://i.imgur.com/nRDWpNs.jpg" group-title="Undefined",TV WAU (540p) [Not 24/7]
 https://nn.geo.joj.sk/hls/wau-540.m3u8
+#EXTINF:-1 tvg-id="TVDK.sk" tvg-country="SK" tvg-language="Slovak" tvg-logo="https://i.imgur.com/sfBZB21.png" group-title="Undefined",TVDX (486p) [Not 24/7]
+http://5ca49f2417d90.streamlock.net/live/dolnykubin1/playlist.m3u8
 #EXTINF:-1 tvg-id="UNWebTV.us" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/lPyJhBN.png" group-title="News",UN Web TV (540p)
 https://cdnapi.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_gb6tjmle/protocol/https/format/applehttp/a.m3u8
 #EXTINF:-1 tvg-id="WorldFashionChannelInternational.ru" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/JyslMHb.jpg" group-title="Lifestyle",World Fashion Channel (1080p)

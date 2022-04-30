@@ -1,7 +1,7 @@
 #EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/id-en/mncvision.id.epg.xml,https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml,https://iptv-org.github.io/epg/guides/ph/clickthecity.com.epg.xml,https://iptv-org.github.io/epg/guides/th/tv.trueid.net.epg.xml"
 #EXTINF:-1 tvg-id="ALTV.th" tvg-country="TH" tvg-language="Thai" tvg-logo="https://www.altv.tv/_nuxt/img/84f4d59.png" group-title="Undefined",ALTV (1080p)
 https://thaipbs-ujxrch.cdn.byteark.com/live/playlist_1080p/index.m3u8
-#EXTINF:-1 tvg-id="ASTVNews1.th" tvg-country="TH" tvg-language="Thai" tvg-logo="" group-title="News",ASTV News 1 (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="News1.th" tvg-country="TH" tvg-language="Thai" tvg-logo="https://i.imgur.com/jz5pPEz.png" group-title="News",ASTV News 1 (720p) [Not 24/7]
 http://news1.live14.com/stream/news1.m3u8
 #EXTINF:-1 tvg-id="Channel5.th" tvg-country="TH" tvg-language="Thai" tvg-logo="https://www.tv5.co.th/tv5hd1-web/img/tv5hd1_logo_light.png" group-title="Undefined",Channel 5 (1080p)
 http://110.170.117.27:1935/apptv5hd1live/vdo-tv5hd1/playlist.m3u8
@@ -45,16 +45,18 @@ https://dltv-live-edge.catcdn.cloud/dltv15.m3u8
 #EXTINF:-1 tvg-id="GolfChannelThailand.th" tvg-country="TH" tvg-language="English;Thai" tvg-logo="https://www.img09.xyz/assets/img/ch_logo/hd-golf.png" group-title="Sports" user-agent="Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/96.0.3809.25 Safari/537.36",Golf Channel Thailand (720p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/96.0.3809.25 Safari/537.36
 https://smart-tv.livedoomovie.com:4431/02_golfhd_720p/chunklist.m3u8
+#EXTINF:-1 tvg-id="GoodIdeaTV.us" tvg-country="TH" tvg-language="Thai" tvg-logo="https://i.imgur.com/Gocyzww.png" group-title="Entertainment",Good Idea TV (720p)
+https://livefta.malimarcdn.com/ftaedge00/gooditv.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="HBOAsia.us" tvg-country="US" tvg-language="Chinese;English;Indonesian;Khmer;Thai;Vietnamese" tvg-logo="https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch115_160_115" group-title="Undefined",HBO Asia
 https://vips-livecdn.fptplay.net/hda1/hbo_vhls.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="Mono29.th" tvg-country="TH" tvg-language="Thai" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d5/Mono_29_Logo.png" group-title="Undefined",Mono 29 (1080p) [Geo-blocked]
 https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_1080P/mono29hls_1080TH.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="NBTBangkok.th" tvg-country="TH" tvg-language="Thai" tvg-logo="" group-title="Undefined",NBT Bangkok (1080p) [Not 24/7]
-http://live.prd.go.th:1935/live/ch1_L.sdp/chunklist.m3u8
+#EXTINF:-1 tvg-id="NATTV.us" tvg-country="TH" tvg-language="Thai" tvg-logo="https://i.imgur.com/G98kEwm.png" group-title="Shop",NAT TV (1080p)
+https://livefta.malimarcdn.com/ftaedge00/nat.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="ThairathTV32.th" tvg-country="TH" tvg-language="Thai" tvg-logo="https://i.imgur.com/0AiJcrC.png" group-title="Undefined",Thairath TV 32 (720p)
 https://live.thairath.co.th/trtv2/playlist.m3u8
-#EXTINF:-1 tvg-id="Thrill.hk" tvg-country="SAS" tvg-language="Chinese;English;Thai" tvg-logo="https://i.imgur.com/isr5jto.png" group-title="Movies",Thrill (360p) [Geo-blocked]
-http://45.126.83.51/qwr9ew/s/s34/02.m3u8
+#EXTINF:-1 tvg-id="Thrill.hk" tvg-country="SAS" tvg-language="Chinese;English;Thai" tvg-logo="https://i.imgur.com/isr5jto.png" group-title="Movies",Thrill (480p) [Geo-blocked]
+http://45.126.83.51/qwr9ew/s/s34/index.m3u8
 #EXTINF:-1 tvg-id="TruePremierFootballHD1.th" tvg-country="TH" tvg-language="Thai" tvg-logo="https://www.img09.xyz/assets/img/ch_logo/doomovie-epl1.png" group-title="Sports" user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.3809.25 Safari/537.36",True Premier Football HD 1 (720p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.3809.25 Safari/537.36
 https://smart-tv.livedoomovie.com:4431/02_PremierHD1_720p/chunklist.m3u8
@@ -88,7 +90,7 @@ https://smart-tv.livedoomovie.com:4431/02_2sporthd4_720p/chunklist.m3u8
 #EXTINF:-1 tvg-id="TrueTennisHD.th" tvg-country="TH" tvg-language="Thai" tvg-logo="https://cms.dmpcdn.com/livetv/2017/10/18/5efbe446-0718-476e-9b93-f42da7d98e81.png" group-title="Sports" user-agent="Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/96.0.3809.25 Safari/537.36",True Tennis HD (720p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/96.0.3809.25 Safari/537.36
 https://smart-tv.livedoomovie.com:4431/02_TennisHD_720p/chunklist.m3u8
-#EXTINF:-1 tvg-id="TVMuslim.th" tvg-country="TH" tvg-language="Thai" tvg-logo="" group-title="Religious",TV Muslim (1080p) [Not 24/7]
+#EXTINF:-1 tvg-id="TVMuslimThailand.th" tvg-country="TH" tvg-language="Thai" tvg-logo="https://i.imgur.com/i36rSOX.png" group-title="Religious",TV Muslim (1080p) [Not 24/7]
 http://vip2.liveanywhere.asia:1935/tvmuslim/tvmuslim/playlist.m3u8
 #EXTINF:-1 tvg-id="WhiteChannel.th" tvg-country="TH" tvg-language="Thai" tvg-logo="https://i.imgur.com/lK52fpm.png" group-title="Undefined",White Channel (1080p)
 http://symc-cdn.violin.co.th:1935/tndedge/whitechannel/chunklist.m3u8
