@@ -35,8 +35,6 @@ http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.dailymotion.com/vid
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://dai.ly/x74wje5
 #EXTINF:-1 tvg-id="AlAlamiya2.sd" tvg-country="SD" tvg-language="Arabic" tvg-logo="https://i.imgur.com/KonAcvc.jpeg" group-title="Undefined",Al Alamiya 2
 http://82.212.74.98:8000/live/7815.m3u8
-#EXTINF:-1 tvg-id="AlAnisTV.dz" tvg-country="DZ" tvg-language="Arabic" tvg-logo="https://i.imgur.com/G60iJen.png" group-title="Undefined",Al Anis TV [Geo-blocked]
-https://cdn02.hta.dz/abr_htatv/El_Fhama_TV/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="MA" tvg-language="" tvg-logo="" group-title="Undefined",Al Aoula International (360p)
 https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_aoula_inter/hls_snrt/al_aoula_inter.m3u8
 #EXTINF:-1 tvg-id="AlAoulaLaayoune.ma" tvg-country="MA" tvg-language="Arabic" tvg-logo="https://i.imgur.com/ZFHjIVU.png" group-title="General",Al Aoula Laayoune (360p)
@@ -113,6 +111,8 @@ https://svs.itworkscdn.net/alwoustalive/alwoustatv.smil/playlist.m3u8
 https://ikomg1.s.llnwi.net/alyaumtv/playlist.m3u8
 #EXTINF:-1 tvg-id="AlBawadi.kw" tvg-country="KW" tvg-language="Arabic" tvg-logo="https://ewsat.com/img/AL_BAWADI.png" group-title="Undefined",Al-Bawadi (360p)
 https://gulfsat.cdn.easybroadcast.fr/live/Al-Bawadi_abr/playlist.m3u8
+#EXTINF:-1 tvg-id="AlJawadain.iq" tvg-country="IQ" tvg-language="Arabic" tvg-logo="https://i.imgur.com/tLekUZU.png" group-title="Religious",Al-Jawadain TV (1080p) [Not 24/7]
+https://live.aljawadain.org/live/aljawadaintv/playlist.m3u8
 #EXTINF:-1 tvg-id="AlresalahTV.sa" tvg-country="SA" tvg-language="Arabic" tvg-logo="https://i.imgur.com/TYoWinU.png" group-title="Religious",Al-Resalah (1080p) [Geo-blocked]
 https://shls-rotana-alresalah-prod-dub.shahid.net/out/v1/936b89606b5e48db8ca28caa40adc886/index.m3u8
 #EXTINF:-1 tvg-id="AlShahedTV.kw" tvg-country="KW" tvg-language="Arabic" tvg-logo="https://alshahed.tv/wp-content/themes/twentyfifteen/asset/img/logo.png" group-title="Undefined",Al-Shahed (720p) [Not 24/7]
@@ -215,6 +215,8 @@ http://cdn.liveshell.net:1935/live/cihann/playlist.m3u8
 https://citrusstv.akamaized.net/hls/live/687285/CTV/index.m3u8
 #EXTINF:-1 tvg-id="CNA.dz" tvg-country="DZ" tvg-language="Arabic" tvg-logo="https://i.imgur.com/4s1NlRf.jpg" group-title="Religious",CNA (Chaîne Nord Africaine) (360p) [Not 24/7]
 https://live.creacast.com/cna/smil:cna.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="CNBCArabiya.ae" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/a6QmjRT.png" group-title="Business",CNBC Arabia (1080p)
+https://hiplayer.hibridcdn.net/p/cnbcarabia-live.m3u8
 #EXTINF:-1 tvg-id="CopticTV.eg" tvg-country="EG" tvg-language="Arabic" tvg-logo="https://www.ctvchannel.tv/images/CTV-logo-white.png" group-title="Religious",Coptic TV (720p) [Not 24/7]
 https://5aafcc5de91f1.streamlock.net/ctvchannel.tv/ctv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Dijlah.iq" tvg-country="IQ" tvg-language="Arabic" tvg-logo="https://www.dijlah.tv/templates/default-2/live-page/images/logo-new1.png" group-title="News",Dijlah (1080p)
@@ -276,7 +278,7 @@ https://cdn.videoevent.live:19360/elfaro2/elfaro2.m3u8
 #EXTINF:-1 tvg-id="IFMTV.tn" tvg-country="TN" tvg-language="Arabic" tvg-logo="https://www.ifm.tn/images/logo.png" group-title="Music",IFM TV (720p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/RadioIfmTunisia/live
 #EXTINF:-1 tvg-id="ImamHusseinTV2Arabic.iq" tvg-country="IQ" tvg-language="Arabic" tvg-logo="https://i.imgur.com/ocyh4DD.jpg" group-title="Religious",Imam Hussein TV 2 Arabic (360p)
-https://live.imamhossaintv.com/live/ih2.m3u8
+https://ar.imamhusseintv.com/live/ih201/index.m3u8
 #EXTINF:-1 tvg-id="ImamHusseinTV4Urdu.iq" tvg-country="IQ" tvg-language="Urdu" tvg-logo="https://i.imgur.com/ocyh4DD.jpg" group-title="Religious",Imam Hussein TV 4 Urdu (720p)
 https://ur.imamhusseintv.com/live/ih4.m3u8
 #EXTINF:-1 tvg-id="INews.iq" tvg-country="IQ" tvg-language="Arabic" tvg-logo="https://www.lyngsat.com/logo/tv/ii/inews-iq.png" group-title="News",iNEWS (1080p) [Not 24/7]
@@ -609,14 +611,14 @@ https://bcovlive-a.akamaihd.net/87f7c114719b4646b7c4263c26515cf3/eu-central-1/60
 https://edge.taghtia.com/sa/3.m3u8
 #EXTINF:-1 tvg-id="TowheedTV.ae" tvg-country="AE;IR" tvg-language="Persian" tvg-logo="https://i.imgur.com/nsxrqta.jpg" group-title="Religious",Towheed TV (720p) [Not 24/7]
 http://51.210.199.1/hls/stream.m3u8
-#EXTINF:-1 tvg-id="ToyorAlJannah.jo" tvg-country="JO" tvg-language="Arabic" tvg-logo="https://i.postimg.cc/bNTHzP5g/toyor-al-janah.png" group-title="Kids",Toyor Al-Jannah (720p) [Not 24/7]
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/user/toyorlive/live
 #EXTINF:-1 tvg-id="TRTArabi.tr" tvg-country="ARAB;MAGHREB" tvg-language="Arabic;Turkish" tvg-logo="https://i.ibb.co/HTzkq9P/iJIHMq9.png" group-title="News",TRT Arabi (720p) [Not 24/7]
 https://tv-trtarabi.live.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TunisieImmobilierTV.tn" tvg-country="TN" tvg-language="Arabic" tvg-logo="https://i.imgur.com/cZM2t0P.png" group-title="Travel",Tunisie Immobilier TV (720p) [Not 24/7]
 https://5ac31d8a4c9af.streamlock.net/tunimmob/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="TunisnaTV.tn" tvg-country="TN" tvg-language="Arabic" tvg-logo="https://www.lyngsat.com/logo/tv/tt/tunisna-tv-tn.png" group-title="Undefined",Tunisna TV
 http://streaming.tunisna.tv:1935/live/tunisna/playlist.m3u8
+#EXTINF:-1 tvg-id="TV7.dz" tvg-country="DZ" tvg-language="Arabic" tvg-logo="https://i.imgur.com/dYlAfFZ.png" group-title="Undefined",TV7 Elmaarifa [Geo-blocked]
+https://cdn02.hta.dz/abr_htatv/TV7_ELMAARIFA/playlist.m3u8
 #EXTINF:-1 tvg-id="TVSeventeen.lb" tvg-country="LB" tvg-language="Arabic" tvg-logo="https://www.tvseventeen.com/img/logo.png" group-title="News",TV Seventeen (720p)
 https://cdn.tvseventeen.com/test_tv_seventeen/index.m3u8
 #EXTINF:-1 tvg-id="UgaritTV.sy" tvg-country="SY" tvg-language="Arabic" tvg-logo="https://i.imgur.com/4x2uwpx.png" group-title="General" user-agent="Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.101 Mobile Safari/537.36",Ugarit TV (720p) [Not 24/7]
