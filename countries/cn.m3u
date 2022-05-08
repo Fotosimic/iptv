@@ -13,8 +13,6 @@ http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221226942/index.m3u8
 https://liveprodapnortheast.global.ssl.fastly.net/ap1/Channel-APTVqvs-AWS-tokyo-1/Source-APTVqvs-1000-1_live.m3u8
 #EXTINF:-1 tvg-id="BloombergTVAsiaLiveEvent.us" tvg-country="APAC" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Bloomberg_Television_logo.svg/512px-Bloomberg_Television_logo.svg.png" group-title="Business",Bloomberg TV Asia Live Event (720p)
 https://www.bloomberg.com/media-manifest/streams/asia-event.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="CN" tvg-language="" tvg-logo="" group-title="Undefined",Blue 美剧 (360p) [Not 24/7]
-http://210.210.155.35/dr9445/h/h16/02.m3u8
 #EXTINF:-1 tvg-id="CartoonNetworkAsia.sg" tvg-country="ASIA" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png" group-title="Kids",Cartoon Network Asia (720p)
 http://198.16.106.62:8278/streams/d/Cn/playlist.m3u8
 #EXTINF:-1 tvg-id="CCTVPlus1.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="https://i.imgur.com/AvYpKxL.png" group-title="News",CCTV+ 1 (600p) [Not 24/7]
@@ -427,6 +425,8 @@ http://183.207.249.35/PLTV/3/224/3221226975/index.m3u8
 http://223.110.245.136/PLTV/3/224/3221226975/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="CN" tvg-language="" tvg-logo="" group-title="Undefined",凤台文化生活 (576p) [Not 24/7]
 http://60.175.115.119:1935/live/wenhua/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-country="CN" tvg-language="" tvg-logo="" group-title="Undefined",凤台综合 (576p) [Not 24/7]
+http://60.175.115.119:1935/live/zonghe/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="CN" tvg-language="" tvg-logo="" group-title="Undefined",利川公共 (180p) [Not 24/7]
 http://uni6rtmp.tulix.tv:1935/vbstv/vbsabr.smil/chunklist_w1847269952_b204800.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="CN" tvg-language="" tvg-logo="" group-title="Undefined",利川公共 (576p) [Geo-blocked]
@@ -583,8 +583,6 @@ http://tv.zkxww.com:1935/live3/mp4:ch3-500k/playlist.m3u8
 http://tv.zkxww.com:1935/live2/mp4:ch2-500k/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="CN" tvg-language="" tvg-logo="" group-title="Undefined",和政电视台
 http://117.156.28.119/270000001111/1110000149/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="CN" tvg-language="" tvg-logo="" group-title="Undefined",哈哈炫动卫视 (480p) [Not 24/7]
-http://210.210.155.35/qwr9ew/s/s50/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="CN" tvg-language="" tvg-logo="" group-title="Undefined",唯心電視 (480p)
 http://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="CN" tvg-language="" tvg-logo="" group-title="Undefined",嘉佳卡通 (576p)
@@ -966,7 +964,7 @@ https://live.ntdimg.com/mllive860/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="CN" tvg-language="" tvg-logo="" group-title="Undefined",新唐人加西臺 (216p)
 https://live.ntdimg.com/cwlive220/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="CN" tvg-language="" tvg-logo="" group-title="Undefined",新唐人旧金山臺 (486p)
-https://live.ntdimg.com/sflive990/playlist.m3u8
+http://live.ntdimg.com/sflive990/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="CN" tvg-language="" tvg-logo="" group-title="Undefined",新唐人美东臺 (480p)
 https://live.ntdimg.com/live400/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="CN" tvg-language="" tvg-logo="" group-title="Undefined",新唐人美西臺 (486p)
@@ -1013,8 +1011,6 @@ http://livehyw5.chinamcache.com/hyw/zb12.m3u8
 http://livehyw5.chinamcache.com/hyw/zb11.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="CN" tvg-language="" tvg-logo="" group-title="Undefined",新疆汉语综艺 (720p) [Geo-blocked]
 http://livehyw5.chinamcache.com/hyw/zb04.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="CN" tvg-language="" tvg-logo="" group-title="Undefined",新郑综合 (1080p) [Not 24/7]
-http://live.dxhmt.cn:9081/tv/10184-1.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="CN" tvg-language="" tvg-logo="" group-title="Undefined",旺苍新闻 (528p) [Not 24/7]
 http://3g.dzsm.com/streamer/gycttv.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="CN" tvg-language="" tvg-logo="" group-title="Undefined",明珠台 (576p)
@@ -1085,8 +1081,12 @@ http://jxyx.chinashadt.com:2036/live/1002.stream/playlist.m3u8
 http://jxyx.chinashadt.com:2036/live/1004.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="CN" tvg-language="" tvg-logo="" group-title="Undefined",永新电视二套 (576p)
 http://jxyx.chinashadt.com:2036/live/1003.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-country="CN" tvg-language="" tvg-logo="" group-title="Undefined",汕头综合 (540p)
+http://dslive.grtn.cn/stzh/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="CN" tvg-language="" tvg-logo="" group-title="Undefined",汕尾公共 (540p)
 http://dslive.grtn.cn/swzh/sd/live.m3u8
+#EXTINF:-1 tvg-id="" tvg-country="CN" tvg-language="" tvg-logo="" group-title="Undefined",汕尾综合 (540p)
+http://dslive.grtn.cn/swzh/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="CN" tvg-language="" tvg-logo="" group-title="Undefined",江津文化旅游 (576p)
 http://222.179.155.21:1935/ch2.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="CN" tvg-language="" tvg-logo="" group-title="Undefined",江津文化旅游 (576p)
@@ -1605,6 +1605,8 @@ http://202.69.67.66/webcast/bshdlive-pc/playlist.m3u8
 http://202.69.67.66:443/webcast/bshdlive-mobile/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="CN" tvg-language="" tvg-logo="" group-title="Undefined",肃州电视台 (1080p)
 http://117.156.28.119/270000001111/1110000123/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-country="CN" tvg-language="" tvg-logo="" group-title="Undefined",肇庆综合 (480p)
+http://dslive.grtn.cn/zqzh/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="CN" tvg-language="" tvg-logo="" group-title="Undefined",舟山公共生活 (720p)
 http://live.wifizs.cn/ggsh/sd/live.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="CN" tvg-language="" tvg-logo="" group-title="Undefined",舟山新闻综合 (240p)
@@ -1698,9 +1700,9 @@ http://zsxj.chinashadt.com:1935/live/xjsh.stream_360p/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="CN" tvg-language="" tvg-logo="" group-title="Undefined",辽宁卫视 (576p)
 http://183.207.249.12/PLTV/4/224/3221225802/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="CN" tvg-language="" tvg-logo="" group-title="Undefined",辽宁卫视 (576p)
-http://183.207.248.71/cntv/live1/liaoningstv/liaoningstv
-#EXTINF:-1 tvg-id="" tvg-country="CN" tvg-language="" tvg-logo="" group-title="Undefined",辽宁卫视 (576p)
 http://183.207.249.71/PLTV/3/224/3221225566/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-country="CN" tvg-language="" tvg-logo="" group-title="Undefined",辽宁卫视 (576p)
+http://183.207.248.71/cntv/live1/liaoningstv/liaoningstv
 #EXTINF:-1 tvg-id="" tvg-country="CN" tvg-language="" tvg-logo="" group-title="Undefined",辽宁卫视 (720p)
 http://125.210.152.18:9090/live/LNWSHD_H265.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="CN" tvg-language="" tvg-logo="" group-title="Undefined",辽宁卫视 (1080p)

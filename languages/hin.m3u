@@ -27,8 +27,6 @@ http://103.199.160.85/Content/moviehouse/Live/Channel(MovieHouse)/index.m3u8
 https://m-c036-j2apps.s.llnwi.net/hls/5045.BFlixMovies.in.m3u8
 #EXTINF:-1 tvg-id="BoogleBollywood.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/Z07M07j.png" group-title="Movies",Boogle Bollywood (1080p) [Not 24/7]
 http://live.agmediachandigarh.com/booglebollywood/774e3ea9f3fa9bcdac47f445b83b6653.sdp/index.m3u8
-#EXTINF:-1 tvg-id="BoxCinema.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/LGJlmtp.png" group-title="Movies",Box Cinema (576p) [Not 24/7]
-http://14.199.164.20:4001/play/a0su/index.m3u8
 #EXTINF:-1 tvg-id="Channel.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://static.epg.best/in/ChannelV.in.png" group-title="Undefined" user-agent="Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36",Channel (720p) [Geo-blocked]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
 https://livecdn.fptplay.net/foxlive/channelvhd_hls.smil/playlist.m3u8
@@ -42,8 +40,9 @@ https://cnbctv18-lh.akamaihd.net/i/cnbctv18_1@174868/index_5_av-p.m3u8
 http://14.199.164.20:4001/play/a0nb/index.m3u8
 #EXTINF:-1 tvg-id="DDNational.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/MohlE5B.png" group-title="Entertainment",DD National (576p)
 http://103.199.161.254/Content/ddnational/Live/Channel(DDNational)/index.m3u8
-#EXTINF:-1 tvg-id="DDNews.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/znnVCEf.png" group-title="News",DD News (1080p) [Not 24/7]
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCKwucPzHZ7zCUIf7If-Wo1g/live
+#EXTINF:-1 tvg-id="DDNews.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/znnVCEf.png" group-title="News",DD News (576p) [Not 24/7]
+#EXTVLCOPT:http-referrer=https://webcast.gov.in/
+https://playhls.media.nic.in/hls/live/ddnews/ddnews.m3u8
 #EXTINF:-1 tvg-id="DDSports.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/WUl0Acy.png" group-title="Sports",DD Sports (576p)
 http://103.199.161.254/Content/ddsports/Live/Channel(DDSPORTS)/index.m3u8
 #EXTINF:-1 tvg-id="Dhamaal.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://www.lyngsat.com/logo/tv/dd/dhamaal_in.png" group-title="Music",Dhamaal (1080p) [Not 24/7]
@@ -56,6 +55,8 @@ http://14.199.164.20:4001/play/a0o5/index.m3u8
 https://live.hungama.com/linear/dil-se/playlist.m3u8
 #EXTINF:-1 tvg-id="DocuBayTV.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://od.lk/s/MF8yMzAxMjQ1MzBf/Docubay_750x750.png" group-title="Entertainment",DocuBay TV (1080p) [Not 24/7]
 https://docubayvh.s.llnwi.net/526a07ab-6ae7-4b6c-84a1-159791416484_1000004372_HLS/manifest.m3u8
+#EXTINF:-1 tvg-id="E24.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/VBu7r0A.png" group-title="Entertainment",E24 (576p) [Not 24/7]
+http://14.199.164.20:4001/play/a0pc/index.m3u8
 #EXTINF:-1 tvg-id="Enter10Bangla.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/fkOxQtS.png" group-title="Entertainment",Enter10 Bangla (576p) [Not 24/7]
 http://14.199.164.20:4001/play/a0j5/index.m3u8
 #EXTINF:-1 tvg-id="FoodFood.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/J930pA1.png" group-title="Entertainment",Food Food (576p) [Not 24/7]
