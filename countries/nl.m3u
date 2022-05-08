@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/be/telenettv.be.epg.xml,https://iptv-org.github.io/epg/guides/bf/canalplus-afrique.com.epg.xml,https://iptv-org.github.io/epg/guides/dk/allente.se.epg.xml,https://iptv-org.github.io/epg/guides/fr/chaines-tv.orange.fr.epg.xml,https://iptv-org.github.io/epg/guides/gr/cosmote.gr.epg.xml,https://iptv-org.github.io/epg/guides/it/guidatv.sky.it.epg.xml,https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml,https://iptv-org.github.io/epg/guides/nl/delta.nl.epg.xml,https://iptv-org.github.io/epg/guides/nl/ziggogo.tv.epg.xml,https://iptv-org.github.io/epg/guides/se/allente.se.epg.xml,https://iptv-org.github.io/epg/guides/tr/digiturk.com.tr.epg.xml,https://iptv-org.github.io/epg/guides/uk/bt.com.epg.xml,https://iptv-org.github.io/epg/guides/us-pluto/i.mjh.nz.epg.xml"
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/be/telenettv.be.epg.xml,https://iptv-org.github.io/epg/guides/bf/canalplus-afrique.com.epg.xml,https://iptv-org.github.io/epg/guides/br/mi.tv.epg.xml,https://iptv-org.github.io/epg/guides/dk/allente.se.epg.xml,https://iptv-org.github.io/epg/guides/fr/chaines-tv.orange.fr.epg.xml,https://iptv-org.github.io/epg/guides/gr/cosmote.gr.epg.xml,https://iptv-org.github.io/epg/guides/it/guidatv.sky.it.epg.xml,https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml,https://iptv-org.github.io/epg/guides/nl/delta.nl.epg.xml,https://iptv-org.github.io/epg/guides/nl/ziggogo.tv.epg.xml,https://iptv-org.github.io/epg/guides/se/allente.se.epg.xml,https://iptv-org.github.io/epg/guides/tr/digiturk.com.tr.epg.xml,https://iptv-org.github.io/epg/guides/uk/bt.com.epg.xml,https://iptv-org.github.io/epg/guides/us-pluto/i.mjh.nz.epg.xml"
 #EXTINF:-1 tvg-id="AlJazeeraChannel.qa" tvg-country="INT" tvg-language="Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Aljazeera.svg/512px-Aljazeera.svg.png" group-title="News",Al Jazeera Arabic (1080p)
 https://live-hls-web-aja.getaj.net/AJA/index.m3u8
 #EXTINF:-1 tvg-id="AlJazeeraDocumentary.qa" tvg-country="ARAB;EUR" tvg-language="Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/e6/Al_Jazeera_Doc.png" group-title="News",Al Jazeera Documentary (270p) [Geo-blocked]
@@ -86,6 +86,8 @@ https://mavtv-mavtvglobal-1-eu.rakuten.wurl.com/manifest/playlist.m3u8
 https://593aed234297b.streamlock.net/meervandaag/meervandaag/playlist.m3u8
 #EXTINF:-1 tvg-id="ML5TV.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/uSybMJD.png" group-title="Undefined",ML5 TV (480p)
 https://ms2.mx-cd.net/dtv-02/204-1147034/3ML_TV.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="NHKWorldJapan.jp" tvg-country="INT" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/NHK_World-Japan_TV.svg/512px-NHK_World-Japan_TV.svg.png" group-title="Culture;News",NHK World Japan (1080p)
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCSPEjw8F2nQDtmUKPFNF7_A/live
 #EXTINF:-1 tvg-id="NPO1.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://over.npo.nl/images/zenders/npo-1.png" group-title="Undefined",NPO 1 (1080p) [Geo-blocked]
 http://stream.tvtap.net:8081/live/nl-npo1.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="NPO2.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://over.npo.nl/images/zenders/npo-2.png" group-title="Undefined",NPO 2 (302p) [Geo-blocked]
@@ -152,6 +154,9 @@ https://streaming.rn7.nl/rn7live_abr/tv/playlist.m3u8
 https://rt-rtd.rttv.com/live/rtdoc/playlist.m3u8
 #EXTINF:-1 tvg-id="RTNews.ru" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/tyXIHlj.png" group-title="News",RT News (1080p) [Geo-blocked]
 https://live-hr6yv36f.rmbl.ws/slot-30/ngrp:srak-wx8r_all/playlist.m3u8
+#EXTINF:-1 tvg-id="RTPInternacional.pt" tvg-country="INT" tvg-language="Portuguese" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/120-344318101410.png" group-title="General" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0",RTP Internacional (504p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0
+https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RTVAmstelveen.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://d3kle7qwymxpcy.cloudfront.net/images/broadcasts/51/71/17115/1/c175.png" group-title="Undefined",RTV Amstelveen (720p) [Not 24/7]
 https://live.rtva.nl/live/zender.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="NL" tvg-language="" tvg-logo="" group-title="Undefined",RTV Arnhem (480p)
@@ -190,6 +195,8 @@ https://live.salto.nl/hls/at5_high.m3u8
 https://salto-streams.nl/hls/sotv1_high.m3u8
 #EXTINF:-1 tvg-id="Samen1TV.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/2ow3ApR.png" group-title="Undefined",Samen1 TV (720p)
 https://server-67.stream-server.nl:1936/Samen1TV/Samen1TV/playlist.m3u8
+#EXTINF:-1 tvg-id="SICInternacional.pt" tvg-country="INT" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/UgJ5lac.png" group-title="Undefined",SIC Internacional (720p)
+http://live.impresa.pt/live/sicint/sicint.m3u8
 #EXTINF:-1 tvg-id="SilenceTV.nl" tvg-country="NL" tvg-language="English" tvg-logo="https://i.imgur.com/826gz7r.jpg" group-title="Undefined",Silence TV (720p) [Not 24/7]
 http://93.190.140.42:8081/SilenceTV/live/playlist.m3u8
 #EXTINF:-1 tvg-id="SirisTV.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/Fj9tnpG.png" group-title="Undefined",Siris TV (720p) [Not 24/7]
@@ -214,6 +221,8 @@ https://d18rwjdhpr8dcw.cloudfront.net/live/rtvutrecht/ustad/index.m3u8
 https://ms2.mx-cd.net/tv/81-334271/VechtdalTV.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="WorldFashionChannelInternational.ru" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/JyslMHb.jpg" group-title="Lifestyle",World Fashion Channel (1080p)
 https://wfcint.mediacdn.ru/cdn/wfcintweb/playlist.m3u8
+#EXTINF:-1 tvg-id="WorldPokerTour.us" tvg-country="INT" tvg-language="English" tvg-logo="https://images.pluto.tv/channels/5f8ecfb9db6c180007a6d1b0/colorLogoPNG.png" group-title="Sports",World Poker Tour (1080p) [Not 24/7]
+https://d3w4n3hhseniak.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/WPT-DistroTV/150.m3u8
 #EXTINF:-1 tvg-id="WOS.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/UtOWySG.jpg" group-title="Undefined",WOS TV (1080p)
 https://ms2.mx-cd.net/dtv-11/99-660295/WOS.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Xite.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/VaDrfKr.png" group-title="Music",Xite (720p)

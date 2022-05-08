@@ -24,8 +24,9 @@ https://okkotv-live.cdnvideo.ru/channel/Sony_SciFi.m3u8
 #EXTINF:-1 tvg-id="A1.ru" tvg-country="RU" tvg-language="English;Russian" tvg-logo="https://i.imgur.com/lXlwfyw.png" group-title="Series" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",A1 (480p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s45/index.m3u8
-#EXTINF:-1 tvg-id="A2.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/GwQgT6X.png" group-title="Series",A2 (576p) [Not 24/7]
-https://sc.id-tv.kz/A2.m3u8
+#EXTINF:-1 tvg-id="A2.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/GwQgT6X.png" group-title="Series" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",A2 (480p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+http://ott-cdn.ucom.am/s33/index.m3u8
 #EXTINF:-1 tvg-id="AmediaHit.ru" tvg-country="RU" tvg-language="English;Russian" tvg-logo="https://avatars.mds.yandex.net/get-tv-channel-logos/69315/2a0000016653697bea0c072bf5c5bc1c11ec/260x160" group-title="Movies",Amedia Hit (1080p) [Not 24/7]
 https://sc.id-tv.kz/amedia_hit_hd.m3u8
 #EXTINF:-1 tvg-id="AmediaPremium.ru" tvg-country="RU" tvg-language="English;Russian" tvg-logo="https://i.imgur.com/UHo6cwX.png" group-title="Undefined" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Amedia Premium (480p)
@@ -59,7 +60,7 @@ https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
 #EXTINF:-1 tvg-id="Cinema.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/VsJaHRe.png" group-title="Movies",Cinema (576p) [Not 24/7]
 https://sc.id-tv.kz/Cinema.m3u8
 #EXTINF:-1 tvg-id="ClubbingTV.fr" tvg-country="CH;FR" tvg-language="Russian" tvg-logo="https://i.imgur.com/TOuwYHt.png" group-title="Music",Clubbing TV (720p)
-https://clubbingtv-rakuten.amagi.tv/playlist.m3u8
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/600ad8f86e1eba00081da3ce/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c8ae1b0-e98a-11eb-a932-2f3c780ff9ff&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=97358d7c-5219-43db-bcda-c5057f0bc369
 #EXTINF:-1 tvg-id="DaVinci.de" tvg-country="DE" tvg-language="Bulgarian;English;Hungarian;Polish;Romanian;Russian;Turkish;Ukrainian" tvg-logo="https://mts.rs/oec/images/tv_channels/518ef8a1e68e742b275b0605330bd3d2.jpg" group-title="Undefined",Da Vinci
 http://sc.id-tv.kz/DaVinci_38_39.m3u8
 #EXTINF:-1 tvg-id="EnglishClubTV.uk" tvg-country="UK" tvg-language="English;Russian" tvg-logo="https://ocdn.eu/ptv2-images-transforms/1/q_bktkhbG9nby1taWdyYXRlZC9lbmdsaXNoLWNsdWItdHYucG5nkpUCZADCw5UCACjCww" group-title="Undefined" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",English Club TV (480p)
@@ -104,8 +105,8 @@ http://retc.educom.ru/mosobrtv/tv1/index.m3u8
 http://81.30.182.82:18092/hls/live.m3u8
 #EXTINF:-1 tvg-id="NationalGeographicRussia.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://static.epg.best/id/NatGeo.id.png" group-title="Documentary",National Geographic (1080p) [Geo-blocked]
 https://okkotv-live.cdnvideo.ru/channel/NGC_HD.m3u8
-#EXTINF:-1 tvg-id="NationalGeographicWildRussia.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://static.epg.best/id/NatGeoWild.id.png" group-title="Documentary",National Geographic Wild Russia (1080p) [Not 24/7]
-https://sc.id-tv.kz/NatGeoWildHD_34_35.m3u8
+#EXTINF:-1 tvg-id="NationalGeographicWildRussia.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://static.epg.best/id/NatGeoWild.id.png" group-title="Documentary",National Geographic Wild Russia (1080p) [Geo-blocked]
+https://okkotv-live.cdnvideo.ru/channel/NGC_Wild_HD.m3u8
 #EXTINF:-1 tvg-id="ParamountComedyRussia.ru" tvg-country="RU" tvg-language="English;Russian" tvg-logo="https://www.magticom.ge/images/channels/MjAxOC8wOS8xMC82ZTY2ZDc2MC04YzJlLTRhOWMtODM2Mi1jMmQ4OWFiMDAxZTQuanBn.jpg" group-title="Comedy",Paramount Comedy Russia
 http://45.145.32.11:20007/paramount_comedy/video.m3u8
 #EXTINF:-1 tvg-id="BabyFirst.us" tvg-country="US" tvg-language="Arabic;Chinese;English;French;German;Hebrew;Hungarian;Japanese;Korean;Polish;Portuguese;Romanian;Russian;Spanish;Turkish" tvg-logo="https://images.pluto.tv/channels/5f4fb4cf605ddf000748e16f/colorLogoPNG.png" group-title="Kids",Pluto TV BabyFirst (720p) [Not 24/7]
@@ -330,12 +331,12 @@ http://185.97.150.19:8082/2402
 http://188.40.68.167/russia/komediya/playlist.m3u8
 #EXTINF:-1 tvg-id="KonniyMir.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://avatars.mds.yandex.net/get-tv-channel-logos/1521843/2a00000175f4a4304593ef5a089f8aa21dfa/214x121" group-title="Undefined",Конный Мир (576p) [Geo-blocked]
 http://cdn-01.bonus-tv.ru/konnyimir/playlist.m3u8
+#EXTINF:-1 tvg-id="KrasnayaLiniya.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://avatars.mds.yandex.net/get-tv-channel-logos/69315/2a00000165801107a0cb7b769ab7b65eff26/z" group-title="Undefined",Красная линия (480p)
+https://kprf-htlive.cdn.ngenix.net/live/stream_high/playlist.m3u8
 #EXTINF:-1 tvg-id="KRTV.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/AqJSzL7.png" group-title="Undefined",Красногорск ТВ (480p) [Not 24/7]
 http://live-krtv.cdnvideo.ru/krtv/krtv.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="KrikTV.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/JLK70Pz.png" group-title="Undefined",Крик-ТВ (576p) [Geo-blocked]
 https://strm.yandex.ru/kal/krik_tv/krik_tv0.m3u8
-#EXTINF:-1 tvg-id="Krym24.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://1tvcrimea.ru/wp-content/themes/vdweb/images/logo.png" group-title="Undefined",Крым 24 (540p) [Not 24/7]
-http://mr2live.1tvcrimea.ru:8080/24tvcrimea.m3u8
 #EXTINF:-1 tvg-id="KTK.kz" tvg-country="KZ" tvg-language="Kazakh;Russian" tvg-logo="https://i.imgur.com/BGy7EMr.png" group-title="Undefined",КТК (576p) [Not 24/7]
 https://sc.id-tv.kz/KTK.m3u8
 #EXTINF:-1 tvg-id="Kuzbass1.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://kuzbass1.ru/wp-content/uploads/2019/12/logo-kuzbass1.png" group-title="General",Кузбасс 1 (1080p) [Not 24/7]
@@ -457,8 +458,8 @@ http://ott-cdn.ucom.am/s62/index.m3u8
 https://strm.yandex.ru/kal/ohotnik/ohotnik0.m3u8
 #EXTINF:-1 tvg-id="Pervyykrymskiy.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://1tvcrimea.ru/wp-content/themes/vdweb/images/logo.png" group-title="Undefined",Первый крымский (540p) [Not 24/7]
 http://mrlive.1tvcrimea.ru:8080/1tvcrimea.m3u8
-#EXTINF:-1 tvg-id="PervyyMuzykalnyyKanal.by" tvg-country="BY" tvg-language="Russian" tvg-logo="https://www.crdru.net/b/templates/ottch/onemuz.png" group-title="Music",Первый Музыкальный Канал (1080p)
-http://rtmp.one.by:1300
+#EXTINF:-1 tvg-id="PervyyMuzykalnyyKanal.by" tvg-country="BY" tvg-language="Russian" tvg-logo="https://www.crdru.net/b/templates/ottch/onemuz.png" group-title="Music",Первый Музыкальный Канал (2160p)
+http://rtmp.one.by:1499
 #EXTINF:-1 tvg-id="PervyyMuzykalnyyRussia.by" tvg-country="BY" tvg-language="Russian" tvg-logo="https://i.imgur.com/FhFh0fl.jpg" group-title="Music",Первый Музыкальный Канал Россия (1080p)
 http://rtmp.one.by:2300
 #EXTINF:-1 tvg-id="PervyyPskovskiy.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://www.1pskov.tv/img/Layer1.png" group-title="Undefined",Первый Псковский (540p) [Not 24/7]
@@ -514,14 +515,17 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/variant.m3u8
 https://sc.id-tv.kz/RenTV.m3u8
 #EXTINF:-1 tvg-id="RZDTV.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://avatars.mds.yandex.net/get-tv-shows/54381/2a00000151859587eee3f8bdf589eb41630c/orig" group-title="Undefined",РЖД ТВ (360p) [Geo-blocked]
 http://hls.tva.cdnvideo.ru/tva/tva.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="RodnoeKino.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://cdn.red-media.ru/wp-content/uploads/2019/12/rodnoe-kino(1).png" group-title="Movies",Родное кино (576p) [Not 24/7]
+https://sc.id-tv.kz/Rodnoe_kino.m3u8
 #EXTINF:-1 tvg-id="Rodnoykanal.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/xp9rDCz.png" group-title="Undefined",Родной канал (720p) [Not 24/7]
 https://n1.slavmir.tv/live/slavmir/playlist.m3u8
 #EXTINF:-1 tvg-id="Rossiya1Plus6.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/BNd83AQ.png" group-title="General",Россия 1 +6 (360p)
 https://gtrkchita.ru:8081/hls/r1-chita_360p.m3u8
 #EXTINF:-1 tvg-id="Rossiya1HD.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/BNd83AQ.png" group-title="General",Россия 1 HD (1080p) [Geo-blocked]
 https://okkotv-live.cdnvideo.ru/channel/Russia1HD.m3u8
-#EXTINF:-1 tvg-id="Rossiya24.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/wu7O85f.png" group-title="News",Россия 24 (576p) [Not 24/7]
-http://radio-live-mg.rtr-vesti.ru/hls/russia_24/playlist.m3u8
+#EXTINF:-1 tvg-id="Rossiya24.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/wu7O85f.png" group-title="News" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Россия 24 (480p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+http://ott-cdn.ucom.am/s21/index.m3u8
 #EXTINF:-1 tvg-id="Rossiya24Chita.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/wu7O85f.png" group-title="News",Россия 24 (Чита) (576p)
 https://gtrkchita.ru:8081/hls/r24-chita_576p.m3u8
 #EXTINF:-1 tvg-id="RTRPlaneta.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RTR-Planeta_Logo.svg/512px-RTR-Planeta_Logo.svg.png" group-title="Undefined" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",РТР-Планета (480p)
@@ -543,6 +547,8 @@ https://sitv.ru/hls/stv.m3u8
 https://bsttv.bonus-tv.ru/cdn/salyam/playlist.m3u8
 #EXTINF:-1 tvg-id="SamaraGIS.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://samaragis.ru/wp-includes/images/logo.png" group-title="Undefined",Самара ГИС (1080p) [Not 24/7]
 http://45.67.57.9:8080/new/new/playlist.m3u8
+#EXTINF:-1 tvg-id="Saratov24.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://saratov24.tv/local/templates/saratov24/images/logo_blue.png" group-title="Undefined",Саратов 24 (1080p) [Not 24/7]
+https://saratov24.tv/online/playlist.php
 #EXTINF:-1 tvg-id="Sarafan.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/AgX6qoz.png" group-title="Undefined",Сарафан (576p) [Not 24/7]
 http://195.26.83.96:7024/play/82
 #EXTINF:-1 tvg-id="Svarozhichi.ua" tvg-country="RU;UA" tvg-language="Russian" tvg-logo="https://www.lyngsat.com/logo/tv/ss/svarozhychy-ua.png" group-title="Undefined",Сварожичи (720p)
