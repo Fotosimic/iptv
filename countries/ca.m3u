@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/dk/allente.se.epg.xml,https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml"
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/at/magentatv.at.epg.xml,https://iptv-org.github.io/epg/guides/bf/canalplus-afrique.com.epg.xml,https://iptv-org.github.io/epg/guides/br/mi.tv.epg.xml,https://iptv-org.github.io/epg/guides/bs/rev.bs.epg.xml,https://iptv-org.github.io/epg/guides/ca/tvtv.us.epg.xml,https://iptv-org.github.io/epg/guides/dk/allente.se.epg.xml,https://iptv-org.github.io/epg/guides/gr/cosmote.gr.epg.xml,https://iptv-org.github.io/epg/guides/it/guidatv.sky.it.epg.xml,https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml,https://iptv-org.github.io/epg/guides/nl/delta.nl.epg.xml,https://iptv-org.github.io/epg/guides/rs/mts.rs.epg.xml,https://iptv-org.github.io/epg/guides/tr/digiturk.com.tr.epg.xml,https://iptv-org.github.io/epg/guides/tr/dsmart.com.tr.epg.xml,https://iptv-org.github.io/epg/guides/uk/bt.com.epg.xml,https://iptv-org.github.io/epg/guides/us-pluto/i.mjh.nz.epg.xml"
 #EXTINF:-1 tvg-id="5AABTV.ca" tvg-country="CA" tvg-language="English" tvg-logo="https://i.imgur.com/k9M5ydW.png" group-title="Undefined",5AAB TV (720p) [Not 24/7]
 http://158.69.124.9:1935/5aabtv/5aabtv/playlist.m3u8
 #EXTINF:-1 tvg-id="AlJazeeraChannel.qa" tvg-country="INT" tvg-language="Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Aljazeera.svg/512px-Aljazeera.svg.png" group-title="News",Al Jazeera Arabic (1080p)
@@ -20,7 +20,7 @@ http://cdn8.live247stream.com/canadaone/tv/playlist.m3u8
 #EXTINF:-1 tvg-id="CanadaStarTV.ca" tvg-country="CA" tvg-language="English" tvg-logo="https://i.imgur.com/3Q9Nxj1.jpg" group-title="Undefined",Canada Star TV (1080p)
 http://live.canadastartv.com:1935/canadastartv/canadastartv/playlist.m3u
 #EXTINF:-1 tvg-id="CanadianArabTV.ca" tvg-country="CA" tvg-language="Arabic" tvg-logo="https://i.imgur.com/rAZBgir.png" group-title="Undefined",Canadian Arab TV (720p) [Not 24/7]
-http://142.112.39.133:8080/catv.mp4
+http://142.112.39.133:8080/hls/catv/index.m3u8
 #EXTINF:-1 tvg-id="CanBanglaTV.ca" tvg-country="CA" tvg-language="Bengali" tvg-logo="https://i.imgur.com/CMUHtv3.png" group-title="General",CanBangla TV (1080p) [Not 24/7]
 https://cdn.appv.jagobd.com:444/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/canbanglatv.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="CBCCalgary.ca" tvg-country="CA" tvg-language="English" tvg-logo="https://i.imgur.com/thAavMy.png" group-title="Undefined",CBC Calgary [Geo-blocked]
@@ -205,6 +205,8 @@ https://tv-trtworld.live.trt.com.tr/master.m3u8
 http://rtmp.smartstream.video:1935/capco/tv29/playlist.m3u8
 #EXTINF:-1 tvg-id="CFTM.ca" tvg-country="CA-QC" tvg-language="French" tvg-logo="https://i.imgur.com/7YibsjU.png" group-title="Undefined",TVA [Geo-blocked]
 https://tvalive-nondai.akamaized.net/Content/HLS/Live/channel(a7315e07-037c-12a8-bdc8-da7bd513da9d)/index.m3u8
+#EXTINF:-1 tvg-id="TVC9.ca" tvg-country="CA" tvg-language="French" tvg-logo="https://i.imgur.com/KLWdogU.png" group-title="Undefined",TVC9 (1080p) [Not 24/7]
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UC0JP0ek-HhcqisiEpsZiQZA/live
 #EXTINF:-1 tvg-id="TVOKids.ca" tvg-country="CA" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tvokids-logo.svg/512px-Tvokids-logo.svg.png" group-title="Kids",TVOKids (360p) [Not 24/7]
 https://bcsecurelivehls-i.akamaihd.net/hls/live/623607/15364602001/tvokids/master.m3u8
 #EXTINF:-1 tvg-id="UNWebTV.us" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/lPyJhBN.png" group-title="News",UN Web TV (540p)
