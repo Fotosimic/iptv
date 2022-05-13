@@ -38,16 +38,16 @@ http://39.135.138.59:18890/PLTV/88888910/224/3221225645/index.m3u8
 #EXTINF:-1 tvg-id="CNBCEurope.uk" tvg-country="EUR" tvg-language="English" tvg-logo="https://i.imgur.com/B6sfpDa.png" group-title="Business" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",CNBC Europe (480p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s65/index.m3u8
-#EXTINF:-1 tvg-id="CNNInternationalEurope.us" tvg-country="EUR" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/CNN_International_logo.svg/512px-CNN_International_logo.svg.png" group-title="News",CNN International UK (720p) [Not 24/7]
-https://cnn-cnninternational-1-gb.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-id="CNNInternationalEurope.us" tvg-country="EUR" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/CNN_International_logo.svg/512px-CNN_International_logo.svg.png" group-title="News",CNN International Germany (720p)
+https://cnn-cnninternational-1-de.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="CoolTV.hu" tvg-country="HU" tvg-language="Hungarian" tvg-logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/hu_cooltv.png" group-title="Undefined",Cool TV (720p) [Not 24/7]
 https://stream.y5.hu/stream/stream_cool/hls1/stream.m3u8
 #EXTINF:-1 tvg-id="DTV.hu" tvg-country="HU" tvg-language="Hungarian" tvg-logo="https://i.imgur.com/AY59Xv4.jpeg" group-title="Undefined",DTV (720p) [Not 24/7]
 http://cloudfront44.lexanetwork.com:1732/hlsrelay003/hls/livestream.sdp.m3u8
 #EXTINF:-1 tvg-id="DWEnglish.de" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/A1xzjOI.png" group-title="News",DW English (1080p)
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
-#EXTINF:-1 tvg-id="FashionTVEurope.fr" tvg-country="EUR" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/512px-Fashion_TV_logo.svg.png" group-title="Lifestyle",Fashion TV (Spain) (1080p)
-https://fashiontv-fashiontv-2-es.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-id="FashionTVEurope.fr" tvg-country="EUR" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/512px-Fashion_TV_logo.svg.png" group-title="Lifestyle",Fashion TV (1080p)
+https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="HU" tvg-language="" tvg-logo="" group-title="Undefined",FEM3 [Geo-blocked]
 https://streaming.mytvback.com/stream/Nc8b6c6tUH4gh3GdRR-zFw/1617462698/channel016/stream.m3u8
 #EXTINF:-1 tvg-id="FilmPlus.hu" tvg-country="HU" tvg-language="Hungarian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/FILM%2B_logo_2014_Hungary.png/512px-FILM%2B_logo_2014_Hungary.png" group-title="Movies",Film+ (720p) [Not 24/7]
@@ -56,8 +56,6 @@ https://stream.y5.hu/stream/stream_filmp/hls1/stream.m3u8
 http://f24hls-i.akamaihd.net/hls/live/221147/F24_EN_HI_HLS/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="HU" tvg-language="" tvg-logo="" group-title="Undefined",H!T Music Channel (480p)
 http://hitmusic.hu/hitmusic.m3u8
-#EXTINF:-1 tvg-id="HalomTV.hu" tvg-country="HU" tvg-language="Hungarian" tvg-logo="https://i.imgur.com/Qykeedm.png" group-title="Undefined",Halom TV (540p)
-http://stream.battanet.hu:8080/hls/livestream1/1_2/index.m3u8
 #EXTINF:-1 tvg-id="Hatoscsatorna.hu" tvg-country="HU" tvg-language="Hungarian" tvg-logo="https://hatoscsatorna.hu/templates/hatoscsatorna/css/img/header_logo.png" group-title="Undefined",Hatoscsatorna (360p) [Not 24/7]
 https://hatoscsatorna.hu:8082/Hatoscsatorna/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="HU" tvg-language="" tvg-logo="" group-title="Undefined",Hegyvidek Tv Budapest (576p) [Not 24/7]
@@ -77,11 +75,11 @@ http://87.229.103.60:1935/liverelay/loverseny2.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="M3.hu" tvg-country="HU" tvg-language="Hungarian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/M3_HU_logo.png/512px-M3_HU_logo.png" group-title="Undefined",M3 [Geo-blocked]
 https://stream9.nava.hu/m3_live_bdrm/_definst_/smil:m3_1080p_loop_nodrm.smil/chunklist_w72397576_b881072_slhun.m3u8?lb=b4bp7xeKAKovH1uDWU5XusWC/SZexs+JNLmxYvSb34kGup6SGRTTm5UkNNjfC62mmvYbuEqrt04E++Exer5ZNS/WN6JyMpY6GiuOU2osRulnM+gNsTWVD8z+LJt4imqAka++&platform=web_embed&sessid=Z4gLTQezzXGgWvNkiypb5PkmR64U1aoH3lFII14l3Mp2dZ5OtLoKQQY7XOn943ns&type=m3u8
 #EXTINF:-1 tvg-id="MavTVSelect.us" tvg-country="EUR" tvg-language="English" tvg-logo="https://i.imgur.com/KMGUuAX.png" group-title="Sports",MavTV Select (720p)
-https://mavtv-mavtvglobal-1-eu.rakuten.wurl.com/manifest/playlist.m3u8
+https://mavtv-mavtvglobal-1-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="MUSICPlus.hu" tvg-country="HU" tvg-language="Hungarian" tvg-logo="https://i.imgur.com/yKJmkNk.png" group-title="Music",MUSIC + (720p) [Not 24/7]
 http://s02.diazol.hu:10192/stream.m3u8
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp" tvg-country="INT" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/NHK_World-Japan_TV.svg/512px-NHK_World-Japan_TV.svg.png" group-title="Culture;News",NHK World Japan (1080p)
-https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCSPEjw8F2nQDtmUKPFNF7_A/live
 #EXTINF:-1 tvg-id="NTVEurope.bd" tvg-country="EUR" tvg-language="Bengali" tvg-logo="https://europentv.ntvbd.com/sites/all/themes/sloth/logo.png" group-title="General",NTV Europe (720p) [Not 24/7]
 https://cdn.appv.jagobd.com:444/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/ntvuk00332211.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="PannonRTV.hu" tvg-country="HU" tvg-language="Hungarian" tvg-logo="https://i.imgur.com/Dl9xtgo.png" group-title="Undefined",Pannon RTV (648p)
@@ -119,6 +117,8 @@ https://stream.y5.hu/stream/stream_bekescsaba/stream.m3u8
 https://cdnapi.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_gb6tjmle/protocol/https/format/applehttp/a.m3u8
 #EXTINF:-1 tvg-id="VTVFuzesabony.hu" tvg-country="HU" tvg-language="Hungarian" tvg-logo="https://i.imgur.com/LsBxBRA.png" group-title="Undefined",VTV Füzesabony (720p) [Not 24/7]
 https://stream.unrealhosting.hu:7962/live.m3u8
+#EXTINF:-1 tvg-id="WeatherSpyEurope.us" tvg-country="EUR" tvg-language="English" tvg-logo="https://i.imgur.com/SAZF1cq.jpg" group-title="Weather",WeatherSpy Europe (720p)
+https://jukin-weatherspy-2-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="WorldFashionChannelInternational.ru" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/JyslMHb.jpg" group-title="Lifestyle",World Fashion Channel (1080p)
 https://wfcint.mediacdn.ru/cdn/wfcintweb/playlist.m3u8
 #EXTINF:-1 tvg-id="WorldPokerTour.us" tvg-country="INT" tvg-language="English" tvg-logo="https://images.pluto.tv/channels/5f8ecfb9db6c180007a6d1b0/colorLogoPNG.png" group-title="Sports",World Poker Tour (1080p) [Not 24/7]
