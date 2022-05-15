@@ -49,6 +49,8 @@ https://svs.itworkscdn.net/kablatvlive/kabtv1.smil/playlist.m3u8
 https://svs.itworkscdn.net/alwoustalive/alwoustatv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AlfaTV.fi" tvg-country="FI" tvg-language="Finnish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Alfa_Logo_red_shadow.png/512px-Alfa_Logo_red_shadow.png" group-title="General",AlfaTV (432p) [Not 24/7]
 https://alfatv.digitacdn.net/live/_definst_/alfatv/amlst:alfatv.amlst/playlist.m3u8
+#EXTINF:-1 tvg-id="AlvinChannelTV.az" tvg-country="AZ" tvg-language="Azerbaijani" tvg-logo="https://i.imgur.com/fIdmD1d.png" group-title="General",Alvin Channel TV (360p) [Not 24/7]
+http://cdn10-alvinchannel.yayin.com.tr/alvinchannel/alvinchannel/playlist.m3u8
 #EXTINF:-1 tvg-id="AmericaTV.ar" tvg-country="AR" tvg-language="Spanish" tvg-logo="https://cdn.mitvstatic.com/channels/ar_america-2-capital_m.png" group-title="General" user-agent="iPhone",América TV (720p)
 #EXTVLCOPT:http-user-agent=iPhone
 https://raw.githubusercontent.com/MachineSystems/archived_m3u8/main/america_hls.m3u8
@@ -347,7 +349,7 @@ https://dmiffthvll.cdn.mangomolo.com/noordubaitv/smil:noordubaitv.smil/playlist.
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
 https://backend-server-dot-telearuba-app.appspot.com/media/livestream23/playlist.m3u8
 #EXTINF:-1 tvg-id="NowThis.us" tvg-country="US" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Now_This_Logo_White.svg/512px-Now_This_Logo_White.svg.png" group-title="General",Now This (720p)
-https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxnowthis/CDN/playlist.m3u8
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-rokunowthis/CDN/playlist.m3u8
 #EXTINF:-1 tvg-id="NowThisXUMO.us" tvg-country="US" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Now_This_Logo_White.svg/512px-Now_This_Logo_White.svg.png" group-title="General",Now This (XUMO) (720p)
 https://dai2.xumo.com/amagi_hls_data_xumo1212A-nowthis/CDN/master.m3u8
 #EXTINF:-1 tvg-id="NRBTV.ca" tvg-country="CA" tvg-language="Bengali" tvg-logo="https://www.thenrb.tv/organization/logo/nrb-tv_WJkwkcRXBEVrzo5_1576430300.jpg" group-title="General",NRB TV (1080p) [Not 24/7]
@@ -417,8 +419,9 @@ https://shls-rotanadrama-prod-dub.shahid.net/out/v1/20c617b40dc743589ecc9d08d9d3
 https://shls-rotanaplus-prod-dub.shahid.net/out/v1/1fc6103458be480b96e6a574b00fe1c0/index.m3u8
 #EXTINF:-1 tvg-id="RoyaTV.jo" tvg-country="JO" tvg-language="Arabic" tvg-logo="https://i.imgur.com/Sa2nBTP.png" group-title="General",Roya TV (720p) [Not 24/7]
 https://weyyak-live.akamaized.net/weyyak_roya/index.m3u8
-#EXTINF:-1 tvg-id="RTP1.pt" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/5-563718101410.png" group-title="General",RTP1 (480p)
-http://162.212.178.69:41042/bysid/608
+#EXTINF:-1 tvg-id="RTP1.pt" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/5-563718101410.png" group-title="General" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0",RTP1 (720p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0
+https://streaming-live.rtp.pt/liverepeater/rtpClean1HD.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RTPAcores.pt" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/106-563419141305.png" group-title="General" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0",RTP Açores (720p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0
 https://streaming-live.rtp.pt/liverepeater/smil:rtpacoresHD.smil/playlist.m3u8
@@ -431,9 +434,6 @@ https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RTPMadeira.pt" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/107-443519141305.png" group-title="General" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)",RTP Madeira (504p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 https://streaming-live.rtp.pt/liverepeater/smil:rtpmadeira.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="RTPMemoria.pt" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/80-584819141705.png" group-title="General" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0",RTP Memória (360p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0
-https://streaming-live.rtp.pt/liverepeater/smil:rtpmem.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RTV.bd" tvg-country="BD" tvg-language="Bengali" tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/41/Rtv_bangladesh.PNG" group-title="General",RTV (1080p)
 https://cdn.appv.jagobd.com:444/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/rtv-sg.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="RTVC.es" tvg-country="ES" tvg-language="Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Logo_del_Ente_P%C3%BAblico_Radio_Televisi%C3%B3n_Canaria.svg/512px-Logo_del_Ente_P%C3%BAblico_Radio_Televisi%C3%B3n_Canaria.svg.png" group-title="General",RTVC (Radio Televisión Canaria) (720p)
@@ -450,6 +450,9 @@ https://cdn.appv.jagobd.com:444/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeF
 https://edge.taghtia.com/sa/1.m3u8
 #EXTINF:-1 tvg-id="RedeMassa.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://cdn.mitvstatic.com/channels/br_rede-massa_m.png" group-title="General",SBT Rede Massa (720p) [Not 24/7]
 https://cdn-cdn-iguacu.ciclano.io:1443/cdn-iguacu/cdn-iguacu/playlist.m3u8
+#EXTINF:-1 tvg-id="TVJornal.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/IUDRW8l.png" group-title="General" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0",SBT TV Jornal Caruaru (720p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0
+https://evpp.mm.uol.com.br/ne10/ne10-tvjornal-caruaru-video-web.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="TVSerraDourada.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://cdn.mitvstatic.com/channels/br_tv-serra-dourada-hd_m.png" group-title="General",SBT TV Serra Dourada (720p) [Not 24/7]
 https://5a1c76baf08c0.streamlock.net/tvsd2/smil:tvsd2_20042020.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="SenalColombia.co" tvg-country="CO" tvg-language="Spanish" tvg-logo="https://s3.amazonaws.com/rtvc-assets-senalcolombia.gov.co/s3fs-public/logo.png" group-title="General",Señal Colombia (1080p)
@@ -504,11 +507,9 @@ http://cdn.setar.aw:1935/Telearuba/smil:telearuba.smil/playlist.m3u8
 https://live.obslivestream.com/telecolormux/index.m3u8
 #EXTINF:-1 tvg-id="Teleislas.co" tvg-country="CO" tvg-language="Spanish" tvg-logo="https://i.imgur.com/4xNgb8H.png" group-title="General",Teleislas (486p) [Not 24/7]
 https://5ab772334c39c.streamlock.net/live-teleislas/teleislas/playlist.m3u8
-#EXTINF:-1 tvg-id="Telemedellin.co" tvg-country="CO" tvg-language="Spanish" tvg-logo="https://cdn.mitvstatic.com/channels/co_telemedellin-hd_m.png" group-title="General",Telemedellin (720p) [Not 24/7]
-#EXTVLCOPT:http-referrer=https://player.instantvideocloud.net/
-https://liveingesta118.cdnmedia.tv/telemedellintvlive/smil:dvrlive.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="TheChannelTV.ca" tvg-country="CA" tvg-language="Bengali;English" tvg-logo="https://i.imgur.com/08c6W9l.png" group-title="General",The Channel TV (1080p) [Not 24/7]
-https://cdn.appv.jagobd.com:444/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/thechanneltv.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="Telemedellin.co" tvg-country="CO" tvg-language="Spanish" tvg-logo="https://cdn.mitvstatic.com/channels/co_telemedellin-hd_m.png" group-title="General",Telemedellin (360p) [Not 24/7]
+#EXTVLCOPT:http-referrer=https://ssh101.com/
+https://tna5.bozztv.com/telemedradio/index.m3u8
 #EXTINF:-1 tvg-id="Three.nz" tvg-country="NZ" tvg-language="English" tvg-logo="https://www.lyngsat.com/logo/tv/tt/tv3_nz.png" group-title="General",Three [Geo-blocked]
 https://livestreamdirect-three.mediaworks.nz/three.m3u8
 #EXTINF:-1 tvg-id="TimeTelevision.us" tvg-country="US" tvg-language="Bengali" tvg-logo="https://www.timetvusa.com/images/ttv200.png" group-title="General",Time Television (720p) [Not 24/7]
@@ -527,8 +528,8 @@ https://q-s-l4n3sh4d0w.onrender.com/iptv-query?streaming-ip=https://livestream.c
 https://video.detik.com/trans7/smil:trans7.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TransTV.id" tvg-country="ID" tvg-language="Indonesian" tvg-logo="https://www.lyngsat.com/logo/tv/tt/trans_tv_id.png" group-title="General",Trans TV (720p)
 https://video.detik.com/transtv/smil:transtv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="Turkmenistan.tm" tvg-country="TM" tvg-language="Arabic;Chinese;English;French;Persian;Russian;Turkmen" tvg-logo="https://i.imgur.com/zKWfwAw.png" group-title="General",Türkmenistan (226p) [Not 24/7]
-https://alpha.tv.online.tm/legacyhls/ch007.m3u8
+#EXTINF:-1 tvg-id="Turkmenistan.tm" tvg-country="TM" tvg-language="Arabic;Chinese;English;French;Persian;Russian;Turkmen" tvg-logo="https://i.imgur.com/zKWfwAw.png" group-title="General",Türkmenistan (112p) [Not 24/7]
+https://alpha.tv.online.tm/hls/ch007.m3u8
 #EXTINF:-1 tvg-id="TV47.ke" tvg-country="KE" tvg-language="English" tvg-logo="https://tv47.co.ke/wp-content/uploads/2020/10/tv-47-logo-600-e1617870103726.png" group-title="General",TV47 (1080p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.twitch.tv/tv47kenya/
 #EXTINF:-1 tvg-id="TVAberta.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/1pZUGb4.png" group-title="General",TV Aberta (1080p) [Not 24/7]
@@ -590,6 +591,9 @@ https://cdn10.live-tv.od.ua:8083/odtrkod/odtrkod-abr/playlist.m3u8
 #EXTINF:-1 tvg-id="UATV.ua" tvg-country="RU;UA" tvg-language="Ukrainian" tvg-logo="https://upload.wikimedia.org/wikipedia/uk/thumb/d/d8/Logo_uatv.svg/512px-Logo_uatv.svg.png" group-title="General" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0",UATV (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
 https://ua-tv.cdn-02.cosmonova.net.ua/hls/ua-tv_ua.m3u8
+#EXTINF:-1 tvg-id="UchuTV.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/tebr5wH.png" group-title="General",Uchu TV (Cusco) (720p) [Not 24/7]
+#EXTVLCOPT:http-referrer=https://ssh101.com/
+https://tna5.bozztv.com/Cusco/index.m3u8
 #EXTINF:-1 tvg-id="UCI.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/3KAm0lO.png" group-title="General",UCI (720p) [Not 24/7]
 https://servilive.com:3449/live/mlecaroslive.m3u8
 #EXTINF:-1 tvg-id="UgaritTV.sy" tvg-country="SY" tvg-language="Arabic" tvg-logo="https://i.imgur.com/4x2uwpx.png" group-title="General" user-agent="Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.101 Mobile Safari/537.36",Ugarit TV (720p) [Not 24/7]
@@ -609,8 +613,6 @@ http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/Watan
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/Watania2Replay/live
 #EXTINF:-1 tvg-id="WillaxTV.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/mhR2bXC.png" group-title="General",Willax (480p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.dailymotion.com/WillaxTV
-#EXTINF:-1 tvg-id="WOWTV.sv" tvg-country="PE;SV" tvg-language="Spanish" tvg-logo="https://wowelsalvador.com/imagen/logo2.png" group-title="General",WOW TV (576p) [Not 24/7]
-https://cdn.elsalvadordigital.com:1936/wowtv/smil:wowtv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="WuanPlus.ec" tvg-country="EC" tvg-language="Spanish" tvg-logo="https://i.imgur.com/9I4C4Ta.png" group-title="General",Wuan+ (720p)
 https://streamingwowza.com:1936/wuanplus/wuanplus/playlist.m3u8
 #EXTINF:-1 tvg-id="XezerTV.az" tvg-country="AZ" tvg-language="Azerbaijani" tvg-logo="https://i.imgur.com/YR5iC8h.png" group-title="General",Xəzər TV (576p) [Not 24/7]

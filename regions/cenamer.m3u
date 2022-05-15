@@ -55,6 +55,8 @@ https://streaming.canal32hn.com/CanalAntigua/myStream/playlist.m3u8
 https://stmv1.zcastbr.com/catavision/catavision/playlist.m3u8
 #EXTINF:-1 tvg-id="CCIChannel.hn" tvg-country="HN" tvg-language="Spanish" tvg-logo="https://www.ccichannel.tv/wp-content/uploads/2018/01/CCICHANNELlogo.png" group-title="Undefined",CCI Channel (480p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://dai.ly/x836wjl
+#EXTINF:-1 tvg-id="" tvg-country="HN" tvg-language="" tvg-logo="" group-title="Undefined",Ceibavisión Canal 36 (1080p) [Not 24/7]
+http://190.11.224.235:1935/CANAL36/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="CholusatSur36.hn" tvg-country="HN" tvg-language="Spanish" tvg-logo="https://i.imgur.com/qRHwhND.png" group-title="Undefined",Cholusat Sur 36 (214p) [Not 24/7]
 http://audiotvserver.net:1935/livemedia/cholusat/playlist.m3u8
 #EXTINF:-1 tvg-id="CholutecaTV.hn" tvg-country="HN" tvg-language="Spanish" tvg-logo="https://i.imgur.com/4ECjM4R.png" group-title="Religious",Choluteca TV (1080p)
@@ -77,6 +79,8 @@ https://dacastmmd.mmdlive.lldns.net/dacastmmd/7e84ed301b194b7b81e86f85bb2c3a33/p
 https://www.livestreamcdn.net:444/ExtremaTV/ExtremaTV/playlist.m3u8
 #EXTINF:-1 tvg-id="Guatevision.gt" tvg-country="GT" tvg-language="Spanish" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/guatevision-mediano.png" group-title="Undefined",Guatevisión
 https://prensalibre-live.cdn.vustreams.com/live/cd8f5328-7a1c-49d9-b318-9190858d1826/live.isml/playlist.m3u8
+#EXTINF:-1 tvg-id="HBTVTicaVision.cr" tvg-country="CR" tvg-language="Spanish" tvg-logo="https://yt3.ggpht.com/-k5QO6YHdanw/AAAAAAAAAAI/AAAAAAAAAAA/UTcqO9gj0z0/s900-c-k-no-mo-rj-c0xffffff/photo.jpg" group-title="Undefined",HBTV TicaVisión (720p) [Not 24/7]
+http://k3.usastreams.com:1935/HBTV/HBTV/playlist.m3u8
 #EXTINF:-1 tvg-id="HCH.hn" tvg-country="HN" tvg-language="Spanish" tvg-logo="https://pbs.twimg.com/profile_images/1443944863075028992/AM2NFj1q.jpg" group-title="Undefined",HCH (Hable Como Habla) (720p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.dailymotion.com/video/x81za5c
 #EXTINF:-1 tvg-id="Hondured13.hn" tvg-country="HN" tvg-language="Spanish" tvg-logo="https://pbs.twimg.com/profile_images/470030355563810816/thlLKXjZ_400x400.jpeg" group-title="Undefined",Hondured 13 (480p) [Not 24/7]
@@ -85,8 +89,6 @@ http://free.fullspeed.tv/iptv-query?streaming-ip=https://dai.ly/x83axzj
 https://1206618505.rsc.cdn77.org/LS-ATL-59020-1/playlist.m3u8
 #EXTINF:-1 tvg-id="Humor247.cr" tvg-country="CR" tvg-language="Spanish" tvg-logo="https://i.imgur.com/HqbgrSF.png" group-title="Entertainment",Humor 24-7 (360p)
 https://srv.panelcast.net/humor247/humor247/playlist.m3u8
-#EXTINF:-1 tvg-id="IglesiaDelCamino.gt" tvg-country="GT" tvg-language="Spanish" tvg-logo="https://i.imgur.com/vHfb3Z4.png" group-title="Religious",Iglesia Del Camino (480p) [Not 24/7]
-http://streamingcontrol.com:1935/ectv/ectv/playlist.m3u8
 #EXTINF:-1 tvg-id="JBN.hn" tvg-country="HN" tvg-language="Spanish" tvg-logo="https://i.imgur.com/JrlArKg.png" group-title="Undefined",JBN (480p)
 https://emisoras.hn:8081/jbn/index.m3u8
 #EXTINF:-1 tvg-id="KerussoTV.hn" tvg-country="HN" tvg-language="Spanish" tvg-logo="https://i.imgur.com/rrHwnop.png" group-title="Undefined",Kerusso TV (720p)
@@ -103,8 +105,6 @@ http://209.91.213.10:8088/play/a01o
 https://5ca9af4645e15.streamlock.net/canal12/videocanal12/playlist.m3u8
 #EXTINF:-1 tvg-id="NicoyaTV.cr" tvg-country="CR" tvg-language="Spanish" tvg-logo="https://i.imgur.com/UlOap5t.png" group-title="Undefined",NicoyaTV (720p) [Not 24/7]
 https://59ef525c24caa.streamlock.net/nicoyatv/nicoyatv/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="HN" tvg-language="" tvg-logo="" group-title="Undefined",Omega Tv (288p) [Not 24/7]
-https://5caf24a595d94.streamlock.net:1937/8142/8142/playlist.m3u8
 #EXTINF:-1 tvg-id="OrbitaFM.sv" tvg-country="SV" tvg-language="Spanish" tvg-logo="https://i.imgur.com/ECC6jyU.png" group-title="Undefined",Órbita FM (720p) [Not 24/7]
 #EXTVLCOPT:http-referrer=https://ssh101.com/
 https://tna5.bozztv.com/OrbitaFM/index.m3u8
@@ -148,14 +148,14 @@ https://s2.cwebtv.net:4433/telefides/telefides/playlist.m3u8
 https://mdstrm.com/live-stream-playlist/5d88dd2229b0890723df2165.m3u8
 #EXTINF:-1 tvg-id="TN8.ni" tvg-country="NI" tvg-language="Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e0/Tn8_logotipo_2021.png" group-title="Undefined",Telenica Canal 8 (tn8) (720p) [Not 24/7]
 https://60417ddeaf0d9.streamlock.net/tn8/videotn8/playlist.m3u8
+#EXTINF:-1 tvg-id="TeleProgreso.hn" tvg-country="HN" tvg-language="Spanish" tvg-logo="https://i.imgur.com/NKCF5qs.png" group-title="Undefined",TeleProgreso (1080p)
+https://stmv1.zcastbr.com/teleprogresohn/teleprogresohn/playlist.m3u8
 #EXTINF:-1 tvg-id="TeleredTelevision.cr" tvg-country="CR" tvg-language="Spanish" tvg-logo="https://i.imgur.com/iO6qmgY.png" group-title="Undefined",Telered Television (720p) [Not 24/7]
 http://k4.usastreams.com/ARBtv/teleplus/playlist.m3u8
 #EXTINF:-1 tvg-id="Telesistema.cr" tvg-country="CR" tvg-language="Spanish" tvg-logo="https://www.m3u.cl/logo/478_Telesistema.png" group-title="Undefined",Telesistema (486p)
 https://59ef525c24caa.streamlock.net/ARBtv/ARBtv/playlist.m3u8
 #EXTINF:-1 tvg-id="TeleSURCostaRica.cr" tvg-country="CR" tvg-language="Spanish" tvg-logo="https://i.imgur.com/r5p97Ex.jpg" group-title="Undefined",TeleSUR Costa Rica (720p) [Not 24/7]
 http://k3.usastreams.com/telesur/telesur/playlist.m3u8
-#EXTINF:-1 tvg-id="Teletica7.cr" tvg-country="CR" tvg-language="Spanish" tvg-logo="https://i.imgur.com/GeIK8rC.png" group-title="Undefined",Teletica 7 (720p) [Not 24/7]
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.dailymotion.com/video/x29e3wg
 #EXTINF:-1 tvg-id="Canal2.ni" tvg-country="NI" tvg-language="Spanish" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/2_de_nicaragua-mediano.png" group-title="Undefined",Televicentro Canal 2 (480p)
 https://cootv.cootel.com.ni/streams/d/SSLCH02-HD-YON/playlist.m3u8
 #EXTINF:-1 tvg-id="Televisiete.gt" tvg-country="GT" tvg-language="Spanish" tvg-logo="https://www.lyngsat-logo.com/logo/tv/tt/televisiete-gt.png" group-title="Undefined",Televisiete (480p)
@@ -187,15 +187,11 @@ https://5fc584f3f19c9.streamlock.net/tvo/smil:tvo.smil/playlist.m3u8
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.twitch.tv/canaltvx
 #EXTINF:-1 tvg-id="UNAHUTV.hn" tvg-country="HN" tvg-language="Spanish" tvg-logo="https://i.imgur.com/De5CSD3.png" group-title="Undefined",UNAH UTV (360p) [Not 24/7]
 https://live-utv.unah.edu.hn/web/salida.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="HN" tvg-language="" tvg-logo="" group-title="Undefined",Vida TV (720p) [Not 24/7]
-http://184.173.181.2:1935/8070/8070/playlist.m3u8
 #EXTINF:-1 tvg-id="VideoTourChannel.cr" tvg-country="CR" tvg-language="Spanish" tvg-logo="https://i.imgur.com/l1oc3ER.png" group-title="Music",Video Tour Channel (480p) [Not 24/7]
 http://k4.usastreams.com/videotour/videotour/playlist.m3u8
 #EXTINF:-1 tvg-id="VMLatino.cr" tvg-country="CR" tvg-language="Spanish" tvg-logo="https://www.m3u.cl/logo/1062_Canal_VM_Latino.png" group-title="Music",VM Latino (720p) [Not 24/7]
 https://59ef525c24caa.streamlock.net/vmtv/vmlatino/playlist.m3u8
 #EXTINF:-1 tvg-id="vostv.ni" tvg-country="NI" tvg-language="Spanish" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/86/VosTV_2010.png" group-title="Undefined",Vos Tv (720p) [Not 24/7]
 http://ott.streann.com:8080/loadbalancer/services/public/channels/59e60c4997381ef50d15c041/playlist.m3u8
-#EXTINF:-1 tvg-id="WOWTV.sv" tvg-country="PE;SV" tvg-language="Spanish" tvg-logo="https://wowelsalvador.com/imagen/logo2.png" group-title="General",WOW TV (576p) [Not 24/7]
-https://cdn.elsalvadordigital.com:1936/wowtv/smil:wowtv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="wtv.ni" tvg-country="NI" tvg-language="Spanish" tvg-logo="https://wmediosnicaragua.com/img/LOGO-CANAL.png" group-title="Entertainment",WTV Canal 20 (720p)
 https://cloudvideo.servers10.com:8081/8130/index.m3u8
