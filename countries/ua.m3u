@@ -15,8 +15,6 @@ http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel
 https://cdn10.live-tv.od.ua:8083/7tvod/7tvod-abr/playlist.m3u8
 #EXTINF:-1 tvg-id="24Kanal.ua" tvg-country="RU;UA" tvg-language="Ukrainian" tvg-logo="https://www.lyngsat.com/logo/tv/num/24-kanal-ua.png" group-title="News",24 Канал (1080p)
 http://streamvideol1.luxnet.ua/news24/smil:news24.stream.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="UA" tvg-language="" tvg-logo="" group-title="Undefined",34 канал (576p) [Not 24/7]
-http://streamvideol.luxnet.ua/34ua/34ua.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="100News.ua" tvg-country="RU;UA" tvg-language="Ukrainian" tvg-logo="https://i.imgur.com/11llLr1.jpg" group-title="News",100% News (576p)
 http://85.238.112.40:8810/hls_sec/239.33.16.32-.m3u8
 #EXTINF:-1 tvg-id="AlJazeeraDocumentary.qa" tvg-country="ARAB;EUR" tvg-language="Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/e6/Al_Jazeera_Doc.png" group-title="News",Al Jazeera Documentary (270p) [Geo-blocked]
@@ -164,8 +162,9 @@ http://kiev1-cdn.lanet.tv/live/1008.m3u8
 http://93.78.206.172:8080/stream4/stream.m3u8
 #EXTINF:-1 tvg-id="Nadiya.ua" tvg-country="RU;UA" tvg-language="Ukrainian" tvg-logo="https://i.imgur.com/k4Qy5VO.png" group-title="Undefined",Надия/Новый канал (576p) [Not 24/7]
 http://nadiya.home-net.com.ua/mob/mystream.m3u8
-#EXTINF:-1 tvg-id="CurrentTimeTV.cz" tvg-country="RU;UA" tvg-language="Russian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/81/Current_Time_TV_Logo.png" group-title="News",Настоящее Время (720p) [Not 24/7]
-http://rfe-lh.akamaihd.net/i/rfe_tvmc5@383630/master.m3u8
+#EXTINF:-1 tvg-id="CurrentTimeTV.cz" tvg-country="RU;UA" tvg-language="Russian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/81/Current_Time_TV_Logo.png" group-title="News" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Настоящее Время (480p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+http://ott-cdn.ucom.am/s61/index.m3u8
 #EXTINF:-1 tvg-id="NLOTV.ua" tvg-country="RU;UA" tvg-language="Ukrainian" tvg-logo="https://www.lyngsat.com/logo/tv/nn/nlo-tv-ua.png" group-title="Undefined",НЛО ТВ (576p) [Geo-blocked]
 https://xx001.vivat.live/t-0301.0f6f.d/sd/00047/2m/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="UA" tvg-language="" tvg-logo="" group-title="Undefined",НТК (1080p) [Not 24/7]

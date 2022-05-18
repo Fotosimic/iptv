@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/bs/rev.bs.epg.xml,https://iptv-org.github.io/epg/guides/cz/m.tv.sms.cz.epg.xml,https://iptv-org.github.io/epg/guides/es/gatotv.com.epg.xml,https://iptv-org.github.io/epg/guides/ge/magticom.ge.epg.xml,https://iptv-org.github.io/epg/guides/it/guidatv.sky.it.epg.xml,https://iptv-org.github.io/epg/guides/ru/tv.yandex.ru.epg.xml,https://iptv-org.github.io/epg/guides/se/tv.nu.epg.xml,https://iptv-org.github.io/epg/guides/tr/digiturk.com.tr.epg.xml,https://iptv-org.github.io/epg/guides/us-pluto/i.mjh.nz.epg.xml,https://iptv-org.github.io/epg/guides/us/directv.com.epg.xml"
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/bs/rev.bs.epg.xml,https://iptv-org.github.io/epg/guides/cz/m.tv.sms.cz.epg.xml,https://iptv-org.github.io/epg/guides/es/gatotv.com.epg.xml,https://iptv-org.github.io/epg/guides/ge/magticom.ge.epg.xml,https://iptv-org.github.io/epg/guides/it/guidatv.sky.it.epg.xml,https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml,https://iptv-org.github.io/epg/guides/ru/tv.yandex.ru.epg.xml,https://iptv-org.github.io/epg/guides/se/tv.nu.epg.xml,https://iptv-org.github.io/epg/guides/tr/digiturk.com.tr.epg.xml,https://iptv-org.github.io/epg/guides/us-pluto/i.mjh.nz.epg.xml,https://iptv-org.github.io/epg/guides/us/directv.com.epg.xml"
 #EXTINF:-1 tvg-id="CCTV9.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/1/11/CCTV-9_Logo.png" group-title="Documentary",CCTV-9纪录 (1080p)
 http://39.134.115.163:8080/PLTV/88888910/224/3221225646/index.m3u8
 #EXTINF:-1 tvg-id="CGTNDocumentary.cn" tvg-country="INT" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d6/CGTN_Documentary_logo.png" group-title="Documentary",CGTN Documentary (576p)
@@ -17,8 +17,8 @@ https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxdocurama/CDN/playlist.m3u8
 https://sc.id-tv.kz/hdl.m3u8
 #EXTINF:-1 tvg-id="HistoryEast.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/ynZiWvC.jpg" group-title="Documentary",History East (720p) [Not 24/7]
 https://bk7l2w4nlx53-hls-live.5centscdn.com/HISTORY/961ac1c875f5884f31bdd177365ef1e3.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="La2.es" tvg-country="AD;ES" tvg-language="Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Logo_TVE-2.svg/512px-Logo_TVE-2.svg.png" group-title="Documentary",La 2 (720p)
-https://hlsliveamdgl0-lh.akamaihd.net/i/hlsdvrlive_1@60531/master.m3u8
+#EXTINF:-1 tvg-id="La2.es" tvg-country="AD;ES" tvg-language="Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Logo_TVE-2.svg/512px-Logo_TVE-2.svg.png" group-title="Documentary",La 2 (1080p)
+https://rtvelivestreamv3.akamaized.net/rtvesec/la2_bkp_dvr.m3u8
 #EXTINF:-1 tvg-id="LawCrime.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/HY64Nhe.png" group-title="Documentary",Law & Crime (720p)
 http://lawandcrime.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="LawCrimeXUMO.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/HY64Nhe.png" group-title="Documentary",Law & Crime (XUMO) (720p)
@@ -31,8 +31,12 @@ https://a.jsrdn.com/broadcast/0c9a09c94c/+0000/c.m3u8
 https://okkotv-live.cdnvideo.ru/channel/NGC_HD.m3u8
 #EXTINF:-1 tvg-id="NationalGeographicAbuDhabi.ae" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Nat_geo_channel_abu_dhabi.png/512px-Nat_geo_channel_abu_dhabi.png" group-title="Documentary",National Geographic Abu Dhabi (1080p)
 https://admdn2.cdn.mangomolo.com/nagtv/smil:nagtv.stream.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="NationalGeographicEast.us" tvg-country="US" tvg-language="English" tvg-logo="https://1000logos.net/wp-content/uploads/2017/04/Color-National-Geographic-Logo-500x250.jpg" group-title="Documentary",National Geographic East (720p) [Geo-blocked]
-https://livecdn.fptplay.net/foxlive/natgeohd_hls.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="NationalGeographicAsia.us" tvg-country="US" tvg-language="English;Thai" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_202.png" group-title="Documentary" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36",National Geographic Asia (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+https://livecdn.fptplay.net/hda2/natgeohd_vhls.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="NationalGeographicWildAsia.hk" tvg-country="SAS" tvg-language="Chinese;English;Hindi;Malay;Russian;Tagalog;Tamil;Telugu;Thai" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/512px-National_Geographic_Wild_logo.svg.png" group-title="Documentary" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36",National Geographic Wild Asia (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+https://livecdn.fptplay.net/hda3/natgeowild_vhls.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="NationalGeographicWildRussia.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://static.epg.best/id/NatGeoWild.id.png" group-title="Documentary",National Geographic Wild Russia (1080p) [Not 24/7]
 https://sc.id-tv.kz/NatGeoWildHD_34_35.m3u8
 #EXTINF:-1 tvg-id="PersianaDocumentary.fr" tvg-country="IR" tvg-language="Persian" tvg-logo="https://i.imgur.com/ZrmiMKy.png" group-title="Documentary",Persiana Documentary (720p) [Not 24/7]
@@ -46,9 +50,9 @@ https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5d4af2a24
 #EXTINF:-1 tvg-id="PlutoTVCelebrity.us" tvg-country="US" tvg-language="English" tvg-logo="https://images.pluto.tv/channels/5d8bf1472907815f66a866dd/colorLogoPNG.png" group-title="Documentary",Pluto TV Celebrity (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8bf1472907815f66a866dd/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d8bf1472907815f66a866dd&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=320&terminate=false&userId=
 #EXTINF:-1 tvg-id="PlutoTVDocumentaries.us" tvg-country="US" tvg-language="English" tvg-logo="https://images.pluto.tv/channels/5b85a7582921777994caea63/colorLogoPNG.png" group-title="Documentary",Pluto TV Documentaries (720p)
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5b85a7582921777994caea63/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5b85a7582921777994caea63&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=91&terminate=false&userId=
-#EXTINF:-1 tvg-id="ForensicFiles.us" tvg-country="US" tvg-language="English" tvg-logo="https://images.pluto.tv/channels/5bb1af6a268cae539bcedb0a/colorLogoPNG.png" group-title="Documentary",Pluto TV Forensic Files (360p)
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5bb1af6a268cae539bcedb0a/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5bb1af6a268cae539bcedb0a&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=370&terminate=false&userId=
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5db048f9447d6c0009b8f29d/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=1&deviceId=5db048f9447d6c0009b8f29d&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=DE&serverSideAds=false&sid=0d94d79f-0582-11eb-8b9f-0242ac110002&terminate=false&userId=
+#EXTINF:-1 tvg-id="ForensicFiles.us" tvg-country="US" tvg-language="English" tvg-logo="https://images.pluto.tv/channels/5bb1af6a268cae539bcedb0a/colorLogoPNG.png" group-title="Documentary",Pluto TV Forensic Files (720p)
+http://stitcher.pluto.tv/stitch/hls/channel/5bb1af6a268cae539bcedb0a/master.m3u8?appVersion=5.2.7&deviceDNT=web&deviceId=web24163643069&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=1&serverSideAds=false&sid=web24157571521
 #EXTINF:-1 tvg-id="PlutoTVInsideGermany.us" tvg-country="DE" tvg-language="German" tvg-logo="https://images.pluto.tv/channels/5d767b4889bca2ce7b73ef2e/colorLogoPNG.png" group-title="Documentary",Pluto TV Inside (Germany) (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d767b4889bca2ce7b73ef2e/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d767b4889bca2ce7b73ef2e&deviceLat=51.2993&deviceLon=9.4910&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=DE&serverSideAds=false&sid=303&terminate=false&userId=
 #EXTINF:-1 tvg-id="PlutoTVInvestigationFrance.us" tvg-country="FR" tvg-language="French" tvg-logo="https://images.pluto.tv/channels/5f914f4b36d67d0007a91a04/colorLogoPNG.png" group-title="Documentary",Pluto TV Investiga (720p)
@@ -63,8 +67,6 @@ https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxreelzchannel/CDN/playlist.m
 https://rt-rtd.rttv.com/live/rtdoc/playlist.m3u8
 #EXTINF:-1 tvg-id="RTDoc.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/C6fylkt.png" group-title="Documentary",RT Documentary Russian (1080p) [Not 24/7]
 http://uiptv.do.am/1ufc/300663722/playlist.m3u8
-#EXTINF:-1 tvg-id="STIRRDocurama.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/5X5Z5eg.png" group-title="Documentary",STIRR Docurama (1080p) [Not 24/7]
-https://dai.google.com/linear/hls/event/Hx_PEMEsSzOCcZgy0Tq2YQ/master.m3u8
 #EXTINF:-1 tvg-id="SwordandShield.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/xwHhiAc.png" group-title="Documentary",Sword and Shield (720p)
 https://a.jsrdn.com/broadcast/9e63a1b236/+0000/c.m3u8
 #EXTINF:-1 tvg-id="ViasatExploreRussia.ru" tvg-country="RU" tvg-language="English;Russian" tvg-logo="https://i.imgur.com/CnKhbJ3.png" group-title="Documentary",Viasat Explore Russia (1080p) [Geo-blocked]
@@ -74,4 +76,4 @@ https://okkotv-live.cdnvideo.ru/channel/Viasat_History_ad_HD.m3u8
 #EXTINF:-1 tvg-id="ViasatNatureRussia.se" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/YkvX94D.png" group-title="Documentary",Viasat Nature Russia (1080p) [Geo-blocked]
 https://okkotv-live.cdnvideo.ru/channel/Viasat_Nature_ad_HD.m3u8
 #EXTINF:-1 tvg-id="VoyagerDocumentaries.us" tvg-country="US" tvg-language="English" tvg-logo="https://images.pluto.tv/channels/589aa03df9ba56a84197a560/colorLogoPNG.png" group-title="Documentary",Voyager Documentaries (720p)
-https://dai2.xumo.com/amagi_hls_data_xumo1212A-rokuvoyagerdocumentaries/CDN/playlist.m3u8
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxvoyager/CDN/playlist.m3u8
