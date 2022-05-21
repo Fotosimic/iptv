@@ -333,6 +333,8 @@ http://185.97.150.19:8082/2402
 http://188.40.68.167/russia/komediya/playlist.m3u8
 #EXTINF:-1 tvg-id="KonniyMir.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://avatars.mds.yandex.net/get-tv-channel-logos/1521843/2a00000175f4a4304593ef5a089f8aa21dfa/214x121" group-title="Undefined",Конный Мир (576p) [Geo-blocked]
 http://cdn-01.bonus-tv.ru/konnyimir/playlist.m3u8
+#EXTINF:-1 tvg-id="KrasnayaLiniya.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://avatars.mds.yandex.net/get-tv-channel-logos/69315/2a00000165801107a0cb7b769ab7b65eff26/z" group-title="Undefined",Красная линия (480p)
+https://kprf-htlive.cdn.ngenix.net/live/stream_high/playlist.m3u8
 #EXTINF:-1 tvg-id="KRTV.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/AqJSzL7.png" group-title="Undefined",Красногорск ТВ (480p) [Not 24/7]
 http://live-krtv.cdnvideo.ru/krtv/krtv.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="KrikTV.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/JLK70Pz.png" group-title="Undefined",Крик-ТВ (576p) [Geo-blocked]
@@ -408,9 +410,8 @@ http://serv30.vintera.tv:8081/detskiy/multimania20/playlist.m3u8
 https://live-tvhope.cdnvideo.ru/tvhope-pull/tvhope_1/playlist.m3u8
 #EXTINF:-1 tvg-id="NanoTV.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://avatars.mds.yandex.net/get-tv-channel-logos/70787/2a0000016d3a3be79b56e511f3a6f5d6124c/340x200" group-title="Undefined",Нано (540p)
 http://nano.teleservice.su:8080/hls/nano.m3u8
-#EXTINF:-1 tvg-id="CurrentTimeTV.cz" tvg-country="RU;UA" tvg-language="Russian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/81/Current_Time_TV_Logo.png" group-title="News" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Настоящее Время (480p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
-http://ott-cdn.ucom.am/s61/index.m3u8
+#EXTINF:-1 tvg-id="CurrentTimeTV.cz" tvg-country="RU;UA" tvg-language="Russian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/81/Current_Time_TV_Logo.png" group-title="News",Настоящее Время (720p) [Not 24/7]
+http://rfe-lh.akamaihd.net/i/rfe_tvmc5@383630/master.m3u8
 #EXTINF:-1 tvg-id="Nauka.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/W7Hjkss.png" group-title="Undefined" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Наука (480p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s98/index.m3u8
@@ -511,8 +512,8 @@ https://video.govoritmoskva.ru/rufm/index.m3u8
 https://pilotfm.ru/cam/hls/pilothd.m3u8
 #EXTINF:-1 tvg-id="RadioRossii.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/RadioRUS_LOGO.jpg/800px-RadioRUS_LOGO.jpg" group-title="Undefined",Радио России (Чувашия) (720p) [Not 24/7]
 https://chgtrk.ru/pl/stream/hls/RR_720p/index.m3u8
-#EXTINF:-1 tvg-id="RadioHit.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/5xKqV1s.png" group-title="Music",Радио Хит (Орск) (720p)
-http://lova.me/hls/hithd.m3u8
+#EXTINF:-1 tvg-id="RadioHit.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/5xKqV1s.png" group-title="Music",Радио Хит (Орск) (300p)
+http://lova.me/hls/hit.m3u8
 #EXTINF:-1 tvg-id="RadioShanson.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://radioshanson.ru/assets/2a380c6a/img/logo-09-09-2019.png" group-title="Music",Радио Шансон (720p) [Not 24/7]
 http://chanson-video.hostingradio.ru:8080/hls/chansonabr/live.m3u8
 #EXTINF:-1 tvg-id="RamenskoeTV.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://ramtv.ru/wp-content/uploads/2021/12/cropped-Logo2020-white2-e1640011054620.png" group-title="Undefined",Раменское ТВ (720p)
