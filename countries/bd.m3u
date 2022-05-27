@@ -8,7 +8,10 @@ https://live-hls-web-aje.getaj.net/AJE/index.m3u8
 https://livecdn.fptplay.net/hda3/babytvhd_vhls.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="BanglaVision.bd" tvg-country="BD" tvg-language="Bengali" tvg-logo="https://i.imgur.com/doJuPjL.png" group-title="General",Bangla Vision (1080p) [Geo-blocked]
 https://cdn.appv.jagobd.com:444/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/banglav000.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="BBCNews.uk" tvg-country="INT" tvg-language="English" tvg-logo="https://raw.githubusercontent.com/Tapiosinn/tv-logos/master/countries/united-kingdom/bbc-news-uk.png" group-title="News",BBC News HD (720p) [Geo-blocked]
+#EXTINF:-1 tvg-id="BBCEarthAsia.uk" tvg-country="ASIA" tvg-language="Chinese;English;Thai;Vietnamese" tvg-logo="https://i.imgur.com/xXM60fa.png" group-title="Undefined" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36",BBC Earth (Vietnamese dub) (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+https://livecdn.fptplay.net/hda2/bbcearth_vhls.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="BBCNews.uk" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/rPzH88J.png" group-title="News",BBC News HD (720p) [Geo-blocked]
 https://cdnuk001.broadcastcdn.net/KUK-BBCNEWSHD/index.m3u8
 #EXTINF:-1 tvg-id="BBCWorldNewsAsiaPacific.uk" tvg-country="APAC" tvg-language="English;Japanese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/BBC_World_News_2019.svg/512px-BBC_World_News_2019.svg.png" group-title="News" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36",BBC World News Asia Pacific (576p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
@@ -62,13 +65,11 @@ https://cdn.appv.jagobd.com:444/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeF
 http://cdn-kanal10.crossnet.net:1935/kanal10/kanal10asia/playlist.m3u8
 #EXTINF:-1 tvg-id="KBSWorld.kr" tvg-country="INT" tvg-language="English;Korean" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/KBS_World_%282009%29.svg/512px-KBS_World_%282009%29.svg.png" group-title="General",KBS World (720p)
 https://livecdn.fptplay.net/sdb/kbs_hls.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="MetroGlobeNetwork.id" tvg-country="INT" tvg-language="English" tvg-logo="https://www.lyngsat.com/logo/tv/mm/metro-globe-network-id.png" group-title="Culture",Metro Globe Network (1080p) [Not 24/7]
+#EXTINF:-1 tvg-id="MetroGlobeNetwork.id" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/NTCI3lf.png" group-title="Culture",Metro Globe Network (1080p) [Not 24/7]
 https://edge.medcom.id/live-edge/smil:mgnch.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="NationalGeographicWildAsia.hk" tvg-country="SAS" tvg-language="Chinese;English;Hindi;Malay;Russian;Tagalog;Tamil;Telugu;Thai" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/512px-National_Geographic_Wild_logo.svg.png" group-title="Documentary" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36",National Geographic Wild Asia (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
 https://livecdn.fptplay.net/hda3/natgeowild_vhls.smil/chunklist.m3u8
-#EXTINF:-1 tvg-id="News24.bd" tvg-country="BD" tvg-language="Bengali" tvg-logo="https://www.news24bd.tv/assets/desktop/images/logos/logo.png" group-title="News",News 24 (720p) [Not 24/7]
-https://cdn.appv.jagobd.com:444/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/news24local.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="NexusTV.bd" tvg-country="BD" tvg-language="Bengali" tvg-logo="https://i.imgur.com/XcJZKg4.png" group-title="General",Nexus TV (720p) [Not 24/7]
 https://cdn.appv.jagobd.com:444/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/nexustv.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp" tvg-country="INT" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/NHK_World-Japan_TV.svg/512px-NHK_World-Japan_TV.svg.png" group-title="Culture;News",NHK World Japan (1080p)
@@ -94,6 +95,8 @@ https://cdn-telkomsel-01.akamaized.net/Content/DASH/Live/channel(9ce3f094-4044-4
 http://live.impresa.pt/live/sicint/sicint.m3u8
 #EXTINF:-1 tvg-id="SomoyNewsTV.bd" tvg-country="BD" tvg-language="Bengali" tvg-logo="https://www.somoynews.tv/_nuxt/img/somoy-logo-192x192.33c3254.png" group-title="News",Somoy News TV (1080p) [Not 24/7]
 https://cdn.appv.jagobd.com:444/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/somoyt000011226615544544.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="Thrill.hk" tvg-country="SAS" tvg-language="Chinese;English;Thai" tvg-logo="https://i.imgur.com/isr5jto.png" group-title="Movies",Thrill (480p) [Geo-blocked]
+http://45.126.83.51/qwr9ew/s/s34/index.m3u8
 #EXTINF:-1 tvg-id="TRTWorld.tr" tvg-country="INT" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TRT_World.svg/512px-TRT_World.svg.png" group-title="News",TRT World (720p) [Not 24/7]
 https://tv-trtworld.live.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TVMInternacional.mz" tvg-country="INT" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/Ns3WrOQ.png" group-title="General",TVM Internacional (480p) [Not 24/7]

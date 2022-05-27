@@ -6,12 +6,15 @@ http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel
 #EXTINF:-1 tvg-id="Animax.jp" tvg-country="JP" tvg-language="Japanese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/65/Animaxlogo-20160701.png" group-title="Animation" user-agent="Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36",Animax Japan (Vietnamese Subs) (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
 https://livecdn.fptplay.net/hda3/animaxport_hls.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="ATX.jp" tvg-country="JP" tvg-language="Japanese" tvg-logo="https://www.at-x.com/favicon_android.png" group-title="Animation",AT-X (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="ATX.jp" tvg-country="JP" tvg-language="Japanese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/AT-X_logo.svg/512px-AT-X_logo.svg.png" group-title="Animation",AT-X (720p) [Not 24/7]
 https://sub2.neetball.net/live/neet.m3u8
 #EXTINF:-1 tvg-id="BabyTVAsia.uk" tvg-country="ASIA" tvg-language="Arabic;Chinese;English;French;Hindi;Indonesian;Thai;Vietnamese" tvg-logo="https://i.imgur.com/z5E8vLR.png" group-title="Kids" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36",Baby TV Asia (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
 https://livecdn.fptplay.net/hda3/babytvhd_vhls.smil/chunklist.m3u8
-#EXTINF:-1 tvg-id="BBCNews.uk" tvg-country="INT" tvg-language="English" tvg-logo="https://raw.githubusercontent.com/Tapiosinn/tv-logos/master/countries/united-kingdom/bbc-news-uk.png" group-title="News",BBC News HD (720p) [Geo-blocked]
+#EXTINF:-1 tvg-id="BBCEarthAsia.uk" tvg-country="ASIA" tvg-language="Chinese;English;Thai;Vietnamese" tvg-logo="https://i.imgur.com/xXM60fa.png" group-title="Undefined" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36",BBC Earth (Vietnamese dub) (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+https://livecdn.fptplay.net/hda2/bbcearth_vhls.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="BBCNews.uk" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/rPzH88J.png" group-title="News",BBC News HD (720p) [Geo-blocked]
 https://cdnuk001.broadcastcdn.net/KUK-BBCNEWSHD/index.m3u8
 #EXTINF:-1 tvg-id="BBCWorldNewsAsiaPacific.uk" tvg-country="APAC" tvg-language="English;Japanese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/BBC_World_News_2019.svg/512px-BBC_World_News_2019.svg.png" group-title="News" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36",BBC World News Asia Pacific (576p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
@@ -51,7 +54,7 @@ https://insighttv-vizio.amagi.tv/playlist.m3u8
 http://cdn-kanal10.crossnet.net:1935/kanal10/kanal10asia/playlist.m3u8
 #EXTINF:-1 tvg-id="KBSWorld.kr" tvg-country="INT" tvg-language="English;Korean" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/KBS_World_%282009%29.svg/512px-KBS_World_%282009%29.svg.png" group-title="General",KBS World (720p)
 https://livecdn.fptplay.net/sdb/kbs_hls.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="MetroGlobeNetwork.id" tvg-country="INT" tvg-language="English" tvg-logo="https://www.lyngsat.com/logo/tv/mm/metro-globe-network-id.png" group-title="Culture",Metro Globe Network (1080p) [Not 24/7]
+#EXTINF:-1 tvg-id="MetroGlobeNetwork.id" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/NTCI3lf.png" group-title="Culture",Metro Globe Network (1080p) [Not 24/7]
 https://edge.medcom.id/live-edge/smil:mgnch.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="NewJapanProWrestlingWorld.jp" tvg-country="JP" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/New_Japan_Pro_Wrestling_Logo_2.svg/512px-New_Japan_Pro_Wrestling_Logo_2.svg.png" group-title="Sports",New Japan Pro Wrestling World (540p)
 https://aka-amd-njpwworld-hls-enlive.akamaized.net/hls/video/njpw_en/njpw_en_channel01_3/playlist_DVR.m3u8
@@ -102,7 +105,7 @@ http://online.tvm.co.mz:1935/live/smil:Channel2.smil/playlist.m3u8
 https://cdnapi.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_gb6tjmle/protocol/https/format/applehttp/a.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="JP" tvg-language="" tvg-logo="" group-title="Undefined",Weather Channel (ウェザーニュース) (BS | WNI) (720p)
 http://movie.mcas.jp/mcas/wn1_2/master.m3u8
-#EXTINF:-1 tvg-id="WeatherNews.jp" tvg-country="JP" tvg-language="Japanese" tvg-logo="https://dbbovgtu2bg0x.cloudfront.net/uploads/program/main_image/749853303/app_app_wether_news.png" group-title="Weather",Weather News (720p)
+#EXTINF:-1 tvg-id="Weathernews.jp" tvg-country="JP" tvg-language="Japanese" tvg-logo="https://i.imgur.com/A8uRSTS.png" group-title="Weather",Weather News (720p)
 https://movie.mcas.jp/mcas/smil:wn1.smil/master.m3u8
 #EXTINF:-1 tvg-id="WorldFashionChannelInternational.ru" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/JyslMHb.jpg" group-title="Lifestyle",World Fashion Channel (1080p)
 https://wfcint.mediacdn.ru/cdn/wfcintweb/playlist.m3u8
