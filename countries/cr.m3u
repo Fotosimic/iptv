@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/ar/mi.tv.epg.xml,https://iptv-org.github.io/epg/guides/bf/canalplus-afrique.com.epg.xml,https://iptv-org.github.io/epg/guides/bo/comteco.com.bo.epg.xml,https://iptv-org.github.io/epg/guides/br/mi.tv.epg.xml,https://iptv-org.github.io/epg/guides/dk/allente.se.epg.xml,https://iptv-org.github.io/epg/guides/es/movistarplus.es.epg.xml,https://iptv-org.github.io/epg/guides/es/programacion-tv.elpais.com.epg.xml,https://iptv-org.github.io/epg/guides/gr/cosmote.gr.epg.xml,https://iptv-org.github.io/epg/guides/id-en/mncvision.id.epg.xml,https://iptv-org.github.io/epg/guides/it/guidatv.sky.it.epg.xml,https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml,https://iptv-org.github.io/epg/guides/nl/delta.nl.epg.xml,https://iptv-org.github.io/epg/guides/pt/meo.pt.epg.xml,https://iptv-org.github.io/epg/guides/tr/digiturk.com.tr.epg.xml,https://iptv-org.github.io/epg/guides/uk/bt.com.epg.xml,https://iptv-org.github.io/epg/guides/us-pluto/i.mjh.nz.epg.xml,https://iptv-org.github.io/epg/guides/us/directv.com.epg.xml,https://iptv-org.github.io/epg/guides/za/guide.dstv.com.epg.xml"
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/ar/mi.tv.epg.xml,https://iptv-org.github.io/epg/guides/bf/canalplus-afrique.com.epg.xml,https://iptv-org.github.io/epg/guides/bo/comteco.com.bo.epg.xml,https://iptv-org.github.io/epg/guides/br/mi.tv.epg.xml,https://iptv-org.github.io/epg/guides/cr/gatotv.com.epg.xml,https://iptv-org.github.io/epg/guides/dk/allente.se.epg.xml,https://iptv-org.github.io/epg/guides/es/movistarplus.es.epg.xml,https://iptv-org.github.io/epg/guides/es/programacion-tv.elpais.com.epg.xml,https://iptv-org.github.io/epg/guides/gr/cosmote.gr.epg.xml,https://iptv-org.github.io/epg/guides/id-en/mncvision.id.epg.xml,https://iptv-org.github.io/epg/guides/it/guidatv.sky.it.epg.xml,https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml,https://iptv-org.github.io/epg/guides/nl/delta.nl.epg.xml,https://iptv-org.github.io/epg/guides/pt/meo.pt.epg.xml,https://iptv-org.github.io/epg/guides/tr/digiturk.com.tr.epg.xml,https://iptv-org.github.io/epg/guides/uk/bt.com.epg.xml,https://iptv-org.github.io/epg/guides/us-pluto/i.mjh.nz.epg.xml,https://iptv-org.github.io/epg/guides/us/directv.com.epg.xml,https://iptv-org.github.io/epg/guides/za/guide.dstv.com.epg.xml"
 #EXTINF:-1 tvg-id="K18JLD2.us" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/4ydVVIA.png" group-title="Religious",3ABN Latino (720p) [Not 24/7]
 https://moiptvhls-i.akamaihd.net/hls/live/652315/secure/master.m3u8
 #EXTINF:-1 tvg-id="88Stereo.cr" tvg-country="CR" tvg-language="Spanish" tvg-logo="https://hosttec.online/wp-content/uploads/2020/03/img1920.jpg" group-title="Music",88 Stereo (720p) [Not 24/7]
@@ -55,10 +55,14 @@ https://5eff35271151c.streamlock.net:1936/8098/8098/playlist.m3u8
 https://5eff35271151c.streamlock.net:1936/8074/8074/playlist.m3u8
 #EXTINF:-1 tvg-id="EnlaceTV.cr" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/ba4wF0N.png" group-title="Religious",EnlaceTV (720p) [Not 24/7]
 https://v4.tustreaming.cl/enlacebpbtv/index.m3u8
-#EXTINF:-1 tvg-id="EuronewsEnglish.fr" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews English (720p)
-https://rakuten-euronews-1-gb.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-id="EuronewsEnglish.fr" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews English
+https://euronews.alteox.app/hls/en_stream.m3u8
+#EXTINF:-1 tvg-id="EuronewsSpanish.fr" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews Spanish
+https://euronews.alteox.app/hls/es_stream.m3u8
 #EXTINF:-1 tvg-id="ExtremaTV.cr" tvg-country="CR" tvg-language="Spanish" tvg-logo="https://i.imgur.com/E9AuhOU.png" group-title="Undefined",Extrema TV (720p)
 https://www.livestreamcdn.net:444/ExtremaTV/ExtremaTV/playlist.m3u8
+#EXTINF:-1 tvg-id="HBTVTicaVision.cr" tvg-country="CR" tvg-language="Spanish" tvg-logo="https://yt3.ggpht.com/-k5QO6YHdanw/AAAAAAAAAAI/AAAAAAAAAAA/UTcqO9gj0z0/s900-c-k-no-mo-rj-c0xffffff/photo.jpg" group-title="Undefined",HBTV TicaVisión (720p) [Not 24/7]
+http://k3.usastreams.com:1935/HBTV/HBTV/playlist.m3u8
 #EXTINF:-1 tvg-id="HiperconectadosTV.cl" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/EiGdG9p.png" group-title="Science",Hiperconectados Televisión (720p)
 https://mediacpstreamchile.com:1936/hiperconectados/hiperconectados/playlist.m3u8
 #EXTINF:-1 tvg-id="Humor247.cr" tvg-country="CR" tvg-language="Spanish" tvg-logo="https://i.imgur.com/HqbgrSF.png" group-title="Entertainment",Humor 24-7 (360p)
@@ -89,13 +93,15 @@ https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
 http://tvretropalmares.com:8090/hls/envivo.m3u8
 #EXTINF:-1 tvg-id="RTDocumentary.ru" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/XJGki3v.png" group-title="Documentary",RT Documentary (1080p) [Geo-blocked]
 https://rt-rtd.rttv.com/live/rtdoc/playlist.m3u8
-#EXTINF:-1 tvg-id="RTenEspanol.ru" tvg-country="INT" tvg-language="Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/512px-Russia-today-logo.svg.png" group-title="Undefined",RT en Español (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-id="RTenEspanol.ru" tvg-country="INT" tvg-language="Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/512px-Russia-today-logo.svg.png" group-title="News",RT en Español (1080p) [Geo-blocked]
 https://rt-esp.rttv.com/live/rtesp/playlist.m3u8
 #EXTINF:-1 tvg-id="RTNews.ru" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/tyXIHlj.png" group-title="News",RT News (1080p) [Geo-blocked]
 https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
 #EXTINF:-1 tvg-id="RTPInternacional.pt" tvg-country="INT" tvg-language="Portuguese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/RTP_Internacional_2016_%28Reduced_Version%29.svg/512px-RTP_Internacional_2016_%28Reduced_Version%29.svg.png" group-title="General" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0",RTP Internacional (504p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0
 https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="SanIsidroTV.do" tvg-country="DO;LATAM" tvg-language="Spanish" tvg-logo="https://sanisidrotv.com/wp-content/uploads/2020/10/logo-san-isidro-tv-png-1-300x221.png" group-title="General",San Isidro TV (360p) [Not 24/7]
+https://cdn4.hostlagarto.com:8081/static/sanisidrotv/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="CR" tvg-language="" tvg-logo="" group-title="Undefined",Sarapiqui TV
 https://tiquiciatv.duckdns.org/hls/livestv.m3u8
 #EXTINF:-1 tvg-id="SEAToday.id" tvg-country="INT" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/SEA_Today_Indonesia_Logo.png/512px-SEA_Today_Indonesia_Logo.png" group-title="Undefined",Sea Today (720p) [Geo-blocked]
@@ -122,8 +128,8 @@ http://k4.usastreams.com/ARBtv/teleplus/playlist.m3u8
 https://59ef525c24caa.streamlock.net/ARBtv/ARBtv/playlist.m3u8
 #EXTINF:-1 tvg-id="Telesur.ve" tvg-country="HISPAM;VE" tvg-language="Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/TeleSUR-Logo.svg/512px-TeleSUR-Logo.svg.png" group-title="News",teleSUR (1080p)
 https://cdnesmain.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8
-#EXTINF:-1 tvg-id="TeleSURCostaRica.cr" tvg-country="CR" tvg-language="Spanish" tvg-logo="https://i.imgur.com/r5p97Ex.jpg" group-title="Undefined",TeleSUR Costa Rica (720p) [Not 24/7]
-http://k3.usastreams.com/telesur/telesur/playlist.m3u8
+#EXTINF:-1 tvg-id="Teletica7.cr" tvg-country="CR" tvg-language="Spanish" tvg-logo="https://i.imgur.com/GeIK8rC.png" group-title="Undefined",Teletica 7 (720p) [Not 24/7]
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.dailymotion.com/video/x29e3wg
 #EXTINF:-1 tvg-id="Tevex.cl" tvg-country="CL;HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/sj4sEaN.png" group-title="Business",Tevex (720p) [Not 24/7]
 https://v4.tustreaming.cl/tevexinter/index.m3u8
 #EXTINF:-1 tvg-id="TopLatinoTV.pe" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/VMMNhkf.png" group-title="Music",Top Latino TV (404p) [Not 24/7]
