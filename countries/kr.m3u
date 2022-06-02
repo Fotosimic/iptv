@@ -9,8 +9,14 @@ http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_3ch/smil:arirang_3ch.smil/pla
 http://amdlive-ch02.ctnd.com.edgesuite.net/arirang_3ch/smil:arirang_3ch.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="KR" tvg-language="" tvg-logo="" group-title="Undefined",Arirang Radio (720p)
 http://amdlive-ch03.ctnd.com.edgesuite.net/arirang_3ch/smil:arirang_3ch.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="KR" tvg-language="" tvg-logo="" group-title="Undefined",Arirang Radio (720p) [Not 24/7]
-http://amdlive.ctnd.com.edgesuite.net/arirang_3ch/smil:arirang_3ch.smil/.m3u8
+#EXTINF:-1 tvg-id="" tvg-country="KR" tvg-language="" tvg-logo="" group-title="Undefined",Arirang Radio (720p)
+http://amdlive.ctnd.com.edgesuite.net/arirang_3ch/smil:arirang_3ch.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-country="KR" tvg-language="" tvg-logo="" group-title="Undefined",Arirang Radio (720p)
+https://amdlive-ch01-ctnd-com.akamaized.net/arirang_3ch/smil:arirang_3ch.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-country="KR" tvg-language="" tvg-logo="" group-title="Undefined",Arirang Radio (720p)
+https://amdlive-ch02-ctnd-com.akamaized.net/arirang_3ch/smil:arirang_3ch.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-country="KR" tvg-language="" tvg-logo="" group-title="Undefined",Arirang Radio (720p)
+https://amdlive-ch03-ctnd-com.akamaized.net/arirang_3ch/smil:arirang_3ch.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="BabyTVAsia.uk" tvg-country="ASIA" tvg-language="Arabic;Chinese;English;French;Hindi;Indonesian;Thai;Vietnamese" tvg-logo="https://i.imgur.com/z5E8vLR.png" group-title="Kids" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36",Baby TV Asia (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
 https://livecdn.fptplay.net/hda3/babytvhd_vhls.smil/chunklist.m3u8
@@ -36,6 +42,8 @@ http://cgntv-glive.ofsdelivery.net/live/cgntv_kr01/playlist.m3u8
 https://news.cgtn.com/resource/live/english/cgtn-news.m3u8
 #EXTINF:-1 tvg-id="CGTNDocumentary.cn" tvg-country="INT" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d6/CGTN_Documentary_logo.png" group-title="Documentary",CGTN Documentary (576p)
 http://39.135.138.59:18890/PLTV/88888910/224/3221225645/index.m3u8
+#EXTINF:-1 tvg-id="ChannelA.kr" tvg-country="KR" tvg-language="Korean" tvg-logo="https://i.imgur.com/W9laHPD.png" group-title="Undefined",Channel A (540p) [Not 24/7]
+http://51.81.66.195:1935/krtv/channela_540/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="KR" tvg-language="" tvg-logo="" group-title="Undefined",CJB청주방송 (SBS 淸州) (540p) [Not 24/7]
 http://1.222.207.80:1935/live/cjbtv/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="KR" tvg-language="" tvg-logo="" group-title="Undefined",CTS기독교TV (720p)
@@ -57,8 +65,6 @@ http://ebsonair.ebs.co.kr/ebsufamilypc/familypc1m/playlist.m3u8
 http://ebsonair.ebs.co.kr/plus1familypc/familypc1m/playlist.m3u8
 #EXTINF:-1 tvg-id="EBSPlus2.kr" tvg-country="KR" tvg-language="English;Korean" tvg-logo="https://i.imgur.com/mgFRZFq.png" group-title="Undefined",EBS+ 2 (400p)
 http://ebsonair.ebs.co.kr/plus2familypc/familypc1m/playlist.m3u8
-#EXTINF:-1 tvg-id="EdailyTV.kr" tvg-country="KR" tvg-language="Korean" tvg-logo="https://i.imgur.com/UvRoc22.png" group-title="Undefined",Edaily TV (1080p) [Not 24/7]
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UC8Sv6O3Ux8ePVqorx8aOBMg/live
 #EXTINF:-1 tvg-id="EuronewsEnglish.fr" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews English
 https://euronews.alteox.app/hls/en_stream.m3u8
 #EXTINF:-1 tvg-id="GCN.kr" tvg-country="KR" tvg-language="Korean" tvg-logo="https://i.imgur.com/QUxuHA1.png" group-title="Religious",GCN24 Korean (1080p) [Not 24/7]
@@ -69,28 +75,50 @@ http://mediaworks.dema.mil.kr:1935/live_edge/cudo.sdp/playlist.m3u8
 https://insighttv-vizio.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="JIBSTV.kr" tvg-country="KR" tvg-language="Korean" tvg-logo="https://i.imgur.com/RVWpBoz.png" group-title="Undefined",JIBS SBS (720p) [Not 24/7]
 http://123.140.197.22/stream/1/play.m3u8
+#EXTINF:-1 tvg-id="JTBC.kr" tvg-country="KR" tvg-language="Korean" tvg-logo="https://i.imgur.com/fCruRmS.png" group-title="Undefined",JTBC (540p) [Not 24/7]
+http://51.81.66.195:1935/krtv/jtbc_540/playlist.m3u8
 #EXTINF:-1 tvg-id="Kanal10Asia.se" tvg-country="ASIA" tvg-language="Swedish" tvg-logo="https://i.imgur.com/RQXBwlz.png" group-title="Religious",Kanal 10 Asia (540p)
 http://cdn-kanal10.crossnet.net:1935/kanal10/kanal10asia/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="KR" tvg-language="" tvg-logo="" group-title="Undefined",KBC 광주방송 (SBS 光州) (1080p)
 http://119.200.131.11:1935/KBCTV/tv/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="KR" tvg-language="" tvg-logo="" group-title="Undefined",KBS 1 (1080p) [Not 24/7]
-http://121.130.210.101:9981/stream/channelid/637185705
+#EXTINF:-1 tvg-id="KBS1TV.kr" tvg-country="KR" tvg-language="Korean" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/KBS_1_logo.svg/512px-KBS_1_logo.svg.png" group-title="Undefined",KBS1 (540p) [Not 24/7]
+http://51.81.66.195:1935/krtv/kbs1_540/playlist.m3u8
+#EXTINF:-1 tvg-id="KBS2TV.kr" tvg-country="KR" tvg-language="Korean" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/KBS_2_logo.svg/512px-KBS_2_logo.svg.png" group-title="Undefined",KBS2 (540p) [Not 24/7]
+http://51.81.66.195:1935/krtv/kbs2_540/playlist.m3u8
+#EXTINF:-1 tvg-id="KBSJoy.kr" tvg-country="KR" tvg-language="Korean" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/KBS_JOY.svg/512px-KBS_JOY.svg.png" group-title="Undefined",KBS Joy (576p) [Not 24/7]
+http://51.81.66.195:1935/krtv/kbs_joy_540/playlist.m3u8
+#EXTINF:-1 tvg-id="KBSKids.kr" tvg-country="KR" tvg-language="Korean" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/KBS_kids.svg/512px-KBS_kids.svg.png" group-title="Kids",KBS Kids (576p) [Not 24/7]
+http://51.81.66.195:1935/krtv/kbs_kids_540/playlist.m3u8
 #EXTINF:-1 tvg-id="KBSLiveCamDokDo.kr" tvg-country="KR" tvg-language="Korean" tvg-logo="https://i.imgur.com/b7uMB9T.png" group-title="Undefined",KBS LiveCam DokDo (540p)
 http://kbs-dokdo.gscdn.com/dokdo_300/dokdo_300.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="KBSNSports.kr" tvg-country="KR" tvg-language="Korean" tvg-logo="https://i.imgur.com/xZ2s9eY.png" group-title="Sports",KBS N Sports (540p) [Not 24/7]
+http://51.81.66.195:1935/krtv/kbs_n_sports_540/playlist.m3u8
 #EXTINF:-1 tvg-id="KBSWorld.kr" tvg-country="INT" tvg-language="English;Korean" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/KBS_World_%282009%29.svg/512px-KBS_World_%282009%29.svg.png" group-title="General",KBS World (720p)
 https://livecdn.fptplay.net/sdb/kbs_hls.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="KR" tvg-language="" tvg-logo="" group-title="Undefined",KCTV 광주 CH05 (720p) [Not 24/7]
 http://119.77.96.184:1935/chn05/chn05/playlist.m3u8
+#EXTINF:-1 tvg-id="KETV.kr" tvg-country="KR" tvg-language="Korean" tvg-logo="https://i.imgur.com/fGQatSH.png" group-title="Undefined",KETV (540p) [Not 24/7]
+http://51.81.66.195:1935/krtv/wowtv_540/playlist.m3u8
 #EXTINF:-1 tvg-id="MBCTV.kr" tvg-country="KR" tvg-language="Korean" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Munhwa_Broadcasting_Company.svg/512px-Munhwa_Broadcasting_Company.svg.png" group-title="Undefined",MBC (1080p)
 http://123.254.72.24:1935/tvlive/livestream2/playlist.m3u8
+#EXTINF:-1 tvg-id="MBCSportsPlus.kr" tvg-country="KR" tvg-language="Korean" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/MBC_SportsPlus.svg/512px-MBC_SportsPlus.svg.png" group-title="Sports",MBC Sports+ (540p) [Not 24/7]
+http://51.81.66.195:1935/krtv/mbc_sports_540/playlist.m3u8
+#EXTINF:-1 tvg-id="MBN.kr" tvg-country="KR" tvg-language="Korean" tvg-logo="https://i.imgur.com/3iVioxQ.png" group-title="Undefined",MBN (540p) [Not 24/7]
+http://51.81.66.195:1935/krtv/mbn_540/playlist.m3u8
 #EXTINF:-1 tvg-id="MetroGlobeNetwork.id" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/NTCI3lf.png" group-title="Culture",Metro Globe Network (1080p) [Not 24/7]
 https://edge.medcom.id/live-edge/smil:mgnch.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="MTN.kr" tvg-country="KR" tvg-language="Korean" tvg-logo="https://i.imgur.com/FEdP2k6.png" group-title="Undefined",MTN (1080p) [Not 24/7]
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UClErHbdZKUnD1NyIUeQWvuQ/live
+#EXTINF:-1 tvg-id="Mnet.kr" tvg-country="KR" tvg-language="Korean" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Mnet.png/512px-Mnet.png" group-title="Undefined",MNet (576p) [Not 24/7]
+http://51.81.66.195:1935/krtv/mnet_540/playlist.m3u8
+#EXTINF:-1 tvg-id="MTN.kr" tvg-country="KR" tvg-language="Korean" tvg-logo="https://i.imgur.com/FEdP2k6.png" group-title="Undefined",MTN (720p) [Not 24/7]
+http://183.110.27.87/mtnlive/720/playlist.m3u8
 #EXTINF:-1 tvg-id="NBS.kr" tvg-country="KR" tvg-language="Korean" tvg-logo="https://i.imgur.com/loWf3B5.jpg" group-title="Undefined",NBS Korea Agricultural Broadcasting (720p)
 https://media.joycorp.co.kr:4443/live/ngrp:live_all/playlist.m3u8
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp" tvg-country="INT" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/NHK_World-Japan_TV.svg/512px-NHK_World-Japan_TV.svg.png" group-title="Culture;News",NHK World Japan (1080p)
 https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="OCN.kr" tvg-country="KR" tvg-language="Korean" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/OCN_Logo.svg/512px-OCN_Logo.svg.png" group-title="Undefined",OCN (576p) [Not 24/7]
+http://51.81.66.195:1935/krtv/ocn_540/playlist.m3u8
+#EXTINF:-1 tvg-id="OCNMovies.kr" tvg-country="KR" tvg-language="Korean" tvg-logo="https://i.imgur.com/3OJtkkw.png" group-title="Movies",OCN Movies (576p) [Not 24/7]
+http://51.81.66.195:1935/krtv/cgv_540/playlist.m3u8
 #EXTINF:-1 tvg-id="RedBullTV.at" tvg-country="INT" tvg-language="English;German" tvg-logo="https://i.imgur.com/7NeBmWX.jpg" group-title="Sports",Red Bull TV (1080p)
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
 #EXTINF:-1 tvg-id="RTDocumentary.ru" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/XJGki3v.png" group-title="Documentary",RT Documentary (1080p) [Geo-blocked]
@@ -102,22 +130,40 @@ https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
 #EXTINF:-1 tvg-id="RTPInternacional.pt" tvg-country="INT" tvg-language="Portuguese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/RTP_Internacional_2016_%28Reduced_Version%29.svg/512px-RTP_Internacional_2016_%28Reduced_Version%29.svg.png" group-title="General" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0",RTP Internacional (504p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0
 https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="SBSTV.kr" tvg-country="KR" tvg-language="Korean" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/SBS_Korea_Logo_%28Word_Only%29.svg/512px-SBS_Korea_Logo_%28Word_Only%29.svg.png" group-title="Undefined",SBS (540p) [Not 24/7]
+http://51.81.66.195:1935/krtv/sbs_540/playlist.m3u8
+#EXTINF:-1 tvg-id="SBSGolf.kr" tvg-country="KR" tvg-language="Korean" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/SBS_Golf_logo_2018.svg/512px-SBS_Golf_logo_2018.svg.png" group-title="Sports",SBS Golf (540p) [Not 24/7]
+http://51.81.66.195:1935/krtv/sbs_golf_540/playlist.m3u8
 #EXTINF:-1 tvg-id="KNNTV.kr" tvg-country="KR" tvg-language="Korean" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/KNN_logo.svg/512px-KNN_logo.svg.png" group-title="Undefined",SBS KNN (450p) [Not 24/7]
 http://211.220.195.200:1935/live/mp4:KnnTV.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="SBSSports.kr" tvg-country="KR" tvg-language="Korean" tvg-logo="https://i.imgur.com/L2SdLkb.png" group-title="Sports",SBS Sports (540p) [Not 24/7]
+http://51.81.66.195:1935/krtv/sbs_sports_540/playlist.m3u8
 #EXTINF:-1 tvg-id="SEAToday.id" tvg-country="INT" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/SEA_Today_Indonesia_Logo.png/512px-SEA_Today_Indonesia_Logo.png" group-title="Undefined",Sea Today (720p) [Geo-blocked]
 https://cdn-telkomsel-01.akamaized.net/Content/DASH/Live/channel(9ce3f094-4044-467e-84b7-b684a49571d5)/manifest.mpd
 #EXTINF:-1 tvg-id="SICInternacional.pt" tvg-country="INT" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/UgJ5lac.png" group-title="Undefined",SIC Internacional (720p)
 http://live.impresa.pt/live/sicint/sicint.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="KR" tvg-language="" tvg-logo="" group-title="Undefined",TBC 대구 (SBS 大邱) (540p) [Geo-blocked]
+#EXTINF:-1 tvg-id="SkySports.kr" tvg-country="KR" tvg-language="Korean" tvg-logo="https://i.imgur.com/tdmsXvp.png" group-title="Sports",Sky Sports (540p) [Not 24/7]
+http://51.81.66.195:1935/krtv/sky_sports_540/playlist.m3u8
+#EXTINF:-1 tvg-id="SPOTV2.kr" tvg-country="KR" tvg-language="Korean" tvg-logo="https://i.imgur.com/xeATohI.png" group-title="Sports",SPOTV2 (540p) [Not 24/7]
+http://51.81.66.195:1935/krtv/spotv_2_540/playlist.m3u8
+#EXTINF:-1 tvg-id="SPOTV.kr" tvg-country="KR" tvg-language="Korean" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/df/SPO_TV_logo.png" group-title="Sports",SPOTV (540p) [Not 24/7]
+http://51.81.66.195:1935/krtv/spotv_540/playlist.m3u8
+#EXTINF:-1 tvg-id="TBCTV.kr" tvg-country="KR" tvg-language="Korean" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Daegu_Broadcasting_Corporation.svg/512px-Daegu_Broadcasting_Corporation.svg.png" group-title="Undefined",TBC (540p)
 http://221.157.125.239:1935/live/psike/playlist.m3u8
 #EXTINF:-1 tvg-id="TBSTV.kr" tvg-country="KR" tvg-language="Korean" tvg-logo="https://i.imgur.com/iOnWS6V.png" group-title="Undefined",TBS Seoul (720p)
 https://cdntv.tbs.seoul.kr/tbs/tbs_tv_web.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="KR" tvg-language="" tvg-logo="" group-title="Undefined",TJB 대전방송 (SBS 大田) (720p) [Not 24/7]
 http://1.245.74.5:1935/live/tv/.m3u8
+#EXTINF:-1 tvg-id="Tooniverse.kr" tvg-country="KR" tvg-language="Korean" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7f/Tooniverse_logo.png" group-title="Animation;Kids",Tooniverse (576p) [Not 24/7]
+http://51.81.66.195:1935/krtv/tooniverse_540/playlist.m3u8
 #EXTINF:-1 tvg-id="TRTWorld.tr" tvg-country="INT" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TRT_World.svg/512px-TRT_World.svg.png" group-title="News",TRT World (720p) [Not 24/7]
 https://tv-trtworld.live.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TVChosun.kr" tvg-country="KR" tvg-language="Korean" tvg-logo="https://i.imgur.com/6iP1AAj.png" group-title="Undefined",TV Chosun (540p) [Not 24/7]
+http://51.81.66.195:1935/krtv/tvchosun_540/playlist.m3u8
 #EXTINF:-1 tvg-id="TVMInternacional.mz" tvg-country="INT" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/Ns3WrOQ.png" group-title="General",TVM Internacional (480p) [Not 24/7]
 http://online.tvm.co.mz:1935/live/smil:Channel2.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="tvN.kr" tvg-country="KR" tvg-language="Korean" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Logo_tvN.svg/512px-Logo_tvN.svg.png" group-title="Undefined",tvN (576p) [Not 24/7]
+http://51.81.66.195:1935/krtv/tvn_540/playlist.m3u8
 #EXTINF:-1 tvg-id="TVWorkNet.kr" tvg-country="KR" tvg-language="Korean" tvg-logo="https://i.imgur.com/9zYxRZW.png" group-title="Undefined",TVWorkNet (480p)
 http://live.worktv.or.kr:1935/live/wowtvlive1.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="UNWebTV.us" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/lPyJhBN.png" group-title="News",UN Web TV (540p)
@@ -126,10 +172,10 @@ https://cdnapi.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_gb6tjml
 https://wfcint.mediacdn.ru/cdn/wfcintweb/playlist.m3u8
 #EXTINF:-1 tvg-id="WorldPokerTour.us" tvg-country="INT" tvg-language="English" tvg-logo="https://images.pluto.tv/channels/5f8ecfb9db6c180007a6d1b0/colorLogoPNG.png" group-title="Sports",World Poker Tour (1080p) [Not 24/7]
 https://d3w4n3hhseniak.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/WPT-DistroTV/150.m3u8
-#EXTINF:-1 tvg-id="YTN.kr" tvg-country="KR" tvg-language="Korean" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/YTN_logo_2014.svg/512px-YTN_logo_2014.svg.png" group-title="Undefined",YTN (1080p)
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UChlgI3UHCOnwUGzWzbJ3H5w/live
-#EXTINF:-1 tvg-id="YTNDMB.kr" tvg-country="KR" tvg-language="Korean" tvg-logo="https://i.imgur.com/y8hgAUg.png" group-title="Undefined",YTN DMB
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UC38IlqMxZ_YtFg3eSGmmJnQ/live
+#EXTINF:-1 tvg-id="YonhapNewsTV.kr" tvg-country="KR" tvg-language="Korean" tvg-logo="https://i.imgur.com/3aLkU2I.png" group-title="News",Yonhap News TV (540p) [Not 24/7]
+http://51.81.66.195:1935/krtv/newsy_540/playlist.m3u8
+#EXTINF:-1 tvg-id="YTN.kr" tvg-country="KR" tvg-language="Korean" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/YTN_logo_2014.svg/512px-YTN_logo_2014.svg.png" group-title="Undefined",YTN (540p) [Not 24/7]
+http://51.81.66.195:1935/krtv/ytn_540/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="KR" tvg-language="" tvg-logo="" group-title="Undefined",YTN SCIENCE (720p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCZdBJIbJz0P9xyFipgOj1fA/live
 #EXTINF:-1 tvg-id="" tvg-country="KR" tvg-language="" tvg-logo="" group-title="Undefined",국악방송 (1080p)
