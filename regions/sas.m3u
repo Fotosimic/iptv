@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/af/arianatelevision.com.epg.xml,https://iptv-org.github.io/epg/guides/es/programacion-tv.elpais.com.epg.xml,https://iptv-org.github.io/epg/guides/in/dishtv.in.epg.xml,https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml,https://iptv-org.github.io/epg/guides/sg/starhubtvplus.com.epg.xml,https://iptv-org.github.io/epg/guides/uk/sky.com.epg.xml,https://iptv-org.github.io/epg/guides/us/tvtv.us.epg.xml"
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/af/arianatelevision.com.epg.xml,https://iptv-org.github.io/epg/guides/es/programacion-tv.elpais.com.epg.xml,https://iptv-org.github.io/epg/guides/id-en/mncvision.id.epg.xml,https://iptv-org.github.io/epg/guides/in/dishtv.in.epg.xml,https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml,https://iptv-org.github.io/epg/guides/ph/clickthecity.com.epg.xml,https://iptv-org.github.io/epg/guides/sg/starhubtvplus.com.epg.xml,https://iptv-org.github.io/epg/guides/uk/sky.com.epg.xml,https://iptv-org.github.io/epg/guides/us/tvtv.us.epg.xml"
 #EXTINF:-1 tvg-id="3TamilTV.in" tvg-country="IN" tvg-language="Tamil" tvg-logo="https://i.imgur.com/WfAU7pB.png" group-title="Entertainment",3 Tamil TV (720p) [Not 24/7]
 https://6n3yogbnd9ok-hls-live.5centscdn.com/threetamil/d0dbe915091d400bd8ee7f27f0791303.sdp/index.m3u8
 #EXTINF:-1 tvg-id="7SMusic.in" tvg-country="IN" tvg-language="Tamil" tvg-logo="https://i.imgur.com/P5EXpPy.jpg" group-title="Music",7S Music (576p) [Not 24/7]
@@ -33,6 +33,10 @@ https://streamcdn.amarujala.com/live/smil:stream1.smil/playlist.m3u8
 http://103.199.161.254/Content/amrita/Live/Channel(Amrita)/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="IN" tvg-language="" tvg-logo="" group-title="Undefined",Anand TV
 https://live.neestream.net/neestream_01/anandtv/index.m3u8?token=693400
+#EXTINF:-1 tvg-id="AnimaxAsia.sg" tvg-country="SAS" tvg-language="Chinese;English;Indonesian;Japanese;Malay;Thai;Yue Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/65/Animaxlogo-20160701.png" group-title="Animation",Animax Asia (Indonesian Subs) (576p)
+http://210.210.155.37/dr9445/h/h144/index.m3u8
+#EXTINF:-1 tvg-id="AniplusAsia.sg" tvg-country="SAS" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/Aniplus_Asia_Logo.png/512px-Aniplus_Asia_Logo.png" group-title="Animation",Aniplus (Indonesian subtitle) (576p)
+http://210.210.155.37/dr9445/h/h02/index.m3u8
 #EXTINF:-1 tvg-id="AnjanTV.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/KhR7bvK.png" group-title="Undefined",Anjan (720p) [Not 24/7]
 https://f3.vstream.online:7443/bstb/ngrp:anjan_hdall/playlist.m3u8
 #EXTINF:-1 tvg-id="ApnaPunjabTV.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/IM4D8Wz.png" group-title="Undefined",Apna Punjab (720p)
@@ -88,24 +92,22 @@ http://51.210.199.56/hls/stream.m3u8
 https://m-c036-j2apps.s.llnwi.net/hls/5045.BFlixMovies.in.m3u8
 #EXTINF:-1 tvg-id="BhojpuriCinema.in" tvg-country="IN" tvg-language="Bhojpuri" tvg-logo="https://i.imgur.com/ABxIO7r.jpg" group-title="Movies",Bhojpuri Cinema (576p) [Not 24/7]
 http://14.199.164.20:4001/play/a0rj/index.m3u8
-#EXTINF:-1 tvg-id="BloombergTVAsia.us" tvg-country="APAC;OCE;SAS" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Bloomberg_Television_logo.svg/512px-Bloomberg_Television_logo.svg.png" group-title="Business",Bloomberg TV Asia (576p)
-http://210.210.155.37/dr9445/h/h03/index.m3u8
+#EXTINF:-1 tvg-id="BloombergTVAsia.us" tvg-country="APAC;OCE;SAS" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Bloomberg_Television_logo.svg/512px-Bloomberg_Television_logo.svg.png" group-title="Business",Bloomberg TV Asia (576p) [Geo-blocked]
+http://210.210.155.35/dr9445/h/h03/index.m3u8
 #EXTINF:-1 tvg-id="BoishakhiTV.bd" tvg-country="BD" tvg-language="Bengali" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c7/Boishakhi_TV_logo.svg/512px-Boishakhi_TV_logo.svg.png" group-title="General",Boishakhi TV (720p) [Not 24/7]
 https://cdn.appv.jagobd.com:444/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/boishakhitv-org.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="BoogleBollywood.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/Z07M07j.png" group-title="Movies",Boogle Bollywood (1080p) [Not 24/7]
 http://live.agmediachandigarh.com/booglebollywood/774e3ea9f3fa9bcdac47f445b83b6653.sdp/index.m3u8
-#EXTINF:-1 tvg-id="BoxCinema.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/LGJlmtp.png" group-title="Movies",Box Cinema (576p) [Not 24/7]
-http://14.199.164.20:4001/play/a0su/index.m3u8
 #EXTINF:-1 tvg-id="BTVWorld.bd" tvg-country="BD" tvg-language="Bengali" tvg-logo="https://i.imgur.com/1Chamk9.png" group-title="General",BTV World (720p) [Not 24/7]
 https://cdn.appv.jagobd.com:444/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/btvbd-office-sg.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="CaptainTV.in" tvg-country="IN" tvg-language="Tamil" tvg-logo="https://i.imgur.com/UXg6sac.png" group-title="Entertainment",Captain TV (576p) [Not 24/7]
 http://103.199.160.85/Content/captain/Live/Channel(Captain)/index.m3u8
 #EXTINF:-1 tvg-id="CartoonNetworkAsia.sg" tvg-country="SAS" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png" group-title="Kids",Cartoon Network Asia (720p)
 http://198.16.106.62:8278/streams/d/Cn/playlist.m3u8
-#EXTINF:-1 tvg-id="CCTV4Asia.cn" tvg-country="SAS" tvg-language="Chinese;English" tvg-logo="https://i.imgur.com/cfvjieR.png" group-title="General",CCTV-4 Asia (576p)
-http://210.210.155.37/qwr9ew/s/s19/index.m3u8
-#EXTINF:-1 tvg-id="CelestialMovies.hk" tvg-country="BD;BN;HK;ID;MY;SG;TW" tvg-language="Chinese" tvg-logo="https://i.imgur.com/KYP1xXZ.png" group-title="Movies",Celestial Movies (Indonesian Subtitle) (576p)
-http://210.210.155.37/dr9445/h/h14/index.m3u8
+#EXTINF:-1 tvg-id="CCTV4Asia.cn" tvg-country="SAS" tvg-language="Chinese;English" tvg-logo="https://i.imgur.com/cfvjieR.png" group-title="General",CCTV-4 Asia (576p) [Geo-blocked]
+http://210.210.155.35/qwr9ew/s/s19/index.m3u8
+#EXTINF:-1 tvg-id="CelestialMovies.hk" tvg-country="BD;BN;HK;ID;MY;SG;TW" tvg-language="Chinese" tvg-logo="https://i.imgur.com/KYP1xXZ.png" group-title="Movies",Celestial Movies (Indonesian Subtitle) (576p) [Geo-blocked]
+http://210.210.155.35/dr9445/h/h14/index.m3u8
 #EXTINF:-1 tvg-id="Channel9.bd" tvg-country="BD" tvg-language="Bengali" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/ff/Channel9_bd.svg/512px-Channel9_bd.svg.png" group-title="Undefined",Channel 9 (720p)
 https://cdn.appv.jagobd.com:444/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/channel9hd.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="Channel24.bd" tvg-country="BD" tvg-language="Bengali" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Channel24logo.svg/512px-Channel24logo.svg.png" group-title="News",Channel 24 (720p)
@@ -204,6 +206,8 @@ https://cdn.appv.jagobd.com:444/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeF
 http://104.237.60.234/live/gabruutv.m3u8
 #EXTINF:-1 tvg-id="GDNSLudhiana.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/JRjcYGl.jpg" group-title="Undefined",GDNS Ludhiana (1080p) [Not 24/7]
 http://akalmultimedia.net:1935/gdnslive/gdns-live/chunklist.m3u8
+#EXTINF:-1 tvg-id="Gem.in" tvg-country="IN" tvg-language="Chinese;English;Indonesian;Thai;Yue Chinese" tvg-logo="https://cms.dmpcdn.com/livetv/2020/03/17/46466450-6842-11ea-a7cd-dd316e61efc7_original.png" group-title="Undefined",GEM (576p) [Geo-blocked]
+http://210.210.155.35/uq2663/h/h19/index.m3u8
 #EXTINF:-1 tvg-id="GlobalPunjab.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/6GcaSUS.jpg" group-title="News",Global Punjab (720p) [Not 24/7]
 https://media.streambrothers.com:1936/8522/8522/playlist.m3u8
 #EXTINF:-1 tvg-id="GSTV.in" tvg-country="IN" tvg-language="Gujarati" tvg-logo="https://i.imgur.com/zCIK5Ze.png" group-title="Undefined",GSTV (720p) [Not 24/7]
@@ -218,8 +222,6 @@ https://eu10b.serverse.com:1936/8012/8012/playlist.m3u8
 http://cdn12.henico.net:8080/live/jbani/index.m3u8
 #EXTINF:-1 tvg-id="HumraazTV.us" tvg-country="PK;US" tvg-language="Urdu" tvg-logo="https://i.imgur.com/lzJ9Whg.png" group-title="News",Humraaz TV [Not 24/7]
 https://cdn61.liveonlineservices.com/hls/humraaz.m3u8
-#EXTINF:-1 tvg-id="ILove.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/u191zfh.png" group-title="Music",I Love (576p) [Not 24/7]
-http://14.199.164.20:4001/play/a0p3/index.m3u8
 #EXTINF:-1 tvg-id="ImayamTV.in" tvg-country="IN" tvg-language="Tamil" tvg-logo="https://i.imgur.com/jHv7t9t.png" group-title="Entertainment",Imayam (480p) [Not 24/7]
 https://idvd.multitvsolution.com/idvo/imayamtv.m3u8
 #EXTINF:-1 tvg-id="IndependentTV.bd" tvg-country="BD" tvg-language="Bengali" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/Independent_Television_Logo.svg/512px-Independent_Television_Logo.svg.png" group-title="News",Independent TV (1080p) [Not 24/7]
@@ -246,6 +248,8 @@ http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel
 https://live.wmncdn.net/jantatv/live.stream/index.m3u8
 #EXTINF:-1 tvg-id="JeevanTV.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/PYs1W1Y.png" group-title="Undefined",Jeevan TV (576p)
 http://103.199.161.254/Content/jeevan/Live/Channel(Jeevan)/index.m3u8
+#EXTINF:-1 tvg-id="JhanjarMusic.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/gIYOu4i.jpg" group-title="Music",Jhanjar Music (1080p) [Not 24/7]
+http://159.203.9.134/hls/jhanjar_music/jhanjar_music.m3u8
 #EXTINF:-1 tvg-id="Jonack.in" tvg-country="IN" tvg-language="Assamese" tvg-logo="https://i.imgur.com/fkrtKlM.png" group-title="Undefined",Jonack TV (360p) [Not 24/7]
 https://cdn.smartstream.video/smartstream-us/jonakk/jonakk/playlist.m3u8
 #EXTINF:-1 tvg-id="K21News.pk" tvg-country="PK" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/K21_News_Logo.jpg/512px-K21_News_Logo.jpg" group-title="News",K21 News
@@ -284,8 +288,6 @@ https://stream.ufworldind.in/live/kvision/playlist.m3u8
 http://103.199.161.254/Content/kappa/Live/Channel(Kappa)/index.m3u8
 #EXTINF:-1 tvg-id="KasthuriTV.in" tvg-country="IN" tvg-language="Kannada" tvg-logo="https://i.imgur.com/ZQW6MbU.png" group-title="Entertainment",Kasthuri (576p)
 http://103.199.161.254/Content/kasthuritv/Live/Channel(KasthuriTV)/index.m3u8
-#EXTINF:-1 tvg-id="KayhanTV.af" tvg-country="AF" tvg-language="Pashto" tvg-logo="https://i.imgur.com/XpR1VvZ.png" group-title="Undefined",Kayhan TV (720p)
-https://playout395.livestreamingcdn.com/live/Stream1/playlist.m3u8
 #EXTINF:-1 tvg-id="KCLTV.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/bkp9dIm.png" group-title="Entertainment",KCL TV (720p) [Not 24/7]
 http://kcltv.livebox.co.in/kclhls/live.m3u8
 #EXTINF:-1 tvg-id="KCV.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/9YD8u4H.png" group-title="Entertainment",KCV (576p) [Not 24/7]
@@ -304,8 +306,6 @@ https://vidcdn.vidgyor.com/kat-origin/liveabr/playlist.m3u8
 https://streamone.simpaisa.com:8443/pitvlive1/khybernews.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="IN" tvg-language="" tvg-logo="" group-title="Undefined",KITE Victers (Kerala) (720p) [Not 24/7]
 https://932y4x26ljv8-hls-live.5centscdn.com/victers/tv.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="KohenoorNews.pk" tvg-country="PK" tvg-language="Urdu" tvg-logo="https://www.lyngsat.com/logo/tv/kk/kohenoor-news-pk.png" group-title="News",Kohenoor News
-https://streamer12.vdn.dstreamone.net/dsone/kohenoortv/playlist.m3u8
 #EXTINF:-1 tvg-id="LahoreNewsHD.pk" tvg-country="PK" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/67/Lahore_News.png" group-title="News",Lahore News (720p) [Not 24/7]
 https://vcdn.dunyanews.tv/lahorelive/_definst_/ngrp:lnews_1_all/playlist.m3u8
 #EXTINF:-1 tvg-id="LemarTV.af" tvg-country="AF" tvg-language="Pashto" tvg-logo="https://upload.wikimedia.org/wikipedia/en/5/5b/Lemar_logo_2016.png" group-title="Entertainment",Lemar TV (720p)
@@ -354,8 +354,6 @@ http://103.199.160.85/Content/mktv6/Live/Channel(MKTV6)/index.m3u8
 http://103.199.160.85/Content/mktunes/Live/Channel(MKTunes)/index.m3u8
 #EXTINF:-1 tvg-id="MKTV.in" tvg-country="IN" tvg-language="Tamil" tvg-logo="https://i.imgur.com/UxxbaR3.png" group-title="Entertainment",MK TV (576p) [Not 24/7]
 http://103.199.160.85/Content/mktv/Live/Channel(MKTV)/index.m3u8
-#EXTINF:-1 tvg-id="MtunesPlus.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/Rt7k6E3.png" group-title="Music",Mtunes Plus (576p) [Not 24/7]
-http://14.199.164.20:4001/play/a0p2/index.m3u8
 #EXTINF:-1 tvg-id="MusicIndia.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/F7tPCwh.png" group-title="Music",Music India (576p) [Not 24/7]
 http://14.199.164.20:4001/play/a0mt/index.m3u8
 #EXTINF:-1 tvg-id="Naaptol.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/fU6E7ZG.png" group-title="Undefined",Naaptol (576p) [Not 24/7]
@@ -457,8 +455,6 @@ http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel
 http://103.199.160.85/Content/puthuyugam/Live/Channel(Puthuyugam)/index.m3u8
 #EXTINF:-1 tvg-id="RealNewsKerala.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/EmBpOWM.png" group-title="News",Real News Kerala (1080p) [Not 24/7]
 https://bk7l298nyx53-hls-live.5centscdn.com/realnews/e7dee419f91aa9e65939d3677fb9c4f5.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="RealTV.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/40afp0O.jpg" group-title="Music",Real TV (720p) [Not 24/7]
-http://cloud.logicwebs.in:1935/realtv/realtv1/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="IN" tvg-language="" tvg-logo="" group-title="Undefined",Relax TV (576p) [Not 24/7]
 http://198.144.149.82:8080/NOTV/RELAXTV/index.m3u8?token=GTR
 #EXTINF:-1 tvg-id="ReporterTV.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/31/Reporter-Malayalam-TV-Channel-Logo.jpg" group-title="News",Reporter TV (576p)
@@ -542,14 +538,14 @@ http://cdn.jwplayer.com/videos/1m0nMXhZ-3SDdwqdV.m3u8
 http://131.153.22.8:1935/SWANTHAM/live/playlist.m3u8
 #EXTINF:-1 tvg-id="SwarajExpressSMBC.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://www.lyngsat.com/logo/tv/ss/swaraj-express-smbc-in.png" group-title="Undefined",Swaraj Express (720p) [Not 24/7]
 https://live.wmncdn.net/highnews/swaraj.stream/index.m3u8
-#EXTINF:-1 tvg-id="Swarnavahini.lk" tvg-country="LK" tvg-language="Sinhala" tvg-logo="https://i.imgur.com/0hnpeq9.png" group-title="Undefined",Swarnavahini (720p) [Not 24/7]
-https://jk3lz8xklw79-hls-live.5centscdn.com/efm/098f6bcd4621d373cade4e832627b4f6.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="TamilVisionTV.ca" tvg-country="CA;IN" tvg-language="Tamil" tvg-logo="https://i.imgur.com/jSWRXdg.png" group-title="Undefined",Tamil Vision TV (1080p)
 http://live.tamilvision.tv:8081/TVI/HD/playlist.m3u8
 #EXTINF:-1 tvg-id="TehelkaTV.in" tvg-country="IN" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/15/Sangsad_Television_Logo.jpg" group-title="General",Tehelka TV (480p) [Not 24/7]
 https://cdn.appv.jagobd.com:444/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/tehelkatv.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="ThanthiTV.in" tvg-country="IN" tvg-language="Tamil" tvg-logo="https://upload.wikimedia.org/wikipedia/en/3/33/Logo_of_Thanthi_TV.png" group-title="News",Thanthi TV (720p) [Not 24/7]
 https://vidcdn.vidgyor.com/thanthi-origin/liveabr/playlist.m3u8
+#EXTINF:-1 tvg-id="Thrill.hk" tvg-country="SAS" tvg-language="Chinese;English;Thai" tvg-logo="https://i.imgur.com/isr5jto.png" group-title="Movies",Thrill (576p) [Geo-blocked]
+http://210.210.155.35/qwr9ew/s/s34/index.m3u8
 #EXTINF:-1 tvg-id="TimeTV.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/K5rlUey.png" group-title="News",Time TV (360p) [Not 24/7]
 https://cloudflare-cdn301.ottpro.in/live/timetv/playlist.m3u8
 #EXTINF:-1 tvg-id="TimeVisionNews.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/YSQVbIm.png" group-title="News",Time Vision News (720p) [Not 24/7]
@@ -562,12 +558,6 @@ https://pubads.g.doubleclick.net/ssai/event/nRWQsGoJSzmcErJFgAy67g/master.m3u8
 https://raw.githubusercontent.com/taodicakhia/IPTV_Exception/master/channels/af/tolonews.m3u8
 #EXTINF:-1 tvg-id="ToloTV.af" tvg-country="AF" tvg-language="Pashto" tvg-logo="https://upload.wikimedia.org/wikipedia/en/c/ca/TOLO_TV_logo_2016.png" group-title="General",Tolo TV (720p)
 https://raw.githubusercontent.com/taodicakhia/IPTV_Exception/master/channels/af/tolotv.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="IN" tvg-language="" tvg-logo="" group-title="Undefined",Toonz Kids (Indonesian dub) (360p)
-http://210.210.155.37/x6bnqe/s/s81/02.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="IN" tvg-language="" tvg-logo="" group-title="Undefined",Toonz Kids (Indonesian dub) (360p) [Geo-blocked]
-http://210.210.155.35/x6bnqe/s/s81/02.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="IN" tvg-language="" tvg-logo="" group-title="Undefined",Toonz Kids (Indonesian dub) (576p)
-http://210.210.155.37/x6bnqe/s/s81/01.m3u8
 #EXTINF:-1 tvg-id="TravelxpEurope.in" tvg-country="IN" tvg-language="English" tvg-logo="https://i.imgur.com/8KQirah.png" group-title="Travel",Travel XP (720p)
 https://travelxp-travelxp-1-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="TV9Kannada.in" tvg-country="IN" tvg-language="Kannada" tvg-logo="https://i.imgur.com/S3Ded70.png" group-title="News",TV9 Kannada (720p) [Not 24/7]
@@ -599,6 +589,8 @@ http://vtvstreaming.myvnc.com:1935/vtvlive/vmedia/chunklist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="IN" tvg-language="" tvg-logo="" group-title="Undefined",Vyas NIC (480p)
 #EXTVLCOPT:http-referrer=https://webcast.gov.in/
 https://hls.media.nic.in/hls/live/vyas/vyas.m3u8
+#EXTINF:-1 tvg-id="WION.in" tvg-country="IN" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/70/WION_news_Logo.svg/512px-WION_news_Logo.svg.png" group-title="Undefined",Wion (576p)
+http://210.210.155.37/uq2663/h/h91/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="IN" tvg-language="" tvg-logo="" group-title="Undefined",Wion (domestic feed) (576p)
 https://bravo.kugo.id/wion/udp.stream/chunklist.m3u8
 #EXTINF:-1 tvg-id="WowCinemaOne.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/s690F67.png" group-title="Movies",Wow Cinema One (576p) [Not 24/7]
@@ -617,7 +609,5 @@ https://weyyak-live.akamaized.net/weyyak_zee_aflam/index.m3u8
 https://d1vd9xhq6jlm48.cloudfront.net/out/v1/71fcc57c8fe74c5b938451bc2435a93e/index_4.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="IN" tvg-language="" tvg-logo="" group-title="Undefined",Zee TV (480p)
 https://d2q8p4pe5spbak.cloudfront.net/bpk-tv/ZEETV/ZEETV.isml/index.m3u8
-#EXTINF:-1 tvg-id="ZindagiTV.pk" tvg-country="PK" tvg-language="Urdu" tvg-logo="https://i.imgur.com/RtHeRwp.png" group-title="Undefined",Zindagi TV (576p) [Not 24/7]
-https://5ad386ff92705.streamlock.net/live_transcoder/ngrp:zindagitv.stream_all/chunklist.m3u8
 #EXTINF:-1 tvg-id="Zoom.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/Y2apzIs.png" group-title="Undefined",Zoom (1080p)
 http://103.81.104.118/hls/stream8.m3u8
