@@ -31,6 +31,8 @@ http://ns8.indexforce.com:1935/home/mystream/playlist.m3u8
 http://ns8.indexforce.com:1935/alsharqiyalive/mystream/playlist.m3u8
 #EXTINF:-1 tvg-id="AlEtejah.iq" tvg-country="IQ" tvg-language="Arabic" tvg-logo="https://i.imgur.com/jFKKRjP.png" group-title="News",Al-Etejah (576p) [Not 24/7]
 http://streaming.aletejahtv.iq:1935/etejah-newLive/smil:etejahNew.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="AlJawadainTV.iq" tvg-country="IQ" tvg-language="Arabic" tvg-logo="https://i.imgur.com/tLekUZU.png" group-title="Religious",Al-Jawadain TV (1080p) [Not 24/7]
+https://live.aljawadain.org/live/aljawadaintv/playlist.m3u8
 #EXTINF:-1 tvg-id="AlarabyTV.uk" tvg-country="ARAB;MAGHREB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/LNI1HNi.png" group-title="News",Alaraby TV (1080p)
 https://alaraby.cdn.octivid.com/alaraby/smil:alaraby.stream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AlghadeerTV.iq" tvg-country="IQ" tvg-language="Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c3/%D9%82%D9%86%D8%A7%D8%A9_%D8%A7%D9%84%D8%BA%D8%AF%D9%8A%D8%B1.png" group-title="News",AlGhadeer (720p) [Not 24/7]
@@ -43,8 +45,6 @@ https://stream.alkafeel.net/live/alkafeel/rAa5PGot3/manifest.m3u8
 https://stream.alkafeel.net/live/alkafeel/rAa5PGot1/manifest.m3u8
 #EXTINF:-1 tvg-id="AmozhgaryTV.iq" tvg-country="IQ" tvg-language="Kurdish" tvg-logo="https://www.lyngsat.com/logo/tv/aa/amozhgary-tv-iq.png" group-title="Undefined",Amozhgary TV (1080p)
 https://media.streambrothers.com:1936/8248/8248/playlist.m3u8
-#EXTINF:-1 tvg-id="AvaEntertainment.iq" tvg-country="IQ" tvg-language="Arabic" tvg-logo="https://i.imgur.com/me5igxY.jpg" group-title="Entertainment",Ava Entertainment (720p) [Not 24/7]
-https://wowzaprod219-i.akamaihd.net/hls/live/1003949/c9aa559e/playlist.m3u8
 #EXTINF:-1 tvg-id="BabyTVAsia.uk" tvg-country="ASIA" tvg-language="Arabic;Chinese;English;French;Hindi;Indonesian;Thai;Vietnamese" tvg-logo="https://i.imgur.com/z5E8vLR.png" group-title="Kids" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36",Baby TV Asia (Vietnamese dub) (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
 https://livecdn.fptplay.net/hda3/babytvhd_vhls.smil/chunklist.m3u8
@@ -97,7 +97,7 @@ http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/FRANC
 #EXTINF:-1 tvg-id="ImamHusseinTV1.iq" tvg-country="IQ" tvg-language="Persian" tvg-logo="https://i.imgur.com/t2CNB3b.png" group-title="Religious",Imam Hussein TV 1 Farsi (720p)
 https://fa.imamhusseintv.com/live/ih1.m3u8
 #EXTINF:-1 tvg-id="ImamHusseinTV2.iq" tvg-country="IQ" tvg-language="Arabic" tvg-logo="https://i.imgur.com/04Uwuhn.png" group-title="Religious",Imam Hussein TV 2 Arabic (360p)
-https://ar.imamhusseintv.com/live/ih201/index.m3u8
+https://live.imamhossaintv.com/live/ih2.m3u8
 #EXTINF:-1 tvg-id="ImamHusseinTV3.iq" tvg-country="IQ" tvg-language="English" tvg-logo="https://i.imgur.com/FzyfO2X.png" group-title="Religious",Imam Hussein TV 3 English (360p)
 https://live.imamhossaintv.com/live/ih3.m3u8
 #EXTINF:-1 tvg-id="ImamHusseinTV4.iq" tvg-country="IQ" tvg-language="Urdu" tvg-logo="https://i.imgur.com/uxQ3jrN.png" group-title="Religious",Imam Hussein TV 4 Urdu (720p)
@@ -193,6 +193,8 @@ https://602ccc850c9bb.streamlock.net/sterktv/smil:sterk.smil/playlist.m3u8
 https://tv-trtarabi.live.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TRTWorld.tr" tvg-country="INT" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TRT_World.svg/512px-TRT_World.svg.png" group-title="News",TRT World (720p) [Not 24/7]
 https://tv-trtworld.live.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TV5MondeAsie.fr" tvg-country="ASIA" tvg-language="French" tvg-logo="https://cms.dmpcdn.com/livetv/2022/01/18/ca2f0180-7814-11ec-8fd5-c549a9b471b9_webp_original.png" group-title="Undefined",TV5 Monde Asie (576p)
+http://210.210.155.37/dr9445/s/s24/index.m3u8
 #EXTINF:-1 tvg-id="TVMInternacional.mz" tvg-country="INT" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/Ns3WrOQ.png" group-title="General",TVM Internacional (480p) [Not 24/7]
 http://online.tvm.co.mz:1935/live/smil:Channel2.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="UNWebTV.us" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/lPyJhBN.png" group-title="News",UN Web TV (540p)
