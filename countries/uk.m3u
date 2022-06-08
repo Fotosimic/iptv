@@ -155,7 +155,7 @@ https://live-hochanda.simplestreamcdn.com/hochanda/live.m3u8
 #EXTINF:-1 tvg-id="Cruise1stTV.uk" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/q50kqOG.jpg" group-title="Shop",Cruise1st TV (396p) [Geo-blocked]
 https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/cruise_tv/hls_video/index.m3u8
 #EXTINF:-1 tvg-id="DarkMatterTV.us" tvg-country="UK" tvg-language="Spanish" tvg-logo="https://github.com/geonsey/Free2ViewTV/blob/master/images/logos/DarkMatterTV_218x218.png?raw=true" group-title="Series",Dark Matter TV (720p)
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00434-tricoast-darkmatter-spanish-samsunguk/playlist.m3u8
+https://dmtv-plex.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="DeenTV.uk" tvg-country="UK" tvg-language="Bengali" tvg-logo="https://i.imgur.com/QNCosaS.png" group-title="General",Deen TV (576p) [Not 24/7]
 https://cdn.appv.jagobd.com:444/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/deentv.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="DWEnglish.de" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/A1xzjOI.png" group-title="News",DW English (1080p)
@@ -402,8 +402,9 @@ https://vod2t.xpanded.com/x3tv/index_wlan.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="UK" tvg-language="" tvg-logo="" group-title="Undefined" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",Xpanded TV 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
 https://vod2t.xpanded.com/x3tv2/index_wlan.m3u8
-#EXTINF:-1 tvg-id="Dorama.uk" tvg-country="UK" tvg-language="English;Russian" tvg-logo="https://i.imgur.com/lHn6OlM.png" group-title="Movies",Дорама (1080p) [Not 24/7]
-https://sc.id-tv.kz/dorama_hd.m3u8
+#EXTINF:-1 tvg-id="Dorama.uk" tvg-country="UK" tvg-language="English;Russian" tvg-logo="https://i.imgur.com/lHn6OlM.png" group-title="Movies" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Дорама (480p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+http://ott-cdn.ucom.am/s95/index.m3u8
 #EXTINF:-1 tvg-id="RTRPlaneta.ru" tvg-country="CIS;EUR" tvg-language="Russian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RTR-Planeta_Logo.svg/512px-RTR-Planeta_Logo.svg.png" group-title="General" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",РТР-Планета (480p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s15/index.m3u8
