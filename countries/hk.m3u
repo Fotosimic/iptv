@@ -3,8 +3,10 @@
 https://live-hls-web-aje.getaj.net/AJE/index.m3u8
 #EXTINF:-1 tvg-id="BBCNews.uk" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/rPzH88J.png" group-title="News",BBC News HD (720p) [Geo-blocked]
 https://cdnuk001.broadcastcdn.net/KUK-BBCNEWSHD/index.m3u8
-#EXTINF:-1 tvg-id="CelestialMovies.hk" tvg-country="BD;BN;HK;ID;MY;SG;TW" tvg-language="Chinese" tvg-logo="https://i.imgur.com/KYP1xXZ.png" group-title="Movies",Celestial Movies (Indonesian Subtitle) (576p) [Geo-blocked]
-http://210.210.155.35/dr9445/h/h14/index.m3u8
+#EXTINF:-1 tvg-id="CelestialClassicMovies.hk" tvg-country="HK" tvg-language="Chinese;English;Thai;Yue Chinese" tvg-logo="https://i.imgur.com/X7OZ3w5.png" group-title="Movies",Celestial Classic 天映经典 (Celestial Classic Movies) (Indonesian Subtitle) (576p)
+http://210.210.155.37/qwr9ew/s/s31/index.m3u8
+#EXTINF:-1 tvg-id="CelestialMovies.hk" tvg-country="BD;BN;HK;ID;MY;SG;TW" tvg-language="Chinese" tvg-logo="https://i.imgur.com/KYP1xXZ.png" group-title="Movies",Celestial Movies (Indonesian Subtitle) (576p)
+http://210.210.155.37/dr9445/h/h14/index.m3u8
 #EXTINF:-1 tvg-id="CGTN.cn" tvg-country="INT" tvg-language="Chinese;English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/512px-CGTN.svg.png" group-title="News",CGTN (576p)
 https://news.cgtn.com/resource/live/english/cgtn-news.m3u8
 #EXTINF:-1 tvg-id="CGTNDocumentary.cn" tvg-country="INT" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d6/CGTN_Documentary_logo.png" group-title="Documentary",CGTN Documentary (576p)
@@ -32,14 +34,14 @@ https://livecdn.fptplay.net/sdb/kbs_hls.smil/playlist.m3u8
 https://livecdn.fptplay.net/hda1/kixhd_vhls.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="MetroGlobeNetwork.id" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/NTCI3lf.png" group-title="Culture",Metro Globe Network (1080p) [Not 24/7]
 https://edge.medcom.id/live-edge/smil:mgnch.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="NASATV.us" tvg-country="INT" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/NASA_TV.svg/512px-NASA_TV.svg.png" group-title="Science",NASA TV (720p)
-https://uplynkcontent.sinclairstoryline.com/channel/ddd76fdc1c0a456ba537e4f48e827d3e.m3u8
+#EXTINF:-1 tvg-id="NASATV.us" tvg-country="INT" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/NASA_TV.svg/512px-NASA_TV.svg.png" group-title="Science",NASA TV (720p) [Not 24/7]
+https://hls.ums.ustream.tv/playlist/directhls/channel/6540154/playlist.m3u8?sgn=31d0dfb847c358d4cedcd2256dc4e1c42a7f13a7
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp" tvg-country="INT" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/NHK_World-Japan_TV.svg/512px-NHK_World-Japan_TV.svg.png" group-title="Culture;News",NHK World Japan (1080p)
 https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
 #EXTINF:-1 tvg-id="PhoenixChineseChannel.hk" tvg-country="HK" tvg-language="Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/3/34/Phoenix_Chinese.svg/512px-Phoenix_Chinese.svg.png" group-title="General",Phoenix Chinese Channel (鳳凰衛視中文) (576p) [Geo-blocked]
 http://210.210.155.35/uq2663/h/h157/index2.m3u8
-#EXTINF:-1 tvg-id="PhoenixInfoNewsChannel.hk" tvg-country="HK" tvg-language="Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/1/16/Phoenix_InfoNews.svg/512px-Phoenix_InfoNews.svg.png" group-title="News",Phoenix InfoNews Channel (鳳凰衛視資訊) (576p)
-http://210.210.155.37/qwr9ew/s/s21/index.m3u8
+#EXTINF:-1 tvg-id="PhoenixInfoNewsChannel.hk" tvg-country="HK" tvg-language="Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/1/16/Phoenix_InfoNews.svg/512px-Phoenix_InfoNews.svg.png" group-title="News",Phoenix InfoNews Channel (鳳凰衛視資訊) (576p) [Geo-blocked]
+http://210.210.155.35/qwr9ew/s/s21/index.m3u8
 #EXTINF:-1 tvg-id="RedBullTV.at" tvg-country="INT" tvg-language="English;German" tvg-logo="https://i.imgur.com/7NeBmWX.jpg" group-title="Sports",Red Bull TV (1080p)
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
 #EXTINF:-1 tvg-id="RTDocumentary.ru" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/XJGki3v.png" group-title="Documentary",RT Documentary (1080p) [Geo-blocked]
@@ -75,8 +77,10 @@ http://116.199.5.51:8114/00000000/hls/index.m3u8?Fsv_chan_hls_se_idx=188&Fsv_cty
 http://116.199.5.52:8114/00000000/index.m3u8?Fsv_CMSID=&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Fsv_chan_hls_se_idx=188&Fsv_cid=0&Fsv_ctype=LIVES&Fsv_ctype=LIVES&Fsv_filetype=1&Fsv_otype=1&Fsv_otype=1&Fsv_rate_id=0&FvSeid=5abd1660af1babb4&Pcontent_id=&Provider_id=
 #EXTINF:-1 tvg-id="TVMInternacional.mz" tvg-country="INT" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/Ns3WrOQ.png" group-title="General",TVM Internacional (480p) [Not 24/7]
 http://online.tvm.co.mz:1935/live/smil:Channel2.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="TVNMovies.hk" tvg-country="BN;HK;ID;MY;PH;SG;TH;VN" tvg-language="Chinese;English;Indonesian;Korean;Thai" tvg-logo="https://i.imgur.com/oLzTyUX.png" group-title="Movies",tvN Movies (Indonesian Subtitle) (576p) [Geo-blocked]
-http://210.210.155.35/dr9445/h/h21/index.m3u8
+#EXTINF:-1 tvg-id="TVNAsia.hk" tvg-country="BN;HK;ID;MY;PH;SG;TH;VN" tvg-language="Chinese;English;Indonesian;Korean;Thai" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Logo_tvN.svg/512px-Logo_tvN.svg.png" group-title="Undefined",tvN (Indonesian Subtitle) (576p)
+http://210.210.155.37/dr9445/h/h20/index.m3u8
+#EXTINF:-1 tvg-id="TVNMovies.hk" tvg-country="BN;HK;ID;MY;PH;SG;TH;VN" tvg-language="Chinese;English;Indonesian;Korean;Thai" tvg-logo="https://i.imgur.com/oLzTyUX.png" group-title="Movies",tvN Movies (Indonesian Subtitle) (576p)
+http://210.210.155.37/dr9445/h/h21/index.m3u8
 #EXTINF:-1 tvg-id="UNWebTV.us" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/lPyJhBN.png" group-title="News",UN Web TV (540p)
 https://cdnapi.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_gb6tjmle/protocol/https/format/applehttp/a.m3u8
 #EXTINF:-1 tvg-id="ViuTVsix.hk" tvg-country="HK" tvg-language="Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/ViuTVsix-logo.svg/512px-ViuTVsix-logo.svg.png" group-title="Undefined",ViuTVsix
