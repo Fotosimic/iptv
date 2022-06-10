@@ -47,8 +47,9 @@ https://news.cgtn.com/resource/live/espanol/cgtn-e.m3u8
 https://gcamhls02-i.akamaihd.net/hls/live/1024257/ClassicArts/master.m3u8
 #EXTINF:-1 tvg-id="CNNenEspanol.us" tvg-country="LATAM;US" tvg-language="Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Logo_de_CNN_en_Espa%C3%B1ol_%282010-2015%29.svg/512px-Logo_de_CNN_en_Espa%C3%B1ol_%282010-2015%29.svg.png" group-title="News",CNN en Español
 http://209.91.213.10:8088/play/a014
-#EXTINF:-1 tvg-id="ConectaTV.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/9TGQZzk.png" group-title="Music",Conecta TV (720p)
-http://204.12.211.210:1935/conectatv/conectatv/playlist.m3u8
+#EXTINF:-1 tvg-id="ConectaTV.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/9TGQZzk.png" group-title="Music",Conecta TV (720p) [Not 24/7]
+#EXTVLCOPT:http-referrer=https://ssh101.com/
+https://tna5.bozztv.com/Conectatvmexico/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="MX" tvg-language="" tvg-logo="" group-title="Undefined",CorTV (800p)
 https://stream.oursnetworktv.com/latin/encoder29/playlist.m3u8
 #EXTINF:-1 tvg-id="DemandAfricaMexico.us" tvg-country="MX" tvg-language="English" tvg-logo="https://i.imgur.com/sr5vC8z.jpg" group-title="Entertainment",Demand Africa (Mexico) (1080p)
@@ -63,8 +64,6 @@ http://186.0.233.76:1935/Garage/smil:garage.smil/master.m3u8
 https://wifispeed.trapemn.tv:1936/infantil/energeek-1/playlist.m3u8
 #EXTINF:-1 tvg-id="EnerGeek2.cl" tvg-country="CL;HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/ukT8LT0.png" group-title="Entertainment",EnerGeek Señal 2 (720p) [Not 24/7]
 https://wifispeed.trapemn.tv:1936/infantil/energeek-2/playlist.m3u8
-#EXTINF:-1 tvg-id="EJTV.cr" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/UpvMgJq.png" group-title="Religious",Enlace Juvenil (EJTV) (288p) [Not 24/7]
-https://api.new.livestream.com/accounts/ejtvla/events/2294538/live.m3u8
 #EXTINF:-1 tvg-id="EnlaceTV.cr" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/ba4wF0N.png" group-title="Religious",EnlaceTV (720p) [Not 24/7]
 https://v4.tustreaming.cl/enlacebpbtv/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="MX" tvg-language="" tvg-logo="" group-title="Undefined",Euronews en Español (720p)
@@ -95,8 +94,6 @@ https://insighttv-vizio.amagi.tv/playlist.m3u8
 https://5fa5de1a545ae.streamlock.net/sisjalisciense/sisjalisciense/playlist.m3u8
 #EXTINF:-1 tvg-id="KBSWorld.kr" tvg-country="INT" tvg-language="English;Korean" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/KBS_World_%282009%29.svg/512px-KBS_World_%282009%29.svg.png" group-title="General",KBS World (720p)
 https://livecdn.fptplay.net/sdb/kbs_hls.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="LaOctavaTV.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/qQjenrC.png" group-title="Undefined",La Octava TV (1080p) [Not 24/7]
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.dailymotion.com/video/x80mow9
 #EXTINF:-1 tvg-id="LatinoKids.uy" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/CBUf3K1.png" group-title="Entertainment",LatinoKids (360p) [Not 24/7]
 https://videostreaming.cloudserverlatam.com/8062/8062/playlist.m3u8
 #EXTINF:-1 tvg-id="LocomotionTV.do" tvg-country="ES;HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/auEJJvP.png" group-title="Animation",Locomotion TV (480p) [Not 24/7]
@@ -113,8 +110,8 @@ https://5ca3e84a76d30.streamlock.net/mexiquense/videomexiquense/playlist.m3u8
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCFxHplbcoJK9m70c4VyTIxg/live
 #EXTINF:-1 tvg-id="MonteMaria.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/OzVUVoX.jpg" group-title="Religious",Monte Maria (720p)
 https://rbaca.livestreamingcdn.com/envivo3/smil:live.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="Moovimex.us" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/mty0mgJ.jpg" group-title="Movies",Moovimex (720p)
-https://dai2.xumo.com/amagi_hls_data_xumo1212A-viziomoovimex/CDN/playlist.m3u8
+#EXTINF:-1 tvg-id="Moovimex.us" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/mty0mgJ.jpg" group-title="Movies",Moovimex (432p)
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-rokumoovimex/CDN/playlist.m3u8
 #EXTINF:-1 tvg-id="MultimediosGuadalajara.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/0bznKvP.jpg" group-title="Undefined",Multimedios Guadalajara (720p) [Geo-blocked]
 https://mdstrm.com/live-stream-playlist/5c54d38ca392a5119bb0aa0d.m3u8
 #EXTINF:-1 tvg-id="MultimediosLaguna.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/Zj8mOEo.png" group-title="Undefined",Multimedios Laguna (720p) [Geo-blocked]
@@ -137,8 +134,6 @@ https://d24sa4vr9gvjv.cloudfront.net/index.m3u8
 http://jjooliveclarovideo.akamaized.net/Content/hls/Live/Channel(tveducationch01)/index.m3u8
 #EXTINF:-1 tvg-id="EuronewsEnglish.fr" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Pluto TV Euronews (720p) [Not 24/7]
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60d3583ef310610007fb02b1/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&serverSideAds=false&studio_id=viacom&tags=ROKU_CONTENT_TAGS
-#EXTINF:-1 tvg-id="WorldPokerTour.us" tvg-country="INT" tvg-language="English" tvg-logo="https://images.pluto.tv/channels/5f8ecfb9db6c180007a6d1b0/colorLogoPNG.png" group-title="Sports",Pluto TV World Poker Tour (720p)
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ad9b7aae738977e2c312132/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=1&deviceId=5ad9b7aae738977e2c312132&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=DE&serverSideAds=false&sid=48d01e71-b553-42a5-9205-affb7381b546&terminate=false&userId=
 #EXTINF:-1 tvg-id="" tvg-country="MX" tvg-language="" tvg-logo="" group-title="Undefined",POP TV (542p) [Not 24/7]
 https://5ca3e84a76d30.streamlock.net/gpacifico3/smil:obregon.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="QuieroTV.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/k0XbBp8.png" group-title="Undefined",Quiero TV (480p) [Not 24/7]
@@ -159,6 +154,9 @@ https://rt-rtd.rttv.com/live/rtdoc/playlist.m3u8
 https://rt-esp.rttv.com/live/rtesp/playlist.m3u8
 #EXTINF:-1 tvg-id="RTNews.ru" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/tyXIHlj.png" group-title="News",RT News (1080p) [Geo-blocked]
 https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
+#EXTINF:-1 tvg-id="RTPInternacional.pt" tvg-country="INT" tvg-language="Portuguese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/RTP_Internacional_2016_%28Reduced_Version%29.svg/512px-RTP_Internacional_2016_%28Reduced_Version%29.svg.png" group-title="General" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0",RTP Internacional (504p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0
+https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RTQQueretaro.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/H1AFRJh.png" group-title="Undefined",RTQ Queretaro (360p) [Not 24/7]
 http://wms.tecnoxia.com:1935/rytqrolive/rytqrolive/master.m3u8
 #EXTINF:-1 tvg-id="SanIsidroTV.do" tvg-country="DO;LATAM" tvg-language="Spanish" tvg-logo="https://sanisidrotv.com/wp-content/uploads/2020/10/logo-san-isidro-tv-png-1-300x221.png" group-title="General",San Isidro TV (360p) [Not 24/7]
@@ -191,6 +189,8 @@ https://github.com/LaneSh4d0w/IPTV_Exception/raw/master/channels/ve/telesur.m3u8
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UC5ZtV3bu3bjSuOLoA6oCFIg/live
 #EXTINF:-1 tvg-id="TelevisaChihuahua.mx" tvg-country="MX-CHH" tvg-language="Spanish" tvg-logo="https://i.imgur.com/CAuAu0Z.png" group-title="Undefined",Televisa Chihuahua (720p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCjfxDe7In59Jbfw2HmIh_Vg/live
+#EXTINF:-1 tvg-id="TelevisaCiudadJuarez.mx" tvg-country="MX-CHH" tvg-language="Spanish" tvg-logo="https://i.imgur.com/4vEFJxf.png" group-title="Undefined",Televisa Ciudad Juarez (720p) [Not 24/7]
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCot4t8PVKz8TT5xVM8Eb00w/live
 #EXTINF:-1 tvg-id="TelevisaDelGolfo.mx" tvg-country="MX-TAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/35fsRTS.jpg" group-title="Undefined",Televisa Del Golfo
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCQ08tNTPiBn44c975S81ftg/live
 #EXTINF:-1 tvg-id="TelevisaEstado.mx" tvg-country="MX-CMX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/gyZCypH.png" group-title="Undefined",Televisa Estado (1080p) [Not 24/7]
@@ -241,8 +241,6 @@ https://5ca3e84a76d30.streamlock.net/tvunam/videotvunam/playlist.m3u8?DVR=
 https://america-crtvg.flumotion.com/playlist.m3u8
 #EXTINF:-1 tvg-id="TVMInternacional.mz" tvg-country="INT" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/Ns3WrOQ.png" group-title="General",TVM Internacional (480p) [Not 24/7]
 http://online.tvm.co.mz:1935/live/smil:Channel2.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="XHGVTDT.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/15kcNRb.png" group-title="Undefined",TVMÁS (XHGV-TDT) (360p) [Not 24/7]
-https://5ca9af4645e15.streamlock.net/rtv/videortv/playlist.m3u8
 #EXTINF:-1 tvg-id="TVP.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/mw4992J.png" group-title="Undefined",TVP (720p) [Not 24/7]
 https://5ca3e84a76d30.streamlock.net/gpacifico4/smil:mazatlan.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="MX" tvg-language="" tvg-logo="" group-title="Undefined",TVP Culiacán (720p) [Not 24/7]
@@ -261,3 +259,5 @@ https://59a564764e2b6.streamlock.net/vallenato/Vallenato2/playlist.m3u8
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.dailymotion.com/vpitv
 #EXTINF:-1 tvg-id="WorldFashionChannelInternational.ru" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/JyslMHb.jpg" group-title="Lifestyle",World Fashion Channel (1080p)
 https://wfcint.mediacdn.ru/cdn/wfcintweb/playlist.m3u8
+#EXTINF:-1 tvg-id="WorldPokerTour.us" tvg-country="INT" tvg-language="English" tvg-logo="https://images.pluto.tv/channels/5f8ecfb9db6c180007a6d1b0/colorLogoPNG.png" group-title="Sports",World Poker Tour (1080p) [Not 24/7]
+https://dth07jsr8atug.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/WPT-Plex/171.m3u8
