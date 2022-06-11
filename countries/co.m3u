@@ -21,6 +21,8 @@ https://movil.ejeserver.com/live/verteve.m3u8
 https://s1.abntelevision.com/avivamientoabr/stream/avivamientohd/avivamientohd/playlist.m3u8
 #EXTINF:-1 tvg-id="BBCNews.uk" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/rPzH88J.png" group-title="News",BBC News HD (720p) [Geo-blocked]
 https://cdnuk001.broadcastcdn.net/KUK-BBCNEWSHD/index.m3u8
+#EXTINF:-1 tvg-id="BuenisimaRadioTV.co" tvg-country="CO" tvg-language="Spanish" tvg-logo="https://cdn.colombia.com/canales/buenisima-radio-tv-4865.jpg" group-title="Undefined",Buenísima Radio TV (Gamarra | Cesar) (1080p) [Not 24/7]
+https://streamyes.alsolnet.com/buturama/live/playlist.m3u8
 #EXTINF:-1 tvg-id="Cablenoticias.co" tvg-country="CO" tvg-language="Spanish" tvg-logo="https://i.imgur.com/DoYLGdX.jpg" group-title="News",Cablenoticias (Bogotà | Cundinamarca) (1080p)
 https://5ea86ddd14ce7.streamlock.net/live/cable09061970/playlist.m3u8
 #EXTINF:-1 tvg-id="CaliTV.co" tvg-country="CO-VAC" tvg-language="Spanish" tvg-logo="https://i.imgur.com/AZOTbvH.png" group-title="Undefined",Cali TV (Santiago de Cali | Valle del Cauca) (540p) [Not 24/7]
@@ -63,8 +65,6 @@ https://byecableiptv.com/canapycvivo/canalpyc.stream/playlist.m3u8
 https://server12.videostreaming.net:3628/stream/play.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="CO" tvg-language="" tvg-logo="" group-title="Undefined",Canal Trece (1080p)
 https://stream.logicideas.media/canaltrece-live/smil:live.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="CO" tvg-language="" tvg-logo="" group-title="Undefined",Canal Trece (not working perfectly)
-https://canaltrece-live.logicideas.media/canaltrece-live/smil:live.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="CO" tvg-language="" tvg-logo="" group-title="Undefined",Canal Trece + (1080p)
 https://stream.logicideas.media/canaltreceplus-live/smil:live1plus.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="CO" tvg-language="" tvg-logo="" group-title="Undefined",Canal Trece Plus (not working perfectly)
@@ -154,10 +154,16 @@ https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
 #EXTINF:-1 tvg-id="RTPInternacional.pt" tvg-country="INT" tvg-language="Portuguese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/RTP_Internacional_2016_%28Reduced_Version%29.svg/512px-RTP_Internacional_2016_%28Reduced_Version%29.svg.png" group-title="General" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0",RTP Internacional (504p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0
 https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="SanIsidroTV.do" tvg-country="DO;LATAM" tvg-language="Spanish" tvg-logo="https://sanisidrotv.com/wp-content/uploads/2020/10/logo-san-isidro-tv-png-1-300x221.png" group-title="General",San Isidro TV (360p) [Not 24/7]
+https://cdn4.hostlagarto.com:8081/static/sanisidrotv/playlist.m3u8
 #EXTINF:-1 tvg-id="SEAToday.id" tvg-country="INT" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/SEA_Today_Indonesia_Logo.png/512px-SEA_Today_Indonesia_Logo.png" group-title="Undefined",Sea Today (720p) [Geo-blocked]
 https://cdn-telkomsel-01.akamaized.net/Content/DASH/Live/channel(9ce3f094-4044-467e-84b7-b684a49571d5)/manifest.mpd
 #EXTINF:-1 tvg-id="SenalColombia.co" tvg-country="CO" tvg-language="Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Se%C3%B1al_Colombia_logo.svg/512px-Se%C3%B1al_Colombia_logo.svg.png" group-title="General",Señal Colombia (1080p)
 https://streaming.rtvc.gov.co/TV_Senal_Colombia_live/smil:live.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="SEOTV.bo" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/5IPjtJk.png" group-title="General",SEO TV (720p) [Not 24/7]
+https://panel.seo.tv.bo:3645/live/franzleonel0live.m3u8
+#EXTINF:-1 tvg-id="SEOTVNovelas.bo" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/5IPjtJk.png" group-title="Series",SEO TV Novelas (540p) [Not 24/7]
+https://panel.seo.tv.bo:3337/live/franzbalboa2live.m3u8
 #EXTINF:-1 tvg-id="SICInternacional.pt" tvg-country="INT" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/UgJ5lac.png" group-title="Undefined",SIC Internacional (720p)
 http://live.impresa.pt/live/sicint/sicint.m3u8
 #EXTINF:-1 tvg-id="SoloStandUp.cl" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/U872KLT.png" group-title="Comedy",SoloStandUp (480p) [Not 24/7]
@@ -169,6 +175,9 @@ https://play.amelbasoluciones.co:3971/live/tdicolombiatvlive.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="CO" tvg-language="" tvg-logo="" group-title="Undefined",Teleamiga (Bogotà | Cundinamarca) (480p) [Not 24/7]
 #EXTVLCOPT:http-referrer=https://player.instantvideocloud.net/
 https://liveingesta118.cdnmedia.tv/teleamigatvlive/smil:dvrlive.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="Teleantioquia2.co" tvg-country="CO" tvg-language="Spanish" tvg-logo="https://i.imgur.com/weLuMcS.png" group-title="General",Teleantioquia 2 (720p) [Not 24/7]
+#EXTVLCOPT:http-referrer=https://player.instantvideocloud.net/
+https://liveingesta118.cdnmedia.tv/teleantioquialive/smil:dvrlive2.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Teleantioquia.co" tvg-country="CO" tvg-language="Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Teleantioquia_logo.svg/512px-Teleantioquia_logo.svg.png" group-title="General",Teleantioquia (360p) [Not 24/7]
 #EXTVLCOPT:http-referrer=https://player.instantvideocloud.net/
 https://liveingesta118.cdnmedia.tv/teleantioquialive/smil:dvrlive.smil/playlist.m3u8
@@ -178,9 +187,9 @@ http://38.131.11.9:1080/play/a0ct
 https://tkx.mp.lura.live/rest/v2/mcp/video/adstB64MXYxqLZwy?anvack=4gXmVVoVIp3YeECJWm6af3j0mlHwl6vO&eud=SKjoH1L/9Enwo5zQBiBTRfTSNGfENMNO6udm4CQNVvix/L9XX8kucBOvzWalIghNrL5GllGH8ou17ICYGv29Rg==
 #EXTINF:-1 tvg-id="Teleislas.co" tvg-country="CO-SAP" tvg-language="Spanish" tvg-logo="https://i.imgur.com/4xNgb8H.png" group-title="General",Teleislas (486p) [Not 24/7]
 https://5ab772334c39c.streamlock.net/live-teleislas/teleislas/playlist.m3u8
-#EXTINF:-1 tvg-id="Telemedellin.co" tvg-country="CO" tvg-language="Spanish" tvg-logo="https://i.imgur.com/GnxzRTC.png" group-title="General",Telemedellin (360p) [Not 24/7]
-#EXTVLCOPT:http-referrer=https://ssh101.com/
-https://tna5.bozztv.com/telemedradio/index.m3u8
+#EXTINF:-1 tvg-id="Telemedellin.co" tvg-country="CO" tvg-language="Spanish" tvg-logo="https://i.imgur.com/GnxzRTC.png" group-title="General",Telemedellin (720p) [Not 24/7]
+#EXTVLCOPT:http-referrer=https://player.instantvideocloud.net/
+https://liveingesta118.cdnmedia.tv/telemedellintvlive/smil:dvrlive.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TelemusicaTV.co" tvg-country="CO" tvg-language="Spanish" tvg-logo="https://i.imgur.com/bwp5lST.png" group-title="Music",Telemúsica TV (480p)
 https://5b464b69d264e.streamlock.net/Channels_live/ngrp:telemusica_all/playlist.m3u8
 #EXTINF:-1 tvg-id="Telepacifico.co" tvg-country="CO-CAU;CO-CHO;CO-NAR;CO-VAC" tvg-language="Spanish" tvg-logo="https://i.imgur.com/39hy97J.png" group-title="Undefined",Telepacífico (Santiago de Cali | Valle del Cauca) (720p) [Not 24/7]
@@ -191,14 +200,12 @@ https://q-s-l4n3sh4d0w.onrender.com/iptv-query?streaming-ip=https://teveo.com.co
 https://github.com/LaneSh4d0w/IPTV_Exception/raw/master/channels/ve/telesur.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="CO" tvg-language="" tvg-logo="" group-title="Undefined",TeleVID
 https://api.new.livestream.com/accounts/28238881/events/8574038/live.m3u8
-#EXTINF:-1 tvg-id="Tevex.cl" tvg-country="CL;HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/sj4sEaN.png" group-title="Business",Tevex (720p) [Not 24/7]
-https://v4.tustreaming.cl/tevexinter/index.m3u8
 #EXTINF:-1 tvg-id="TopLatinoTV.pe" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/VMMNhkf.png" group-title="Music",Top Latino TV (404p) [Not 24/7]
 https://5cefcbf58ba2e.streamlock.net/tltvweb/tvweb.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="TRTWorld.tr" tvg-country="INT" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TRT_World.svg/512px-TRT_World.svg.png" group-title="News",TRT World (720p) [Not 24/7]
 https://tv-trtworld.live.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="TVAgro.co" tvg-country="CO" tvg-language="Spanish" tvg-logo="https://i.imgur.com/QJibSpO.png" group-title="Outdoor",TV Agro
-http://179.1.7.198:1935/live/TVAgroHD.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="TruTVAmericaLatina.us" tvg-country="HISPAM" tvg-language="English;Portuguese;Spanish" tvg-logo="https://cdn.mitvstatic.com/channels/ar_tru-tv_m.png" group-title="Undefined",Tru TV América Latina
+http://190.61.37.173:9001/play/a084/index.m3u8
 #EXTINF:-1 tvg-id="TVPeruInternacional.pe" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://www.tvperu.gob.pe/sites/all/themes/stability/images/logo_TVPE_PLAY.png" group-title="General",TV Perú Internacional (460p) [Not 24/7]
 http://cdnh4.iblups.com/hls/irtp.m3u8
 #EXTINF:-1 tvg-id="TVGAmerica.es" tvg-country="ES;HISPAM" tvg-language="Galician" tvg-logo="https://i.imgur.com/1Z6svKc.jpg" group-title="General",TVG América (720p)
@@ -213,6 +220,8 @@ https://stmv2.voxtvhd.com.br/tvnglobal/tvnglobal/playlist.m3u8
 https://livedelta.cdn.antel.net.uy/out/u/url_canalu_2.m3u8
 #EXTINF:-1 tvg-id="UNWebTV.us" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/lPyJhBN.png" group-title="News",UN Web TV (540p)
 https://cdnapi.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_gb6tjmle/protocol/https/format/applehttp/a.m3u8
+#EXTINF:-1 tvg-id="" tvg-country="CO" tvg-language="" tvg-logo="" group-title="Undefined",UNAB (Universidad Autonoma de Bucaramanga) TV2 (Bucaramanga | Santander)
+https://q-s-l4n3sh4d0w.onrender.com/iptv-query?streaming-ip=https://teveo.com.co/player/AcAAAgAXAALQA1IAyADIRKgAAAAAAAAA.js
 #EXTINF:-1 tvg-id="" tvg-country="CO" tvg-language="" tvg-logo="" group-title="Undefined",UNAB (Universidad Autonoma de Bucaramanga) TV (Bucaramanga | Santander)
 https://q-s-l4n3sh4d0w.onrender.com/iptv-query?streaming-ip=https://teveo.com.co/player/AcAAAgAXAALPA1IAyADIVKgAAAAAAAAA.js
 #EXTINF:-1 tvg-id="VallenatoInternacional.us" tvg-country="HISPAM;US" tvg-language="Spanish" tvg-logo="https://i.imgur.com/svgW3Fr.png" group-title="Music",Vallenato Internacional (720p) [Not 24/7]
