@@ -1,6 +1,8 @@
 #EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/ao/guide.dstv.com.epg.xml,https://iptv-org.github.io/epg/guides/bf/canalplus-afrique.com.epg.xml,https://iptv-org.github.io/epg/guides/bi/guide.dstv.com.epg.xml,https://iptv-org.github.io/epg/guides/et/guide.dstv.com.epg.xml,https://iptv-org.github.io/epg/guides/ke/guide.dstv.com.epg.xml,https://iptv-org.github.io/epg/guides/km/canalplus-reunion.com.epg.xml,https://iptv-org.github.io/epg/guides/mw/guide.dstv.com.epg.xml,https://iptv-org.github.io/epg/guides/mz/guide.dstv.com.epg.xml,https://iptv-org.github.io/epg/guides/ng/dstv.com.epg.xml,https://iptv-org.github.io/epg/guides/tz/startimestv.com.epg.xml"
 #EXTINF:-1 tvg-id="2STV.sn" tvg-country="SN" tvg-language="French" tvg-logo="https://i.imgur.com/3mbeewx.png" group-title="Undefined",2STV (720p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.dailymotion.com/video/x7vidbb
+#EXTINF:-1 tvg-id="3TV.bf" tvg-country="BF" tvg-language="French" tvg-logo="https://i.imgur.com/oYctB4J.png" group-title="Undefined",3TV (720p) [Not 24/7]
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.twitch.tv/3tvbf
 #EXTINF:-1 tvg-id="A2iMusic.sn" tvg-country="SN" tvg-language="French;Wolof" tvg-logo="https://i.imgur.com/tH7EZL4.jpg" group-title="Music",A2i Music (720p) [Not 24/7]
 https://stream.sen-gt.com/A2iMusic/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="A2iNaja.sn" tvg-country="SN" tvg-language="French;Wolof" tvg-logo="https://i.imgur.com/tH7EZL4.jpg" group-title="Undefined",A2i Naja (720p) [Not 24/7]
@@ -41,6 +43,8 @@ http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/user/ke
 https://radio.congoplanet.com/Congo_Planet_TV.sdp/Congo_Planet_TV/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="CD" tvg-language="" tvg-logo="" group-title="Undefined",Congo Planet Television Pop (1080p)
 https://radio.congoplanet.com/Congo_Planet_TV_Pop.sdp/Congo_Planet_TV_Pop/playlist.m3u8
+#EXTINF:-1 tvg-id="ERITV1.er" tvg-country="ER" tvg-language="Tigrinya" tvg-logo="https://www.lyngsat.com/logo/tv/ee/eri_tv.png" group-title="Undefined",Eri TV (480p)
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.filmon.com/tv/eri-tv
 #EXTINF:-1 tvg-id="" tvg-country="BJ" tvg-language="" tvg-logo="" group-title="Undefined",Etélé (360p) [Not 24/7]
 https://livetvsteam.com:1936/etelebenin/etelebenin/playlist.m3u8
 #EXTINF:-1 tvg-id="FasoTV.bf" tvg-country="BF" tvg-language="French" tvg-logo="https://fasotv.net/wp-content/uploads/2019/08/log-faso.png" group-title="Undefined",Faso TV (480p) [Not 24/7]
@@ -61,8 +65,6 @@ http://free.fullspeed.tv/iptv-query?streaming-ip=https://dai.ly/x74211t
 http://197.243.19.131:1935/kc2/kc2/chunklist.m3u8
 #EXTINF:-1 tvg-id="KTNNews.ke" tvg-country="KE" tvg-language="English" tvg-logo="https://i.imgur.com/ZtBNujz.png" group-title="News",KTN News (720p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/user/standardgroupkenya/live
-#EXTINF:-1 tvg-id="LagosTelevision.ng" tvg-country="NG" tvg-language="English" tvg-logo="https://i.imgur.com/rjLxSfx.png" group-title="Undefined",Lagos Television (360p) [Not 24/7]
-http://185.105.4.193:1935/ltv/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="MBC.mw" tvg-country="MW" tvg-language="English" tvg-logo="https://i.imgur.com/YtaF4oP.png" group-title="General",MBC (614p) [Not 24/7]
 http://41.216.229.205:8080/live/livestream/index.m3u8
 #EXTINF:-1 tvg-id="MyTVChannel.cm" tvg-country="CM" tvg-language="French" tvg-logo="https://i.imgur.com/BuKv5Vj.png" group-title="Undefined",My TV Channel (720p) [Not 24/7]
@@ -88,17 +90,17 @@ http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.dailymotion.com/vid
 #EXTINF:-1 tvg-id="RTB.bf" tvg-country="BF" tvg-language="French" tvg-logo="https://www.rtb.bf/wp-content/uploads/2020/04/LOgo-RTB-272-90-3.png" group-title="Undefined",RTB (360p) [Not 24/7]
 https://edge.vedge.infomaniak.com/livecast/ik:rtbtvlive1/manifest.m3u8
 #EXTINF:-1 tvg-id="RwandaTV.rw" tvg-country="RW" tvg-language="English" tvg-logo="https://service.canal-overseas.com/image-api/v1/image/745aa9a13c620e1d4533ea14fa0b5d6c" group-title="Undefined",RTV Rwanda (480p) [Not 24/7]
-https://5c46fa289c89f.streamlock.net/rtv/rtv/playlist.m3u8
+http://197.243.19.131:1935/rtv/rtv/chunklist.m3u8
 #EXTINF:-1 tvg-id="Somalicable.so" tvg-country="SO" tvg-language="Somali" tvg-logo="https://i.imgur.com/eoKTOXl.png" group-title="Undefined",Somali cable (576p)
 https://ap02.iqplay.tv:8082/iqb8002/somc131/chunks.m3u8
 #EXTINF:-1 tvg-id="SomaliNationalTV.so" tvg-country="SO" tvg-language="Somali" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d6/SNTV_REBRANDED_LOGO.png" group-title="Undefined",Somali National TV (360p)
 https://ap02.iqplay.tv:8082/iqb8002/s4ne/chunks.m3u8
 #EXTINF:-1 tvg-id="SudanBukra.sd" tvg-country="SD" tvg-language="Arabic" tvg-logo="https://i.imgur.com/tkBFpJu.jpg" group-title="Undefined",Sudan Bukra (720p)
 http://live.ditve.tv:1935/sudanbukra/sudanbukra.stream_720p/playlist.m3u8
+#EXTINF:-1 tvg-id="SwitchTV.ke" tvg-country="KE" tvg-language="English" tvg-logo="https://i.imgur.com/K0Et3vD.png" group-title="General",Switch TV (480p) [Not 24/7]
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://dai.ly/x7sxle3
 #EXTINF:-1 tvg-id="TFM.sn" tvg-country="SN" tvg-language="French" tvg-logo="https://i.imgur.com/tT3YSNF.png" group-title="Undefined",TFM (720p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.dailymotion.com/video/x7wcr45
-#EXTINF:-1 tvg-id="TPA1.ao" tvg-country="AO" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/XdiL4C4.png" group-title="General",TPA 1 (480p) [Not 24/7]
-https://q-s-l4n3sh4d0w.onrender.com/iptv-query?streaming-ip=https://livestream.com/accounts/30360708/events/9496693/player
 #EXTINF:-1 tvg-id="TV47Kenya.ke" tvg-country="KE" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/38/TV47_Kenya_Logo.jpeg/512px-TV47_Kenya_Logo.jpeg" group-title="General",TV47 (1080p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.twitch.tv/tv47kenya/
 #EXTINF:-1 tvg-id="TVBRICSEnglish.ru" tvg-country="IN;ZA" tvg-language="English" tvg-logo="https://i.imgur.com/vLpm8tN.png" group-title="General",TV BRICS English (1080p)
