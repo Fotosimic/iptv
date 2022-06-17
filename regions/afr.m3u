@@ -7,6 +7,8 @@ http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.dailymotion.com/vid
 https://stream.sen-gt.com/A2iMusic/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="A2iNaja.sn" tvg-country="SN" tvg-language="French;Wolof" tvg-logo="https://i.imgur.com/tH7EZL4.jpg" group-title="Undefined",A2i Naja (720p) [Not 24/7]
 https://stream.sen-gt.com/A2iNaija/myStream/playlist.m3u8
+#EXTINF:-1 tvg-id="A2iReligion.sn" tvg-country="SN" tvg-language="French;Wolof" tvg-logo="https://i.imgur.com/tH7EZL4.jpg" group-title="Religious",A2i Religion (720p) [Not 24/7]
+https://stream.sen-gt.com/A2iReligion/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="SN" tvg-language="" tvg-logo="" group-title="Undefined",A2i TV (1080p) [Not 24/7]
 https://stream.sen-gt.com/A2itv/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="AddisTV.et" tvg-country="ET" tvg-language="Amharic" tvg-logo="https://i.imgur.com/KAg6MOI.png" group-title="Undefined",Addis TV (720p)
@@ -25,8 +27,6 @@ https://rakuten-africanews-1-dk.samsung.wurl.com/manifest/playlist.m3u8
 https://5b622f07944df.streamlock.net/aghapy.tv/aghapy.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AlAlamiya2.sd" tvg-country="SD" tvg-language="Arabic" tvg-logo="https://i.imgur.com/KonAcvc.jpeg" group-title="Undefined",Al Alamiya 2
 http://82.212.74.98:8000/live/7815.m3u8
-#EXTINF:-1 tvg-id="AlAnisTV.dz" tvg-country="DZ" tvg-language="Arabic" tvg-logo="https://i.imgur.com/G60iJen.png" group-title="Undefined",Al Anis TV [Geo-blocked]
-https://cdn02.hta.dz/abr_htatv/El_Fhama_TV/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="MA" tvg-language="" tvg-logo="" group-title="Undefined",Al Aoula International (360p)
 https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_aoula_inter/hls_snrt/al_aoula_inter.m3u8
 #EXTINF:-1 tvg-id="AlAoulaLaayoune.ma" tvg-country="MA" tvg-language="Arabic" tvg-logo="https://i.imgur.com/ZFHjIVU.png" group-title="General",Al Aoula Laayoune (360p)
@@ -76,7 +76,7 @@ http://178.33.237.146/rtnc1.m3u8
 #EXTINF:-1 tvg-id="BahiaTV.dz" tvg-country="DZ" tvg-language="French" tvg-logo="https://i.imgur.com/oBRXuH2.png" group-title="Undefined",Bahia TV [Geo-blocked]
 https://cdn02.hta.dz/abr_htatv/Bahia_TV/playlist.m3u8
 #EXTINF:-1 tvg-id="BeurTV.fr" tvg-country="DZ" tvg-language="French" tvg-logo="https://i.imgur.com/KQcT9cz.png" group-title="Undefined",Beur TV [Geo-blocked]
-https://cdn02.hta.dz/abr_htatv/Beur_TV/htatv/Beur_TV_720p/chunks.m3u8
+https://cdn02.hta.dz/abr_htatv/Beur_TV/playlist.m3u8
 #EXTINF:-1 tvg-id="BossBrothersTV.cd" tvg-country="CD" tvg-language="French" tvg-logo="https://i.imgur.com/KlRMe5h.png" group-title="General",Boss Brothers TV (1080p)
 http://51.254.199.122:8080/bossbrothersTV/index.m3u8
 #EXTINF:-1 tvg-id="TV2.dz" tvg-country="DZ" tvg-language="Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/f/fc/Logo_de_Canal_Alg%C3%A9rie_%282020%29.svg/langfr-200px-Logo_de_Canal_Alg%C3%A9rie_%282020%29.svg.png" group-title="Undefined",Canal Algérie [Geo-blocked]
@@ -106,7 +106,7 @@ https://cdn02.hta.dz/abr_htatv/EL_FADJR_TV_DZ/playlist.m3u8
 #EXTINF:-1 tvg-id="ElHayatTV.dz" tvg-country="DZ" tvg-language="Arabic" tvg-logo="https://i.imgur.com/fNLiJwK.png" group-title="Undefined",El Hayat TV [Geo-blocked]
 https://cdn02.hta.dz/abr_htatv/EL_HAYAT_TV_ALGERIE/playlist.m3u8
 #EXTINF:-1 tvg-id="ElHeddafTV.fr" tvg-country="DZ" tvg-language="Arabic" tvg-logo="https://i.imgur.com/qd1sCE8.png" group-title="Undefined",El Heddaf TV [Geo-blocked]
-https://cdn02.hta.dz/abr_htatv/EL_HEDDAF_TV/htatv/EL_HEDDAF_TV_720p/chunks.m3u8
+https://cdn02.hta.dz/abr_htatv/EL_HEDDAF_TV/playlist.m3u8
 #EXTINF:-1 tvg-id="ElHiwarElTounsi.tn" tvg-country="TN" tvg-language="Arabic" tvg-logo="https://www.elhiwarettounsi.com/images/news/logo.png" group-title="General" user-agent="TNAgexpl212C",El Hiwar El Tounsi (400p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=TNAgexpl212C
 http://217.182.137.206/elhiwar.m3u8
@@ -152,6 +152,8 @@ http://197.243.19.131:1935/kc2/kc2/chunklist.m3u8
 https://5d658d7e9f562.streamlock.net/koogi.tv/koogi.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="KTNNews.ke" tvg-country="KE" tvg-language="English" tvg-logo="https://i.imgur.com/ZtBNujz.png" group-title="News",KTN News (720p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/user/standardgroupkenya/live
+#EXTINF:-1 tvg-id="LagosTelevision.ng" tvg-country="NG" tvg-language="English" tvg-logo="https://i.imgur.com/rjLxSfx.png" group-title="Undefined",Lagos Television (360p) [Not 24/7]
+http://185.105.4.193:1935/ltv/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="218TV.ly" tvg-country="LY" tvg-language="Arabic" tvg-logo="https://i.imgur.com/tjDCpFt.png" group-title="News",Libya 218 (1080p) [Not 24/7]
 https://stream.218tv.net/libya218TV/playlist.m3u8
 #EXTINF:-1 tvg-id="218News.ly" tvg-country="LY" tvg-language="Arabic" tvg-logo="https://i.imgur.com/bAyCFCA.png" group-title="News",Libya 218 News (1080p) [Not 24/7]
@@ -192,8 +194,6 @@ http://livestreaming5.onlinehorizons.net/hls-live/NTNNileCinema/_definst_/liveev
 http://livestreaming5.onlinehorizons.net/hls-live/NTNNileLife/_definst_/liveevent/livestream.m3u8
 #EXTINF:-1 tvg-id="NobleTV.eg" tvg-country="EG" tvg-language="Arabic" tvg-logo="https://noble.tv/assets/css/frontend/scss/dist/imgs/logo.png" group-title="Undefined",Noble TV (360p)
 https://5d39f1ab8ba65.streamlock.net:1935/arabic-test/arabic-test/playlist.m3u8
-#EXTINF:-1 tvg-id="NogoumFMTV.eg" tvg-country="EG" tvg-language="Arabic" tvg-logo="https://storage.googleapis.com/nogoumfm-eu-web/1/2019/12/logo-nogoum-1.png" group-title="Music",Nogoum FM TV (506p) [Not 24/7]
-https://stream-speed.extremesolution.mobi/nogoumfm/nogoumfmlive/playlist.m3u8
 #EXTINF:-1 tvg-id="NTAInternational.ng" tvg-country="NG" tvg-language="English" tvg-logo="https://rndcdn.dstv.com/dstvcms/2018/07/19/NTA_Plus_logo_4-3_001_xlrg.png" group-title="Undefined",NTA International (576p) [Not 24/7]
 https://api.visionip.tv/live/ASHTTP/visiontvuk-entertainment-ntai-hsslive-25f-4x3-MB/playlist.m3u8
 #EXTINF:-1 tvg-id="NTVKenya.ke" tvg-country="KE" tvg-language="English" tvg-logo="https://i.imgur.com/IqXbVQD.png" group-title="General",NTV (720p) [Not 24/7]
@@ -212,6 +212,8 @@ http://213.162.202.5:4000/play/a09u/index.m3u8
 https://cloud.streamingconnect.tv:455/rasdtv/rasdtv.m3u8
 #EXTINF:-1 tvg-id="ResurrectionTV.gh" tvg-country="GH" tvg-language="English" tvg-logo="https://i.imgur.com/d4UOolK.jpg" group-title="Undefined",Resurrection TV (384p)
 http://rtmp.ottdemo.rrsat.com/rrsatrtv1/rrsatrtvmulti.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="RFM.sn" tvg-country="SN" tvg-language="French;Wolof" tvg-logo="https://i.imgur.com/TN9SHFj.png" group-title="Undefined",RFM (720p) [Not 24/7]
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.dailymotion.com/video/x7wi5y1
 #EXTINF:-1 tvg-id="RotanaCinemaEgypt.eg" tvg-country="EG" tvg-language="Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1f/Rotana_Cinema_EG_New.png" group-title="Movies",Rotana Cinema (1080p)
 https://shls-rotanacinema-egy-prod-dub.shahid.net/out/v1/c39c0ecbcbdb46e890e91106776397a8/index.m3u8
 #EXTINF:-1 tvg-id="RTB.bf" tvg-country="BF" tvg-language="French" tvg-logo="https://www.rtb.bf/wp-content/uploads/2020/04/LOgo-RTB-272-90-3.png" group-title="Undefined",RTB (360p) [Not 24/7]
@@ -247,8 +249,6 @@ http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.dailymotion.com/vid
 https://svs.itworkscdn.net/kingdomsatlive/kingdomsat.smil/playlist_dvr.m3u8
 #EXTINF:-1 tvg-id="TPA1.ao" tvg-country="AO" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/XdiL4C4.png" group-title="General",TPA 1 (480p) [Not 24/7]
 https://q-s-l4n3sh4d0w.onrender.com/iptv-query?streaming-ip=https://livestream.com/accounts/30360708/events/9496693/player
-#EXTINF:-1 tvg-id="TunisieImmobilierTV.tn" tvg-country="TN" tvg-language="Arabic" tvg-logo="https://i.imgur.com/cZM2t0P.png" group-title="Travel",Tunisie Immobilier TV (720p) [Not 24/7]
-https://5ac31d8a4c9af.streamlock.net/tunimmob/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="TV7.dz" tvg-country="DZ" tvg-language="Arabic" tvg-logo="https://i.imgur.com/dYlAfFZ.png" group-title="Undefined",TV7 Elmaarifa [Geo-blocked]
 https://cdn02.hta.dz/abr_htatv/TV7_ELMAARIFA/playlist.m3u8
 #EXTINF:-1 tvg-id="TV8.dz" tvg-country="DZ" tvg-language="Arabic" tvg-logo="https://i.imgur.com/l7hw1W6.png" group-title="Undefined",TV8 Edhakira [Geo-blocked]
