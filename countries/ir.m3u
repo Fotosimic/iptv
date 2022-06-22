@@ -98,8 +98,8 @@ http://cdn1.live.irib.ir:1935/epg-live/smil:jahanbin/playlist.m3u8
 https://live.kalemehtv.tv/live/ngrp:kalemeh_all/playlist.m3u8
 #EXTINF:-1 tvg-id="Kanal10Asia.se" tvg-country="ASIA" tvg-language="Swedish" tvg-logo="https://i.imgur.com/RQXBwlz.png" group-title="Religious",Kanal 10 Asia (540p)
 http://cdn-kanal10.crossnet.net:1935/kanal10/kanal10asia/playlist.m3u8
-#EXTINF:-1 tvg-id="KBSWorld.kr" tvg-country="INT" tvg-language="English;Korean" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/KBS_World_%282009%29.svg/512px-KBS_World_%282009%29.svg.png" group-title="General",KBS World (720p)
-https://wms4-kortv.akamaized.net/a_live/63719963/smil:20ch011.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="KBSWorld.kr" tvg-country="INT" tvg-language="English;Korean" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/KBS_World_%282009%29.svg/512px-KBS_World_%282009%29.svg.png" group-title="General",KBS World (Vietnamese Subtitles) (720p)
+https://livecdn.fptplay.net/sdb/kbs_hls.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Manoto.uk" tvg-country="IR" tvg-language="Persian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ee/LOGO_Manoto-Rebrand_2018.png" group-title="Entertainment",Manoto TV (1080p)
 https://dh4wkqcyy8768.cloudfront.net/live.m3u8
 #EXTINF:-1 tvg-id="MarjaeyatTVPersian.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="https://i.imgur.com/fCj05f0.png" group-title="Religious",Marjaeyat (1080p) [Not 24/7]
@@ -112,6 +112,8 @@ https://iptv.mihantv.com/live/playlist1/index.m3u8
 http://204.11.235.251:1935/live_transcoder/ngrp:mohabat.stream_all/playlist.m3u8
 #EXTINF:-1 tvg-id="NASATV.us" tvg-country="INT" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/NASA_TV.svg/512px-NASA_TV.svg.png" group-title="Science",NASA TV (720p)
 https://uplynkcontent.sinclairstoryline.com/channel/ddd76fdc1c0a456ba537e4f48e827d3e.m3u8
+#EXTINF:-1 tvg-id="Navahang.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="https://i.imgur.com/XzNfON4.png" group-title="Music",NAVAHANG (720p)
+http://51.210.227.130/hls/stream.m3u8
 #EXTINF:-1 tvg-id="NegahTV.us" tvg-country="IR" tvg-language="Persian" tvg-logo="https://i.imgur.com/HXEupHG.png" group-title="Entertainment",Negah TV (720p) [Not 24/7]
 https://iptv.negahtv.com/negahtv/playlist2/index.m3u8
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp" tvg-country="INT" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/NHK_World-Japan_TV.svg/512px-NHK_World-Japan_TV.svg.png" group-title="Culture;News",NHK World Japan (1080p)
@@ -183,6 +185,8 @@ https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
 #EXTINF:-1 tvg-id="RTPInternacional.pt" tvg-country="INT" tvg-language="Portuguese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/RTP_Internacional_2016_%28Reduced_Version%29.svg/512px-RTP_Internacional_2016_%28Reduced_Version%29.svg.png" group-title="General" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0",RTP Internacional (504p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0
 https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="RTPInternacionalAsia.pt" tvg-country="ASIA" tvg-language="Portuguese" tvg-logo="https://www.lyngsat.com/logo/tv/rr/rtp_internacional.png" group-title="Undefined",RTP Internacional Asia (480p) [Geo-blocked]
+http://210.210.155.35/qwr9ew/s/s38/index.m3u8
 #EXTINF:-1 tvg-id="SahandTV.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="https://www.lyngsat.com/logo/tv/ss/sahand_tv.png" group-title="Undefined",SAHAND (240p)
 http://cdn1.live.irib.ir:1935/epg-live/smil:sahand/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="IR" tvg-language="" tvg-logo="" group-title="Undefined",Sahar (480p)
@@ -213,8 +217,6 @@ http://51.210.227.134/hls/stream.m3u8
 http://51.210.199.1/hls/stream.m3u8
 #EXTINF:-1 tvg-id="TRTWorld.tr" tvg-country="INT" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TRT_World.svg/512px-TRT_World.svg.png" group-title="News",TRT World (720p) [Not 24/7]
 https://tv-trtworld.live.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="TV5MondeAsie.fr" tvg-country="ASIA" tvg-language="French" tvg-logo="https://cms.dmpcdn.com/livetv/2022/01/18/ca2f0180-7814-11ec-8fd5-c549a9b471b9_webp_original.png" group-title="Undefined",TV5 Monde Asie (576p)
-http://210.210.155.37/dr9445/s/s24/index.m3u8
 #EXTINF:-1 tvg-id="TVMInternacional.mz" tvg-country="INT" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/Ns3WrOQ.png" group-title="General",TVM Internacional (480p) [Not 24/7]
 http://online.tvm.co.mz:1935/live/smil:Channel2.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="UNWebTV.us" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/lPyJhBN.png" group-title="News",UN Web TV (540p)
