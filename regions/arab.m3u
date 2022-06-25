@@ -213,6 +213,8 @@ http://185.105.4.106:1935/live/Bahrain+TV/playlist.m3u8
 https://vs-cmaf-pushb-ww.live.cf.md.bbci.co.uk/x=3/i=urn:bbc:pips:service:bbc_arabic_tv/pc_hd_abr_v2_cloudfrontms_live.mpd
 #EXTINF:-1 tvg-id="BeitolAbbasTVChannel.iq" tvg-country="IQ" tvg-language="Arabic" tvg-logo="https://www.lyngsat.com/logo/tv/bb/beitolabbas-tv-channel-iq.png" group-title="Religious",BeitolAbbas TV (720p) [Not 24/7]
 http://live.beitolabbas.tv/live/beitolabbastv.m3u8
+#EXTINF:-1 tvg-id="Beity.sa" tvg-country="SA" tvg-language="Arabic" tvg-logo="https://i.imgur.com/7aD1yan.jpg" group-title="Outdoor",Beity
+http://82.212.74.2:8000/live/7312.m3u8
 #EXTINF:-1 tvg-id="BelqeesTV.ye" tvg-country="YE" tvg-language="Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/f4/Belqees_TV_log.png" group-title="Undefined",Belqees TV (1080p)
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCxA_zZwALQMmVMSZyLKC-Nw/live
 #EXTINF:-1 tvg-id="BeurTV.fr" tvg-country="DZ" tvg-language="French" tvg-logo="https://i.imgur.com/KQcT9cz.png" group-title="Undefined",Beur TV [Geo-blocked]
@@ -277,8 +279,9 @@ https://cdn02.hta.dz/abr_htatv/El_Djazair_N1/playlist.m3u8
 https://cdn02.hta.dz/abr_htatv/EL_HAYAT_TV_ALGERIE/playlist.m3u8
 #EXTINF:-1 tvg-id="ElHeddafTV.fr" tvg-country="DZ" tvg-language="Arabic" tvg-logo="https://i.imgur.com/qd1sCE8.png" group-title="Undefined",El Heddaf TV [Geo-blocked]
 https://cdn02.hta.dz/abr_htatv/EL_HEDDAF_TV/playlist.m3u8
-#EXTINF:-1 tvg-id="ElHiwarElTounsi.tn" tvg-country="TN" tvg-language="Arabic" tvg-logo="https://www.elhiwarettounsi.com/images/news/logo.png" group-title="General",El Hiwar El Tounsi (1080p) [Not 24/7]
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.dailymotion.com/video/k2IuM11CZakq4ZvrUkv
+#EXTINF:-1 tvg-id="ElHiwarElTounsi.tn" tvg-country="TN" tvg-language="Arabic" tvg-logo="https://www.elhiwarettounsi.com/images/news/logo.png" group-title="General" user-agent="TNAgexpl212C",El Hiwar El Tounsi (400p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=TNAgexpl212C
+http://217.182.137.206/elhiwar.m3u8
 #EXTINF:-1 tvg-id="ElbesharaGTV.us" tvg-country="EG;US" tvg-language="Arabic" tvg-logo="https://i.imgur.com/wup8DKR.jpg" group-title="Religious",Elbeshara GTV (1080p) [Not 24/7]
 http://media3.smc-host.com:1935/elbesharagtv.com/gtv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ElsharqTV.eg" tvg-country="EG" tvg-language="Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/El_Sharq_New_Logo.png/512px-El_Sharq_New_Logo.png" group-title="General",Elsharq TV (1080p) [Not 24/7]
@@ -309,8 +312,8 @@ https://jmc-live.ercdn.net/hawastvhd/hawastvhd.m3u8
 https://cdn.videoevent.live:19360/elfaro2/elfaro2.m3u8
 #EXTINF:-1 tvg-id="IFMTV.tn" tvg-country="TN" tvg-language="Arabic" tvg-logo="https://www.ifm.tn/images/logo.png" group-title="Music",IFM TV (720p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/RadioIfmTunisia/live
-#EXTINF:-1 tvg-id="ImamHusseinTV1.iq" tvg-country="IQ" tvg-language="Persian" tvg-logo="https://i.imgur.com/t2CNB3b.png" group-title="Religious",Imam Hussein TV 1 Farsi (720p)
-https://fa.imamhusseintv.com/live/ih1.m3u8
+#EXTINF:-1 tvg-id="ImamHusseinTV1.iq" tvg-country="IQ" tvg-language="Persian" tvg-logo="https://i.imgur.com/t2CNB3b.png" group-title="Religious",Imam Hussein TV 1 Farsi (360p)
+https://live.imamhossaintv.com/live/ih1.m3u8
 #EXTINF:-1 tvg-id="ImamHusseinTV2.iq" tvg-country="IQ" tvg-language="Arabic" tvg-logo="https://i.imgur.com/04Uwuhn.png" group-title="Religious",Imam Hussein TV 2 Arabic (360p)
 https://ar.imamhusseintv.com/live/ih201/index.m3u8
 #EXTINF:-1 tvg-id="ImamHusseinTV3.iq" tvg-country="IQ" tvg-language="English" tvg-logo="https://i.imgur.com/FzyfO2X.png" group-title="Religious",Imam Hussein TV 3 English (360p)
@@ -367,10 +370,12 @@ http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.media.gov.kw/LiveTV
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.media.gov.kw/LiveTV.aspx?PanChannel=KTVSportPlus
 #EXTINF:-1 tvg-id="Kurdistan24.iq" tvg-country="IQ" tvg-language="Kurdish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/ff/K24logo.png" group-title="Undefined",Kurdistan 24 (720p)
 https://d1x82nydcxndze.cloudfront.net/live/index.m3u8
+#EXTINF:-1 tvg-id="KurdistanTV.iq" tvg-country="IQ" tvg-language="Kurdish" tvg-logo="https://i.imgur.com/GLfhYSH.png" group-title="General",Kurdistan TV (720p) [Not 24/7]
+https://5a3ed7a72ed4b.streamlock.net/live/SMIL:myStream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Kurdsat.iq" tvg-country="IQ" tvg-language="Kurdish" tvg-logo="https://i.imgur.com/xMZA2NM.png" group-title="Undefined",KurdSat (720p)
 http://ikomg2.s.llnwi.net/kurdsathd/playlist.m3u8
-#EXTINF:-1 tvg-id="KurdsatNews.iq" tvg-country="IQ" tvg-language="Kurdish" tvg-logo="https://www.lyngsat.com/logo/tv/kk/kurdsat_iq_news.png" group-title="News",KurdSat News (720p)
-http://ikomg2.s.llnwi.net/kurdsatnewshd/playlist.m3u8
+#EXTINF:-1 tvg-id="KurdsatNews.iq" tvg-country="IQ" tvg-language="Kurdish" tvg-logo="https://www.lyngsat.com/logo/tv/kk/kurdsat_iq_news.png" group-title="News",KurdSat News (1080p) [Not 24/7]
+https://ikomg2.mmdlive.lldns.net/ikomg2/107b7df8f5444d778f349100739a09cd/manifest.m3u8
 #EXTINF:-1 tvg-id="LanaTV.lb" tvg-country="LB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/o4uYTML.png" group-title="General",Lana TV (720p)
 https://eitc.secure2.footprint.net/egress/chandler/emirates/eitc/master22-vod.m3u8
 #EXTINF:-1 tvg-id="LanaTVPlus.lb" tvg-country="LB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/MPVJg6h.png" group-title="General",Lana TV Plus (720p)
@@ -514,13 +519,17 @@ https://mn-nl.mncdn.com/palabroad/live/playlist.m3u8
 #EXTINF:-1 tvg-id="RotanaCinemaEgypt.eg" tvg-country="EG" tvg-language="Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1f/Rotana_Cinema_EG_New.png" group-title="Movies",Rotana Cinema (1080p)
 https://shls-rotanacinema-egy-prod-dub.shahid.net/out/v1/c39c0ecbcbdb46e890e91106776397a8/index.m3u8
 #EXTINF:-1 tvg-id="RotanaCinemaKSA.sa" tvg-country="SA" tvg-language="Arabic" tvg-logo="https://i.imgur.com/Zj952j3.png" group-title="Movies",Rotana Cinema KSA (1080p)
-https://shls-rotanacinema-ksa-prod-dub.shahid.net/out/v1/6cee1c57ea7841e697eb15cefc98e0a6/index.m3u8
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://rotana.net/live-cinema
 #EXTINF:-1 tvg-id="RotanaClassic.sa" tvg-country="SA" tvg-language="Arabic" tvg-logo="https://i.imgur.com/ufkCKCs.png" group-title="Classic",Rotana Classic (1080p)
 https://shls-rotanaclassic-prod-dub.shahid.net/out/v1/4eebed211c8441228321b4f67a46c5a5/index.m3u8
+#EXTINF:-1 tvg-id="RotanaComedy.sa" tvg-country="SA" tvg-language="Arabic" tvg-logo="https://i.imgur.com/ZeHLXlw.png" group-title="Comedy",Rotana Comedy (1080p) [Geo-blocked]
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://rotana.net/live-comedy
 #EXTINF:-1 tvg-id="RotanaKhalijia.sa" tvg-country="SA" tvg-language="Arabic" tvg-logo="https://i.imgur.com/xsbjQXZ.png" group-title="Music",Rotana Khalijia (1080p)
 https://shls-rotanakhalijia-prod-dub.shahid.net/out/v1/a639fd49db684f1b8c063d398101a888/index.m3u8
 #EXTINF:-1 tvg-id="RotanaKids.sa" tvg-country="SA" tvg-language="Arabic" tvg-logo="https://i.imgur.com/GQnNjlu.png" group-title="Kids",Rotana Kids (1080p)
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://rotana.net/live-kids
+#EXTINF:-1 tvg-id="RotanaMusic.sa" tvg-country="SA" tvg-language="Arabic" tvg-logo="https://i.imgur.com/FpZ7xVT.png" group-title="Music",Rotana Music (1080p)
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://rotana.net/live-music
 #EXTINF:-1 tvg-id="" tvg-country="JO" tvg-language="" tvg-logo="" group-title="Undefined",Rotana Radio Jordan: City View (180p) [Not 24/7]
 http://188.247.86.66/RotanaRadio/CityView1/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="JO" tvg-language="" tvg-logo="" group-title="Undefined",Rotana Radio Jordan: Control Studio (180p)
@@ -619,6 +628,8 @@ https://svs.itworkscdn.net/kingdomsatlive/kingdomsat.smil/playlist_dvr.m3u8
 https://edge.taghtia.com/sa/3.m3u8
 #EXTINF:-1 tvg-id="TowheedTV.ae" tvg-country="AE;IR" tvg-language="Persian" tvg-logo="https://i.imgur.com/nsxrqta.jpg" group-title="Religious",Towheed TV (720p) [Not 24/7]
 http://51.210.199.1/hls/stream.m3u8
+#EXTINF:-1 tvg-id="ToyorAlJannah.jo" tvg-country="JO" tvg-language="Arabic" tvg-logo="https://i.imgur.com/rlC0Stt.png" group-title="Music",Toyor Al-Jannah (720p) [Not 24/7]
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/user/toyorlive/live
 #EXTINF:-1 tvg-id="TRTArabi.tr" tvg-country="ARAB;MAGHREB" tvg-language="Arabic;Turkish" tvg-logo="https://i.imgur.com/dEfI2M9.png" group-title="News",TRT Arabi (720p) [Not 24/7]
 https://tv-trtarabi.live.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TunisieImmobilierTV.tn" tvg-country="TN" tvg-language="Arabic" tvg-logo="https://i.imgur.com/cZM2t0P.png" group-title="Travel",Tunisie Immobilier TV (720p) [Not 24/7]

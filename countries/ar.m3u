@@ -17,8 +17,6 @@ http://209.91.213.10:8088/play/a013
 #EXTINF:-1 tvg-id="AmericaTV.ar" tvg-country="AR" tvg-language="Spanish" tvg-logo="https://i.imgur.com/tA5hQ1K.png" group-title="General" user-agent="iPhone",América TV (720p)
 #EXTVLCOPT:http-user-agent=iPhone
 https://raw.githubusercontent.com/MachineSystems/archived_m3u8/main/america_hls.m3u8
-#EXTINF:-1 tvg-id="AnimeZoneTV.do" tvg-country="ES;HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/8DWQeMz.png" group-title="Animation",Anime Zone TV (480p) [Not 24/7]
-http://azxtv.com/hls/stream.m3u8
 #EXTINF:-1 tvg-id="ArgentinisimaSatelital.ar" tvg-country="AR" tvg-language="Spanish" tvg-logo="https://i.imgur.com/Jo7p7yZ.png" group-title="Undefined",Argentinísima Satelital (720p)
 http://186.0.233.76:1935/Argentinisima/smil:argentinisima.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AVCHD.ar" tvg-country="AR" tvg-language="Spanish" tvg-logo="https://i.imgur.com/s8NvpeC.png" group-title="Undefined",AVC HD (Monte Caseros | Corrientes) (360p) [Not 24/7]
@@ -53,13 +51,13 @@ http://200.115.193.177/live/26hd-720/playlist.m3u8
 #EXTINF:-1 tvg-id="CanaldelaCiudad.ar" tvg-country="AR" tvg-language="Spanish" tvg-logo="https://i.imgur.com/fNURpai.png" group-title="Undefined" user-agent="iPhone",Canal de la Ciudad (720p)
 #EXTVLCOPT:http-user-agent=iPhone
 https://g5.proy-hor.transport.edge-access.net/a08/ngrp:gcba_video4-100042_all/Playlist.m3u8?sense=true
+#EXTINF:-1 tvg-id="CanalLuz.ar" tvg-country="AR" tvg-language="Spanish" tvg-logo="https://i.imgur.com/SGKGxt7.png" group-title="Undefined" user-agent="iPhone",Canal Luz (1080p)
+#EXTVLCOPT:http-user-agent=iPhone
+https://g2.vxral-slo.transport.edge-access.net/a11/ngrp:canal_luz01-100009_all/Playlist.m3u8
 #EXTINF:-1 tvg-id="CanalTDC.ar" tvg-country="AR-S" tvg-language="Spanish" tvg-logo="https://i.imgur.com/MxEh5J8.png" group-title="Undefined",CANAL TDC (1080p) [Not 24/7]
 https://5e7cdf2370883.streamlock.net/tdconline/tdconline/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal9Multivision.ar" tvg-country="AR" tvg-language="Spanish" tvg-logo="https://i.imgur.com/2WFGiCh.png" group-title="Undefined",CANAL.9 MULTIVISION (720p) [Not 24/7]
 https://panel.dattalive.com/8250/8250/playlist.m3u8
-#EXTINF:-1 tvg-id="CanalLuz.ar" tvg-country="AR" tvg-language="Spanish" tvg-logo="https://i.imgur.com/SGKGxt7.png" group-title="Undefined" user-agent="Mozilla/5.0 (iPad; CPU OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G36",canalLUZ (1080p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad; CPU OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G36
-https://g1.mc-slo.transport.edge-access.net/a11/ngrp:canal_luz01-100009_all/Playlist.m3u8?sense=true
 #EXTINF:-1 tvg-id="CartoonNetworkLatinAmerica.us" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png" group-title="Kids",Cartoon Network Latin America
 http://209.91.213.10:8088/play/a00k
 #EXTINF:-1 tvg-id="" tvg-country="AR" tvg-language="" tvg-logo="" group-title="Undefined",Catacama TV (288p)
@@ -88,6 +86,8 @@ https://wowza.telpin.com.ar:1935/canal3/canal3.stream/playlist.m3u8
 http://209.91.213.10:8088/play/a014
 #EXTINF:-1 tvg-id="CrossingCanalIPTV.ar" tvg-country="AR" tvg-language="Spanish" tvg-logo="https://i.imgur.com/niGj91H.png" group-title="Entertainment",Crossing TV (Crossing Contenidos) (720p) [Not 24/7]
 https://vivo.solumedia.com:19360/crossing/crossing.m3u8
+#EXTINF:-1 tvg-id="DeporTV.ar" tvg-country="AR" tvg-language="Spanish" tvg-logo="https://i.imgur.com/2Xw2Cox.png" group-title="Sports",DeporTV (720p) [Not 24/7]
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCSmh3DFxBwFurMttT60PQ1g/live
 #EXTINF:-1 tvg-id="DWEnglish.de" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/A1xzjOI.png" group-title="News",DW English (1080p)
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 #EXTINF:-1 tvg-id="DWEspanol.de" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/A1xzjOI.png" group-title="News",DW Español (1080p)
@@ -96,14 +96,14 @@ https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8
 http://free.fullspeed.tv/iptv-query?feature=emb_title&streaming-ip=https://www.youtube.com/watch?v=gBbMbqILzXU
 #EXTINF:-1 tvg-id="ElGarageTV.ar" tvg-country="ES;HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/cd0hP5e.png" group-title="Auto",El Garage TV (480p) [Not 24/7]
 http://186.0.233.76:1935/Garage/smil:garage.smil/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-country="AR" tvg-language="" tvg-logo="" group-title="Undefined",ElOnce (1080p) [Not 24/7]
+https://elonceovh.elonce.com/hls/live.m3u8
 #EXTINF:-1 tvg-id="Encuentro.ar" tvg-country="AR" tvg-language="Spanish" tvg-logo="https://i.imgur.com/uBBZR1X.png" group-title="General",Encuentro (1080p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UC1zLDoKL-eKmd_K7qkUZ-ow/live
 #EXTINF:-1 tvg-id="EnerGeek.cl" tvg-country="CL;HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/ukT8LT0.png" group-title="Entertainment",EnerGeek (720p) [Not 24/7]
 https://wifispeed.trapemn.tv:1936/infantil/energeek-1/playlist.m3u8
 #EXTINF:-1 tvg-id="EnerGeek2.cl" tvg-country="CL;HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/ukT8LT0.png" group-title="Entertainment",EnerGeek Señal 2 (720p) [Not 24/7]
 https://wifispeed.trapemn.tv:1936/infantil/energeek-2/playlist.m3u8
-#EXTINF:-1 tvg-id="EJTV.cr" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/UpvMgJq.png" group-title="Religious",Enlace Juvenil (EJTV) (288p) [Not 24/7]
-https://api.new.livestream.com/accounts/ejtvla/events/2294538/live.m3u8
 #EXTINF:-1 tvg-id="EnlaceTV.cr" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/ba4wF0N.png" group-title="Religious",EnlaceTV (720p) [Not 24/7]
 https://v4.tustreaming.cl/enlacebpbtv/index.m3u8
 #EXTINF:-1 tvg-id="EuronewsSpanish.fr" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews Spanish
@@ -130,8 +130,6 @@ https://livecdn.fptplay.net/sdb/kbs_hls.smil/playlist.m3u8
 https://srv1.zcast.com.br/lavozdetucuman/lavozdetucuman/playlist.m3u8
 #EXTINF:-1 tvg-id="LatinoKids.uy" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/CBUf3K1.png" group-title="Entertainment",LatinoKids (360p) [Not 24/7]
 https://videostreaming.cloudserverlatam.com/8062/8062/playlist.m3u8
-#EXTINF:-1 tvg-id="LocomotionTV.do" tvg-country="ES;HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/auEJJvP.png" group-title="Animation",Locomotion TV (480p) [Not 24/7]
-http://51.222.85.85:81/hls/loco/index.m3u8
 #EXTINF:-1 tvg-id="MetroGlobeNetwork.id" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/NTCI3lf.png" group-title="Culture",Metro Globe Network (1080p) [Not 24/7]
 https://edge.medcom.id/live-edge/smil:mgnch.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="MultivisionFederal.ar" tvg-country="AR" tvg-language="Spanish" tvg-logo="https://i.imgur.com/sZ1yE4e.png" group-title="Undefined",Multivisión Federal (720p) [Not 24/7]
@@ -140,8 +138,8 @@ http://panel.dattalive.com:1935/8250/8250/playlist.m3u8
 http://live-edge01.telecentro.net.ar/live/smil:musictop.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="NASATV.us" tvg-country="INT" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/NASA_TV.svg/512px-NASA_TV.svg.png" group-title="Science",NASA TV (720p)
 https://uplynkcontent.sinclairstoryline.com/channel/ddd76fdc1c0a456ba537e4f48e827d3e.m3u8
-#EXTINF:-1 tvg-id="NETTV.ar" tvg-country="AR" tvg-language="Spanish" tvg-logo="https://i.imgur.com/296ICn5.png" group-title="General",Net TV (720p)
-https://unlimited6-cl.dps.live/nettv/nettv.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="NETTV.ar" tvg-country="AR" tvg-language="Spanish" tvg-logo="https://i.imgur.com/296ICn5.png" group-title="General",Net TV (720p) [Not 24/7]
+https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp" tvg-country="INT" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/NHK_World-Japan_TV.svg/512px-NHK_World-Japan_TV.svg.png" group-title="Culture;News",NHK World Japan (1080p)
 https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
 #EXTINF:-1 tvg-id="NuevoTiempo.br" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/exdDHml.png" group-title="Religious",Nuevo Tiempo (720p) [Not 24/7]
@@ -173,6 +171,8 @@ https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
 https://cdn4.hostlagarto.com:8081/static/sanisidrotv/playlist.m3u8
 #EXTINF:-1 tvg-id="SEAToday.id" tvg-country="INT" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/SEA_Today_Indonesia_Logo.png/512px-SEA_Today_Indonesia_Logo.png" group-title="Undefined",Sea Today (720p) [Geo-blocked]
 https://cdn-telkomsel-01.akamaized.net/Content/DASH/Live/channel(9ce3f094-4044-467e-84b7-b684a49571d5)/manifest.mpd
+#EXTINF:-1 tvg-id="SEOTV.bo" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/5IPjtJk.png" group-title="General",SEO TV (720p) [Not 24/7]
+https://panel.seo.tv.bo:3645/live/franzleonel0live.m3u8
 #EXTINF:-1 tvg-id="SICInternacional.pt" tvg-country="INT" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/UgJ5lac.png" group-title="Undefined",SIC Internacional (720p)
 http://live.impresa.pt/live/sicint/sicint.m3u8
 #EXTINF:-1 tvg-id="SoloStandUp.cl" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/U872KLT.png" group-title="Comedy",SoloStandUp (480p) [Not 24/7]
@@ -199,6 +199,8 @@ https://5cefcbf58ba2e.streamlock.net/tltvweb/tvweb.stream/playlist.m3u8
 https://tv-trtworld.live.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TruTVAmericaLatina.us" tvg-country="HISPAM" tvg-language="English;Portuguese;Spanish" tvg-logo="https://cdn.mitvstatic.com/channels/ar_tru-tv_m.png" group-title="Undefined",Tru TV América Latina
 http://190.61.37.173:9001/play/a084/index.m3u8
+#EXTINF:-1 tvg-id="TVManaArgentina.ar" tvg-country="AR" tvg-language="Spanish" tvg-logo="https://i.imgur.com/GVI8kkp.jpg" group-title="Religious",TV Maná Argentina (576p) [Not 24/7]
+http://streamspub.manasat.com:1935/tvar/tvmanaar2/playlist.m3u8
 #EXTINF:-1 tvg-id="TVPeruInternacional.pe" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://www.tvperu.gob.pe/sites/all/themes/stability/images/logo_TVPE_PLAY.png" group-title="General",TV Perú Internacional (460p) [Not 24/7]
 http://cdnh4.iblups.com/hls/irtp.m3u8
 #EXTINF:-1 tvg-id="TVPublica.ar" tvg-country="AR" tvg-language="Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0a/Logo_Televisi%C3%B3n_P%C3%BAblica_Argentina.png" group-title="General",TV Pública (TVP) (1080p) [Not 24/7]
