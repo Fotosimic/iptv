@@ -53,6 +53,12 @@ https://insighttv-vizio.amagi.tv/playlist.m3u8
 https://livecdn.fptplay.net/sdb/kbs_hls.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="KTO.fr" tvg-country="BE;CH;DK;ES;FR;NL;PT;UK" tvg-language="French" tvg-logo="https://i.imgur.com/LvbXFUy.jpg" group-title="Undefined",KTO (404p) [Not 24/7]
 https://live-kto.akamaized.net/hls/live/2033284/KTO/master.m3u8
+#EXTINF:-1 tvg-id="KuriakosCine.pt" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/CZViCwB.jpg" group-title="Movies",Kuriakos Cine (1080p) [Not 24/7]
+http://c2.manasat.com:1935/kcine/kcine3/master.m3u8
+#EXTINF:-1 tvg-id="KuriakosKids.pt" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/aNVzKYJ.png" group-title="Kids",Kuriakos Kids (1080p)
+http://c2.manasat.com:1935/kkids/kkids3/master.m3u8
+#EXTINF:-1 tvg-id="KuriakosMusic.pt" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/Zl40NYi.jpg" group-title="Music",Kuriakos Music (1080p)
+http://c2.manasat.com:1935/kmusic/kmusic3/master.m3u8
 #EXTINF:-1 tvg-id="MAVTVSelect.us" tvg-country="EUR" tvg-language="English" tvg-logo="https://i.imgur.com/KMGUuAX.png" group-title="Sports",MavTV Select (720p)
 https://mavtv-mavtvglobal-1-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="MetroGlobeNetwork.id" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/NTCI3lf.png" group-title="Culture",Metro Globe Network (1080p) [Not 24/7]
@@ -77,12 +83,8 @@ https://rt-rtd.rttv.com/live/rtdoc/playlist.m3u8
 https://rt-esp.rttv.com/live/rtesp/playlist.m3u8
 #EXTINF:-1 tvg-id="RTNews.ru" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/tyXIHlj.png" group-title="News",RT News (1080p) [Geo-blocked]
 https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
-#EXTINF:-1 tvg-id="RTP1.pt" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/w7GV86i.png" group-title="General" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0",RTP1 (720p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0
-https://streaming-live.rtp.pt/liverepeater/rtpClean1HD.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="RTP2.pt" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/T6WUqdn.png" group-title="General" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0",RTP2 (720p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0
-https://streaming-live.rtp.pt/liverepeater/rtpClean2HD.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="RTP1.pt" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/w7GV86i.png" group-title="General",RTP1 (480p)
+http://162.212.178.69:41042/bysid/608
 #EXTINF:-1 tvg-id="RTP3.pt" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/ohXJmiR.png" group-title="News" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0",RTP3 (720p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0
 https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8
@@ -121,6 +123,16 @@ https://smart-tv.livedoomovie.com:4431/02_SPORTTV_3_720p/chunklist.m3u8
 https://smart-tv.livedoomovie.com:4431/02_SPORTTV_4_720p/chunklist.m3u8
 #EXTINF:-1 tvg-id="TRTWorld.tr" tvg-country="INT" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TRT_World.svg/512px-TRT_World.svg.png" group-title="News",TRT World (720p) [Not 24/7]
 https://tv-trtworld.live.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-country="PT" tvg-language="" tvg-logo="" group-title="Undefined",TV MANA (ENG) (484p)
+http://c2.manasat.com:1935/church-online/ingles3/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-country="PT" tvg-language="" tvg-logo="" group-title="Undefined",TV MANA (ESP) (488p)
+http://c2.manasat.com:1935/iglesia-online/espanhol3/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-country="PT" tvg-language="" tvg-logo="" group-title="Undefined",TV MANA (FR) (484p)
+http://c2.manasat.com:1935/eglise-online/frances3/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-country="PT" tvg-language="" tvg-logo="" group-title="Undefined",TV MANA (RU) (486p)
+http://c2.manasat.com:1935/tserkov-online/russo3/playlist.m3u8
+#EXTINF:-1 tvg-id="TVManaCordoba.pt" tvg-country="PT" tvg-language="Spanish" tvg-logo="https://i.imgur.com/c4DSG2J.png" group-title="Religious",TV Maná Córdoba (576p) [Not 24/7]
+http://csvl03.manasat.com:1935/tvar/tvmanaar2/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="PT" tvg-language="" tvg-logo="" group-title="Undefined",TV MANA MAPUTO (526p) [Not 24/7]
 http://streamspub.manasat.com:1935/tvmz/tvmz2/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="PT" tvg-language="" tvg-logo="" group-title="Undefined",TV MANA MAPUTO (576p) [Not 24/7]

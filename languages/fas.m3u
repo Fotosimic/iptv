@@ -14,7 +14,7 @@ http://51.210.199.4/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AyenehTV.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="https://www.ayeneh.org/wp-content/uploads/2016/04/Ayeneh-TV-April-16-400x223.png" group-title="Undefined",Ayeneh TV (720p) [Not 24/7]
 https://livestream.5centscdn.com/cls040318/b0d2763968fd0bdd2dc0d44ba2abf9ce.sdp/index.m3u8
 #EXTINF:-1 tvg-id="BBCPersian.uk" tvg-country="UK" tvg-language="Persian" tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/44/BBC_News_Persian_Logo.jpg" group-title="News",BBC Persian (720p)
-https://vs-cmaf-pushb-ww-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_persian_tv/pc_hd_abr_v2_akamai_dash_live.mpd
+https://vs-cmaf-pushb-ww-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_persian_tv/pc_hd_abr_v2_akamai_dash_live_http.mpd
 #EXTINF:-1 tvg-id="EBC1TV.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="https://www.livefarsi.com/uploads/tv_image/ebc1-tv.jpg" group-title="Music",EBC1 TV (720p) [Geo-blocked]
 https://vsn1-cdn-phx.icastcenter.com/EBC1/EBC1/playlist.m3u8
 #EXTINF:-1 tvg-id="GanjeHozourTV.us" tvg-country="US" tvg-language="Persian" tvg-logo="https://i.imgur.com/pHZGx5L.png" group-title="Undefined",Ganj e Hozour TV (720p)
@@ -35,8 +35,8 @@ http://51.210.199.7/hls/stream.m3u8
 https://live.presstv.ir/ifilmlive/smil:ifilmtv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="iFilm2.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="https://i.imgur.com/QxFC11S.png" group-title="Movies",iFILM Persian 2 (480p) [Not 24/7]
 https://live1.presstv.ir/live/ifilm2.m3u8
-#EXTINF:-1 tvg-id="ImamHusseinTV1.iq" tvg-country="IQ" tvg-language="Persian" tvg-logo="https://i.imgur.com/t2CNB3b.png" group-title="Religious",Imam Hussein TV 1 Farsi (360p)
-https://live.imamhossaintv.com/live/ih1.m3u8
+#EXTINF:-1 tvg-id="ImamHusseinTV1.iq" tvg-country="IQ" tvg-language="Persian" tvg-logo="https://i.imgur.com/t2CNB3b.png" group-title="Religious",Imam Hussein TV 1 Farsi (720p)
+https://fa.imamhusseintv.com/live/ih1.m3u8
 #EXTINF:-1 tvg-id="IranBeauty.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="https://i.imgur.com/e8vc8vh.jpg" group-title="Undefined",Iran Beauty (720p) [Not 24/7]
 http://51.210.199.57/hls/stream.m3u8
 #EXTINF:-1 tvg-id="IranInternational.uk" tvg-country="UK" tvg-language="Persian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Iran_International.svg/512px-Iran_International.svg.png" group-title="News",Iran International (1080p)
@@ -55,6 +55,8 @@ https://dh4wkqcyy8768.cloudfront.net/live.m3u8
 https://livefa.marjaeyattv.com/mtv_fa/playlist.m3u8
 #EXTINF:-1 tvg-id="MBCPersia.ae" tvg-country="AE" tvg-language="Persian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/24/MBC_Persia.jpg" group-title="General",MBC Persia (1080p)
 https://shls-mbcpersia-prod-dub.shahid.net/out/v1/bdc7cd0d990e4c54808632a52c396946/index.m3u8
+#EXTINF:-1 tvg-id="MihanTV.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="https://i.imgur.com/XEMsM7w.png" group-title="News",Mihan TV (360p) [Not 24/7]
+https://iptv.mihantv.com/live/playlist1/index.m3u8
 #EXTINF:-1 tvg-id="MohabatTV.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="https://i.imgur.com/espyPNl.png" group-title="Religious",Mohabat TV (540p)
 http://204.11.235.251:1935/live_transcoder/ngrp:mohabat.stream_all/playlist.m3u8
 #EXTINF:-1 tvg-id="MohabatTV.us" tvg-country="US" tvg-language="Persian" tvg-logo="https://i.imgur.com/tucTC1O.jpg" group-title="Undefined",Mohabat TV (540p)
@@ -107,6 +109,8 @@ http://51.210.199.59/hls/stream.m3u8
 https://hls.pmchd.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="PMCRoyale.ae" tvg-country="MENA" tvg-language="Persian" tvg-logo="https://i.imgur.com/o8vx6FG.png" group-title="Music",PMC Royale (720p) [Not 24/7]
 http://51.210.199.29/hls/stream.m3u8
+#EXTINF:-1 tvg-id="SahandTV.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="https://www.lyngsat.com/logo/tv/ss/sahand_tv.png" group-title="Undefined",SAHAND (240p)
+http://cdn1.live.irib.ir:1935/epg-live/smil:sahand/playlist.m3u8
 #EXTINF:-1 tvg-id="SalamTV.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="https://i.imgur.com/JfYsQGZ.png" group-title="Religious",Salam TV (720p)
 https://iptv.salaamtv.org/salaam/playlist.m3u8
 #EXTINF:-1 tvg-id="SepanjTV.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="https://i.imgur.com/D15WQi1.png" group-title="Movies",Sepanj TV (720p) [Not 24/7]
