@@ -120,8 +120,6 @@ https://win29.yayin.com.tr/erzurumwebtv/erzurumwebtv/playlist.m3u8
 https://broadcasttr.com:446/manisaetv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="EuronewsGerman.fr" tvg-country="INT" tvg-language="German" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews German
 https://euronews.alteox.app/hls/de_stream.m3u8
-#EXTINF:-1 tvg-id="EuronewsItalian.fr" tvg-country="INT" tvg-language="Italian" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews Italian
-https://euronews.alteox.app/hls/it_stream.m3u8
 #EXTINF:-1 tvg-id="EuronewsPortuguese.fr" tvg-country="INT" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews Portuguese
 https://euronews.alteox.app/hls/pt_stream.m3u8
 #EXTINF:-1 tvg-id="EuronewsRussian.fr" tvg-country="INT" tvg-language="Russian" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews Russian
@@ -130,6 +128,8 @@ https://euronews.alteox.app/hls/ru_stream.m3u8
 https://euronews.alteox.app/hls/es_stream.m3u8
 #EXTINF:-1 tvg-id="FashionTVEurope.fr" tvg-country="EUR" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/512px-Fashion_TV_logo.svg.png" group-title="Lifestyle",Fashion TV (1080p)
 https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="FenerbahceTV.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/QzZRqvO.png" group-title="Undefined",Fenerbahçe TV (FBTV) (480p) [Not 24/7]
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.dailymotion.com/video/x21oo10
 #EXTINF:-1 tvg-id="FinansTurkTV.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.ibb.co/wBwmB1T/iY0osc7.png" group-title="Undefined",Finans Turk TV (720p)
 http://live.arkumedia.com:1935/finansturktv/finansturktv/playlist.m3u8
 #EXTINF:-1 tvg-id="France24English.fr" tvg-country="INT" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8a/France24.png" group-title="News",France 24 English (1080p)
@@ -196,8 +196,8 @@ http://yerelmedya.tv:1935/kanalv/bant1/playlist.m3u8
 https://waw2.artiyerelmedya.net/kanalz/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="KayTV.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/HXRQVJW.png" group-title="Undefined",Kay TV (720p) [Geo-blocked]
 https://waw2.artiyerelmedya.net/kaytv/bant1/playlist.m3u8
-#EXTINF:-1 tvg-id="KBSWorld.kr" tvg-country="INT" tvg-language="English;Korean" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/KBS_World_%282009%29.svg/512px-KBS_World_%282009%29.svg.png" group-title="General",KBS World (Vietnamese Subtitles) (720p)
-https://livecdn.fptplay.net/sdb/kbs_hls.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="KBSWorld.kr" tvg-country="INT" tvg-language="English;Korean" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/KBS_World_%282009%29.svg/512px-KBS_World_%282009%29.svg.png" group-title="General",KBS World (720p)
+https://wms4-kortv.akamaized.net/a_live/63719963/smil:20ch011.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="KentTurk.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://yerelmedya.tv/logosTV/38kenttv.png" group-title="Undefined",Kent Türk (720p) [Not 24/7]
 https://waw2.artiyerelmedya.net/38kenttv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="KudusTV.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/VyTYjaH.png" group-title="Undefined",Kudüs TV (480p) [Geo-blocked]
@@ -261,8 +261,8 @@ https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
 #EXTINF:-1 tvg-id="RTPInternacional.pt" tvg-country="INT" tvg-language="Portuguese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/RTP_Internacional_2016_%28Reduced_Version%29.svg/512px-RTP_Internacional_2016_%28Reduced_Version%29.svg.png" group-title="General" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0",RTP Internacional (504p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0
 https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="RTPiAsia.pt" tvg-country="ASIA" tvg-language="Portuguese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/RTP_Internacional_2016_%28Reduced_Version%29.svg/512px-RTP_Internacional_2016_%28Reduced_Version%29.svg.png" group-title="General",RTP Internacional Asia (480p) [Geo-blocked]
-http://210.210.155.35/qwr9ew/s/s38/index.m3u8
+#EXTINF:-1 tvg-id="RTPiAsia.pt" tvg-country="ASIA" tvg-language="Portuguese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/RTP_Internacional_2016_%28Reduced_Version%29.svg/512px-RTP_Internacional_2016_%28Reduced_Version%29.svg.png" group-title="General",RTP Internacional Asia (480p)
+http://210.210.155.37/qwr9ew/s/s38/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="TR" tvg-language="" tvg-logo="" group-title="Undefined",Şaban TV (720p) [Geo-blocked]
 http://145.239.37.125:20458/sabantv3/sabantv3/playlist.m3u8
 #EXTINF:-1 tvg-id="SariyerTV.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/ybfYUm2.png" group-title="Undefined",Sarıyer TV (360p)
@@ -333,12 +333,18 @@ https://tv-trtturk.medya.trt.com.tr/master.m3u8
 https://tv-trtworld.live.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TV4.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/gnkPxVV.png" group-title="Undefined",TV4 (720p)
 https://turkmedya-live.ercdn.net/tv4/tv4_720p.m3u8
+#EXTINF:-1 tvg-id="TV5MondeAsia.fr" tvg-country="ASIA" tvg-language="French" tvg-logo="https://cms.dmpcdn.com/livetv/2022/01/18/ca2f0180-7814-11ec-8fd5-c549a9b471b9_webp_original.png" group-title="Undefined",TV5 Monde Asie (576p) [Geo-blocked]
+http://210.210.155.35/dr9445/s/s24/index.m3u8
 #EXTINF:-1 tvg-id="TV38.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/KDBXLqn.png" group-title="Undefined",TV 38 (360p) [Not 24/7]
 https://59cba4d34b678.streamlock.net/live/tv38/playlist.m3u8
 #EXTINF:-1 tvg-id="TV41.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://www.lyngsat.com/logo/tv/tt/tv_41_tr.png" group-title="Undefined",TV 41 (720p) [Not 24/7]
 http://stream.taksimbilisim.com:1935/tv41/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="TV52.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/jt92HbR.jpg" group-title="Undefined",TV 52 (720p) [Not 24/7]
 http://stream.taksimbilisim.com:1935/tv52/smil:tv52.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-country="TR" tvg-language="" tvg-logo="" group-title="Undefined",tv100 (1080p) [Not 24/7]
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/watch?v=8jEXHzMTR7s
+#EXTINF:-1 tvg-id="TVDen.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/PFWOkNh.png" group-title="Undefined",TV Den (576p) [Not 24/7]
+http://canli.tvden.com.tr/hls/live.m3u8
 #EXTINF:-1 tvg-id="TVEm.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/e/e9/TvEM_logosu.png" group-title="Undefined",TV Em (486p)
 http://cdn-tvem.yayin.com.tr/TVEM/TVEM/playlist.m3u8
 #EXTINF:-1 tvg-id="TVMInternacional.mz" tvg-country="INT" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/Ns3WrOQ.png" group-title="General",TVM Internacional (480p) [Not 24/7]
