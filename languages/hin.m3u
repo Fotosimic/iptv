@@ -31,8 +31,9 @@ http://cdn19.live247stream.com/channely/tv/playlist.m3u8
 http://14.199.164.20:4001/play/a0nb/index.m3u8
 #EXTINF:-1 tvg-id="DDNational.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/MohlE5B.png" group-title="Entertainment",DD National (576p)
 http://103.199.161.254/Content/ddnational/Live/Channel(DDNational)/index.m3u8
-#EXTINF:-1 tvg-id="DDNews.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/znnVCEf.png" group-title="News",DD News (1080p) [Not 24/7]
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCKwucPzHZ7zCUIf7If-Wo1g/live
+#EXTINF:-1 tvg-id="DDNews.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/znnVCEf.png" group-title="News",DD News (576p) [Not 24/7]
+#EXTVLCOPT:http-referrer=https://webcast.gov.in/
+https://playhls.media.nic.in/hls/live/ddnews/ddnews.m3u8
 #EXTINF:-1 tvg-id="DDSports.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/WUl0Acy.png" group-title="Sports",DD Sports (576p)
 http://103.199.161.254/Content/ddsports/Live/Channel(DDSPORTS)/index.m3u8
 #EXTINF:-1 tvg-id="Dhamaal.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/OnPZCWm.png" group-title="Music",Dhamaal (1080p) [Not 24/7]
@@ -57,8 +58,6 @@ http://akalmultimedia.net:1935/gdnslive/gdns-live/chunklist.m3u8
 https://media.streambrothers.com:1936/8522/8522/playlist.m3u8
 #EXTINF:-1 tvg-id="GurSikhSabhaTV.ca" tvg-country="CA" tvg-language="Hindi" tvg-logo="https://i.imgur.com/2EKCtQm.png" group-title="Religious",GurSikh Sabha TV (720p) [Not 24/7]
 http://cdn12.henico.net:8080/live/gsctv/index.m3u8
-#EXTINF:-1 tvg-id="HiDost.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/mqHIDG0.png" group-title="Undefined",Hi Dosti (576p) [Not 24/7]
-http://14.199.164.20:4001/play/a0rg/index.m3u8
 #EXTINF:-1 tvg-id="HulchulTVCanada.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/rAGKgAH.png" group-title="Undefined",Hulchul TV (720p) [Not 24/7]
 http://cdn12.henico.net:8080/live/jbani/index.m3u8
 #EXTINF:-1 tvg-id="ILove.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/u191zfh.png" group-title="Music",I Love (576p) [Not 24/7]
@@ -75,6 +74,8 @@ https://live.kanshitv.co.uk/mobile/kanshitvkey.m3u8
 https://vidcdn.vidgyor.com/kat-origin/liveabr/playlist.m3u8
 #EXTINF:-1 tvg-id="MahaMovie.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/hpShFDL.png" group-title="Movies",Maha Movie (576p) [Not 24/7]
 http://14.199.164.20:4001/play/a0q7/index.m3u8
+#EXTINF:-1 tvg-id="ManoranjanGrand.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/2BSvBGG.png" group-title="Movies",Manoranjan Grand (576p) [Not 24/7]
+http://14.199.164.20:4001/play/a0m2/index.m3u8
 #EXTINF:-1 tvg-id="Mastiii.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/iDDExsO.png" group-title="Music",Mastiii (576p) [Not 24/7]
 http://103.199.160.85/Content/masthi/Live/Channel(Masthi)/index.m3u8
 #EXTINF:-1 tvg-id="MTA2Europe.uk" tvg-country="UK" tvg-language="Arabic;Bengali;English;French;German;Hindi;Urdu" tvg-logo="https://i.imgur.com/aVts0sz.png" group-title="Undefined",MTA2 Europe (720p)
