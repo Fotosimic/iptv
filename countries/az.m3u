@@ -3,8 +3,6 @@
 https://live-hls-web-ajd.getaj.net/AJD/index.m3u8
 #EXTINF:-1 tvg-id="AlJazeeraEnglish.qa" tvg-country="INT" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Aljazeera_eng.svg/512px-Aljazeera_eng.svg.png" group-title="News",Al Jazeera English (1080p)
 https://live-hls-web-aje.getaj.net/AJE/index.m3u8
-#EXTINF:-1 tvg-id="AlvinChannelTV.az" tvg-country="AZ" tvg-language="Azerbaijani" tvg-logo="https://i.imgur.com/fIdmD1d.png" group-title="General",Alvin Channel TV (360p) [Not 24/7]
-http://cdn10-alvinchannel.yayin.com.tr/alvinchannel/alvinchannel/playlist.m3u8
 #EXTINF:-1 tvg-id="ARB24.az" tvg-country="AZ" tvg-language="Azerbaijani" tvg-logo="https://i.imgur.com/mtvIFyq.png" group-title="News",ARB 24 (1080p) [Not 24/7]
 http://85.132.81.184:8080/arb24/live1/index.m3u8
 #EXTINF:-1 tvg-id="ARB.az" tvg-country="AZ" tvg-language="Azerbaijani" tvg-logo="https://i.imgur.com/E97M2OL.png" group-title="General",ARB (576p) [Not 24/7]
@@ -59,6 +57,8 @@ https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 http://85.132.53.162:1935/live/eltv/playlist.m3u8
 #EXTINF:-1 tvg-id="EuronewsGerman.fr" tvg-country="INT" tvg-language="German" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews German
 https://euronews.alteox.app/hls/de_stream.m3u8
+#EXTINF:-1 tvg-id="EuronewsItalian.fr" tvg-country="INT" tvg-language="Italian" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews Italian
+https://euronews.alteox.app/hls/it_stream.m3u8
 #EXTINF:-1 tvg-id="EuronewsPortuguese.fr" tvg-country="INT" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews Portuguese
 https://euronews.alteox.app/hls/pt_stream.m3u8
 #EXTINF:-1 tvg-id="EuronewsRussian.fr" tvg-country="INT" tvg-language="Russian" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews Russian
@@ -79,8 +79,8 @@ http://109.205.166.68/server124/idman_az/index.m3u8
 https://insighttv-vizio.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="Kanal10Asia.se" tvg-country="ASIA" tvg-language="Swedish" tvg-logo="https://i.imgur.com/RQXBwlz.png" group-title="Religious",Kanal 10 Asia (540p)
 http://cdn-kanal10.crossnet.net:1935/kanal10/kanal10asia/playlist.m3u8
-#EXTINF:-1 tvg-id="KBSWorld.kr" tvg-country="INT" tvg-language="English;Korean" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/KBS_World_%282009%29.svg/512px-KBS_World_%282009%29.svg.png" group-title="General",KBS World (720p)
-https://wms4-kortv.akamaized.net/a_live/63719963/smil:20ch011.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="KBSWorld.kr" tvg-country="INT" tvg-language="English;Korean" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/KBS_World_%282009%29.svg/512px-KBS_World_%282009%29.svg.png" group-title="General",KBS World (Vietnamese Subtitles) (720p)
+https://livecdn.fptplay.net/sdb/kbs_hls.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="KepezTV.az" tvg-country="AZ" tvg-language="Azerbaijani" tvg-logo="https://upload.wikimedia.org/wikipedia/az/thumb/3/3e/K%C9%99p%C9%99z_TV_%282019-h.h.%29.png/512px-K%C9%99p%C9%99z_TV_%282019-h.h.%29.png" group-title="General",Kəpəz TV (540p) [Not 24/7]
 http://85.132.81.184:8080/arbkepez/live/index.m3u8
 #EXTINF:-1 tvg-id="MAVTVSelect.us" tvg-country="EUR" tvg-language="English" tvg-logo="https://i.imgur.com/KMGUuAX.png" group-title="Sports",MavTV Select (720p)
@@ -103,8 +103,6 @@ https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
 https://cdn.appv.jagobd.com:444/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/ntvuk00332211.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="EuronewsEnglish.fr" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Pluto TV Euronews (720p) [Not 24/7]
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60d3583ef310610007fb02b1/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&serverSideAds=false&studio_id=viacom&tags=ROKU_CONTENT_TAGS
-#EXTINF:-1 tvg-id="" tvg-country="AZ" tvg-language="" tvg-logo="" group-title="Undefined",Qəbələ TV (480p) [Not 24/7]
-https://qebele.tv/live/stream/index.m3u8
 #EXTINF:-1 tvg-id="RedBullTV.at" tvg-country="INT" tvg-language="English;German" tvg-logo="https://i.imgur.com/7NeBmWX.jpg" group-title="Sports",Red Bull TV (1080p)
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
 #EXTINF:-1 tvg-id="RTDocumentary.ru" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/XJGki3v.png" group-title="Documentary",RT Documentary (1080p) [Geo-blocked]
@@ -122,8 +120,8 @@ http://210.210.155.37/qwr9ew/s/s38/index.m3u8
 https://cdn-telkomsel-01.akamaized.net/Content/DASH/Live/channel(9ce3f094-4044-467e-84b7-b684a49571d5)/manifest.mpd
 #EXTINF:-1 tvg-id="SICInternacional.pt" tvg-country="INT" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/UgJ5lac.png" group-title="Undefined",SIC Internacional (720p)
 http://live.impresa.pt/live/sicint/sicint.m3u8
-#EXTINF:-1 tvg-id="SKITV.ch" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/idKogRi.png" group-title="Sports",SKI TV (1080p) [Not 24/7]
-https://d2xeo83q8fcni6.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/SkiTV-SportsTribal/193.m3u8
+#EXTINF:-1 tvg-id="SKITV.ch" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/idKogRi.png" group-title="Sports",Ski TV (1080p) [Not 24/7]
+https://d2xeo83q8fcni6.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/SkiTV-Zee/193.m3u8
 #EXTINF:-1 tvg-id="SofyTV.ch" tvg-country="INT" tvg-language="German" tvg-logo="https://i.imgur.com/Srxa6cR.png" group-title="Undefined",Sofy TV (720p)
 https://sofy-ger-samsung.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="SpaceTV.az" tvg-country="AZ" tvg-language="Azerbaijani" tvg-logo="https://i.imgur.com/Aw7iVGt.png" group-title="General",Space TV (576p) [Not 24/7]

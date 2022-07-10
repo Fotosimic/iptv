@@ -14,8 +14,8 @@ https://cdnuk001.broadcastcdn.net/KUK-BBCNEWSHD/index.m3u8
 #EXTINF:-1 tvg-id="BBCWorldNewsAsiaPacific.uk" tvg-country="APAC" tvg-language="English;Japanese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/BBC_World_News_2019.svg/512px-BBC_World_News_2019.svg.png" group-title="News" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36",BBC World News Asia Pacific (576p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
 https://livecdn.fptplay.net/sdb/bbcnew_2000.stream/chunklist.m3u8
-#EXTINF:-1 tvg-id="BloombergTVAsiaPacific.hk" tvg-country="APAC;OCE;SAS" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3b/Bloomberg_Television_2016.png" group-title="Business",Bloomberg TV Asia (720p)
-https://liveprodapnortheast.global.ssl.fastly.net/ap1/Channel-APTVqvs-AWS-tokyo-1/Source-APTVqvs-1000-1_live.m3u8
+#EXTINF:-1 tvg-id="BloombergTVAsiaPacific.hk" tvg-country="APAC;OCE;SAS" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3b/Bloomberg_Television_2016.png" group-title="Business",Bloomberg TV Asia (576p) [Geo-blocked]
+http://210.210.155.35/dr9445/h/h03/index.m3u8
 #EXTINF:-1 tvg-id="BloombergTVAsiaLiveEvent.us" tvg-country="APAC" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3b/Bloomberg_Television_2016.png" group-title="Business",Bloomberg TV Asia Live Event (720p)
 https://www.bloomberg.com/media-manifest/streams/asia-event.m3u8
 #EXTINF:-1 tvg-id="CGTN.cn" tvg-country="INT" tvg-language="Chinese;English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/512px-CGTN.svg.png" group-title="News",CGTN (576p)
@@ -31,6 +31,8 @@ https://livecdn.fptplay.net/hda3/dreamworks_vhls.smil/chunklist.m3u8
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 #EXTINF:-1 tvg-id="EuronewsGerman.fr" tvg-country="INT" tvg-language="German" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews German
 https://euronews.alteox.app/hls/de_stream.m3u8
+#EXTINF:-1 tvg-id="EuronewsItalian.fr" tvg-country="INT" tvg-language="Italian" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews Italian
+https://euronews.alteox.app/hls/it_stream.m3u8
 #EXTINF:-1 tvg-id="EuronewsPortuguese.fr" tvg-country="INT" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews Portuguese
 https://euronews.alteox.app/hls/pt_stream.m3u8
 #EXTINF:-1 tvg-id="EuronewsRussian.fr" tvg-country="INT" tvg-language="Russian" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews Russian
@@ -47,8 +49,8 @@ http://167.99.65.12:1935/live/ngrp:myStream_all/playlist.m3u8
 https://insighttv-vizio.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="Kanal10Asia.se" tvg-country="ASIA" tvg-language="Swedish" tvg-logo="https://i.imgur.com/RQXBwlz.png" group-title="Religious",Kanal 10 Asia (540p)
 http://cdn-kanal10.crossnet.net:1935/kanal10/kanal10asia/playlist.m3u8
-#EXTINF:-1 tvg-id="KBSWorld.kr" tvg-country="INT" tvg-language="English;Korean" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/KBS_World_%282009%29.svg/512px-KBS_World_%282009%29.svg.png" group-title="General",KBS World (720p)
-https://wms4-kortv.akamaized.net/a_live/63719963/smil:20ch011.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="KBSWorld.kr" tvg-country="INT" tvg-language="English;Korean" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/KBS_World_%282009%29.svg/512px-KBS_World_%282009%29.svg.png" group-title="General",KBS World (Vietnamese Subtitles) (720p)
+https://livecdn.fptplay.net/sdb/kbs_hls.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="MetroGlobeNetwork.id" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/NTCI3lf.png" group-title="Culture",Metro Globe Network (1080p) [Not 24/7]
 https://edge.medcom.id/live-edge/smil:mgnch.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="MNBWorld.mn" tvg-country="INT" tvg-language="English" tvg-logo="https://www.lyngsat.com/logo/tv/mm/mnb-world-mn.png" group-title="Undefined",MNB world
@@ -59,8 +61,6 @@ https://uplynkcontent.sinclairstoryline.com/channel/ddd76fdc1c0a456ba537e4f48e82
 http://netlink.netlinkbroadcaster.com/hls/test.m3u8
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp" tvg-country="INT" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/NHK_World-Japan_TV.svg/512px-NHK_World-Japan_TV.svg.png" group-title="Culture;News",NHK World Japan (1080p)
 https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
-#EXTINF:-1 tvg-id="OneTVAsia.sg" tvg-country="ASEAN" tvg-language="Korean" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/One_TV_Asia_logo_%282020%29.png/512px-One_TV_Asia_logo_%282020%29.png" group-title="Undefined",One TV Asia (576p) [Geo-blocked]
-http://210.210.155.37/uq2663/h/h143/index.m3u8
 #EXTINF:-1 tvg-id="EuronewsEnglish.fr" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Pluto TV Euronews (720p) [Not 24/7]
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60d3583ef310610007fb02b1/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&serverSideAds=false&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-id="PNN.kh" tvg-country="KH" tvg-language="Khmer" tvg-logo="https://i.imgur.com/1xZmAvQ.jpg" group-title="Undefined",PNN (360p) [Not 24/7]
@@ -84,8 +84,8 @@ https://cdn-telkomsel-01.akamaized.net/Content/DASH/Live/channel(9ce3f094-4044-4
 http://seatv.netlinkbroadcaster.com/hls/test.m3u8
 #EXTINF:-1 tvg-id="SICInternacional.pt" tvg-country="INT" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/UgJ5lac.png" group-title="Undefined",SIC Internacional (720p)
 http://live.impresa.pt/live/sicint/sicint.m3u8
-#EXTINF:-1 tvg-id="SKITV.ch" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/idKogRi.png" group-title="Sports",SKI TV (1080p) [Not 24/7]
-https://d2xeo83q8fcni6.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/SkiTV-SportsTribal/193.m3u8
+#EXTINF:-1 tvg-id="SKITV.ch" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/idKogRi.png" group-title="Sports",Ski TV (1080p) [Not 24/7]
+https://d2xeo83q8fcni6.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/SkiTV-Zee/193.m3u8
 #EXTINF:-1 tvg-id="SofyTV.ch" tvg-country="INT" tvg-language="German" tvg-logo="https://i.imgur.com/Srxa6cR.png" group-title="Undefined",Sofy TV (720p)
 https://sofy-ger-samsung.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="TRTWorld.tr" tvg-country="INT" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TRT_World.svg/512px-TRT_World.svg.png" group-title="News",TRT World (720p) [Not 24/7]
