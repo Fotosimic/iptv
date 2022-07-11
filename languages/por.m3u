@@ -31,8 +31,6 @@ https://5b33b873179a2.streamlock.net:1443/mastertv/livestream/playlist.m3u8
 https://medias.sgr.globo.com/hls/vCBNRJ/vCBNRJ.m3u8
 #EXTINF:-1 tvg-id="CBNSaoPaulo.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/FZwHq8k.png" group-title="News",CBN São Paulo (720p)
 https://medias.sgr.globo.com/hls/vCBNSP/vCBNSP.m3u8
-#EXTINF:-1 tvg-id="CNNBrasil.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/CNN_Brasil.svg/512px-CNN_Brasil.svg.png" group-title="News",CNN Brasil (1080p) [Not 24/7]
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCvdwhh_fDyWccR42-rReZLw/live
 #EXTINF:-1 tvg-id="COMBrasil.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/c8ztQnF.png" group-title="General",COM Brasil (720p) [Not 24/7]
 https://596639ebdd89b.streamlock.net/8032/8032/playlist.m3u8
 #EXTINF:-1 tvg-id="CulturaPara.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/5jPEI5c.png" group-title="General",Cultura Pará (480p) [Not 24/7]
@@ -51,6 +49,8 @@ https://euronews.alteox.app/hls/pt_stream.m3u8
 http://flash.softhost.com.br:1935/fonte/fontetv/live.m3u8
 #EXTINF:-1 tvg-id="GhostTV.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/ZVO8GVI.png" group-title="Movies",Ghost TV (712p) [Not 24/7]
 https://stmv.video.expressolider.com.br/ghostv/ghostv/playlist.m3u8
+#EXTINF:-1 tvg-id="GospelCartoon.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/aoq9CGU.png" group-title="Religious",Gospel Cartoon (480p)
+https://stmv1.srvstm.com/gospelcartoon2/gospelcartoon2/playlist.m3u8
 #EXTINF:-1 tvg-id="GospelMovieTV.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://ipgo.xyz/tv/gmovies/imagens/logo_gospelf_site.png" group-title="Religious",Gospel Movie TV (360p)
 https://stmv1.srvif.com/gospelf/gospelf/playlist.m3u8
 #EXTINF:-1 tvg-id="IMPDTV.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/D15qpCm.png" group-title="Religious",IMPD TV (720p)
@@ -131,15 +131,11 @@ https://59f1cbe63db89.streamlock.net:1443/tvpampa/tvpampa/playlist.m3u8
 https://cvd1.cds.ebtcvd.net/live-redevida/smil:redevida.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RedeTV.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/ZJgD38F.png" group-title="General",RedeTV! Tocantins (720p) [Not 24/7]
 https://59f1cbe63db89.streamlock.net:1443/redetvro/_definst_/redetvro/playlist.m3u8
-#EXTINF:-1 tvg-id="RedeTVTocantins.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/8fGmJWA.png" group-title="General",RedeTV! Tocantins (720p) [Not 24/7]
-https://59f1cbe63db89.streamlock.net:1443/redetvro/redetvro/playlist.m3u8
 #EXTINF:-1 tvg-id="RetroCartoon.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/cyfu3qP.png" group-title="Classic",Retrô Cartoon (480p) [Not 24/7]
 https://stmv1.srvif.com/retrotv/retrotv/playlist.m3u8
-#EXTINF:-1 tvg-id="RTP1.pt" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/w7GV86i.png" group-title="General",RTP1 (480p)
-http://162.212.178.69:41042/bysid/608
-#EXTINF:-1 tvg-id="RTP3.pt" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/ohXJmiR.png" group-title="News" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0",RTP3 (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="RTP1.pt" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/w7GV86i.png" group-title="General" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0",RTP1 (720p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0
-https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8
+https://streaming-live.rtp.pt/liverepeater/rtpClean1HD.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RTPAcores.pt" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/RTP_A%C3%A7ores_%282016%29.svg/512px-RTP_A%C3%A7ores_%282016%29.svg.png" group-title="General" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0",RTP Açores (720p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0
 https://streaming-live.rtp.pt/liverepeater/smil:rtpacoresHD.smil/playlist.m3u8
@@ -149,8 +145,6 @@ https://streaming-live.rtp.pt/liverepeater/smil:rtpafrica.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RTPInternacional.pt" tvg-country="INT" tvg-language="Portuguese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/RTP_Internacional_2016_%28Reduced_Version%29.svg/512px-RTP_Internacional_2016_%28Reduced_Version%29.svg.png" group-title="General" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0",RTP Internacional (504p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0
 https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="RTPiAsia.pt" tvg-country="ASIA" tvg-language="Portuguese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/RTP_Internacional_2016_%28Reduced_Version%29.svg/512px-RTP_Internacional_2016_%28Reduced_Version%29.svg.png" group-title="General",RTP Internacional Asia (480p) [Geo-blocked]
-http://210.210.155.35/qwr9ew/s/s38/index.m3u8
 #EXTINF:-1 tvg-id="RTPMadeira.pt" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/ac/RTP_Madeira_2016.png/512px-RTP_Madeira_2016.png" group-title="General" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)",RTP Madeira (504p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 https://streaming-live.rtp.pt/liverepeater/smil:rtpmadeira.smil/playlist.m3u8
@@ -234,8 +228,12 @@ http://tv02.logicahost.com.br:1935/pascoal/pascoal/live.m3u8
 http://painelvj.com.br:1935/pdsertaotv/pdsertaotv.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="TVEvangelizar.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/4LG6sA0.png" group-title="Religious",TV Evangelizar (480p)
 https://5f593df7851db.streamlock.net/evangelizar/tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TVGalegaBlumenau.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://ps.srvsite.com/arquivos/5757/cabecalho-5757-20190807171022.png" group-title="Undefined",TV Galega Blumenau (720p) [Not 24/7]
+https://cdn.jmvstream.com/w/LVW-8538/LVW8538_KBtZ9UMIZn/playlist.m3u8
 #EXTINF:-1 tvg-id="TVGideoes.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://www.gideoes.com.br/wp-content/uploads/2018/12/logotipo-tvgideoes.png" group-title="Religious",TV Gideoes (1080p) [Not 24/7]
 https://streaming01.zas.media/gideoes/programacao/playlist.m3u8
+#EXTINF:-1 tvg-id="TVMackenzie.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/TV_Mackenzie_logo.svg/512px-TV_Mackenzie_logo.svg.png" group-title="Education",TV Mackenzie (480p) [Not 24/7]
+https://player.internetaovivo.com:8443/live_tvmackenzieabr/tvmackenzieabr/playlist.m3u8
 #EXTINF:-1 tvg-id="TVMAX.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/2Pg0baJ.png" group-title="Undefined",TV MAX (720p) [Not 24/7]
 https://59f1cbe63db89.streamlock.net:1443/tvmax/tvmax/playlist.m3u8
 #EXTINF:-1 tvg-id="TVMetropole.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/thumb/9/92/Logotipo_da_TV_Metr%C3%B3pole.png/512px-Logotipo_da_TV_Metr%C3%B3pole.png" group-title="General",TV Metropole (720p) [Not 24/7]
@@ -252,12 +250,8 @@ http://200.189.113.201/hls/tve.m3u8
 http://rtmp.cdn.upx.net.br/00084/myStream.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="TVSantaCruz.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/Jyw5BB2.png" group-title="Undefined",TV Santa Cruz (720p) [Not 24/7]
 https://rtmp.info/tvsantacruz/envivo/playlist.m3u8
-#EXTINF:-1 tvg-id="TVSolComunidade.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://tvsolcomunidade.com.br/wp-content/uploads/2019/01/logo-tv-sol.png" group-title="Undefined",TV Sol Comunidade (480p) [Not 24/7]
-http://streaming03.zas.media:1935/tvsol/tvsol/playlist.m3u8
 #EXTINF:-1 tvg-id="TVTerceiroAnjo.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/eHibp1L.png" group-title="Religious",TV Terceiro Anjo (360p) [Not 24/7]
 https://streamer1.streamhost.org/salive/GMI3anjoh/livestream.m3u8
-#EXTINF:-1 tvg-id="TVThathi.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://tv.thathi.com.br/wp-content/uploads/2021/02/tv-thathi-150x150.png" group-title="General",TV Thathi (720p) [Not 24/7]
-https://cdn-grupo-10049.ciclano.io:1443/grupo-10049/grupo-10049/playlist.m3u8
 #EXTINF:-1 tvg-id="TVUFG.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/Yp3dbJo.png" group-title="Education",TV UFG (720p) [Not 24/7]
 http://flash.softhost.com.br:1935/ufg/tvufgweb/playlist.m3u8
 #EXTINF:-1 tvg-id="TVUniSantos.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/7/72/Logo_da_TV_Unisantos.png" group-title="Undefined",TV UniSantos (240p) [Not 24/7]
