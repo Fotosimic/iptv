@@ -70,16 +70,18 @@ https://wifispeed.trapemn.tv:1936/comunales/caracola-tv/playlist.m3u8
 https://unlimited1-us.dps.live/carolinatv/carolinatv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="CEACTV.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://i.imgur.com/hl0S4fC.png" group-title="Undefined",CEAC TV (Santiago) (480p)
 https://hd.chileservidores.cl:1936/ceactv/ceactv/playlist.m3u8
+#EXTINF:-1 tvg-id="CGTN.cn" tvg-country="INT" tvg-language="Chinese;English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/512px-CGTN.svg.png" group-title="News",CGTN (576p)
+https://news.cgtn.com/resource/live/english/cgtn-news.m3u8
 #EXTINF:-1 tvg-id="CGTNDocumentary.cn" tvg-country="INT" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d6/CGTN_Documentary_logo.png" group-title="Documentary",CGTN Documentary (576p)
 http://39.135.138.59:18890/PLTV/88888910/224/3221225645/index.m3u8
-#EXTINF:-1 tvg-id="CGTN.cn" tvg-country="INT" tvg-language="Chinese;English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/512px-CGTN.svg.png" group-title="News",CGTN English (432p) [Not 24/7]
-https://dai.google.com/linear/hls/event/r4sa-f6GSN2XIvzKv5jVng/master.m3u8
 #EXTINF:-1 tvg-id="CGTNSpanish.cn" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/CGTN_Espanol.png/512px-CGTN_Espanol.png" group-title="News",CGTN Español (576p) [Not 24/7]
 https://news.cgtn.com/resource/live/espanol/cgtn-e.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="CL" tvg-language="" tvg-logo="" group-title="Undefined",Chavo TV (480p)
 https://videostreaming.cloudserverlatam.com/ElChavotv/ElChavotv/playlist.m3u8
 #EXTINF:-1 tvg-id="ChileVision.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://i.imgur.com/GAsSUqn.png" group-title="General",ChileVisión (720p) [Geo-blocked]
 http://chv-m3u.chorroaeboy.repl.co
+#EXTINF:-1 tvg-id="" tvg-country="CL" tvg-language="" tvg-logo="" group-title="Undefined",CHV Noticias (720p) [Not 24/7]
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCRsUoZYC1ULUspipMRnMhwg/live
 #EXTINF:-1 tvg-id="ClassicArtsShowcase.us" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/M6FFkc3.png" group-title="Classic",Classic Arts Showcase
 https://gcamhls02-i.akamaihd.net/hls/live/1024257/ClassicArts/master.m3u8
 #EXTINF:-1 tvg-id="ClickTVChile.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://i.imgur.com/UO4OVuv.png" group-title="Undefined",Click TV (Coronel) (720p)
@@ -146,8 +148,6 @@ https://cdn3.wowza.com/1/SmVrQmZCUXZhVDgz/b3J3MFJv/hls/live/playlist.m3u8
 https://srv3.zcast.com.br/expreszion/expreszion/playlist.m3u8
 #EXTINF:-1 tvg-id="France24English.fr" tvg-country="INT" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8a/France24.png" group-title="News",France 24 English (1080p)
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/FRANCE24English/live
-#EXTINF:-1 tvg-id="France24Espanol.fr" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8a/France24.png" group-title="News",France 24 Español (1080p)
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/FRANCE24Espanol/live
 #EXTINF:-1 tvg-id="Girovisual.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://i.imgur.com/k5bwqSI.png" group-title="Undefined",Girovisual
 https://unlimited1-cl-isp.dps.live/girovisual2/girovisual2.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="GoldenPanregional.mx" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Canal_Golden_logo.svg/512px-Canal_Golden_logo.svg.png" group-title="Undefined",Golden TV (240p) [Not 24/7]
@@ -168,8 +168,8 @@ https://marine2.miplay.cl/arcatel/iquiquetv720/video.m3u8
 https://unlimited1-us.dps.live/itv/itv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="CL" tvg-language="" tvg-logo="" group-title="Undefined",Kanade TV (720p)
 http://64.20.57.7:8080/hls/enfoque.m3u8
-#EXTINF:-1 tvg-id="KBSWorld.kr" tvg-country="INT" tvg-language="English;Korean" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/KBS_World_%282009%29.svg/512px-KBS_World_%282009%29.svg.png" group-title="General",KBS World (720p)
-https://wms4-kortv.akamaized.net/a_live/63719963/smil:20ch011.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="KBSWorld.kr" tvg-country="INT" tvg-language="English;Korean" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/KBS_World_%282009%29.svg/512px-KBS_World_%282009%29.svg.png" group-title="General",KBS World (Vietnamese Subtitles) (720p)
+https://livecdn.fptplay.net/sdb/kbs_hls.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="LaGranjaTV.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://www.lagranja.tv/gallery_gen/a08851eaf2d8abd4a01558603ad6bdbd_470x475.82263814617.png" group-title="Undefined",La Granja TV (720p) [Not 24/7]
 https://5eae379fb77bb.streamlock.net/8126/8126/playlist.m3u8
 #EXTINF:-1 tvg-id="LaRed.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://i.imgur.com/nJOVM6e.png" group-title="General",La Red (720p) [Not 24/7]
@@ -188,6 +188,8 @@ https://593b04c4c5670.streamlock.net/8008/8008/playlist.m3u8
 https://server1.oklanet.cl:1936/maximavideo1/maximavideo1/playlist.m3u8
 #EXTINF:-1 tvg-id="Mega.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://i.imgur.com/RlZfR84.png" group-title="Undefined",Mega [Geo-blocked]
 http://186.67.117.178:8081/play/a00x
+#EXTINF:-1 tvg-id="Meganoticias.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Meganoticias2019.png/512px-Meganoticias2019.png" group-title="News",Meganoticias (720p) [Not 24/7]
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCkccyEbqhhM3uKOI6Shm-4Q/live
 #EXTINF:-1 tvg-id="MetroGlobeNetwork.id" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/NTCI3lf.png" group-title="Culture",Metro Globe Network (1080p) [Not 24/7]
 https://edge.medcom.id/live-edge/smil:mgnch.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="MNBWorld.mn" tvg-country="INT" tvg-language="English" tvg-logo="https://www.lyngsat.com/logo/tv/mm/mnb-world-mn.png" group-title="Undefined",MNB world
@@ -198,6 +200,10 @@ https://videostreaming.cloudserverlatam.com/8078/8078/playlist.m3u8
 https://uplynkcontent.sinclairstoryline.com/channel/ddd76fdc1c0a456ba537e4f48e827d3e.m3u8
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp" tvg-country="INT" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/NHK_World-Japan_TV.svg/512px-NHK_World-Japan_TV.svg.png" group-title="Culture;News",NHK World Japan (1080p)
 https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="NHKWorldPremium.jp" tvg-country="INT" tvg-language="English;Japanese;Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Logo_NHK_World_Premium.jpg/512px-Logo_NHK_World_Premium.jpg" group-title="News",NHK World Premium (720p) [Not 24/7]
+https://nhkwlive-pre-in.webcdn.stream.ne.jp/hls/live/nhkwlive-pre/index.m3u8
+#EXTINF:-1 tvg-id="NTN24.co" tvg-country="INT" tvg-language="Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/NTN24_logo.svg/512px-NTN24_logo.svg.png" group-title="News",NTN24 (Nuestra Tele Noticias) (720p) [Not 24/7]
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCEJs1fTF3KszRJGxJY14VrA/live
 #EXTINF:-1 tvg-id="Nublevision.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://i.imgur.com/nkQyR1X.png" group-title="Undefined",Ñublevisión (Chillán) (720p)
 https://cdn.oneplaychile.cl:1936/regionales/nublevision.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="NuevoTiempo.br" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/exdDHml.png" group-title="Religious",Nuevo Tiempo (720p) [Not 24/7]
@@ -277,12 +283,8 @@ https://5ff3d9babae13.streamlock.net/8000/8000/playlist.m3u8
 https://paneltv.online:1936/8116/8116/playlist.m3u8
 #EXTINF:-1 tvg-id="StgoTV.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://pbs.twimg.com/profile_images/984897951024713729/HyC8AIMf.jpg" group-title="Undefined",Stgo.TV (720p)
 https://stv.janus.cl/playlist/stream.m3u8
-#EXTINF:-1 tvg-id="T13.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://yt3.ggpht.com/38nyfn1SNlLC0ugybHnjG9o24xl3BZxi8JrUadDOES4tCO0UD5owSjA1e31gf_PROOdwxSFx-w=s200-c-k-c0x00ffffff-no-rj" group-title="News",T13 (720p) [Not 24/7]
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCsRnhjcUCR78Q3Ud6OXCTNg/live
 #EXTINF:-1 tvg-id="TastemadeenEspanol.us" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/8s6aRwv.png" group-title="Cooking",Tastemade en Español (1080p)
 https://tastemade-es8intl-roku.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="Tele2WebRetiro.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://yt3.ggpht.com/ytc/AKedOLTQ-u0nUMUn0Pr4qLUHBtisfx8KuNM9ts66uVtJ=s200-c-k-c0x00ffffff-no-rj" group-title="Undefined",Tele 2 Web (Retiro) (720p) [Not 24/7]
-https://inliveserver.com:1936/11516/11516/playlist.m3u8
 #EXTINF:-1 tvg-id="Telecanal.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1a/Telecanal_-_2011_logo_%283D_variant%29.png" group-title="Undefined",Telecanal
 https://unlimited1-cl-isp.dps.live/tctc/tctc.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Telesur.ve" tvg-country="HISPAM;VE" tvg-language="Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/TeleSUR-Logo.svg/512px-TeleSUR-Logo.svg.png" group-title="News",teleSUR (1080p)
@@ -313,8 +315,6 @@ https://593b04c4c5670.streamlock.net/8014/8014/playlist.m3u8
 http://cdnh4.iblups.com/hls/irtp.m3u8
 #EXTINF:-1 tvg-id="TVPop.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://www.radiopop.cl/wp-content/uploads/2019/01/logo_pop_001.png" group-title="Entertainment",TV Pop (720p)
 https://v4.tustreaming.cl/poptv/playlist.m3u8
-#EXTINF:-1 tvg-id="Canal2Quellon.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://i.imgur.com/ThYJ4M8.png" group-title="Undefined",TV Quellón (1080p) [Not 24/7]
-https://pantera1-100gb-cl-movistar.dps.live/tvquellon/tvquellon.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TVSalud.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://i.imgur.com/PSDKboh.png" group-title="Lifestyle",TV Salud (720p) [Not 24/7]
 https://srv3.zcast.com.br/mastermedia/mastermedia/playlist.m3u8
 #EXTINF:-1 tvg-id="TVSenado.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://cdn.mitvstatic.com/channels/cl_senado-tv_m.png" group-title="Undefined",TV Senado (360p)
