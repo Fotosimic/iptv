@@ -44,8 +44,9 @@ http://39.135.138.59:18890/PLTV/88888910/224/3221225645/index.m3u8
 https://news.cgtn.com/resource/live/espanol/cgtn-e.m3u8
 #EXTINF:-1 tvg-id="CNNenEspanol.us" tvg-country="LATAM;US" tvg-language="Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Logo_de_CNN_en_Espa%C3%B1ol_%282010-2015%29.svg/512px-Logo_de_CNN_en_Espa%C3%B1ol_%282010-2015%29.svg.png" group-title="News",CNN en Español
 http://209.91.213.10:8088/play/a014
-#EXTINF:-1 tvg-id="ConectaTV.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/9TGQZzk.png" group-title="Music",Conecta TV (720p)
-http://204.12.211.210:1935/conectatv/conectatv/playlist.m3u8
+#EXTINF:-1 tvg-id="ConectaTV.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/9TGQZzk.png" group-title="Music",Conecta TV (720p) [Not 24/7]
+#EXTVLCOPT:http-referrer=https://ssh101.com/
+https://tna5.bozztv.com/Conectatvmexico/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="MX" tvg-language="" tvg-logo="" group-title="Undefined",CorTV (800p)
 https://stream.oursnetworktv.com/latin/encoder29/playlist.m3u8
 #EXTINF:-1 tvg-id="DemandAfricaMexico.mx" tvg-country="MX" tvg-language="English" tvg-logo="https://i.imgur.com/sr5vC8z.jpg" group-title="Entertainment",Demand Africa (Mexico) (1080p)
@@ -98,8 +99,6 @@ http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.dailymotion.com/video/x82z4if
 #EXTINF:-1 tvg-id="InsightTV.nl" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/7xmaoL0.png" group-title="Sports",Insight TV (1080p)
 https://insighttv-vizio.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="JaliscoTV.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/N4meE8I.png" group-title="Undefined",Jalisco TV (720p) [Geo-blocked]
-https://5fa5de1a545ae.streamlock.net/sisjalisciense/sisjalisciense/playlist.m3u8
 #EXTINF:-1 tvg-id="KBSWorld.kr" tvg-country="INT" tvg-language="English;Korean" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/KBS_World_%282009%29.svg/512px-KBS_World_%282009%29.svg.png" group-title="General",KBS World (720p)
 https://kbsworld-ott.akamaized.net/hls/live/2002341/kbsworld/master.m3u8
 #EXTINF:-1 tvg-id="LatinoKids.uy" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/CBUf3K1.png" group-title="Entertainment",LatinoKids (360p) [Not 24/7]
@@ -219,8 +218,6 @@ http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCcmuFsMIIIHO3LBqeBVfm8Q/live
 #EXTINF:-1 tvg-id="TelevisaMonterrey.mx" tvg-country="MX-NLE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/ierlYM1.jpg" group-title="Undefined",Televisa Monterrey (1080p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCGDJLLphnP0zQQaE3kgo5Wg/live
-#EXTINF:-1 tvg-id="TelevisaMorelos.mx" tvg-country="MX-MOR" tvg-language="Spanish" tvg-logo="https://i.imgur.com/QiJoBVs.png" group-title="Undefined",Televisa Morelos
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCcC9ykApQrgl4UxbKg2U4zw/live
 #EXTINF:-1 tvg-id="TelevisaNewsMexico.mx" tvg-country="MX-MEX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/KVc1hqI.png" group-title="News",Televisa News Mexico (720p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCUsm-fannqOY02PNN67C0KA/live
 #EXTINF:-1 tvg-id="TelevisaNoreste.mx" tvg-country="MX-TAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/rHCKwYB.jpg" group-title="Undefined",Televisa Noreste (480p) [Not 24/7]
@@ -229,18 +226,20 @@ http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCxK8C1E8UZ5RipNXIBYEvTA/live
 #EXTINF:-1 tvg-id="TelevisaQueretaro.mx" tvg-country="MX-QUE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/47c1AIS.png" group-title="Undefined",Televisa Queretaro
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UC9QNz6VS3gGz55dzxAQtgtA/live
+#EXTINF:-1 tvg-id="" tvg-country="MX" tvg-language="" tvg-logo="" group-title="Undefined",Televisa San Luis Potosí (720p) [Not 24/7]
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCaRuyaHshLdq462E9_pLzdA/live
 #EXTINF:-1 tvg-id="TelevisaSinaloa.mx" tvg-country="MX-SIN" tvg-language="Spanish" tvg-logo="https://i.imgur.com/nZ9HE94.png" group-title="Undefined",Televisa Sinaloa
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCtm1LvYEIQ_NrfOUVJ08YhQ/live
 #EXTINF:-1 tvg-id="TelevisaSonora.mx" tvg-country="MX-SON" tvg-language="Spanish" tvg-logo="https://i.imgur.com/3FjHKAC.jpg" group-title="Undefined",Televisa Sonora (720p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCyzWMHGS7bs0sot6KZk5EZg/live
 #EXTINF:-1 tvg-id="TelevisaVeracruz.mx" tvg-country="MX-VER" tvg-language="Spanish" tvg-logo="https://i.imgur.com/4hPbfbg.png" group-title="Undefined",Televisa Veracruz (720p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UC5EnLdE7ASjYzWt7wvT-QSg/live
+#EXTINF:-1 tvg-id="TelevisaZacatecas.mx" tvg-country="MX-ZAC" tvg-language="Spanish" tvg-logo="https://i.imgur.com/vsbl0u6.png" group-title="Undefined",Televisa Zacatecas (720p) [Not 24/7]
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCQb3i7gu9J8A4zzQU7j6C1Q/live
 #EXTINF:-1 tvg-id="Tevex.cl" tvg-country="CL;HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/sj4sEaN.png" group-title="Business",Tevex (720p) [Not 24/7]
 https://v4.tustreaming.cl/tevexinter/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="MX" tvg-language="" tvg-logo="" group-title="Undefined",Tlaxcala Televisión (360p) [Not 24/7]
 https://vid.mega00.com:5443/LiveApp/streams/928111829917388844551988/928111829917388844551988.m3u8?token=null
-#EXTINF:-1 tvg-id="TopLatinoTV.pe" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/VMMNhkf.png" group-title="Music",Top Latino TV (404p) [Not 24/7]
-https://5cefcbf58ba2e.streamlock.net/tltvweb/tvweb.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="TransmediaTelevisionMorelia.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/kpffqTI.png" group-title="Undefined",Transmedia Televisión Morelia (614p) [Not 24/7]
 http://streamingcws20.com:1935/tmtv/videotmtv/playlist.m3u8
 #EXTINF:-1 tvg-id="TRTWorld.tr" tvg-country="INT" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TRT_World.svg/512px-TRT_World.svg.png" group-title="News",TRT World (720p) [Not 24/7]
@@ -257,8 +256,6 @@ https://5ca3e84a76d30.streamlock.net/tvunam/videotvunam/playlist.m3u8?DVR=
 https://america-crtvg.flumotion.com/playlist.m3u8
 #EXTINF:-1 tvg-id="TVMInternacional.mz" tvg-country="INT" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/Ns3WrOQ.png" group-title="General",TVM Internacional (480p) [Not 24/7]
 http://online.tvm.co.mz:1935/live/smil:Channel2.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="XHGVTDT.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/15kcNRb.png" group-title="Undefined",TVMÁS (XHGV-TDT) (360p) [Not 24/7]
-https://5ca9af4645e15.streamlock.net/rtv/videortv/playlist.m3u8
 #EXTINF:-1 tvg-id="TVP.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/mw4992J.png" group-title="Undefined",TVP (720p) [Not 24/7]
 https://5ca3e84a76d30.streamlock.net/gpacifico4/smil:mazatlan.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="MX" tvg-language="" tvg-logo="" group-title="Undefined",TVP Culiacán (720p) [Not 24/7]
