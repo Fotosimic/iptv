@@ -1,6 +1,4 @@
 #EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/ao/guide.dstv.com.epg.xml,https://iptv-org.github.io/epg/guides/ar/mi.tv.epg.xml,https://iptv-org.github.io/epg/guides/bf/canalplus-afrique.com.epg.xml,https://iptv-org.github.io/epg/guides/bo/comteco.com.bo.epg.xml,https://iptv-org.github.io/epg/guides/br/mi.tv.epg.xml,https://iptv-org.github.io/epg/guides/cz/m.tv.sms.cz.epg.xml,https://iptv-org.github.io/epg/guides/dk/allente.se.epg.xml,https://iptv-org.github.io/epg/guides/fr/chaines-tv.orange.fr.epg.xml,https://iptv-org.github.io/epg/guides/ge/magticom.ge.epg.xml,https://iptv-org.github.io/epg/guides/gr/cosmote.gr.epg.xml,https://iptv-org.github.io/epg/guides/id-en/mncvision.id.epg.xml,https://iptv-org.github.io/epg/guides/it/guidatv.sky.it.epg.xml,https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml,https://iptv-org.github.io/epg/guides/ng/dstv.com.epg.xml,https://iptv-org.github.io/epg/guides/nl/delta.nl.epg.xml,https://iptv-org.github.io/epg/guides/se/allente.se.epg.xml,https://iptv-org.github.io/epg/guides/tr/digiturk.com.tr.epg.xml,https://iptv-org.github.io/epg/guides/uk/bt.com.epg.xml,https://iptv-org.github.io/epg/guides/us-pluto/i.mjh.nz.epg.xml,https://iptv-org.github.io/epg/guides/us/tvtv.us.epg.xml,https://iptv-org.github.io/epg/guides/za/guide.dstv.com.epg.xml"
-#EXTINF:-1 tvg-id="1Plus1.ua" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/ce/1%2B1_3.svg/revision/latest/scale-to-width-down/512" group-title="Undefined",1+1 (1080p)
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCVEaAWKfv7fE1c-ZuBs7TKQ/live
 #EXTINF:-1 tvg-id="1Plus1Sport.ua" tvg-logo="https://i.imgur.com/VpBVorp.png" group-title="Sports",1+1 Спорт (720p) [Not 24/7]
 https://live-k2301-kbp.1plus1.video/sport/smil:sport.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",4 канал (720p)
@@ -9,8 +7,6 @@ http://95.67.106.10/hls/nta_ua_hi/index.m3u8
 http://95.67.106.10/hls/nta_ua_mid/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",4 канал (720p)
 http://95.67.106.10/hls/nta_ua_low/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",4 канал (1080p)
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCQdSS9GSBbtSqW3oNB39KTw/live
 #EXTINF:-1 tvg-id="7kanal.ua" tvg-logo="https://i.imgur.com/nJvGdoj.jpg" group-title="Undefined",7 канал (720p)
 https://cdn10.live-tv.od.ua:8083/7tvod/7tvod-abr/playlist.m3u8
 #EXTINF:-1 tvg-id="24Kanal.ua" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/24_Group_Ukraine_04.png/512px-24_Group_Ukraine_04.png" group-title="News",24 Канал (1080p)
@@ -42,6 +38,8 @@ https://liveprodeuwest.akamaized.net/eu1/Channel-EUTVqvs-AWS-ireland-1/Source-EU
 https://news.cgtn.com/resource/live/english/cgtn-news.m3u8
 #EXTINF:-1 tvg-id="CGTNDocumentary.cn" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d6/CGTN_Documentary_logo.png" group-title="Documentary",CGTN Documentary (576p)
 http://39.135.138.59:18890/PLTV/88888910/224/3221225645/index.m3u8
+#EXTINF:-1 tvg-id="CNAInternational.sg" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/CNA_new_logo.svg/512px-CNA_new_logo.svg.png" group-title="News",CNA International (1080p)
+https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
 #EXTINF:-1 tvg-id="CNBCEurope.uk" tvg-logo="https://i.imgur.com/B6sfpDa.png" group-title="Business" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",CNBC Europe (480p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s65/index.m3u8
@@ -63,6 +61,8 @@ https://euronews.alteox.app/hls/de_stream.m3u8
 https://euronews.alteox.app/hls/it_stream.m3u8
 #EXTINF:-1 tvg-id="EuronewsPortuguese.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews Portuguese
 https://euronews.alteox.app/hls/pt_stream.m3u8
+#EXTINF:-1 tvg-id="EuronewsRussian.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews Russian
+https://euronews.alteox.app/hls/ru_stream.m3u8
 #EXTINF:-1 tvg-id="EuronewsSpanish.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews Spanish
 https://euronews.alteox.app/hls/es_stream.m3u8
 #EXTINF:-1 tvg-id="FashionTVEurope.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/512px-Fashion_TV_logo.svg.png" group-title="Lifestyle",Fashion TV (1080p)
@@ -118,8 +118,8 @@ https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
 https://cdn-telkomsel-01.akamaized.net/Content/DASH/Live/channel(9ce3f094-4044-467e-84b7-b684a49571d5)/manifest.mpd
 #EXTINF:-1 tvg-id="SICInternacional.pt" tvg-logo="https://i.imgur.com/UgJ5lac.png" group-title="Undefined",SIC Internacional (720p)
 http://live.impresa.pt/live/sicint/sicint.m3u8
-#EXTINF:-1 tvg-id="SKITV.ch" tvg-logo="https://i.imgur.com/idKogRi.png" group-title="Sports",Ski TV (1080p) [Not 24/7]
-https://d2xeo83q8fcni6.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/SkiTV-Zee/193.m3u8
+#EXTINF:-1 tvg-id="SKITV.ch" tvg-logo="https://i.imgur.com/idKogRi.png" group-title="Sports",SKI TV (1080p) [Not 24/7]
+https://d2xeo83q8fcni6.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/SkiTV-SportsTribal/193.m3u8
 #EXTINF:-1 tvg-id="Skrypinua.ua" tvg-logo="https://i.imgur.com/XtG3rfj.png" group-title="Undefined",Skrypin.ua (1080p) [Not 24/7]
 https://open-cdn.lanet.tv/play/skrypin.m3u8
 #EXTINF:-1 tvg-id="SofyTV.ch" tvg-logo="https://i.imgur.com/Srxa6cR.png" group-title="Undefined",Sofy TV (720p)
@@ -151,8 +151,6 @@ https://stream.ztv.zp.ua/hls/live.m3u8
 https://rtmp.radiogroup.com.ua:8080/live/avto/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Балта ТВ (768p)
 http://194.50.51.34/playlist.m3u8
-#EXTINF:-1 tvg-id="Glas.ua" tvg-logo="https://i.imgur.com/bAw83l7.png" group-title="Undefined",Глас (576p)
-http://85.238.112.69:8811/hls_sec/239.0.4.18-.m3u8
 #EXTINF:-1 tvg-id="GlassUA.ua" tvg-logo="https://i.imgur.com/YhRpb2Y.png" group-title="Religious",Гласс (UA) (576p) [Not 24/7]
 https://glas.org.ua/hls/glassua.m3u8
 #EXTINF:-1 tvg-id="DonbassOnline.ua" tvg-logo="https://www.lyngsat.com/logo/tv/dd/donbass-online-ua.png" group-title="Undefined",Донбас Online (1080p) [Not 24/7]
