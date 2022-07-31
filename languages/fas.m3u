@@ -14,7 +14,7 @@ http://51.210.199.4/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AyenehTV.ir" tvg-logo="https://www.ayeneh.org/wp-content/uploads/2016/04/Ayeneh-TV-April-16-400x223.png" group-title="Undefined",Ayeneh TV (720p) [Not 24/7]
 https://livestream.5centscdn.com/cls040318/b0d2763968fd0bdd2dc0d44ba2abf9ce.sdp/index.m3u8
 #EXTINF:-1 tvg-id="BBCPersian.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/44/BBC_News_Persian_Logo.jpg" group-title="News",BBC Persian (720p)
-https://vs-cmaf-pushb-ww-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_persian_tv/pc_hd_abr_v2_akamai_dash_live_http.mpd
+https://vs-cmaf-pushb-ww-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_persian_tv/pc_hd_abr_v2_akamai_dash_live.mpd
 #EXTINF:-1 tvg-id="FarsTV.ir" tvg-logo="https://www.lyngsat.com/logo/tv/ff/fars_tv_ir.png" group-title="Undefined",FARS (240p)
 http://cdn1.live.irib.ir:1935/epg-live/smil:fars/playlist.m3u8
 #EXTINF:-1 tvg-id="GanjeHozourTV.us" tvg-logo="https://i.imgur.com/pHZGx5L.png" group-title="Undefined",Ganj e Hozour TV (720p)
@@ -23,6 +23,9 @@ http://topfi.ios.internapcdn.net/topfi/live_1/Test/Test.m3u8
 http://216.66.42.47:7777/GemAZ_HD.m3u8
 #EXTINF:-1 tvg-id="GEMComedy.ir" tvg-logo="https://i.imgur.com/SARFEvd.png" group-title="Comedy",GEM Comedy (576p) [Not 24/7]
 http://216.66.42.47:7777/GemComedy_HD.m3u8
+#EXTINF:-1 tvg-id="GEMFilm.ir" tvg-logo="https://i.imgur.com/SZPQxWO.png" group-title="Movies",GEM Film (576p)
+#EXTVLCOPT:http-referrer=https://www.gemonline.tv/en-US/Live/Index?channelname=gem_film
+https://stream-cdn.gemonline.tv/live/gemfilm/index.m3u8
 #EXTINF:-1 tvg-id="GolestanTV.ir" tvg-logo="https://www.lyngsat.com/logo/tv/gg/golestan-tv-ir.png" group-title="Undefined",GOLESTAN (240p)
 http://cdn1.live.irib.ir:1935/epg-live/smil:golestan/playlist.m3u8
 #EXTINF:-1 tvg-id="HastiTVHD.ir" tvg-logo="https://i.imgur.com/vwjcP7X.png" group-title="Undefined",Hasti TV (1080p) [Not 24/7]
@@ -127,8 +130,6 @@ https://live.snn.ir/hls/snn/index.m3u8
 http://208.113.204.104:8123/live/tapesh-live-stream/index.m3u8
 #EXTINF:-1 tvg-id="TBNNejatTV.ir" tvg-logo="https://nejattv.org/assets/img/tbn-nejat-logo.png" group-title="Undefined",TBN Nejat TV (540p) [Not 24/7]
 https://api.new.livestream.com/accounts/27460990/events/8266913/live.m3u8
-#EXTINF:-1 tvg-id="TinTV.us" tvg-logo="https://i.imgur.com/hMqGs94.png" group-title="Entertainment",Tin TV (720p) [Not 24/7]
-https://bozztv.com/1gbw5/tintv/tintv/playlist.m3u8
 #EXTINF:-1 tvg-id="TowheedTV.ae" tvg-logo="https://i.imgur.com/nsxrqta.jpg" group-title="Religious",Towheed TV (720p) [Not 24/7]
 http://51.210.199.1/hls/stream.m3u8
 #EXTINF:-1 tvg-id="Turkmenistan.tm" tvg-logo="https://i.imgur.com/zKWfwAw.png" group-title="General",Türkmenistan (112p) [Not 24/7]

@@ -11,8 +11,6 @@ https://live-hls-v3-aje.getaj.net/AJE-V3/index.m3u8
 http://178.252.143.156:1935/live/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="AlWilayah.ir" tvg-logo="https://i.imgur.com/OI1HQv5.png" group-title="Religious",Al Wilayah (720p) [Not 24/7]
 https://nl.livekadeh.com/hls2/alwilayah.tv.m3u8
-#EXTINF:-1 tvg-id="AlZahraTV.ir" tvg-logo="https://i.imgur.com/ffFbUmd.jpg" group-title="Undefined",Al Zahra TV (720p) [Not 24/7]
-https://live.al-zahratv.com/live/playlist2/index.m3u8
 #EXTINF:-1 tvg-id="AVAFamily.ir" tvg-logo="https://i.imgur.com/hyRmzWL.png" group-title="Family",AVA Family (720p) [Not 24/7]
 http://51.210.199.5/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AVASeries.ir" tvg-logo="https://i.imgur.com/xd5R0R0.png" group-title="Series",AVA Series (720p)
@@ -69,6 +67,9 @@ http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/FRANC
 http://216.66.42.47:7777/GemAZ_HD.m3u8
 #EXTINF:-1 tvg-id="GEMComedy.ir" tvg-logo="https://i.imgur.com/SARFEvd.png" group-title="Comedy",GEM Comedy (576p) [Not 24/7]
 http://216.66.42.47:7777/GemComedy_HD.m3u8
+#EXTINF:-1 tvg-id="GEMFilm.ir" tvg-logo="https://i.imgur.com/SZPQxWO.png" group-title="Movies",GEM Film (576p)
+#EXTVLCOPT:http-referrer=https://www.gemonline.tv/en-US/Live/Index?channelname=gem_film
+https://stream-cdn.gemonline.tv/live/gemfilm/index.m3u8
 #EXTINF:-1 tvg-id="GolestanTV.ir" tvg-logo="https://www.lyngsat.com/logo/tv/gg/golestan-tv-ir.png" group-title="Undefined",GOLESTAN (240p)
 http://cdn1.live.irib.ir:1935/epg-live/smil:golestan/playlist.m3u8
 #EXTINF:-1 tvg-id="HastiTVHD.ir" tvg-logo="https://i.imgur.com/vwjcP7X.png" group-title="Undefined",Hasti TV (1080p) [Not 24/7]
@@ -184,8 +185,6 @@ https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
 #EXTINF:-1 tvg-id="RTPInternacional.pt" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/RTP_Internacional_2016_%28Reduced_Version%29.svg/512px-RTP_Internacional_2016_%28Reduced_Version%29.svg.png" group-title="General" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0",RTP Internacional (504p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0
 https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="RTPiAsia.pt" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/RTP_Internacional_2016_%28Reduced_Version%29.svg/512px-RTP_Internacional_2016_%28Reduced_Version%29.svg.png" group-title="General",RTP Internacional Asia (480p)
-http://210.210.155.37/qwr9ew/s/s38/index.m3u8
 #EXTINF:-1 tvg-id="SahandTV.ir" tvg-logo="https://www.lyngsat.com/logo/tv/ss/sahand_tv.png" group-title="Undefined",SAHAND (240p)
 http://cdn1.live.irib.ir:1935/epg-live/smil:sahand/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Sahar (480p)
@@ -220,8 +219,6 @@ http://51.210.227.134/hls/stream.m3u8
 http://51.210.199.1/hls/stream.m3u8
 #EXTINF:-1 tvg-id="TRTWorld.tr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TRT_World.svg/512px-TRT_World.svg.png" group-title="News",TRT World (720p) [Not 24/7]
 https://tv-trtworld.live.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="TV5MondeAsia.fr" tvg-logo="https://cms.dmpcdn.com/livetv/2022/01/18/ca2f0180-7814-11ec-8fd5-c549a9b471b9_webp_original.png" group-title="Undefined",TV5 Monde Asie (576p) [Geo-blocked]
-http://210.210.155.35/dr9445/s/s24/index.m3u8
 #EXTINF:-1 tvg-id="TVMInternacional.mz" tvg-logo="https://i.imgur.com/Ns3WrOQ.png" group-title="General",TVM Internacional (480p) [Not 24/7]
 http://online.tvm.co.mz:1935/live/smil:Channel2.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="UNWebTV.us" tvg-logo="https://i.imgur.com/lPyJhBN.png" group-title="News",UN Web TV (540p)
