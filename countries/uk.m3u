@@ -160,7 +160,7 @@ https://live-hochanda.simplestreamcdn.com/hochanda/live.m3u8
 #EXTINF:-1 tvg-id="Cruise1stTV.uk" tvg-logo="https://i.imgur.com/q50kqOG.jpg" group-title="Shop",Cruise1st TV (396p) [Geo-blocked]
 https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/cruise_tv/hls_video/index.m3u8
 #EXTINF:-1 tvg-id="DarkMatterTV.uk" tvg-logo="https://github.com/geonsey/Free2ViewTV/blob/master/images/logos/DarkMatterTV_218x218.png?raw=true" group-title="Series",Dark Matter TV (720p)
-https://dmtv-plex.amagi.tv/playlist.m3u8
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00434-tricoast-darkmatter-spanish-samsunguk/playlist.m3u8
 #EXTINF:-1 tvg-id="DWEnglish.de" tvg-logo="https://i.imgur.com/A1xzjOI.png" group-title="News",DW English (1080p)
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 #EXTINF:-1 tvg-id="EDGEsport.uk" tvg-logo="https://i.imgur.com/zRugmb9.png" group-title="Sports",EDGEsport (1080p)
@@ -184,8 +184,6 @@ https://euronews.alteox.app/hls/es_stream.m3u8
 https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Fashion TV (England) (1080p) [Not 24/7]
 https://fashiontv-fashiontv-1-gb.samsung.wurl.com/manifest/playlist.m3u8
-#EXTINF:-1 tvg-id="France24English.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8a/France24.png" group-title="News",France 24 English (1080p)
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/FRANCE24English/live
 #EXTINF:-1 tvg-id="FTFForthefans.uk" tvg-logo="https://i.imgur.com/Db8nWyW.png" group-title="Undefined",FTF For the fans (720p)
 https://elevensports-uk.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="GarshomTV.uk" tvg-logo="https://i.imgur.com/KOM3xVi.png" group-title="Undefined",Garshom TV (360p) [Not 24/7]
@@ -236,6 +234,8 @@ http://31.220.41.88:8081/live/itv3.stream/chunks.m3u8
 http://31.220.41.88:8081/live/itv4.stream/chunks.m3u8
 #EXTINF:-1 tvg-id="ITV.uk" tvg-logo="https://i.imgur.com/SsgOgRF.png" group-title="Undefined",ITV (302p) [Geo-blocked]
 http://31.220.41.88:8081/live/itv1.stream/chunks.m3u8
+#EXTINF:-1 tvg-id="JewelleryMaker.uk" tvg-logo="https://i.imgur.com/azSptPw.png" group-title="Lifestyle",Jewelery Maker (1080p)
+https://lo2-1.gemporia.com/abrjewellerymaker/smil:livestream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="KalemehTV.uk" tvg-logo="https://www.lyngsat.com/logo/tv/kk/kalemeh_tv.png" group-title="Religious",Kalemeh TV (576p) [Not 24/7]
 http://51.210.199.37/hls/stream.m3u8
 #EXTINF:-1 tvg-id="KanshiTV.uk" tvg-logo="https://i.imgur.com/jxf9gQd.jpg" group-title="Undefined",Kanshi TV (720p) [Not 24/7]
@@ -379,8 +379,6 @@ https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00738-newsuk-talkradiotv-ono/playli
 https://8f720e1353ce43b8babcd780fe178755.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung-gb_WildBrainPresentsTeletubbies/playlist.m3u8
 #EXTINF:-1 tvg-id="TheBoxUK.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/16/The_Box_2013.png" group-title="Music",The Box UK (576p) [Not 24/7]
 https://csm-e-boxplus.tls1.yospace.com/csm/extlive/boxplus01,thebox-alldev.m3u8?yo.up=http://boxtv-origin-elb.cds1.yospace.com/uploads/thebox/
-#EXTINF:-1 tvg-id="ThePetCollectiveUK.uk" tvg-logo="https://images.pluto.tv/channels/5ad8d819e738977e2c31096a/colorLogoPNG.png" group-title="Family",The Pet Collective UK (720p)
-https://the-pet-collective-international-gb.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="TimeLine.uk" tvg-logo="https://i.imgur.com/AzZhwWR.jpg" group-title="Undefined",Time Line (720p)
 https://timeline-samsung-uk.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="TJC.uk" tvg-logo="https://i.imgur.com/cFlNhjV.png" group-title="Undefined",TJC (1080p)
@@ -407,9 +405,8 @@ https://vod2t.xpanded.com/x3tv/index_wlan.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",Xpanded TV 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
 https://vod2t.xpanded.com/x3tv2/index_wlan.m3u8
-#EXTINF:-1 tvg-id="Dorama.uk" tvg-logo="https://i.imgur.com/lHn6OlM.png" group-title="Movies" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Дорама (480p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
-http://ott-cdn.ucom.am/s95/index.m3u8
+#EXTINF:-1 tvg-id="Dorama.uk" tvg-logo="https://i.imgur.com/lHn6OlM.png" group-title="Movies",Дорама (1080p) [Not 24/7]
+https://sc.id-tv.kz/dorama_hd.m3u8
 #EXTINF:-1 tvg-id="RTRPlaneta.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RTR-Planeta_Logo.svg/512px-RTR-Planeta_Logo.svg.png" group-title="General" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",РТР-Планета (480p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s15/index.m3u8
