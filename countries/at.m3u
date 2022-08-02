@@ -83,8 +83,6 @@ https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
 https://varoe24live.sf.apa.at/oe24-live1/oe24.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ORF1.at" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/ORF1_logo.svg/512px-ORF1_logo.svg.png" group-title="General",ORF 1 (720p) [Geo-blocked]
 https://orf1.mdn.ors.at/out/u/orf1/qxb/manifest.m3u8
-#EXTINF:-1 tvg-id="ORF2.at" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/ORF2_logo_n.svg/512px-ORF2_logo_n.svg.png" group-title="Undefined",ORF 2 (540p) [Geo-blocked]
-https://orf2.mdn.ors.at/out/u/orf2/qxb/manifest.m3u8
 #EXTINF:-1 tvg-id="ORFIII.at" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/ORF_III_Logo_Monochrom.svg/512px-ORF_III_Logo_Monochrom.svg.png" group-title="Undefined",ORF 3 (720p) [Geo-blocked]
 https://orf3.mdn.ors.at/out/u/orf3/qxb/manifest.m3u8
 #EXTINF:-1 tvg-id="ORFSportPlus.at" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/ORF_Sport%2B.svg/512px-ORF_Sport%2B.svg.png" group-title="Sports",ORF Sport+ (540p) [Geo-blocked]
@@ -109,6 +107,9 @@ https://rt-rtd.rttv.com/live/rtdoc/playlist.m3u8
 https://rt-esp.rttv.com/live/rtesp/playlist.m3u8
 #EXTINF:-1 tvg-id="RTNews.ru" tvg-logo="https://i.imgur.com/tyXIHlj.png" group-title="News",RT News (1080p) [Geo-blocked]
 https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
+#EXTINF:-1 tvg-id="RTPInternacional.pt" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/RTP_Internacional_2016_%28Reduced_Version%29.svg/512px-RTP_Internacional_2016_%28Reduced_Version%29.svg.png" group-title="General" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0",RTP Internacional (504p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0
+https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RTV.at" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/rtvat.png" group-title="Undefined",RTV (1080p)
 http://iptv.rtv-ooe.at/stream.m3u8
 #EXTINF:-1 tvg-id="SchauTV.at" tvg-logo="https://image.schautv.at/images/cfs_616w/3123676/schautv_homepagebanner_twitter.png" group-title="Undefined",SchauTV (720p)

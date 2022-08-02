@@ -212,8 +212,8 @@ http://serv25.vintera.tv:8081/test/aris/playlist.m3u8
 http://ott-cdn.ucom.am/s68/index.m3u8
 #EXTINF:-1 tvg-id="Arhyz24.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/LOGO_ARKHYZ24.tif/lossy-page1-1200px-LOGO_ARKHYZ24.tif.jpg" group-title="Undefined",Архыз 24 (1080p)
 https://live.mediacdn.ru/sr1/arhis24/playlist.m3u8
-#EXTINF:-1 tvg-id="Astrahan24.ru" tvg-logo="https://i.imgur.com/0dnL7n7.jpeg" group-title="Undefined",Астрахань 24 (720p) [Not 24/7]
-http://83.234.104.142/astrakhan24hd/playlist.m3u8
+#EXTINF:-1 tvg-id="Astrahan24.ru" tvg-logo="https://i.imgur.com/0dnL7n7.jpeg" group-title="Undefined",Астрахань 24 (720p)
+https://streaming.astrakhan.ru/astrakhan24/playlist.m3u8
 #EXTINF:-1 tvg-id="AstrahanRuSport.ru" tvg-logo="https://sport.astrakhan.ru/image/logo-astrakhan-sport.png" group-title="Sports",Астрахань.Ru Sport (720p)
 https://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8
 #EXTINF:-1 tvg-id="AstrahanRuTV.ru" tvg-logo="https://i.imgur.com/LxVcYxW.jpeg" group-title="Undefined",Астрахань.Ru TV (480p)
@@ -222,8 +222,6 @@ https://streaming.astrakhan.ru/astrakhanrulivehd/playlist.m3u8
 http://xstream.afontovo.ru/afontovo_ya.m3u8
 #EXTINF:-1 tvg-id="Bashkortostan24.ru" tvg-logo="https://i.imgur.com/V35c8pb.png" group-title="Undefined",Башкортостан 24 (1080p)
 http://live.gtrk.tv/hls/b24-hls.m3u8
-#EXTINF:-1 tvg-id="Belarus3.by" tvg-logo="https://i.imgur.com/JkcDycn.png" group-title="General",Беларусь 3 (1080p) [Not 24/7]
-https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus3.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Belarus4.by" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Belarus_4.png/512px-Belarus_4.png" group-title="General",Беларусь 4 (576p)
 http://95.46.208.8:26258/belarus4
 #EXTINF:-1 tvg-id="Belarus24.by" tvg-logo="https://i.imgur.com/iVIlgrj.png" group-title="News",Беларусь 24 (1080p)
@@ -279,9 +277,8 @@ https://sc.id-tv.kz/domkino_hd.m3u8
 #EXTINF:-1 tvg-id="Domashniy.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Domashniy_tv_logo.svg/512px-Domashniy_tv_logo.svg.png" group-title="Entertainment" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Домашний (540p) [Geo-blocked]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 https://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY/variant.m3u8
-#EXTINF:-1 tvg-id="Dorama.uk" tvg-logo="https://i.imgur.com/lHn6OlM.png" group-title="Movies" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Дорама (480p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
-http://ott-cdn.ucom.am/s95/index.m3u8
+#EXTINF:-1 tvg-id="Dorama.uk" tvg-logo="https://i.imgur.com/lHn6OlM.png" group-title="Movies",Дорама (1080p) [Not 24/7]
+https://sc.id-tv.kz/dorama_hd.m3u8
 #EXTINF:-1 tvg-id="Evraziya.ru" tvg-logo="https://i.imgur.com/GFG465N.jpg" group-title="Undefined",Евразия (Орск) (720p)
 http://infochhdcdn.trkeurasia.ru/orsk-infochhd/infochhd/playlist.m3u8
 #EXTINF:-1 tvg-id="Evronovosti.ru" tvg-logo="https://i.imgur.com/9eIZJSQ.png" group-title="News",Евроновости (576p)
@@ -338,6 +335,8 @@ http://188.40.68.167/russia/komediya/playlist.m3u8
 http://cdn-01.bonus-tv.ru/konnyimir/playlist.m3u8
 #EXTINF:-1 tvg-id="KrasnayaLiniya.ru" tvg-logo="https://avatars.mds.yandex.net/get-tv-channel-logos/69315/2a00000165801107a0cb7b769ab7b65eff26/z" group-title="Undefined",Красная линия (480p)
 https://kprf-htlive.cdn.ngenix.net/live/stream_high/playlist.m3u8
+#EXTINF:-1 tvg-id="KRTV.ru" tvg-logo="https://i.imgur.com/AqJSzL7.png" group-title="Undefined",Красногорск ТВ (480p) [Not 24/7]
+http://live-krtv.cdnvideo.ru/krtv/krtv.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="KrikTV.ru" tvg-logo="https://i.imgur.com/JLK70Pz.png" group-title="Undefined",Крик-ТВ (576p) [Geo-blocked]
 https://strm.yandex.ru/kal/krik_tv/krik_tv0.m3u8
 #EXTINF:-1 tvg-id="Krym24.ru" tvg-logo="https://1tvcrimea.ru/wp-content/themes/vdweb/images/logo.png" group-title="Undefined",Крым 24 (540p) [Not 24/7]
@@ -602,6 +601,8 @@ https://video1.in-news.ru/c24/index.m3u8
 http://stream.efir24.tv:1935/live/efir24tv/playlist.m3u8
 #EXTINF:-1 tvg-id="TVDom.ua" tvg-logo="https://i.imgur.com/6CCd9Gm.png" group-title="Undefined",ТВ Дом
 http://46.149.48.21:1234
+#EXTINF:-1 tvg-id="TVKvarc.ru" tvg-logo="https://i.imgur.com/UBytMrQ.png" group-title="Undefined",ТВ Кварц (576p) [Not 24/7]
+https://video.quartztelecom.ru:18080/hls/2386168/71fe656b993c510f39a5/playlist.m3u8
 #EXTINF:-1 tvg-id="TVCentr.ru" tvg-logo="https://i.imgur.com/fIkd01t.png" group-title="Undefined",ТВ Центр (432p)
 http://uiptv.do.am/1ufc/000000009/playlist.m3u8
 #EXTINF:-1 tvg-id="TVEkstra.ru" tvg-logo="https://i.imgur.com/GHUJeZH.png" group-title="Undefined",ТВ Экстра (720p)
