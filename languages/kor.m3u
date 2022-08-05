@@ -99,6 +99,8 @@ http://119.200.131.11:1935/KBCTV/tv/playlist.m3u8
 http://kbs-dokdo.gscdn.com/dokdo_300/dokdo_300.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="KBSWorld.kr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/KBS_World_%282009%29.svg/512px-KBS_World_%282009%29.svg.png" group-title="General",KBS World (720p)
 https://kbsworld-ott.akamaized.net/hls/live/2002341/kbsworld/master.m3u8
+#EXTINF:-1 tvg-id="KCTV.kr" tvg-logo="https://i.imgur.com/IHkZpaI.png" group-title="Undefined",KCTV 광주 CH05 (720p) [Not 24/7]
+http://119.77.96.184:1935/chn05/chn05/playlist.m3u8
 #EXTINF:-1 tvg-id="KoreaEconomyTV.kr" tvg-logo="https://i.imgur.com/fGQatSH.png" group-title="General",Korea Economy TV (1080p) [Not 24/7]
 https://allanf181.github.io/adaptive-streams/streams/kr/KoreaEconomyTV.m3u8
 #EXTINF:-1 tvg-id="KpopTVPlay.br" tvg-logo="https://kpoptv.live/wp-content/uploads/2021/10/logokpoptvplay.png" group-title="Music",KpopTV Play (720p) [Not 24/7]
@@ -150,13 +152,13 @@ https://allanf181.github.io/adaptive-streams/streams/kr/ProfessionalBaseball4.m3
 #EXTINF:-1 tvg-id="ProfessionalBaseball5.kr" tvg-logo="https://i.imgur.com/u6DwJAY.png" group-title="Sports",Professional Baseball 5 (1080p) [Not 24/7]
 https://allanf181.github.io/adaptive-streams/streams/kr/ProfessionalBaseball5.m3u8
 #EXTINF:-1 tvg-id="SBSTV.kr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/SBS_Korea_Logo_%28Word_Only%29.svg/512px-SBS_Korea_Logo_%28Word_Only%29.svg.png" group-title="Undefined",SBS (1080p)
-http://183.99.22.189:9981/stream/channelid/1124346476
+http://222.109.117.27:9981/stream/channelid/2096368258
 #EXTINF:-1 tvg-id="SBSFL.kr" tvg-logo="https://i.imgur.com/JKNSd8s.png" group-title="Entertainment",SBS F!L (1080p) [Not 24/7]
 https://allanf181.github.io/adaptive-streams/streams/kr/SBSFL.m3u8
 #EXTINF:-1 tvg-id="SBSGolf.kr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/SBS_Golf_logo_2018.svg/512px-SBS_Golf_logo_2018.svg.png" group-title="Sports",SBS Golf (1080p) [Not 24/7]
 https://allanf181.github.io/adaptive-streams/streams/kr/SBSGolf.m3u8
-#EXTINF:-1 tvg-id="KNNTV.kr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/KNN_logo.svg/512px-KNN_logo.svg.png" group-title="Undefined",SBS KNN (1080p)
-http://220.95.92.160:9981/stream/channelid/1445999617
+#EXTINF:-1 tvg-id="KNNTV.kr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/KNN_logo.svg/512px-KNN_logo.svg.png" group-title="Undefined",SBS KNN (450p) [Not 24/7]
+http://211.220.195.200:1935/live/mp4:KnnTV.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="TJBTV.kr" tvg-logo="https://i.imgur.com/q9Nx801.png" group-title="Undefined",SBS TJB (1080p)
 http://1.245.74.5:1935/live/tv/.m3u8
 #EXTINF:-1 tvg-id="UBCTV.kr" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Ubc_logo2.svg/512px-Ubc_logo2.svg.png" group-title="Undefined",SBS UBC (540p)
@@ -183,6 +185,8 @@ https://allanf181.github.io/adaptive-streams/streams/kr/TVChosun.m3u8
 https://allanf181.github.io/adaptive-streams/streams/kr/tvN.m3u8
 #EXTINF:-1 tvg-id="tvNDrama.kr" tvg-logo="https://i.imgur.com/f91ieU8.png" group-title="Series",tvN DRAMA (1080p) [Not 24/7]
 https://allanf181.github.io/adaptive-streams/streams/kr/tvNDrama.m3u8
+#EXTINF:-1 tvg-id="TVNMovies.hk" tvg-logo="https://i.imgur.com/oLzTyUX.png" group-title="Movies",tvN Movies (Indonesian Subtitle) (576p)
+http://210.210.155.37/dr9445/h/h21/index.m3u8
 #EXTINF:-1 tvg-id="tvNShow.kr" tvg-logo="https://i.imgur.com/8OobmvS.png" group-title="Entertainment",tvN SHOW (1080p) [Not 24/7]
 https://allanf181.github.io/adaptive-streams/streams/kr/tvNShow.m3u8
 #EXTINF:-1 tvg-id="tvNStory.kr" tvg-logo="https://i.imgur.com/hurdSYk.png" group-title="Entertainment",tvN STORY (1080p) [Not 24/7]
@@ -191,8 +195,8 @@ https://allanf181.github.io/adaptive-streams/streams/kr/tvNStory.m3u8
 http://live.worktv.or.kr:1935/live/wowtvlive1.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="YonhapNewsTV.kr" tvg-logo="https://i.imgur.com/3aLkU2I.png" group-title="General",Yonhap News TV (1080p) [Not 24/7]
 https://allanf181.github.io/adaptive-streams/streams/kr/YonhapNewsTV.m3u8
-#EXTINF:-1 tvg-id="YTN.kr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/YTN_logo_2014.svg/512px-YTN_logo_2014.svg.png" group-title="General",YTN (1080p)
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UChlgI3UHCOnwUGzWzbJ3H5w/live
+#EXTINF:-1 tvg-id="YTN.kr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/YTN_logo_2014.svg/512px-YTN_logo_2014.svg.png" group-title="General",YTN (1080p) [Not 24/7]
+https://allanf181.github.io/adaptive-streams/streams/kr/YTN.m3u8
 #EXTINF:-1 tvg-id="YTNDMB.kr" tvg-logo="https://i.imgur.com/y8hgAUg.png" group-title="Undefined",YTN DMB
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UC38IlqMxZ_YtFg3eSGmmJnQ/live
 #EXTINF:-1 tvg-id="YTNScience.kr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/YTN_%EC%82%AC%EC%9D%B4%EC%96%B8%EC%8A%A4_%EB%A1%9C%EA%B3%A0_%EB%89%B4.png/512px-YTN_%EC%82%AC%EC%9D%B4%EC%96%B8%EC%8A%A4_%EB%A1%9C%EA%B3%A0_%EB%89%B4.png" group-title="Science",YTN SCIENCE (720p) [Not 24/7]
@@ -209,7 +213,5 @@ https://ns1.tjmbc.co.kr/live/myStream.sdp/playlist.m3u8
 http://vod.mpmbc.co.kr:1935/live/encoder-tv/playlist.m3u8
 #EXTINF:-1 tvg-id="BusanMBCTV.kr" tvg-logo="https://i.imgur.com/nBJwmvD.png" group-title="Undefined",부산MBC (MBC Busan) (360p)
 http://stream.bsmbc.com/livetv/BusanMBC_TV_onairstream/playlist.m3u8
-#EXTINF:-1 tvg-id="JejuMBCTV.kr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/%EC%A0%9C%EC%A3%BC%EB%AC%B8%ED%99%94%EB%B0%A9%EC%86%A1_%EB%A1%9C%EA%B3%A0.png/512px-%EC%A0%9C%EC%A3%BC%EB%AC%B8%ED%99%94%EB%B0%A9%EC%86%A1_%EB%A1%9C%EA%B3%A0.png" group-title="Undefined",제주 MBC (MBC Jeju) (352p) [Not 24/7]
-https://wowza.jejumbc.com/live/tv_jejumbc/playlist.m3u8
 #EXTINF:-1 tvg-id="ChuncheonMBCTV.kr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/%EC%B6%98%EC%B2%9C%EB%AC%B8%ED%99%94%EB%B0%A9%EC%86%A1.png/512px-%EC%B6%98%EC%B2%9C%EB%AC%B8%ED%99%94%EB%B0%A9%EC%86%A1.png" group-title="Undefined",춘천MBC (MBC Chuncheon) (1080p) [Not 24/7]
 https://stream.chmbc.co.kr/live/TV/playlist.m3u8
