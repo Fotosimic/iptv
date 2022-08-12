@@ -33,7 +33,7 @@ http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Canal 22 (XEIMT-TDT) [Geo-blocked]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://conceptoweb-studio.com/radio/video/canal22/
 #EXTINF:-1 tvg-id="Canal26.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/512px-Canal_26_logo_%282022%29.svg.png" group-title="News",Canal 26 (720p)
-http://live-edge01.telecentro.net.ar:1935/live/26hd-720/playlist.m3u8
+http://200.115.193.177/live/26hd-720/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal28.mx" tvg-logo="https://i.imgur.com/lr4MZFg.png" group-title="Undefined",Canal 28 (720p) [Not 24/7]
 https://api.new.livestream.com/accounts/3789491/events/8003011/live.m3u8
 #EXTINF:-1 tvg-id="Canal44.mx" tvg-logo="https://i.imgur.com/YDp8MlN.png" group-title="Undefined",Canal 44 Chihuahua (720p) [Not 24/7]
@@ -126,6 +126,8 @@ https://5fa5de1a545ae.streamlock.net/sisjalisciense/sisjalisciense/playlist.m3u8
 https://kbsworld-ott.akamaized.net/hls/live/2002341/kbsworld/master.m3u8
 #EXTINF:-1 tvg-id="LatinoKids.uy" tvg-logo="https://i.imgur.com/CBUf3K1.png" group-title="Entertainment",LatinoKids (360p) [Not 24/7]
 https://videostreaming.cloudserverlatam.com/8062/8062/playlist.m3u8
+#EXTINF:-1 tvg-id="MariaVision.mx" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/maria_vision-mediano.png" group-title="Religious",María Visión Mexico (360p) [Not 24/7]
+https://1601580044.rsc.cdn77.org/live/_jcn_/amlst:Mariavision/master.m3u8
 #EXTINF:-1 tvg-id="MemoriasTV.co" tvg-logo="https://memorias.tv/wp-content/uploads/2022/03/cropped-logo-MEMORIAS-TV-png-1.png" group-title="Music",Memorias TV
 https://cloud10.vsgtech.co:3262/live/memoriastv2live.m3u8
 #EXTINF:-1 tvg-id="MetroGlobeNetwork.id" tvg-logo="https://i.imgur.com/NTCI3lf.png" group-title="Culture",Metro Globe Network (1080p) [Not 24/7]
@@ -160,8 +162,6 @@ https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
 https://canal10.mediaflix.istream.mx/wza_live/live/movil/playlist.m3u8
 #EXTINF:-1 tvg-id="Novelisima.us" tvg-logo="https://www.novelisima.com/assets/images/logo.png" group-title="Series",Novelísima [Not 24/7]
 https://novelisima.akamaized.net/hls/live/2031534/novelisimaABR/master.m3u8
-#EXTINF:-1 tvg-id="NTN24.co" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/NTN24_logo.svg/512px-NTN24_logo.svg.png" group-title="News",NTN24 (Nuestra Tele Noticias) (720p) [Not 24/7]
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCEJs1fTF3KszRJGxJY14VrA/live
 #EXTINF:-1 tvg-id="NuevoTiempo.br" tvg-logo="https://i.imgur.com/exdDHml.png" group-title="Religious",Nuevo Tiempo (720p) [Not 24/7]
 https://stream.live.novotempo.com/tv/smil:tvnuevotiempo.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="OnceMexico.mx" tvg-logo="https://i.imgur.com/NAgRCyY.png" group-title="Undefined",Once Mexico (720p)
@@ -207,6 +207,8 @@ https://cdn4.hostlagarto.com:8081/static/sanisidrotv/playlist.m3u8
 https://cdn-telkomsel-01.akamaized.net/Content/DASH/Live/channel(9ce3f094-4044-467e-84b7-b684a49571d5)/manifest.mpd
 #EXTINF:-1 tvg-id="SEOTV.bo" tvg-logo="https://i.imgur.com/5IPjtJk.png" group-title="General",SEO TV (720p) [Not 24/7]
 https://panel.seo.tv.bo:3645/live/franzleonel0live.m3u8
+#EXTINF:-1 tvg-id="SEOTVNovelas.bo" tvg-logo="https://i.imgur.com/5IPjtJk.png" group-title="Series",SEO TV Novelas (540p) [Not 24/7]
+https://panel.seo.tv.bo:3337/live/franzbalboa2live.m3u8
 #EXTINF:-1 tvg-id="TelevisaPuebla.mx" tvg-logo="https://i.imgur.com/2dqF5S8.jpg" group-title="Undefined",SET Televisión Canal 26.1 (720p) [Not 24/7]
 http://189.240.210.28:1935/envivo/puecom/playlist.m3u8
 #EXTINF:-1 tvg-id="SICInternacional.pt" tvg-logo="https://i.imgur.com/UgJ5lac.png" group-title="Undefined",SIC Internacional (720p)
@@ -233,16 +235,10 @@ http://mdstrm.com/live-stream-playlist/57b4dc126338448314449d0c.m3u8
 https://github.com/LaneSh4d0w/IPTV_Exception/raw/master/channels/ve/telesur.m3u8
 #EXTINF:-1 tvg-id="TelevisaAguascalientes.mx" tvg-logo="https://i.imgur.com/iVF17fh.png" group-title="Undefined",Televisa Aguascalientes (720p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UC5ZtV3bu3bjSuOLoA6oCFIg/live
-#EXTINF:-1 tvg-id="TelevisaCiudadJuarez.mx" tvg-logo="https://i.imgur.com/4vEFJxf.png" group-title="Undefined",Televisa Ciudad Juarez (720p) [Not 24/7]
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCot4t8PVKz8TT5xVM8Eb00w/live
 #EXTINF:-1 tvg-id="TelevisaDelGolfo.mx" tvg-logo="https://i.imgur.com/35fsRTS.jpg" group-title="Undefined",Televisa Del Golfo
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCQ08tNTPiBn44c975S81ftg/live
-#EXTINF:-1 tvg-id="TelevisaEstado.mx" tvg-logo="https://i.imgur.com/gyZCypH.png" group-title="Undefined",Televisa Estado (1080p) [Not 24/7]
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UC9DH82HVSf4katwMeUpY80w
 #EXTINF:-1 tvg-id="TelevisaGuadalajara.mx" tvg-logo="https://i.imgur.com/Vp4B0BM.jpg" group-title="Undefined",Televisa Guadalajara (720p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCRujF_YxVVFmTRWURQH-Cww/live
-#EXTINF:-1 tvg-id="TelevisaGuerrero.mx" tvg-logo="https://i.imgur.com/lOAnjFs.png" group-title="Undefined",Televisa Guerrero (480p) [Not 24/7]
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCnxTRk2K1iNsQkgpWXxyj4w/live
 #EXTINF:-1 tvg-id="TelevisaLaguna.mx" tvg-logo="https://i.imgur.com/L4GDHQm.png" group-title="Undefined",Televisa Laguna (720p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UC_mwCcsKDJLSWjply5s0h8w/live
 #EXTINF:-1 tvg-id="TelevisaMexicali.mx" tvg-logo="https://i.imgur.com/NIEWc2s.jpg" group-title="Undefined",Televisa Mexicali (1080p) [Not 24/7]
@@ -265,8 +261,6 @@ http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCtm1LvYEIQ_NrfOUVJ08YhQ/live
 #EXTINF:-1 tvg-id="TelevisaSonora.mx" tvg-logo="https://i.imgur.com/3FjHKAC.jpg" group-title="Undefined",Televisa Sonora (720p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCyzWMHGS7bs0sot6KZk5EZg/live
-#EXTINF:-1 tvg-id="TelevisaVeracruz.mx" tvg-logo="https://i.imgur.com/4hPbfbg.png" group-title="Undefined",Televisa Veracruz (720p) [Not 24/7]
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UC5EnLdE7ASjYzWt7wvT-QSg/live
 #EXTINF:-1 tvg-id="TelevisaZacatecas.mx" tvg-logo="https://i.imgur.com/vsbl0u6.png" group-title="Undefined",Televisa Zacatecas (720p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCQb3i7gu9J8A4zzQU7j6C1Q/live
 #EXTINF:-1 tvg-id="Tevex.cl" tvg-logo="https://i.imgur.com/sj4sEaN.png" group-title="Business",Tevex (720p) [Not 24/7]
@@ -289,8 +283,6 @@ https://tv-trtworld.live.trt.com.tr/master.m3u8
 http://190.61.37.173:9001/play/a084/index.m3u8
 #EXTINF:-1 tvg-id="TVDaja.do" tvg-logo="https://dajatv.com/wp-content/uploads/2021/09/logo_daja_2.png" group-title="Undefined",TV Daja
 https://cm.hostlagarto.com:4445/Dajatv/Dajatv.myStream/playlist.m3u8
-#EXTINF:-1 tvg-id="TVLobo.mx" tvg-logo="https://i.imgur.com/XZ8GmZW.png" group-title="Undefined",TV Lobo (720p) [Not 24/7]
-http://streamingcws20.com:1935/lobodurango/videolobodurango/playlist.m3u8
 #EXTINF:-1 tvg-id="TVPeruInternacional.pe" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/TV_Per%C3%BA_Internacional_2019_-_copia.png/512px-TV_Per%C3%BA_Internacional_2019_-_copia.png" group-title="General",TV Perú Internacional (460p) [Not 24/7]
 http://cdnh4.iblups.com/hls/irtp.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",TV Unam (720p)
