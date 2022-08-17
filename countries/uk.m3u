@@ -83,7 +83,7 @@ https://vs-hls-pushb-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_one_yo
 #EXTINF:-1 tvg-id="BBCParliament.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/BBC_Parliament_Logo.svg/512px-BBC_Parliament_Logo.svg.png" group-title="Legislative",BBC Parliament (540p) [Geo-blocked]
 https://vs-cmaf-pushb-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_parliament/iptv_hd_abr_v1.mpd
 #EXTINF:-1 tvg-id="BBCPersian.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/44/BBC_News_Persian_Logo.jpg" group-title="News",BBC Persian (720p)
-https://vs-cmaf-pushb-ww-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_persian_tv/pc_hd_abr_v2_akamai_dash_live.mpd
+https://vs-cmaf-pushb-ww.live.cf.md.bbci.co.uk/x=3/i=urn:bbc:pips:service:bbc_persian_tv/pc_hd_abr_v2_cloudfrontms_live.mpd
 #EXTINF:-1 tvg-id="BBCScotland.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/BBC_Scotland_2021.svg/512px-BBC_Scotland_2021.svg.png" group-title="Undefined",BBC Scotland (540p) [Geo-blocked]
 https://vs-hls-pushb-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_scotland_hd/mobile_wifi_main_sd_abr_v2_akamai_hls_live_http.m3u8
 #EXTINF:-1 tvg-id="BBCScotlandHD.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/BBC_Scotland_2021.svg/512px-BBC_Scotland_2021.svg.png" group-title="Undefined",BBC Scotland HD (720p) [Geo-blocked]
@@ -129,8 +129,6 @@ https://a.jsrdn.com/broadcast/22693_4rGhgrBU/-0500/c.m3u8
 https://a.jsrdn.com/broadcast/22693_4rGhgrBU/-0800/c.m3u8
 #EXTINF:-1 tvg-id="BritishMuslimTV.uk" tvg-logo="https://i.imgur.com/9k7fsqw.png" group-title="Religious",British Muslim TV (576p) [Not 24/7]
 https://api.visionip.tv/live/ASHTTP/visiontvuk-international-britishmuslimtv-hsslive-25f-16x9-MB/playlist.m3u8
-#EXTINF:-1 tvg-id="BTVWorld.bd" tvg-logo="https://i.imgur.com/1Chamk9.png" group-title="General",BTV World (720p) [Not 24/7]
-https://cdn.appv.jagobd.com:444/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/btvbd-office-sg.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="CBBC.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/37/CBBC_2016_logo.svg/512px-CBBC_2016_logo.svg.png" group-title="Kids",CBBC HD (720p) [Geo-blocked]
 https://vs-cmaf-pushb-uk.live.fastly.md.bbci.co.uk/x=3/i=urn:bbc:pips:service:cbbc_hd/iptv_hd_abr_v1.mpd
 #EXTINF:-1 tvg-id="CBeebiesAsia.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/CBeebies.png/512px-CBeebies.png" group-title="Kids" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36",CBeebies Asia (Vietnamese dub) (1080p)
@@ -190,6 +188,8 @@ https://ert-live-bcbs15228.siliconweb.com/media/ert_world/ert_world.m3u8
 http://178.33.224.197:1935/euroindiemusic/euroindiemusic/playlist.m3u8
 #EXTINF:-1 tvg-id="EuronewsSpanish.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews en Español (720p)
 https://rakuten-euronews-4-es.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-id="EuronewsGerman.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews German
+https://euronews.alteox.app/hls/de_stream.m3u8
 #EXTINF:-1 tvg-id="EuronewsItalian.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews Italian
 https://euronews.alteox.app/hls/it_stream.m3u8
 #EXTINF:-1 tvg-id="EuronewsPortuguese.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews Portuguese
