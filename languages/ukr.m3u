@@ -35,8 +35,9 @@ https://95-213-224-183.livesports24.online/sport1ua.m3u8
 https://cdn10.live-tv.od.ua:8083/leonovtv/test1/playlist.m3u8
 #EXTINF:-1 tvg-id="UAOdesa.ua" tvg-logo="https://i.imgur.com/UbymJ5U.png" group-title="General",UA: Одеса (384p) [Not 24/7]
 https://cdn10.live-tv.od.ua:8083/odtrkod/odtrkod-abr/playlist.m3u8
-#EXTINF:-1 tvg-id="UATV.ua" tvg-logo="https://upload.wikimedia.org/wikipedia/uk/thumb/d/d8/Logo_uatv.svg/512px-Logo_uatv.svg.png" group-title="General",UATV (720p)
-https://ua-tv.cdn-02.cosmonova.net.ua/hls/ua-tv_ua_mid/index.m3u8
+#EXTINF:-1 tvg-id="UATV.ua" tvg-logo="https://upload.wikimedia.org/wikipedia/uk/thumb/d/d8/Logo_uatv.svg/512px-Logo_uatv.svg.png" group-title="General" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0",UATV (720p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
+https://ua-tv.cdn-02.cosmonova.net.ua/hls/ua-tv_ua.m3u8
 #EXTINF:-1 tvg-id="Z.ua" tvg-logo="https://i.imgur.com/f0nOjL8.png" group-title="Undefined",Z (Запорожье) (1080p)
 https://stream.ztv.zp.ua/hls/live.m3u8
 #EXTINF:-1 tvg-id="VTV.ua" tvg-logo="https://i.imgur.com/JG493Vn.png" group-title="Undefined",ВТВ (576p)
@@ -86,6 +87,8 @@ https://cdn10.live-tv.od.ua:8083/riood/tisod504/playlist.m3u8
 https://cdn1.live-tv.od.ua:8083/3tvod/3tvod-abr/playlist.m3u8
 #EXTINF:-1 tvg-id="TRKAleks.ua" tvg-logo="https://i.imgur.com/1uW5ex8.png" group-title="Undefined",ТРК Алекс (576p)
 http://46.46.112.223/live/livestream1.m3u8
+#EXTINF:-1 tvg-id="Ukraina24.ua" tvg-logo="https://i.imgur.com/tSo2GLQ.png" group-title="Undefined",Україна 24 (1080p)
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCMp5Buw-6LpbbV9r9Sl_5yg/live
 #EXTINF:-1 tvg-id="Futbol1.ua" tvg-logo="https://i.imgur.com/J1VuYAB.png" group-title="Sports",Футбол 1 (576p) [Not 24/7]
 https://95-213-224-183.livesports24.online/uafootballua1.m3u8
 #EXTINF:-1 tvg-id="HersonPlyus.ua" tvg-logo="https://i.imgur.com/mvpJKqt.png" group-title="Undefined",Херсон Плюс (576p)
