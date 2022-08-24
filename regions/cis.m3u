@@ -3,8 +3,6 @@
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCVEaAWKfv7fE1c-ZuBs7TKQ/live
 #EXTINF:-1 tvg-id="1Plus1Sport.ua" tvg-logo="https://i.imgur.com/VpBVorp.png" group-title="Sports",1+1 Спорт (720p) [Not 24/7]
 https://live-k2301-kbp.1plus1.video/sport/smil:sport.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="1HDMusicTelevision.ru" tvg-logo="https://i.imgur.com/6TjLUuF.png" group-title="Music",1HD Music Television (404p) [Not 24/7]
-https://sc.id-tv.kz/1hd.m3u8
 #EXTINF:-1 tvg-id="2x2.ru" tvg-logo="https://i.imgur.com/fhQFLEl.png" group-title="Entertainment",2x2 (720p) [Not 24/7]
 https://bl.uma.media/live/317805/HLS/4614144_3,2883584_2,1153024_1/1613019214/3754dbee773afc02014172ca26d3bb79/playlist.m3u8
 #EXTINF:-1 tvg-id="5TV.am" tvg-logo="https://resizer.mail.ru/p/1dea41da-2cae-5daf-bd7f-2f93d9ffb30b/AAACQPjiNISxXL0M7OJyayH5_bpIH05R2UmPyBSONVnjUP92ICAhtQd7uIhMG2A2DSUSiEpSiwIExtkC7R5Lfkn4zSo.png" group-title="Undefined" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",5-րդ ալիք (480p)
@@ -198,6 +196,8 @@ https://v2.catcast.tv/content/33816/index.m3u8
 http://streams.livetv.az/azerbaijan/medeniyyet_stream2/playlist.m3u8
 #EXTINF:-1 tvg-id="MilleniumTV.ru" tvg-logo="https://i.imgur.com/Kwa67P2.png" group-title="Movies",Millenium TV (1080p)
 http://tv1.mmg.ooo/live/hd.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="Milliy.uz" tvg-logo="https://i.imgur.com/rAjhLkx.png" group-title="Undefined",Milliy (480p) [Not 24/7]
+http://milliy.tv/hls/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Moldova1 (1080p)
 http://live.trm.md:1935/live/MoldovaUnu1/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Moldova2 (1080p)
@@ -208,8 +208,6 @@ http://retc.educom.ru/mosobrtv/tv1/index.m3u8
 http://w4.mostvideo.tv/tv/ch1.m3u8
 #EXTINF:-1 tvg-id="MTVmix.ru" tvg-logo="https://i.imgur.com/FfrQy4o.png" group-title="Music",MTVmix (Уфа) (384p)
 http://81.30.182.82:18092/hls/live.m3u8
-#EXTINF:-1 tvg-id="MuganTV.az" tvg-logo="https://i.imgur.com/HMT5vZA.png" group-title="General",Muğan TV (1080p) [Not 24/7]
-http://cdn10-mugantv.yayin.com.tr/mugantv/mugantv/playlist.m3u8
 #EXTINF:-1 tvg-id="MusicBoxRussia.ru" tvg-logo="https://i.imgur.com/iWJdeD1.png" group-title="Music",Music Box Russia (1080p)
 https://strm.yandex.ru/kal/rmbox/rmbox0.m3u8
 #EXTINF:-1 tvg-id="NationalGeographicRussia.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png" group-title="Documentary",National Geographic (1080p) [Geo-blocked]
@@ -298,8 +296,9 @@ https://tvgubernia-htlive.cdn.ngenix.net/live/mp4:tv-gubernia-live/playlist.m3u8
 http://cdn-01.bonus-tv.ru:8080/tvm_edge/playlist.m3u8
 #EXTINF:-1 tvg-id="UAOdesa.ua" tvg-logo="https://i.imgur.com/UbymJ5U.png" group-title="General",UA: Одеса (384p) [Not 24/7]
 https://cdn10.live-tv.od.ua:8083/odtrkod/odtrkod-abr/playlist.m3u8
-#EXTINF:-1 tvg-id="UATV.ua" tvg-logo="https://upload.wikimedia.org/wikipedia/uk/thumb/d/d8/Logo_uatv.svg/512px-Logo_uatv.svg.png" group-title="General",UATV (720p)
-https://ua-tv.cdn-02.cosmonova.net.ua/hls/ua-tv_ua_mid/index.m3u8
+#EXTINF:-1 tvg-id="UATV.ua" tvg-logo="https://upload.wikimedia.org/wikipedia/uk/thumb/d/d8/Logo_uatv.svg/512px-Logo_uatv.svg.png" group-title="General" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0",UATV (720p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
+https://ua-tv.cdn-02.cosmonova.net.ua/hls/ua-tv_ua.m3u8
 #EXTINF:-1 tvg-id="UniverTV.ru" tvg-logo="https://universmotri.ru/images/Univer-HD.png" group-title="Undefined",Univer TV (1080p) [Not 24/7]
 https://cdn.universmotri.ru/live/smil:mbr.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="VIPComedy.ru" tvg-logo="https://i.imgur.com/9BFyzLo.png" group-title="Comedy",ViP Comedy Russia (720p) [Not 24/7]
@@ -310,8 +309,6 @@ https://okkotv-live.cdnvideo.ru/channel/VIP_Megahit_HD.m3u8
 https://okkotv-live.cdnvideo.ru/channel/VIP_Premiere_HD.m3u8
 #EXTINF:-1 tvg-id="VIPSerial.ru" tvg-logo="https://i.imgur.com/qtjt9qv.png" group-title="Series",VIP Serial Russia (1080p) [Geo-blocked]
 https://okkotv-live.cdnvideo.ru/channel/VIP_Serial_HD.m3u8
-#EXTINF:-1 tvg-id="VIVARussia.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/VIVA_2011_logo.svg/512px-VIVA_2011_logo.svg.png" group-title="Music",VIVA Russia (1080p) [Not 24/7]
-https://live.prd.dlive.tv/hls/live/viva-russia.m3u8
 #EXTINF:-1 tvg-id="VoceaBasarabieiTV.md" tvg-logo="https://i.imgur.com/Zpd8Pb3.png" group-title="Undefined",Vocea Basarabiei TV (406p) [Not 24/7]
 http://hls.voceabasarabiei.md/hls/vocea_basarabiei.m3u8
 #EXTINF:-1 tvg-id="WorldFashionChannelRussia.ru" tvg-logo="https://i.imgur.com/JyslMHb.jpg" group-title="Lifestyle",World Fashion Channel Russia (1080p)
@@ -345,8 +342,6 @@ http://xstream.afontovo.ru/afontovo_ya.m3u8
 http://onlinetv.ktrk.kg:1935/live/myStream6/playlist.m3u8
 #EXTINF:-1 tvg-id="Bashkortostan24.ru" tvg-logo="https://i.imgur.com/V35c8pb.png" group-title="Undefined",Башкортостан 24 (1080p)
 http://live.gtrk.tv/hls/b24-hls.m3u8
-#EXTINF:-1 tvg-id="Belarus3.by" tvg-logo="https://i.imgur.com/JkcDycn.png" group-title="General",Беларусь 3 (1080p) [Not 24/7]
-https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus3.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Belarus4.by" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Belarus_4.png/512px-Belarus_4.png" group-title="General",Беларусь 4 (576p)
 http://95.46.208.8:26258/belarus4
 #EXTINF:-1 tvg-id="Belarus24.by" tvg-logo="https://i.imgur.com/iVIlgrj.png" group-title="News",Беларусь 24 (1080p)
@@ -424,8 +419,6 @@ https://cdn1.live-tv.od.ua:8083/dumska/dumska-abr/playlist.m3u8
 http://infochhdcdn.trkeurasia.ru/orsk-infochhd/infochhd/playlist.m3u8
 #EXTINF:-1 tvg-id="Evronovosti.ru" tvg-logo="https://i.imgur.com/9eIZJSQ.png" group-title="News",Евроновости (576p)
 http://185.32.44.154/euronews/index.m3u8
-#EXTINF:-1 tvg-id="ElArna.kz" tvg-logo="https://i.imgur.com/XYsLe2Q.png" group-title="Movies",Ел Арна (576p) [Not 24/7]
-https://sc.id-tv.kz/ElArna.m3u8
 #EXTINF:-1 tvg-id="Enisey.ru" tvg-logo="https://www.lyngsat.com/logo/tv/ee/enisey_tv_ru.png" group-title="Undefined",Енисей (1080p) [Not 24/7]
 http://hls-eniseytv.cdnvideo.ru/eniseytv/stream1/playlist.m3u8
 #EXTINF:-1 tvg-id="ZharPtitsa.ru" tvg-logo="https://i.imgur.com/zldFjXK.png" group-title="Music",Жар Птица (404p) [Geo-blocked]
@@ -472,6 +465,8 @@ https://sc.id-tv.kz/Kinokomediya_hd.m3u8
 https://sc.id-tv.kz/Kinomix_hd.m3u8
 #EXTINF:-1 tvg-id="Kinopremyera.ru" tvg-logo="https://avatars.mds.yandex.net/get-tv-channel-logos/27485/2a0000015bb473bf37b6e42848ef98cf014e/160x160" group-title="Movies",Кинопремьера (1080p) [Not 24/7]
 https://sc.id-tv.kz/Kinopremiera_hd.m3u8
+#EXTINF:-1 tvg-id="Kinosvidanie.ru" tvg-logo="https://i.imgur.com/ZRaWqxj.png" group-title="Movies",Киносвидание (1080p) [Not 24/7]
+https://sc.id-tv.kz/Kinosvidanie_hd.m3u8
 #EXTINF:-1 tvg-id="Kinosemja.ru" tvg-logo="https://cdn.red-media.ru/wp-content/uploads/2019/12/kinosemja(1).png" group-title="Movies",Киносемья (1080p) [Not 24/7]
 https://sc.id-tv.kz/Kinosemiya_hd.m3u8
 #EXTINF:-1 tvg-id="Kinohit.ru" tvg-logo="https://i.imgur.com/Ge8vkQM.png" group-title="Movies",Кинохит (404p) [Not 24/7]
@@ -490,8 +485,6 @@ https://kprf-htlive.cdn.ngenix.net/live/stream_high/playlist.m3u8
 https://strm.yandex.ru/kal/krik_tv/krik_tv0.m3u8
 #EXTINF:-1 tvg-id="TRKKrug.ua" tvg-logo="https://i.imgur.com/gKjUrKY.png" group-title="Undefined",Круг (576p) [Not 24/7]
 https://cdn1.live-tv.od.ua:8083/krugod/krugod-abr/playlist.m3u8
-#EXTINF:-1 tvg-id="Krym24.ru" tvg-logo="https://1tvcrimea.ru/wp-content/themes/vdweb/images/logo.png" group-title="Undefined",Крым 24 (540p) [Not 24/7]
-http://mr2live.1tvcrimea.ru:8080/24tvcrimea.m3u8
 #EXTINF:-1 tvg-id="KTK.kz" tvg-logo="https://i.imgur.com/BGy7EMr.png" group-title="Undefined",КТК (576p) [Not 24/7]
 https://sc.id-tv.kz/KTK.m3u8
 #EXTINF:-1 tvg-id="Kuzbass1HD.ru" tvg-logo="https://i.imgur.com/DCiHkEp.png" group-title="General",Кузбасс 1 (1080p) [Not 24/7]
@@ -587,8 +580,6 @@ http://95.46.208.8:26259/nashe
 http://live-saha.cdnvideo.ru/saha/saha/playlist.m3u8
 #EXTINF:-1 tvg-id="NebesaTV7.ru" tvg-logo="https://www.nebesatv7.com/wp-content/themes/tv7-theme/assets/img/logo_nebesa_short.png" group-title="Religious",Небеса ТВ7 (720p)
 https://vod.tv7.fi/tv7-ru/tv7-ru.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="NizhniyNovgorod24.ru" tvg-logo="https://i.imgur.com/ZWgPVIC.png" group-title="Undefined",Нижний Новгород 24 (720p) [Not 24/7]
-https://live-vestinn.cdnvideo.ru/vestinn/nn24-khl/playlist.m3u8
 #EXTINF:-1 tvg-id="NikaTV.ru" tvg-logo="https://i.imgur.com/F3UEQLc.png" group-title="Undefined",Ника ТВ (576p) [Not 24/7]
 https://live-nikatv.cdnvideo.ru/nikatv/nikatv.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="NLOTV.ua" tvg-logo="https://i.imgur.com/oc8efj4.png" group-title="Undefined",НЛО ТВ (576p) [Geo-blocked]
@@ -648,6 +639,8 @@ https://okkotv-live.cdnvideo.ru/channel/Pervii_Kanal_OTT_HD.m3u8
 http://stream.euroasia.lfstrm.tv/perviy_evrasia/1/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Первый канал Евразия (576p) [Not 24/7]
 https://sc.id-tv.kz/1KanalEvraziya.m3u8
+#EXTINF:-1 tvg-id="Pervyykrymskiy.ru" tvg-logo="https://1tvcrimea.ru/wp-content/themes/vdweb/images/logo.png" group-title="Undefined",Первый крымский (540p) [Not 24/7]
+http://mrlive.1tvcrimea.ru:8080/1tvcrimea.m3u8
 #EXTINF:-1 tvg-id="FirstMusicChannel4K.by" tvg-logo="https://i.imgur.com/sUgj2s7.png" group-title="Music",Первый Музыкальный Канал 4K (2160p)
 http://rtmp.one.by:1499
 #EXTINF:-1 tvg-id="FirstMusicChannel.by" tvg-logo="https://i.imgur.com/sUgj2s7.png" group-title="Music",Первый Музыкальный Канал (576p)
@@ -666,8 +659,6 @@ http://ott.inmart.tv:8081/18/index.m3u8
 http://5.164.24.83/tula/1tv_low/index.m3u8
 #EXTINF:-1 tvg-id="Pobeda.ru" tvg-logo="https://i.imgur.com/DOtCK9V.png" group-title="Undefined",Победа (576p) [Not 24/7]
 https://sc.id-tv.kz/Pobeda.m3u8
-#EXTINF:-1 tvg-id="Poehali.ru" tvg-logo="https://i.imgur.com/c6oPeGF.png" group-title="Undefined",Поехали! (576p) [Not 24/7]
-https://sc.id-tv.kz/poehali.m3u8
 #EXTINF:-1 tvg-id="Prima.ru" tvg-logo="https://www.prima-tv.ru/img/logo.png" group-title="Undefined" user-agent="Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.84 Safari/537.36 CrKey/1.21a.76178",Прима (1080p) [Geo-blocked]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.84 Safari/537.36 CrKey/1.21a.76178
 https://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R11_OTT_SIB_KRSK_STS/variant.m3u8
@@ -896,9 +887,8 @@ http://ott-cdn.ucom.am/s20/index.m3u8
 #EXTINF:-1 tvg-id="Che.ru" tvg-logo="https://i.imgur.com/nRD61Dw.png" group-title="Entertainment" user-agent="Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.84 Safari/537.36 CrKey/1.21a.76178",Че! (540p) [Geo-blocked]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.84 Safari/537.36 CrKey/1.21a.76178
 https://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ/variant.m3u8
-#EXTINF:-1 tvg-id="ShansonTV.ru" tvg-logo="https://i.imgur.com/NBWyJJQ.png" group-title="Music" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Шансон ТВ (480p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
-http://ott-cdn.ucom.am/s43/index.m3u8
+#EXTINF:-1 tvg-id="ShansonTV.ru" tvg-logo="https://i.imgur.com/NBWyJJQ.png" group-title="Music",Шансон ТВ (512p) [Geo-blocked]
+http://hls.shansontv.cdnvideo.ru/shansontv/shansontv.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Шокирующее (540p)
 http://185.97.150.19:8082/2401
 #EXTINF:-1 tvg-id="ShchyolkovskoeTV.ru" tvg-logo="https://i.imgur.com/Egm1N86.png" group-title="Undefined",Щёлковское ТВ (576p) [Not 24/7]
