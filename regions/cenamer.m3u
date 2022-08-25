@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/bo/comteco.com.bo.epg.xml,https://iptv-org.github.io/epg/guides/cr/gatotv.com.epg.xml,https://iptv-org.github.io/epg/guides/gt/gatotv.com.epg.xml,https://iptv-org.github.io/epg/guides/hn/gatotv.com.epg.xml,https://iptv-org.github.io/epg/guides/hn/mi.tv.epg.xml,https://iptv-org.github.io/epg/guides/ni/gatotv.com.epg.xml,https://iptv-org.github.io/epg/guides/pa/gatotv.com.epg.xml,https://iptv-org.github.io/epg/guides/sv/mi.tv.epg.xml"
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/bo/comteco.com.bo.epg.xml.gz,https://iptv-org.github.io/epg/guides/cr/gatotv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/gt/gatotv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/hn/gatotv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/hn/mi.tv.epg.xml.gz,https://iptv-org.github.io/epg/guides/ni/gatotv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/pa/gatotv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/sv/mi.tv.epg.xml.gz"
 #EXTINF:-1 tvg-id="88Stereo.cr" tvg-logo="https://hosttec.online/wp-content/uploads/2020/03/img1920.jpg" group-title="Music",88 Stereo (720p) [Not 24/7]
 http://k3.usastreams.com/CableLatino/88stereo/playlist.m3u8
 #EXTINF:-1 tvg-id="AgapeTV.sv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Agape_8_2001.png/512px-Agape_8_2001.png" group-title="Undefined",Ágape TV Canal 8
@@ -13,6 +13,8 @@ http://209.91.213.10:8088/play/a013
 http://inliveserver.com:1935/14510/14510/playlist.m3u8
 #EXTINF:-1 tvg-id="AvivaTV.hn" tvg-logo="https://i.imgur.com/GN3jTFu.png" group-title="Undefined",Aviva TV (288p)
 https://video.misistemareseller.com/atvhonduras/atvhonduras/playlist.m3u8
+#EXTINF:-1 tvg-id="TVAztecaHonduras.hn" tvg-logo="https://i.imgur.com/vqH9Cpy.png" group-title="Undefined",Azteca Honduras
+http://190.122.96.187:8888/http/002
 #EXTINF:-1 tvg-id="CabinaRPCRadio.pa" tvg-logo="https://i.imgur.com/lJ0qHKI.png" group-title="Undefined",Cabina RPC Radio (480p)
 https://mdstrm.com/live-stream-playlist/5d976689ab55a60f94ec98e8.m3u8
 #EXTINF:-1 tvg-id="CabinaTelemetroRadio.pa" tvg-logo="https://platform-static.cdn.mdstrm.com/player/logo/s-live-5d97ca5673de440761ff194e.png" group-title="Undefined",Cabina Telemetro Radio (480p)
@@ -79,8 +81,6 @@ https://emisoras.hn:8081/diostevekids/playlist.m3u8
 https://stmv3.voxtvhd.com.br/dreikotv/dreikotv/playlist.m3u8
 #EXTINF:-1 tvg-id="EDNTV.hn" tvg-logo="https://i.imgur.com/Dq9we3E.png" group-title="Undefined",EDN TV (1080p) [Not 24/7]
 https://60417ddeaf0d9.streamlock.net/edntv/videoedntv/playlist.m3u8
-#EXTINF:-1 tvg-id="ElOlamTV.gt" tvg-logo="https://i.imgur.com/NizUZlV.png" group-title="Religious",El Olam TV
-https://stream.oursnetworktv.com/latin/elOlam/playlist.m3u8
 #EXTINF:-1 tvg-id="ElimTV.sv" tvg-logo="https://i.imgur.com/AonXAXu.png" group-title="Undefined",Elim TV
 https://dacastmmd.mmdlive.lldns.net/dacastmmd/7e84ed301b194b7b81e86f85bb2c3a33/playlist.m3u8
 #EXTINF:-1 tvg-id="ExtremaTV.cr" tvg-logo="https://i.imgur.com/E9AuhOU.png" group-title="Religious",Extrema TV (720p)
@@ -101,10 +101,8 @@ http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.dailymotion.com/vid
 https://1206618505.rsc.cdn77.org/LS-ATL-59020-1/playlist.m3u8
 #EXTINF:-1 tvg-id="Humor247.cr" tvg-logo="https://i.imgur.com/HqbgrSF.png" group-title="Entertainment",Humor 24-7 (360p)
 https://srv.panelcast.net/humor247/humor247/playlist.m3u8
-#EXTINF:-1 tvg-id="IglesiaDelCamino.gt" tvg-logo="https://i.imgur.com/vHfb3Z4.png" group-title="Religious",Iglesia Del Camino (480p) [Not 24/7]
-http://streamingcontrol.com:1935/ectv/ectv/playlist.m3u8
-#EXTINF:-1 tvg-id="JBNTV.hn" tvg-logo="https://www.lyngsat.com/logo/tv/jj/jbn-tv-hn.png" group-title="Undefined",JBN (480p)
-https://emisoras.hn:8081/jbn/index.m3u8
+#EXTINF:-1 tvg-id="JBNTV.hn" tvg-logo="https://www.lyngsat.com/logo/tv/jj/jbn-tv-hn.png" group-title="Undefined",JBN (720p) [Not 24/7]
+https://inliveserver.com:1936/17510/17510/playlist.m3u8
 #EXTINF:-1 tvg-id="KerussoTV.hn" tvg-logo="https://i.imgur.com/rrHwnop.png" group-title="Undefined",Kerusso TV (720p)
 https://emisoras.hn:8081/kerussotv/index.m3u8
 #EXTINF:-1 tvg-id="Krem.bz" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d1/Krem_Television_Logo.png/revision/latest?cb=20220102033556" group-title="Undefined",Krem TV
@@ -125,8 +123,6 @@ https://5ca9af4645e15.streamlock.net/canal12/videocanal12/playlist.m3u8
 https://59ef525c24caa.streamlock.net/nicoyatv/nicoyatv/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Nim TV
 https://cdn.streamhispanatv.net:3210/live/nimtvgtlive.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Omega Tv (288p) [Not 24/7]
-https://5caf24a595d94.streamlock.net:1937/8142/8142/playlist.m3u8
 #EXTINF:-1 tvg-id="OrbitaFM.sv" tvg-logo="https://i.imgur.com/ECC6jyU.png" group-title="Undefined",Órbita FM (720p) [Not 24/7]
 #EXTVLCOPT:http-referrer=https://ssh101.com/
 https://tna5.bozztv.com/OrbitaFM/index.m3u8
@@ -140,8 +136,6 @@ https://sm.redconnections.net:19360/presenciatv/presenciatv.m3u8
 https://stream.oursnetworktv.com/latin/remaPresencia/playlist.m3u8
 #EXTINF:-1 tvg-id="QhuboTV.hn" tvg-logo="https://www.lyngsat.com/logo/tv/qq/qhubo-tv-hn.png" group-title="Undefined",Q'hubo TV (410p) [Not 24/7]
 https://5e85d90130e77.streamlock.net/6024/6024/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioIdeal.hn" tvg-logo="https://i.imgur.com/ozX5RO1.png" group-title="Undefined",Radio Ideal 104.7 FM (La Esperanza) (720p) [Not 24/7]
-http://lencatelevision.com:8080/hls/ltv3.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Radio Imagen 105.1 FM (La Esperanza) (720p) [Not 24/7]
 http://lencatelevision.com:8080/hls/ltv2.m3u8
 #EXTINF:-1 tvg-id="RHCTV.hn" tvg-logo="https://i.imgur.com/G90DLdx.png" group-title="Undefined",Roatán Hable Claro (RHC) (720p)
@@ -154,8 +148,6 @@ http://stream.grupoabchn.com:1935/SERCANOHD/SERCANOLive.smil/playlist.m3u8
 http://186.15.50.30:8080/hls/smotv.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",STV El Camal Familiar (720p) [Not 24/7]
 http://tiquiciatv.com:1935/stv/web/playlist.m3u8
-#EXTINF:-1 tvg-id="SuyapaTV.hn" tvg-logo="https://pbs.twimg.com/profile_images/1455219661927337988/0EAAn3OP.jpg" group-title="Religious",Suyapa TV (480p) [Not 24/7]
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://dai.ly/x833e2b
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Taber TV
 https://5ca9af4645e15.streamlock.net/tabertv/smil:tabertv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TCS.sv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/34/Logotipo-tcs-sv.png" group-title="Undefined",TCS (720p)
@@ -219,6 +211,8 @@ http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.twitch.tv/canaltvx
 https://live-utv.unah.edu.hn/web/salida.m3u8
 #EXTINF:-1 tvg-id="VideoTourChannel.cr" tvg-logo="https://i.imgur.com/l1oc3ER.png" group-title="Music",Video Tour Channel (480p) [Not 24/7]
 http://k4.usastreams.com/videotour/videotour/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Visión TV
+https://cdn.streamhispanatv.net:3076/live/visiontvlive.m3u8
 #EXTINF:-1 tvg-id="VivaNicaraguaCanal13.ni" tvg-logo="https://i.imgur.com/ByZwNXQ.png" group-title="Undefined",Viva Nicaragua Canal 13 (480p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.dailymotion.com/vivanicaragua13
 #EXTINF:-1 tvg-id="VMLatino.cr" tvg-logo="https://www.m3u.cl/logo/1062_Canal_VM_Latino.png" group-title="Music",VM Latino (720p) [Not 24/7]

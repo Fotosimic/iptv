@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/cn/tv.cctv.com.epg.xml,https://iptv-org.github.io/epg/guides/hk-en/nowplayer.now.com.epg.xml,https://iptv-org.github.io/epg/guides/id-en/mncvision.id.epg.xml,https://iptv-org.github.io/epg/guides/id/transvision.co.id.epg.xml,https://iptv-org.github.io/epg/guides/id/useetv.com.epg.xml,https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml,https://iptv-org.github.io/epg/guides/sg/mewatch.sg.epg.xml"
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/cn/tv.cctv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/hk-en/nowplayer.now.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/id-en/mncvision.id.epg.xml.gz,https://iptv-org.github.io/epg/guides/id/transvision.co.id.epg.xml.gz,https://iptv-org.github.io/epg/guides/id/useetv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml.gz,https://iptv-org.github.io/epg/guides/sg/mewatch.sg.epg.xml.gz"
 #EXTINF:-1 tvg-id="ADiTV.id" tvg-logo="https://upload.wikimedia.org/wikipedia/id/5/59/ADiTV_Jogja.png" group-title="Undefined",ADiTV (720p) [Not 24/7]
 https://v2.siar.us/aditv/livestream/chunks.m3u8
 #EXTINF:-1 tvg-id="AgropolitanTV.id" tvg-logo="https://upload.wikimedia.org/wikipedia/id/5/5e/Logo_Agropolitan_TV_2022.png" group-title="Undefined",Agropolitan TV (360p) [Not 24/7]
@@ -88,8 +88,9 @@ https://bravo.kugo.id/dangduttivi/udp.stream/playlist.m3u8
 https://b.webcache.maxindo.net.id/dhamma/dhamma.m3u8
 #EXTINF:-1 tvg-id="DigiOne.id" tvg-logo="https://i.imgur.com/ISuLAHc.png" group-title="Undefined",DigiOne (720p) [Geo-blocked]
 https://cdn-telkomsel-01.akamaized.net/Content/HLS/Live/channel(d2f582be-366c-4cce-9476-1b524dc854e9)/index.m3u8
-#EXTINF:-1 tvg-id="DMTVMalang.id" tvg-logo="https://www.lyngsat.com/logo/tv/dd/dm-tv-malang-id.png" group-title="Undefined",DMTV Malang (576p)
-https://bravo.kugo.id/dmtvmalang/rtmp.stream/chunklist.m3u8
+#EXTINF:-1 tvg-id="DMTVMalang.id" tvg-logo="https://www.lyngsat.com/logo/tv/dd/dm-tv-malang-id.png" group-title="Undefined" user-agent="Mozilla/5.0 (X11; Linux x86_64)",DMTV Malang (360p) [Geo-blocked]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64)
+https://h1.intechmedia.net/intech/ch51.m3u8
 #EXTINF:-1 tvg-id="DuniaGamesTV.id" tvg-logo="https://i.imgur.com/WrwsOf8.png" group-title="Undefined",Dunia Games TV (720p) [Geo-blocked]
 https://cdn-telkomsel-01.akamaized.net/Content/HLS/Live/channel(ec41a5e2-09e4-431d-b92e-383fa7abe25c)/index.m3u8
 #EXTINF:-1 tvg-id="DutaTV.id" tvg-logo="https://i.imgur.com/B4JW54M.png" group-title="Undefined",Duta TV (360p) [Not 24/7]
@@ -112,6 +113,8 @@ http://free.fullspeed.tv/iptv-query?streaming-ip=https://m.youtube.com/c/HopeCha
 https://v3.siar.us/humabetangtv/live/playlist.m3u8
 #EXTINF:-1 tvg-id="IAmChannel.id" tvg-logo="https://www.lyngsat.com/logo/tv/ii/i_am_channel_id.png" group-title="Undefined",I AM CHANNEL (576p) [Not 24/7]
 http://iamchannel.org:1935/tes/1/playlist.m3u8
+#EXTINF:-1 tvg-id="Indosiar.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Indosiar_2015.svg/512px-Indosiar_2015.svg.png" group-title="General",Indosiar (480p) [Geo-blocked]
+http://210.210.155.37/qwr9ew/s/s04/index.m3u8
 #EXTINF:-1 tvg-id="INews.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/INews.png/512px-INews.png" group-title="News",iNews (720p)
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://d2hfpzcndkyscp.cloudfront.net/INEWS_2021.m3u8
@@ -128,10 +131,15 @@ https://bravo.kugo.id/jaktv/udp.stream/playlist.m3u8
 http://122.248.43.138:1935/ch23/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="JawaPosTV.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/da/Jawa_Pos_TV_2021.png" group-title="Undefined",Jawa Pos TV (480p) [Not 24/7]
 https://v2.siar.us/jawapostv/live/chunks.m3u8
+#EXTINF:-1 tvg-id="JayaTVJayapura.id" tvg-logo="https://i.imgur.com/DRhbIjn.png" group-title="Undefined" user-agent="Mozilla/5.0 (X11; Linux x86_64)",Jaya TV (360p) [Geo-blocked]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64)
+https://h1.intechmedia.net/intech/ch52.m3u8
 #EXTINF:-1 tvg-id="JekTV.id" tvg-logo="https://i.imgur.com/K0tH9sj.png" group-title="Undefined",Jek TV (360p) [Not 24/7]
 http://122.248.43.138:1935/ch14/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="JogjaIstimewaTV.id" tvg-logo="https://www.lyngsat.com/logo/tv/jj/jogja-istimewa-tv-id.png" group-title="Undefined",Jogja Istimewa TV (720p)
 http://103.255.15.222:1935/tv/jitv_720p/playlist.m3u8
+#EXTINF:-1 tvg-id="JogjaTV.id" tvg-logo="https://upload.wikimedia.org/wikipedia/id/5/58/Jogjatv3d.png" group-title="Undefined",Jogja TV (720p) [Not 24/7]
+https://stream.jogjatv.co.id/jtvlive/stream/index.m3u8
 #EXTINF:-1 tvg-id="JPMTV.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/69/Logo_JPM_TV.png" group-title="Undefined",JPM TV (720p) [Not 24/7]
 http://122.248.43.138:1935/ch6/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="JTV.id" tvg-logo="https://i.imgur.com/lb26bgj.png" group-title="Undefined",JTV (720p) [Not 24/7]
@@ -176,13 +184,11 @@ https://d33j155pv2xyba.cloudfront.net/MNCTV_2021.m3u8
 https://5bf7b725107e5.streamlock.net/mqtv/mqtv/playlist.m3u8
 #EXTINF:-1 tvg-id="MTA6Asia.uk" tvg-logo="https://i.imgur.com/ddLhLsh.png" group-title="Undefined",MTA6 Asia (1080p)
 https://livemtaasia.akamaized.net/hls/live/2039224/mta6asia/playlist.m3u8
-#EXTINF:-1 tvg-id="MTATV.id" tvg-logo="https://www.lyngsat.com/logo/tv/mm/mta_tv_id.png" group-title="Undefined",mta tv (720p) [Geo-blocked]
-https://cdn-telkomsel-01.akamaized.net/Content/HLS/Live/channel(b3673fde-4acd-4f1d-95a5-a204d62545ac)/index.m3u8
+#EXTINF:-1 tvg-id="MTATV.id" tvg-logo="https://www.lyngsat.com/logo/tv/mm/mta_tv_id.png" group-title="Undefined",mta tv [Not 24/7]
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://m.youtube.com/c/OfficialMTATV/live
 #EXTINF:-1 tvg-id="MuadzTV.id" tvg-logo="https://www.lyngsat.com/logo/tv/mm/muadz-tv-id.png" group-title="Undefined" user-agent="Mozilla/5.0 (X11; Linux x86_64)",Muadz (360p) [Geo-blocked]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64)
 https://h1.intechmedia.net/intech/ch5.m3u8
-#EXTINF:-1 tvg-id="MyKidz.id" tvg-logo="https://www.lyngsat.com/logo/tv/mm/my-kidz-id.png" group-title="Kids",My Kidz (1080p) [Geo-blocked]
-http://210.210.155.37/uq2663/h/h191/index.m3u8
 #EXTINF:-1 tvg-id="NabawiTV.id" tvg-logo="https://nabawi.tv/wp-content/uploads/2021/10/cropped-logo-nabawitv.png" group-title="Undefined",Nabawi TV (576p)
 https://alfa.kugo.id/nabawitv/nabawitv/playlist.m3u8
 #EXTINF:-1 tvg-id="NET.id" tvg-logo="https://i.imgur.com/RPT8O12.png" group-title="Undefined",NET. [Not 24/7]
@@ -192,8 +198,6 @@ http://free.fullspeed.tv/iptv-query?streaming-ip=https://youtube.com/user/NetIns
 https://h1.intechmedia.net/intech/ch10.m3u8
 #EXTINF:-1 tvg-id="NusantaraTV.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Logo_nusantaratv.png/512px-Logo_nusantaratv.png" group-title="Undefined",Nusantara TV (720p)
 https://nusantaratv.siar.us/nusantaratv/live/chunks.m3u8
-#EXTINF:-1 tvg-id="OChannel.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Ochannel.png/512px-Ochannel.png" group-title="Undefined",O Channel (480p) [Geo-blocked]
-http://210.210.155.37/qwr9ew/s/s41/index.m3u8
 #EXTINF:-1 tvg-id="PadangTV.id" tvg-logo="https://upload.wikimedia.org/wikipedia/id/b/b3/Logo_PadangTV.png" group-title="Undefined",Padang TV (720p) [Not 24/7]
 http://122.248.43.138:1935/ch16/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="PijarTV.id" tvg-logo="https://i.imgur.com/6rYTI41.png" group-title="Undefined",Pijar TV [Not 24/7]
@@ -202,8 +206,8 @@ http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.twitch.tv/pijartv
 http://122.248.43.138:1935/ch15/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="PopMusik.id" tvg-logo="https://www.lyngsat.com/logo/tv/pp/pop-musik-id.png" group-title="Music",POP musik (576i)
 https://alfa.kugo.id/playout/pop.stream/chunklist.m3u8
-#EXTINF:-1 tvg-id="PujaTVAceh.id" tvg-logo="https://www.pujatvaceh.com/wp-content/uploads/2020/09/272.png" group-title="Undefined",Puja TV Aceh (1080p) [Not 24/7]
-https://v6.siar.us/pujatv/live/chunks.m3u8
+#EXTINF:-1 tvg-id="RadarLampungTV.id" tvg-logo="https://radartv.co.id/wp-content/uploads/2019/11/logo-radartv-272x90.png" group-title="Undefined",Radar TV Lampung (480p) [Not 24/7]
+http://122.248.43.138:1935/ch17/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioKitaTV.id" tvg-logo="https://www.lyngsat.com/logo/tv/rr/radio-kita-tv-id.png" group-title="Undefined" user-agent="Mozilla/5.0 (X11; Linux x86_64)",RadioKita TV (360p) [Geo-blocked]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64)
 https://h1.intechmedia.net/intech/ch16.m3u8
@@ -222,8 +226,8 @@ http://122.248.43.138:1935/ch11/myStream/playlist.m3u8
 https://cdn-telkomsel-01.akamaized.net/Content/HLS/Live/channel(6f7158e4-f151-45dd-874f-e02c15c7cd4b)/index.m3u8
 #EXTINF:-1 tvg-id="RRINet.id" tvg-logo="https://i.imgur.com/lrPHwLG.png" group-title="Undefined",RRI Net (720p) [Not 24/7]
 http://36.89.47.217:11935/rrinet/live/index.m3u8
-#EXTINF:-1 tvg-id="RajawaliTV.id" tvg-logo="https://www.lyngsat.com/logo/tv/rr/rajawali_tv_id.png" group-title="Undefined",RTV (576p) [Geo-blocked]
-http://210.210.155.37/dr9445/h/h10/index.m3u8
+#EXTINF:-1 tvg-id="RajawaliTV.id" tvg-logo="https://www.lyngsat.com/logo/tv/rr/rajawali_tv_id.png" group-title="Undefined",RTV (480p) [Geo-blocked]
+https://cdn-telkomsel-01.akamaized.net/Content/HLS/Live/channel(41869351-4a9c-4e57-b54b-8cf5dfc919e1)/index.m3u8
 #EXTINF:-1 tvg-id="RuangTrampil.id" tvg-logo="https://i.imgur.com/93EZSRw.png" group-title="Undefined",Ruang Trampil (480p) [Geo-blocked]
 https://cdn-telkomsel-01.akamaized.net/Content/HLS/Live/channel(2b945e2e-4297-4be9-9a45-aa023c890e13)/index.m3u8
 #EXTINF:-1 tvg-id="SaktiTV.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f8/Logo-saktitv.png" group-title="Undefined",Sakti TV (480p) [Not 24/7]
@@ -235,6 +239,8 @@ https://h1.intechmedia.net/intech/ch12.m3u8
 https://bravo.kugo.id/salingsapa/rtmp.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="SangajiTV.id" tvg-logo="https://i.imgur.com/GOuGjwr.png" group-title="Undefined",Sangaji TV (720p) [Not 24/7]
 https://cdn.gunadarma.ac.id/streams/sangajitv/ingestsangajitv.m3u8
+#EXTINF:-1 tvg-id="SCTV.id" tvg-logo="https://i.imgur.com/EMmOvnQ.png" group-title="General",SCTV (480p) [Geo-blocked]
+http://210.210.155.35/qwr9ew/s/s03/index.m3u8
 #EXTINF:-1 tvg-id="SemarangTV.id" tvg-logo="https://upload.wikimedia.org/wikipedia/id/3/3c/Cakra-semarang-tv.png" group-title="Undefined",Semarang TV (720p)
 http://116.254.112.74/hls/cakralive.m3u8
 #EXTINF:-1 tvg-id="Simpang5TV.id" tvg-logo="https://upload.wikimedia.org/wikipedia/id/6/61/SIMPANG5tv.png" group-title="Undefined",Simpang5 TV (360p) [Not 24/7]
@@ -247,7 +253,7 @@ https://bravo.kugo.id/spacetoon/udp.stream/playlist.m3u8
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.twitch.tv/sriwijayatvonline
 #EXTINF:-1 tvg-id="SunnahJalanPastiTV.id" tvg-logo="https://www.lyngsat.com/logo/tv/ss/sunnah-jalan-pasti-tv-id.png" group-title="Undefined" user-agent="Mozilla/5.0 (X11; Linux x86_64)",Sunnah Jalan Pasti TV (360p) [Geo-blocked]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64)
-https://h1.intechmedia.net/intech/ch18.m3u8
+https://h1.intechmedia.net/intech/ch17.m3u8
 #EXTINF:-1 tvg-id="SurauTV.id" tvg-logo="https://i.imgur.com/XONWGjP.png" group-title="Undefined" user-agent="Mozilla/5.0 (X11; Linux x86_64)",Surau TV (360p) [Geo-blocked]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64)
 https://h1.intechmedia.net/intech/ch3.m3u8
@@ -271,22 +277,26 @@ https://5bf7b725107e5.streamlock.net/tvtabalong/tvtabalong/playlist.m3u8
 http://103.30.1.14:8080/hls/live.m3u8
 #EXTINF:-1 tvg-id="TVMu.id" tvg-logo="https://i.imgur.com/gzRXtY4.png" group-title="Undefined",tvMu (720p)
 https://tvmu.siar.us/tvmu/live/playlist.m3u8
-#EXTINF:-1 tvg-id="TVNAsia.hk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Logo_tvN.svg/512px-Logo_tvN.svg.png" group-title="Undefined",tvN Asia (Indonesian Subtitle) (576p)
-http://210.210.155.37/dr9445/h/h20/index.m3u8
+#EXTINF:-1 tvg-id="TVNMovies.hk" tvg-logo="https://i.imgur.com/oLzTyUX.png" group-title="Movies",tvN Movies (Indonesian Subtitle) (576p) [Geo-blocked]
+http://210.210.155.35/dr9445/h/h21/index.m3u8
 #EXTINF:-1 tvg-id="tvOne.id" tvg-logo="https://i.imgur.com/Al8T2MD.png" group-title="Undefined",tvOne
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://youtube.com/watch?v=yNKvkPJl-tg
-#EXTINF:-1 tvg-id="TVRParlemen.id" tvg-logo="https://yt3.ggpht.com/ytc/AAUvwnhlaM4KZ8xQaJpfP8GPX7Ji3tYXVnuSVfVKNV69=s900-c-k-c0x00ffffff-no-rj" group-title="Legislative",TVR Parlemen (720p) [Not 24/7]
-http://103.18.181.69:1935/golive/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="TVRParlemenKomisiI.id" tvg-logo="https://yt3.ggpht.com/ytc/AAUvwnhlaM4KZ8xQaJpfP8GPX7Ji3tYXVnuSVfVKNV69=s900-c-k-c0x00ffffff-no-rj" group-title="Legislative",TVR Parlemen Komisi I (480p) [Not 24/7]
 http://103.18.181.69:1935/golive/livestream1/playlist.m3u8
 #EXTINF:-1 tvg-id="TVRParlemenKomisiIII.id" tvg-logo="https://yt3.ggpht.com/ytc/AAUvwnhlaM4KZ8xQaJpfP8GPX7Ji3tYXVnuSVfVKNV69=s900-c-k-c0x00ffffff-no-rj" group-title="Legislative",TVR Parlemen Komisi III (480p) [Not 24/7]
 http://103.18.181.69:1935/golive/livestream3/playlist.m3u8
-#EXTINF:-1 tvg-id="TVRParlemenKomisiIV.id" tvg-logo="https://yt3.ggpht.com/ytc/AAUvwnhlaM4KZ8xQaJpfP8GPX7Ji3tYXVnuSVfVKNV69=s900-c-k-c0x00ffffff-no-rj" group-title="Legislative",TVR Parlemen Komisi IV (480p) [Not 24/7]
-http://103.18.181.69:1935/golive/livestream4/playlist.m3u8
+#EXTINF:-1 tvg-id="TVRParlemenKomisiIX.id" tvg-logo="https://yt3.ggpht.com/ytc/AAUvwnhlaM4KZ8xQaJpfP8GPX7Ji3tYXVnuSVfVKNV69=s900-c-k-c0x00ffffff-no-rj" group-title="Legislative",TVR Parlemen Komisi IX (480p) [Not 24/7]
+http://103.18.181.69:1935/golive/livestream9/playlist.m3u8
 #EXTINF:-1 tvg-id="TVRParlemenKomisiV.id" tvg-logo="https://yt3.ggpht.com/ytc/AAUvwnhlaM4KZ8xQaJpfP8GPX7Ji3tYXVnuSVfVKNV69=s900-c-k-c0x00ffffff-no-rj" group-title="Legislative",TVR Parlemen Komisi V (720p) [Not 24/7]
 http://103.18.181.69:1935/golive/livestream5/playlist.m3u8
+#EXTINF:-1 tvg-id="TVRParlemenKomisiVII.id" tvg-logo="https://yt3.ggpht.com/ytc/AAUvwnhlaM4KZ8xQaJpfP8GPX7Ji3tYXVnuSVfVKNV69=s900-c-k-c0x00ffffff-no-rj" group-title="Legislative",TVR Parlemen Komisi VII (480p) [Not 24/7]
+http://103.18.181.69:1935/golive/livestream7/playlist.m3u8
+#EXTINF:-1 tvg-id="TVRParlemenKomisiVIII.id" tvg-logo="https://yt3.ggpht.com/ytc/AAUvwnhlaM4KZ8xQaJpfP8GPX7Ji3tYXVnuSVfVKNV69=s900-c-k-c0x00ffffff-no-rj" group-title="Legislative",TVR Parlemen Komisi VIII [Not 24/7]
+http://103.18.181.69:1935/golive/livestream8/playlist.m3u8
 #EXTINF:-1 tvg-id="TVRParlemenKomisiX.id" tvg-logo="https://yt3.ggpht.com/ytc/AAUvwnhlaM4KZ8xQaJpfP8GPX7Ji3tYXVnuSVfVKNV69=s900-c-k-c0x00ffffff-no-rj" group-title="Legislative",TVR Parlemen Komisi X (720p) [Not 24/7]
 http://103.18.181.69:1935/golive/livestream10/playlist.m3u8
+#EXTINF:-1 tvg-id="TVRParlemenKomisiXI.id" tvg-logo="https://yt3.ggpht.com/ytc/AAUvwnhlaM4KZ8xQaJpfP8GPX7Ji3tYXVnuSVfVKNV69=s900-c-k-c0x00ffffff-no-rj" group-title="Legislative",TVR Parlemen Komisi XI (720p) [Not 24/7]
+http://103.18.181.69:1935/golive/livestream11/playlist.m3u8
 #EXTINF:-1 tvg-id="TVRIAceh.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png" group-title="Undefined",TVRI Aceh (720p) [Not 24/7]
 http://118.97.50.107/Content/HLS/Live/Channel(TVRIACEH)/index.m3u8
 #EXTINF:-1 tvg-id="TVRIBali.id" tvg-logo="https://i.imgur.com/3N6NDPf.png" group-title="Undefined",TVRI Bali (480p)
@@ -338,7 +348,7 @@ http://118.97.50.107/Content/HLS/Live/Channel(TVRISULSELMAKASAR)/index.m3u8
 #EXTINF:-1 tvg-id="TVRICentralSulawesi.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png" group-title="Undefined",TVRI Sulawesi Tengah (720p)
 http://118.97.50.107/Content/HLS/Live/Channel(TVRISULTENGPALU)/index.m3u8
 #EXTINF:-1 tvg-id="TVRISoutheastSulawesi.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png" group-title="Undefined",TVRI Sulawesi Tenggara (480p)
-http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRISultra)/index.m3u8
+http://118.97.50.107/Content/HLS/Live/Channel(TVRISULTRA)/index.m3u8
 #EXTINF:-1 tvg-id="TVRIWestSumatra.id" tvg-logo="https://www.lyngsat.com/logo/tv/tt/tvri-sumbar-id.png" group-title="Undefined",TVRI Sumatera Barat (720p)
 http://118.97.50.107/Content/HLS/Live/Channel(TVRISUMBARPADANG)/index.m3u8
 #EXTINF:-1 tvg-id="TVRISouthSumatra.id" tvg-logo="https://www.lyngsat.com/logo/tv/tt/tvri-sumsel-id.png" group-title="Undefined",TVRI Sumatera Selatan (480p)
@@ -356,5 +366,3 @@ https://cdn.gunadarma.ac.id/streams/ugtv/ingestugtv.m3u8
 https://cdn-telkomsel-01.akamaized.net/Content/HLS/Live/channel(f1b6e507-d639-4d66-858a-e457d55ddbb2)/index.m3u8
 #EXTINF:-1 tvg-id="UseePrime.id" tvg-logo="https://i.imgur.com/fXc15Jf.png" group-title="Undefined",Usee Prime (720p)
 https://cdn-telkomsel-01.akamaized.net/Content/HLS/Live/channel(18564c27-ff44-4d62-9fab-dcb417fcb93f)/index.m3u8
-#EXTINF:-1 tvg-id="ZeeBioskop.id" tvg-logo="https://i.imgur.com/Xl7MJnd.png" group-title="Undefined",Zee Bioskop (360p) [Geo-blocked]
-http://210.210.155.37/qwr9ew/s/s32/index.m3u8
