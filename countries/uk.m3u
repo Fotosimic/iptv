@@ -400,6 +400,8 @@ https://csm-e-boxplus.tls1.yospace.com/csm/extlive/boxplus01,kerrang-alldev.m3u8
 https://dk7psf0dh3v1r.cloudfront.net/KMTV/playlist.m3u8
 #EXTINF:-1 tvg-id="KoolLondonRadio.uk" tvg-logo="https://i.imgur.com/Kv3Htqy.png" group-title="Music",Kool London Radio (720p)
 http://w10.streamgb.com:1935/kool/kool/playlist.m3u8
+#EXTINF:-1 tvg-id="KTO.fr" tvg-logo="https://i.imgur.com/LvbXFUy.jpg" group-title="Undefined",KTO (404p) [Not 24/7]
+https://live-kto.akamaized.net/hls/live/2033284/KTO/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Latest TV [Not 24/7]
 https://5a0e89631aa14.streamlock.net/LatestTV/LatestTV/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",LawCrime
@@ -480,8 +482,8 @@ http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d7677c0edace7cff81
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5dc2c00abfed110009d97243/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-id="PlutoTVSportsUK.uk" tvg-logo="https://images.pluto.tv/channels/5d7677fa2ec536ce1d587eeb/colorLogoPNG.png" group-title="Sports",Pluto TV Sports (England) (720p)
 http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d7677fa2ec536ce1d587eeb/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d7677fa2ec536ce1d587eeb&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=607&terminate=false&userId=
-#EXTINF:-1 tvg-id="PlutoTVStandUpUK.uk" tvg-logo="https://images.pluto.tv/channels/5d135e29a52c94dfe543c5d3/colorLogoPNG.png" group-title="Comedy",Pluto TV Stand Up (360p)
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5637d31f319573e26b64040b/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5637d31f319573e26b64040b&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=468&terminate=false&userId=
+#EXTINF:-1 tvg-id="PlutoTVStandUpUK.uk" tvg-logo="https://images.pluto.tv/channels/5d135e29a52c94dfe543c5d3/colorLogoPNG.png" group-title="Comedy",Pluto TV Stand Up (720p)
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5d135e29a52c94dfe543c5d3/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-id="PopMax.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/60/Pop-max-logo.png" group-title="Undefined",POP Max (576p)
 https://live-sonybebanjo.simplestreamcdn.com/live/popmax/bitrate1.isml/live.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Qello
@@ -527,8 +529,6 @@ https://live-uk.s4c-cdn.co.uk/out/v1/a0134f1fd5a2461b9422b574566d4442/live_uk.m3
 http://95.154.230.50/tsstreamer/SacredSitesLDAI_SD.ts
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",SacredSites
 http://212.84.160.41/tsstreamer/SacredSitesLDAI_SD.ts
-#EXTINF:-1 tvg-id="SangatTV.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/en/c/c3/Sangat_TV_logo.png" group-title="Undefined",Sangat Television (368p) [Not 24/7]
-https://api.new.livestream.com/accounts/6986636/events/5362122/live.m3u8
 #EXTINF:-1 tvg-id="SEAToday.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/SEA_Today_Indonesia_Logo.png/512px-SEA_Today_Indonesia_Logo.png" group-title="Undefined",Sea Today (720p) [Geo-blocked]
 https://cdn-telkomsel-01.akamaized.net/Content/DASH/Live/channel(9ce3f094-4044-467e-84b7-b684a49571d5)/manifest.mpd
 #EXTINF:-1 tvg-id="SheffieldLiveTV.uk" tvg-logo="https://i.imgur.com/eUqnYU1.png" group-title="Undefined",Sheffield Live TV (360p) [Not 24/7]
@@ -606,7 +606,7 @@ https://lds-wonder-plex.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="WorldFashionChannelInternational.ru" tvg-logo="https://i.imgur.com/JyslMHb.jpg" group-title="Lifestyle",World Fashion Channel International (1080p)
 https://wfcint.mediacdn.ru/cdn/wfcintweb/playlist.m3u8
 #EXTINF:-1 tvg-id="WorldPokerTour.us" tvg-logo="https://images.pluto.tv/channels/5f8ecfb9db6c180007a6d1b0/colorLogoPNG.png" group-title="Sports",World Poker Tour (1080p) [Not 24/7]
-https://dth07jsr8atug.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/WPT-Plex/171.m3u8
+https://d3w4n3hhseniak.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/WPT-DistroTV/150.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",Xpanded TV 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
 https://vod2t.xpanded.com/x3tv2/index_wlan.m3u8
