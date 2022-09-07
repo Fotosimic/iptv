@@ -1,4 +1,6 @@
 #EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/ao/guide.dstv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/bf/canalplus-afrique.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/bi/guide.dstv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/eg-ar/elcinema.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/et/guide.dstv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/ke/guide.dstv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/km/canalplus-reunion.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/mw/guide.dstv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/mz/guide.dstv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/ng/dstv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/tz/startimestv.com.epg.xml.gz"
+#EXTINF:-1 tvg-id="2STV.sn" tvg-logo="https://i.imgur.com/3mbeewx.png" group-title="Undefined",2STV (720p) [Not 24/7]
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.dailymotion.com/video/x7vidbb
 #EXTINF:-1 tvg-id="A2iMusic.sn" tvg-logo="https://i.imgur.com/tH7EZL4.jpg" group-title="Music",A2i Music (720p) [Not 24/7]
 https://stream.sen-gt.com/A2iMusic/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="A2iNaja.sn" tvg-logo="https://i.imgur.com/tH7EZL4.jpg" group-title="Undefined",A2i Naja (720p) [Not 24/7]
@@ -23,6 +25,9 @@ http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/afric
 https://5b622f07944df.streamlock.net/aghapy.tv/aghapy.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AlAlamiya2.sd" tvg-logo="https://i.imgur.com/KonAcvc.jpeg" group-title="Undefined",Al Alamiya 2
 http://82.212.74.98:8000/live/7815.m3u8
+#EXTINF:-1 tvg-id="AlAnisTV.dz" tvg-logo="https://i.imgur.com/G60iJen.png" group-title="Undefined" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Al Anis TV [Geo-blocked]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+https://cdn02.hta.dz/abr_htatv/El_Fhama_TV/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Al Aoula International (360p)
 https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_aoula_inter/hls_snrt/al_aoula_inter.m3u8
 #EXTINF:-1 tvg-id="AlAoulaLaayoune.ma" tvg-logo="https://i.imgur.com/ZFHjIVU.png" group-title="General",Al Aoula Laayoune (360p)
@@ -31,9 +36,15 @@ https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_aoula_laayoune/hls_sn
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/alghadtv/live
 #EXTINF:-1 tvg-id="AlMaghribia.ma" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/09/Almaghribiax2.png" group-title="General",Al Maghribia (360p)
 https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_maghribia_snrt/hls_snrt/al_maghribia_snrt.m3u8
-#EXTINF:-1 tvg-id="TV4.dz" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/f/f9/Logo_de_TV4_Alg%C3%A9rie_version_berb%C3%A8re_%282020%29.svg/langfr-200px-Logo_de_TV4_Alg%C3%A9rie_version_berb%C3%A8re_%282020%29.svg.png" group-title="Undefined" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Algérie TV4 [Geo-blocked]
+#EXTINF:-1 tvg-id="TV3.dz" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/b/bc/Logo_de_TV3_Alg%C3%A9rie_%282020%29.svg/langfr-200px-Logo_de_TV3_Alg%C3%A9rie_%282020%29.svg.png" group-title="Undefined" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Algérie TV3 [Geo-blocked]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
-https://cdn02.hta.dz/abr_htatv/TV_4/playlist.m3u8
+https://cdn02.hta.dz/abr_htatv/A3_HD/playlist.m3u8
+#EXTINF:-1 tvg-id="TV5.dz" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/9/97/Logo_de_TV5_Alg%C3%A9rie_%282020%29.svg/langfr-200px-Logo_de_TV5_Alg%C3%A9rie_%282020%29.svg.png" group-title="Undefined" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Algérie TV5 [Geo-blocked]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+https://cdn02.hta.dz/abr_htatv/TV_5/playlist.m3u8
+#EXTINF:-1 tvg-id="TV6.dz" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/7/72/Logo_de_TV6_Alg%C3%A9rie_%282020%29.svg/langfr-200px-Logo_de_TV6_Alg%C3%A9rie_%282020%29.svg.png" group-title="Undefined" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Algérie TV6 [Geo-blocked]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+https://cdn02.hta.dz/abr_htatv/TV_6_HD/playlist.m3u8
 #EXTINF:-1 tvg-id="AlwasatTV.ly" tvg-logo="https://i.imgur.com/OAF0u0b.png" group-title="Undefined",Alwasat TV (1080p) [Not 24/7]
 https://hiplayer.hibridcdn.net/p/alwasattv-live.m3u8
 #EXTINF:-1 tvg-id="AntenneReunion.fr" tvg-logo="https://i.imgur.com/EPIMMaB.png" group-title="Undefined",Antenne Réunion (720p) [Not 24/7]
@@ -52,8 +63,6 @@ http://213.162.202.5:4000/play/a0a1/index.m3u8
 http://213.162.202.5:4000/play/a09l/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Apple Today (576p)
 http://213.162.202.5:4000/play/a09k/index.m3u8
-#EXTINF:-1 tvg-id="ArkTV.ug" tvg-logo="https://www.lyngsat.com/logo/tv/aa/ark-tv-ug.png" group-title="Undefined",Ark TV (576p)
-https://arktelevision.org/hlslive/test/test.m3u8
 #EXTINF:-1 tvg-id="Arrabiaa.ma" tvg-logo="https://i.imgur.com/FvgdLdG.png" group-title="General",Arrabiaa (360p)
 https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/arrabiaa/hls_snrt/arrabiaa.m3u8
 #EXTINF:-1 tvg-id="Arriadia.mr" tvg-logo="https://www.lyngsat.com/logo/tv/aa/arriadia-mr.png" group-title="Undefined",Arriadia (360p)
@@ -73,6 +82,9 @@ https://cdn02.hta.dz/abr_htatv/Bahia_TV/playlist.m3u8
 https://547f72e6652371c3.mediapackage.us-east-1.amazonaws.com/out/v1/7e66f389bec3463dac81e8d55e680431/index.m3u8
 #EXTINF:-1 tvg-id="BossBrothersTV.cd" tvg-logo="https://i.imgur.com/KlRMe5h.png" group-title="General",Boss Brothers TV (1080p)
 http://51.254.199.122:8080/bossbrothersTV/index.m3u8
+#EXTINF:-1 tvg-id="TV2.dz" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/f/fc/Logo_de_Canal_Alg%C3%A9rie_%282020%29.svg/langfr-200px-Logo_de_Canal_Alg%C3%A9rie_%282020%29.svg.png" group-title="Undefined" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Canal Algérie [Geo-blocked]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+https://cdn02.hta.dz/abr_htatv/CANAL_ALGERIE/playlist.m3u8
 #EXTINF:-1 tvg-id="CBC.eg" tvg-logo="https://i.imgur.com/9pTNcrk.png" group-title="Undefined",CBC (720p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/cbcstream/live
 #EXTINF:-1 tvg-id="CBCSofra.eg" tvg-logo="https://storage.googleapis.com/cbc-sofra-assets/images/sofra-logo.png" group-title="Undefined",CBC Sofra
@@ -89,13 +101,20 @@ https://radio.congoplanet.com/Congo_Planet_TV.sdp/Congo_Planet_TV/playlist.m3u8
 https://radio.congoplanet.com/Congo_Planet_TV_Pop.sdp/Congo_Planet_TV_Pop/playlist.m3u8
 #EXTINF:-1 tvg-id="CopticTV.eg" tvg-logo="https://www.ctvchannel.tv/images/CTV-logo-white.png" group-title="Religious",Coptic TV (720p) [Not 24/7]
 https://5aafcc5de91f1.streamlock.net/ctvchannel.tv/ctv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="EchoroukNews.dz" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/ECHOUROUK-NEWS.png/512px-ECHOUROUK-NEWS.png" group-title="News",Echorouk News (240p) [Not 24/7]
-http://echorouk-live-tv.dzsecurity.net:8081/echo/EchoroukNews/playlist.m3u8
-#EXTINF:-1 tvg-id="ElDjazairiaOne.dz" tvg-logo="https://i.imgur.com/OhTioAg.png" group-title="Undefined",El Djazairia One [Geo-blocked]
-https://cdn02.hta.dz/abr_htatv/EL_DJAZAIRIA_TV/playlist.m3u8
-#EXTINF:-1 tvg-id="ElHayatTV.dz" tvg-logo="https://i.imgur.com/fNLiJwK.png" group-title="Undefined" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",El Hayat TV [Geo-blocked]
+#EXTINF:-1 tvg-id="EchoroukNews.dz" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/ECHOUROUK-NEWS.png/512px-ECHOUROUK-NEWS.png" group-title="News" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Echorouk News (480p) [Geo-blocked]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
-https://cdn02.hta.dz/abr_htatv/EL_HAYAT_TV_ALGERIE/playlist.m3u8
+https://cdn02.hta.dz/abr_htatv/ECHOROUK_NEWS/playlist.m3u8
+#EXTINF:-1 tvg-id="EchoroukTV.dz" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a4/Echourouk_new_logo.jpg" group-title="Undefined" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Echorouk TV (720p) [Geo-blocked]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+https://cdn02.hta.dz/abr_htatv/Echorouk_TV_HD/playlist.m3u8
+#EXTINF:-1 tvg-id="ElBilad.dz" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/El_Bilad_TV.png/512px-El_Bilad_TV.png" group-title="Undefined" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",El Bilad [Geo-blocked]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+https://cdn02.hta.dz/abr_htatv/EL_BILAD/playlist.m3u8
+#EXTINF:-1 tvg-id="ElDjazairN1.dz" tvg-logo="https://i.imgur.com/EoB4f6e.png" group-title="Undefined" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",El Djazair N1 [Geo-blocked]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+https://cdn02.hta.dz/abr_htatv/El_Djazair_N1/playlist.m3u8
+#EXTINF:-1 tvg-id="ElHeddafTV.fr" tvg-logo="https://i.imgur.com/qd1sCE8.png" group-title="Undefined",El Heddaf TV [Geo-blocked]
+https://cdn02.hta.dz/abr_htatv/EL_HEDDAF_TV/playlist.m3u8
 #EXTINF:-1 tvg-id="ElHiwarElTounsi.tn" tvg-logo="https://www.elhiwarettounsi.com/images/news/logo.png" group-title="General" user-agent="TNAgexpl212C",El Hiwar El Tounsi (400p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=TNAgexpl212C
 http://217.182.137.206/elhiwar.m3u8
@@ -180,7 +199,7 @@ https://5d39f1ab8ba65.streamlock.net:1935/arabic-test/arabic-test/playlist.m3u8
 https://api.visionip.tv/live/ASHTTP/visiontvuk-entertainment-ntai-hsslive-25f-4x3-MB/playlist.m3u8
 #EXTINF:-1 tvg-id="NTVKenya.ke" tvg-logo="https://i.imgur.com/IqXbVQD.png" group-title="General",NTV (720p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://dai.ly/x6shkab
-#EXTINF:-1 tvg-id="NTVAfrique.ci" tvg-logo="https://i.imgur.com/qiGrf6k.png" group-title="Undefined",NTV Afrique (1080p) [Not 24/7]
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",NTV Afrique (1080p) [Not 24/7]
 https://strhlslb01.streamakaci.tv/str_ntv_ntv/str_ntv_ntv_multi/playlist.m3u8
 #EXTINF:-1 tvg-id="ORTM1.ml" tvg-logo="https://i.imgur.com/AdmCVl5.png" group-title="Undefined",ORTM1 (576p) [Not 24/7]
 http://51.210.1.13:18000/ortm/hls/playlist.m3u8
@@ -198,13 +217,13 @@ http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.dailymotion.com/vid
 https://rotanastudios-rotanacinema-1-eu.xiaomi.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="RTB.bf" tvg-logo="https://i.imgur.com/mVoXFUK.png" group-title="Undefined",RTB (360p) [Not 24/7]
 https://edge.vedge.infomaniak.com/livecast/ik:rtbtvlive1/manifest.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",RTD
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/RTDTELEDJIBOUTI/live
 #EXTINF:-1 tvg-id="RTPAfrica.pt" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/RTP_%C3%81frica_2016_%28Reduced_Version%29.svg/512px-RTP_%C3%81frica_2016_%28Reduced_Version%29.svg.png" group-title="General" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0",RTP África (504p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0
 https://streaming-live.rtp.pt/liverepeater/smil:rtpafrica.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RwandaTV.rw" tvg-logo="https://service.canal-overseas.com/image-api/v1/image/745aa9a13c620e1d4533ea14fa0b5d6c" group-title="Undefined",RTV Rwanda (480p) [Not 24/7]
 http://197.243.19.131:1935/rtv/rtv/chunklist.m3u8
-#EXTINF:-1 tvg-id="SadaElbalad.eg" tvg-logo="https://i.imgur.com/jji89E5.png" group-title="Undefined",Sada Elbalad (720p) [Not 24/7]
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.twitch.tv/elbaladtv
 #EXTINF:-1 tvg-id="SahelTV.tn" tvg-logo="https://saheltv.tn/wp-content/uploads/2018/03/saheltv_logox2.png" group-title="Undefined",Sahel TV (720p) [Not 24/7]
 http://142.44.214.231:1935/saheltv/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="SamiraTV.dz" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Samira_TV_logo.svg/512px-Samira_TV_logo.svg.png" group-title="Undefined" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Samira TV [Geo-blocked]
@@ -222,8 +241,6 @@ https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/tamazight_tv8_snrt/hls_s
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCRaoHR6b3zViY9QxfgFNntQ/live
 #EXTINF:-1 tvg-id="TeleMaroc.ma" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8f/Logotelemaroc.jpeg" group-title="General",Télé Maroc (1080p)
 https://api.new.livestream.com/accounts/27130247/events/8196478/live.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Télévision de Mauritanie (1080p)
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/mauritaniantv/live
 #EXTINF:-1 tvg-id="TeN.eg" tvg-logo="https://i.imgur.com/uVKQTPH.png" group-title="Undefined",Ten TV (720p) [Not 24/7]
 https://weyyak-live.akamaized.net/weyyak_ten_tv/index.m3u8
 #EXTINF:-1 tvg-id="TFM.sn" tvg-logo="https://i.imgur.com/tT3YSNF.png" group-title="Undefined",TFM (720p) [Not 24/7]
@@ -236,9 +253,9 @@ https://q-s-l4n3sh4d0w.onrender.com/iptv-query?streaming-ip=https://livestream.c
 https://5ac31d8a4c9af.streamlock.net/tunimmob/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="TunisnaTV.tn" tvg-logo="https://www.lyngsat.com/logo/tv/tt/tunisna-tv-tn.png" group-title="Undefined",Tunisna TV
 http://streaming.tunisna.tv:1935/live/tunisna/playlist.m3u8
-#EXTINF:-1 tvg-id="TV7.dz" tvg-logo="https://i.imgur.com/dYlAfFZ.png" group-title="Undefined" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",TV7 Elmaarifa [Geo-blocked]
+#EXTINF:-1 tvg-id="TV8.dz" tvg-logo="https://i.imgur.com/l7hw1W6.png" group-title="Undefined" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",TV8 Edhakira [Geo-blocked]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
-https://cdn02.hta.dz/abr_htatv/TV7_ELMAARIFA/playlist.m3u8
+https://cdn02.hta.dz/abr_htatv/TV8_EDHAKIRA/playlist.m3u8
 #EXTINF:-1 tvg-id="TVBRICSEnglish.in" tvg-logo="https://i.imgur.com/vLpm8tN.png" group-title="General",TV BRICS English (1080p)
 https://brics.bonus-tv.ru/cdn/brics/english/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",TV Maná Moçambique (576p) [Not 24/7]
