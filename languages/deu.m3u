@@ -43,8 +43,6 @@ https://dresden.iptv-playoutcenter.de/dresden/dresdenfernsehen.stream_1/playlist
 https://dwamdstream106.akamaized.net/hls/live/2017965/dwstream106/index.m3u8
 #EXTINF:-1 tvg-id="DWDeutschPlus.de" tvg-logo="https://i.imgur.com/A1xzjOI.png" group-title="News",DW Deutsch+ (1080p) [Geo-blocked]
 https://dwamdstream105.akamaized.net/hls/live/2015531/dwstream105/index.m3u8
-#EXTINF:-1 tvg-id="EbS.be" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/ebs.png" group-title="Legislative",EbS Live (Europe by Satellite) (1080p)
-https://euc-live.fl.freecaster.net/live/eucom/ebs.m3u8
 #EXTINF:-1 tvg-id="EbSPlus.be" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/ebs.png" group-title="Legislative",EbS+ Live (Europe by Satellite) (1080p)
 https://euc-live.fl.freecaster.net/live/eucom/ebsp.m3u8
 #EXTINF:-1 tvg-id="emsTVLingen.de" tvg-logo="https://i.imgur.com/dKCLYAj.png" group-title="Undefined",ems TV Lingen (280p)
@@ -91,8 +89,6 @@ https://kronetv.mdn.ors.at/out/u/kronetv-nodrm.m3u8
 https://bitcdn-kronehit.bitmovin.com/v2/hls/playlist.m3u8
 #EXTINF:-1 tvg-id="KulturMD.de" tvg-logo="https://i.imgur.com/io7cJ1Z.png" group-title="Undefined",KulturMD (1080p)
 http://58bd5b7a98e04.streamlock.net/medienasa-live/kulturmd_high/playlist.m3u8
-#EXTINF:-1 tvg-id="KWTVWildau.de" tvg-logo="https://i.imgur.com/882I3h8.png" group-title="Undefined",KW TV Wildau (720p) [Not 24/7]
-https://58af0c57eaf3e.streamlock.net/easycast11-live/mp4:livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="Lausitzwelle.de" tvg-logo="https://i.imgur.com/GNMaGZE.png" group-title="Undefined",Lausitzwelle (Fernsehen) (1080p)
 https://5856e1a25f71a.streamlock.net/easycast9-live/mp4:livestreamhd10/playlist.m3u8
 #EXTINF:-1 tvg-id="SachsenFernsehenLeipzig.de" tvg-logo="https://i.imgur.com/bW04umY.png" group-title="Undefined",Leipzig Fernsehen (1080p)
@@ -249,6 +245,8 @@ https://edge.vedge.infomaniak.com/livecast/ik:rp_tv_1/playlist.m3u8
 https://5857499ee635b.streamlock.net/radiowesertv-live/_definst_/mp4:livestreamTV/playlist.m3u8
 #EXTINF:-1 tvg-id="RakutenTVActionMoviesGermany.de" tvg-logo="https://i.imgur.com/81NIxYJ.jpg" group-title="Movies",Rakuten Action Movies Germany (720p)
 https://rakuten-actionmovies-3-eu.rakuten.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="RakutenTVComedyMoviesAustria.at" tvg-logo="https://i.imgur.com/slOK2IH.jpg" group-title="Movies",Rakuten Comedy Movies Austria (720p)
+https://rakuten-comedymovies-5-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="RakutenTVComedyMoviesGermany.de" tvg-logo="https://i.imgur.com/slOK2IH.jpg" group-title="Movies",Rakuten Comedy Movies Germany (720p)
 https://rakuten-comedymovies-3-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="RakutenTVSpotlightGermany.de" tvg-logo="https://i.imgur.com/5bC53Xk.jpg" group-title="Movies",Rakuten Spotlight Germany (720p)
@@ -259,8 +257,6 @@ https://rakuten-topfree-3-eu.rakuten.wurl.tv/playlist.m3u8
 https://rakuten-actionmovies-5-at.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="RakutenTVActionMoviesSwitzerland.ch" tvg-logo="https://i.imgur.com/uMcwx2p.jpg" group-title="Movies",Rakuten TV Action Movies Switzerland (720p)
 https://rakuten-actionmovies-4-ch.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="RakutenTVComedyMoviesAustria.at" tvg-logo="https://i.imgur.com/slOK2IH.jpg" group-title="Movies",Rakuten TV Comedy Movies Austria (720p)
-https://rakuten-comedymovies-5-at.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="RakutenTVComedyMoviesSwitzerland.ch" tvg-logo="https://i.imgur.com/o1qKoje.jpg" group-title="Movies",Rakuten TV Comedy Movies Switzerland (720p)
 https://rakuten-comedymovies-4-ch.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="RakutenTVDramaAustria.at" tvg-logo="https://i.imgur.com/5bC53Xk.jpg" group-title="Movies",Rakuten TV Drama Austria (720p)
@@ -304,7 +300,7 @@ https://rnf.iptv-playoutcenter.de/rnf/rnf.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-id="RockAntenne.de" tvg-logo="https://i.imgur.com/eZKNvkT.png" group-title="Undefined",Rock Antenne [Not 24/7]
 https://stream.rockantenne.de/rockantenne/stream/mp3
 #EXTINF:-1 tvg-id="RocklandTV.de" tvg-logo="https://i.imgur.com/vIMkVo6.png" group-title="Undefined",Rockland TV (720p) [Not 24/7]
-http://api.new.livestream.com/accounts/22300522/events/6680139/live.m3u8
+http://player-api.new.livestream.com/accounts/22300522/events/6680139/live.m3u8
 #EXTINF:-1 tvg-id="RTV.at" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/rtvat.png" group-title="Undefined",RTV (1080p)
 http://iptv.rtv-ooe.at/stream.m3u8
 #EXTINF:-1 tvg-id="RWEErfurt.de" tvg-logo="https://i.imgur.com/AMzEPGl.jpg" group-title="Undefined",RWE Erfurt (1080p)
