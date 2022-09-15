@@ -119,8 +119,6 @@ https://chlivemta1.akamaized.net/hls/live/2008145/mta2/playlist.m3u8
 https://muenchentv.iptv-playoutcenter.de/muenchentv/muenchentv.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-id="naheTV.de" tvg-logo="https://i.imgur.com/XINB3Zf.png" group-title="Undefined",naheTV (720p)
 https://s.ok54.de/nahetv/webstream/playlist.m3u8
-#EXTINF:-1 tvg-id="NiederbayernTV.de" tvg-logo="https://i.imgur.com/9uaMgTk.png" group-title="Undefined",Niederbayern TV (720p)
-https://stream03.welocal.stream/stream/sat-nby/ngrp:sat-nby.stream_all/index.m3u8
 #EXTINF:-1 tvg-id="NiederbayernTVDeggendorfStraubing.de" tvg-logo="https://i.imgur.com/mAaIh3C.png" group-title="Undefined",Niederbayern TV Deggendorf & Straubing (1080p)
 https://stream03.welocal.stream/stream/fhd-nbydeggendorf_99148/ngrp:stream_all/index.m3u8
 #EXTINF:-1 tvg-id="NiederbayernTVLandshut.de" tvg-logo="https://i.imgur.com/5sHzZAh.png" group-title="Undefined",Niederbayern TV Landshut (1080p)
@@ -185,6 +183,8 @@ https://orf2.mdn.ors.at/out/u/orf2/qxb/manifest.m3u8
 https://orf3.mdn.ors.at/out/u/orf3/qxb/manifest.m3u8
 #EXTINF:-1 tvg-id="ORFSportPlus.at" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/ORF_Sport%2B.svg/512px-ORF_Sport%2B.svg.png" group-title="Sports",ORF Sport+ (540p) [Geo-blocked]
 https://orfs.mdn.ors.at/out/u/orfs/qxb/manifest.m3u8
+#EXTINF:-1 tvg-id="OttoFMTV.ch" tvg-logo="https://i.imgur.com/2jE6ItV.png" group-title="Undefined",Otto FM TV (576p)
+http://streaming.bitonlive.net:8080/hls/ottofm2/index.m3u8
 #EXTINF:-1 tvg-id="P3tv.at" tvg-logo="https://i.imgur.com/C6Hp5Pb.jpg" group-title="Undefined",P3tv (720p) [Not 24/7]
 http://p3-6.mov.at:1935/live/weekstream/master.m3u8
 #EXTINF:-1 tvg-id="Parlamentsfernsehen1.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/parlamentsfernsehen.png" group-title="Legislative",Parlamentsfernsehen 1 (1080p)
@@ -216,7 +216,7 @@ https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60080e8a4
 #EXTINF:-1 tvg-id="EmmaeinfachmagischNickGermany.de" tvg-logo="https://images.pluto.tv/channels/5f4796368174910007756454/colorLogoPNG.png" group-title="Kids",Pluto TV Nick Emma einfach magisch! (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f4796368174910007756454/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=1&deviceId=5f4796368174910007756454&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=DE&serverSideAds=false&sid=db62fa8b-15bd-11eb-bde1-0242ac110002&terminate=false&userId=
 #EXTINF:-1 tvg-id="NickRewindGermany.de" tvg-logo="https://images.pluto.tv/channels/5ed106ce4bf2e80007700bb3/colorLogoPNG.png" group-title="Kids",Pluto TV Nick Rewind (720p)
-https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5ed106ce4bf2e80007700bb3/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ed106ce4bf2e80007700bb3/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=1&deviceId=5ed106ce4bf2e80007700bb3&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=DE&serverSideAds=false&sid=1f8c3bd8-0715-11eb-97af-0242ac110002&terminate=false&userId=
 #EXTINF:-1 tvg-id="PlutoTVSitcomsGermany.de" tvg-logo="https://images.pluto.tv/channels/5d767ab2b456c8cf265ce921/colorLogoPNG.png" group-title="Comedy",Pluto TV Sitcoms+ (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5cd149f021cb6c55e258bbe8/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=1&deviceId=5cd149f021cb6c55e258bbe8&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=DE&serverSideAds=false&sid=375760ce-ac7c-4306-818c-98562edc8da5&terminate=false&userId=
 #EXTINF:-1 tvg-id="PlutoTVSpongeBobSchwammkopf.de" tvg-logo="https://images.pluto.tv/channels/5d00e8adaab96b5635b2a005/colorLogoPNG.png" group-title="Kids",Pluto TV SpongeBob Schwammkopf (Germany) (720p)
@@ -263,6 +263,8 @@ https://rakuten-actionmovies-4-ch.samsung.wurl.tv/playlist.m3u8
 https://rakuten-comedymovies-5-at.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="RakutenTVComedyMoviesSwitzerland.ch" tvg-logo="https://i.imgur.com/o1qKoje.jpg" group-title="Movies",Rakuten TV Comedy Movies Switzerland (720p)
 https://rakuten-comedymovies-4-ch.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="RakutenTVDramaAustria.at" tvg-logo="https://i.imgur.com/5bC53Xk.jpg" group-title="Movies",Rakuten TV Drama Austria (720p)
+https://rakuten-tvshows-5-at.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="RakutenTVDramaSwitzerland.ch" tvg-logo="https://i.imgur.com/dWNxCqp.png" group-title="Movies",Rakuten TV Drama Switzerland (720p)
 https://rakuten-tvshows-4-ch.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="RakutenTVFamilyAustria.at" tvg-logo="https://i.imgur.com/hboiinD.jpg" group-title="Family;Movies",Rakuten TV Family Austria (720p)
@@ -271,8 +273,6 @@ https://rakuten-family-5-at.samsung.wurl.tv/playlist.m3u8
 https://rakuten-family-5-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="RakutenTVFamilySwitzerland.ch" tvg-logo="https://i.imgur.com/hboiinD.jpg" group-title="Family;Movies",Rakuten TV Family Switzerland (720p)
 https://rakuten-family-4-ch.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="RakutenTVDramaAustria.at" tvg-logo="https://i.imgur.com/5bC53Xk.jpg" group-title="Movies",Rakuten TV Shows Austria (720p)
-https://rakuten-tvshows-5-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="RakutenTVDramaGermany.de" tvg-logo="https://i.imgur.com/5bC53Xk.jpg" group-title="Movies",Rakuten TV Shows Germany (720p)
 https://rakuten-tvshows-3-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="RakutenTVSpotlightAustria.at" tvg-logo="https://i.imgur.com/5bC53Xk.jpg" group-title="Movies",Rakuten TV Spotlight Austria (720p)
@@ -341,8 +341,8 @@ https://cldf-wzw-live.r53.cdn.tv1.eu/10096xtelebase/_definst_/1000199copo/live/a
 https://edge.vedge.infomaniak.com/livecast/ik:telebielinguech/manifest.m3u8
 #EXTINF:-1 tvg-id="teltOwkanal.de" tvg-logo="https://i.imgur.com/05UB2YT.png" group-title="Undefined",teltOwkanal
 https://5856e1a25f71a.streamlock.net/easycast8-live/_definst_/mp4:livestreamhd8/playlist.m3u8
-#EXTINF:-1 tvg-id="TideTV.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/tidetv.png" group-title="Undefined",Tide TV (1080p) [Not 24/7]
-https://5889e7d0d6e28.streamlock.net/tide-live/smil:livestream.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="TideTV.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/tidetv.png" group-title="Undefined",Tide TV (1080p)
+https://5889e7d0d6e28.streamlock.net/tide-live/_definst_/smil:livestream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TirolTV.at" tvg-logo="https://i.imgur.com/0jHWmjL.png" group-title="Undefined",Tirol TV (720p) [Not 24/7]
 https://streaming14.huberwebmedia.at/LiveApp/streams/livestream.m3u8
 #EXTINF:-1 tvg-id="TV38SudostNiedersachen.de" tvg-logo="https://i.imgur.com/ob9JJPU.png" group-title="Undefined",TV38 Südost-Niedersachen (480p) [Not 24/7]
