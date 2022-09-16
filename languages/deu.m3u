@@ -119,6 +119,8 @@ https://chlivemta1.akamaized.net/hls/live/2008145/mta2/playlist.m3u8
 https://muenchentv.iptv-playoutcenter.de/muenchentv/muenchentv.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-id="naheTV.de" tvg-logo="https://i.imgur.com/XINB3Zf.png" group-title="Undefined",naheTV (720p)
 https://s.ok54.de/nahetv/webstream/playlist.m3u8
+#EXTINF:-1 tvg-id="NiederbayernTV.de" tvg-logo="https://i.imgur.com/9uaMgTk.png" group-title="Undefined",Niederbayern TV (720p)
+https://stream03.welocal.stream/stream/sat-nby/ngrp:sat-nby.stream_all/index.m3u8
 #EXTINF:-1 tvg-id="NiederbayernTVDeggendorfStraubing.de" tvg-logo="https://i.imgur.com/mAaIh3C.png" group-title="Undefined",Niederbayern TV Deggendorf & Straubing (1080p)
 https://stream03.welocal.stream/stream/fhd-nbydeggendorf_99148/ngrp:stream_all/index.m3u8
 #EXTINF:-1 tvg-id="NiederbayernTVLandshut.de" tvg-logo="https://i.imgur.com/5sHzZAh.png" group-title="Undefined",Niederbayern TV Landshut (1080p)
@@ -177,8 +179,6 @@ https://serve-first.folxplay.tv/folx/ch-3/master.m3u8
 https://serve-first.folxplay.tv/folx/ch-6/master.m3u8
 #EXTINF:-1 tvg-id="ORF1.at" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/ORF1_logo.svg/512px-ORF1_logo.svg.png" group-title="General",ORF 1 (720p) [Geo-blocked]
 https://orf1.mdn.ors.at/out/u/orf1/qxb/manifest.m3u8
-#EXTINF:-1 tvg-id="ORF2.at" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/ORF2_logo_n.svg/512px-ORF2_logo_n.svg.png" group-title="Undefined",ORF 2 (540p) [Geo-blocked]
-https://orf2.mdn.ors.at/out/u/orf2/qxb/manifest.m3u8
 #EXTINF:-1 tvg-id="ORFIII.at" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/ORF_III_Logo_Monochrom.svg/512px-ORF_III_Logo_Monochrom.svg.png" group-title="Undefined",ORF 3 (720p) [Geo-blocked]
 https://orf3.mdn.ors.at/out/u/orf3/qxb/manifest.m3u8
 #EXTINF:-1 tvg-id="ORFSportPlus.at" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/ORF_Sport%2B.svg/512px-ORF_Sport%2B.svg.png" group-title="Sports",ORF Sport+ (540p) [Geo-blocked]
@@ -249,6 +249,8 @@ https://edge.vedge.infomaniak.com/livecast/ik:rp_tv_1/playlist.m3u8
 https://5857499ee635b.streamlock.net/radiowesertv-live/_definst_/mp4:livestreamTV/playlist.m3u8
 #EXTINF:-1 tvg-id="RakutenTVActionMoviesGermany.de" tvg-logo="https://i.imgur.com/81NIxYJ.jpg" group-title="Movies",Rakuten Action Movies Germany (720p)
 https://rakuten-actionmovies-3-eu.rakuten.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="RakutenTVComedyMoviesAustria.at" tvg-logo="https://i.imgur.com/slOK2IH.jpg" group-title="Movies",Rakuten Comedy Movies Austria (720p)
+https://rakuten-comedymovies-5-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="RakutenTVComedyMoviesGermany.de" tvg-logo="https://i.imgur.com/slOK2IH.jpg" group-title="Movies",Rakuten Comedy Movies Germany (720p)
 https://rakuten-comedymovies-3-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="RakutenTVSpotlightGermany.de" tvg-logo="https://i.imgur.com/5bC53Xk.jpg" group-title="Movies",Rakuten Spotlight Germany (720p)
@@ -259,8 +261,6 @@ https://rakuten-topfree-3-eu.rakuten.wurl.tv/playlist.m3u8
 https://rakuten-actionmovies-5-at.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="RakutenTVActionMoviesSwitzerland.ch" tvg-logo="https://i.imgur.com/uMcwx2p.jpg" group-title="Movies",Rakuten TV Action Movies Switzerland (720p)
 https://rakuten-actionmovies-4-ch.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="RakutenTVComedyMoviesAustria.at" tvg-logo="https://i.imgur.com/slOK2IH.jpg" group-title="Movies",Rakuten TV Comedy Movies Austria (720p)
-https://rakuten-comedymovies-5-at.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="RakutenTVComedyMoviesSwitzerland.ch" tvg-logo="https://i.imgur.com/o1qKoje.jpg" group-title="Movies",Rakuten TV Comedy Movies Switzerland (720p)
 https://rakuten-comedymovies-4-ch.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="RakutenTVDramaAustria.at" tvg-logo="https://i.imgur.com/5bC53Xk.jpg" group-title="Movies",Rakuten TV Drama Austria (720p)
@@ -341,8 +341,8 @@ https://cldf-wzw-live.r53.cdn.tv1.eu/10096xtelebase/_definst_/1000199copo/live/a
 https://edge.vedge.infomaniak.com/livecast/ik:telebielinguech/manifest.m3u8
 #EXTINF:-1 tvg-id="teltOwkanal.de" tvg-logo="https://i.imgur.com/05UB2YT.png" group-title="Undefined",teltOwkanal
 https://5856e1a25f71a.streamlock.net/easycast8-live/_definst_/mp4:livestreamhd8/playlist.m3u8
-#EXTINF:-1 tvg-id="TideTV.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/tidetv.png" group-title="Undefined",Tide TV (1080p)
-https://5889e7d0d6e28.streamlock.net/tide-live/_definst_/smil:livestream.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="TideTV.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/tidetv.png" group-title="Undefined",Tide TV (1080p) [Not 24/7]
+https://5889e7d0d6e28.streamlock.net/tide-live/smil:livestream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TirolTV.at" tvg-logo="https://i.imgur.com/0jHWmjL.png" group-title="Undefined",Tirol TV (720p) [Not 24/7]
 https://streaming14.huberwebmedia.at/LiveApp/streams/livestream.m3u8
 #EXTINF:-1 tvg-id="TV38SudostNiedersachen.de" tvg-logo="https://i.imgur.com/ob9JJPU.png" group-title="Undefined",TV38 Südost-Niedersachen (480p) [Not 24/7]
