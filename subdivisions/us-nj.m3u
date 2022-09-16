@@ -1,6 +1,9 @@
 #EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/us-local/tvtv.us.epg.xml.gz"
 #EXTINF:-1 tvg-id="WNJTDT1.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/NJ_PBS_logo.png/512px-NJ_PBS_logo.png" group-title="Undefined",PBS New Jersey NJ (WNJT) (1080p) [Not 24/7]
 https://wnjtdt.lls.pbs.org/out/v1/e62efd8d4f92403996425fc389df0ffd/index.m3u8
+#EXTINF:-1 tvg-id="WACPDT1.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Wacp-tv-4.png/512px-Wacp-tv-4.png" group-title="Undefined" user-agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36",WACP-DT1 (TCT) (1080p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+http://v-pi.theus6tv.duckdns.org/hls/4.1/playlist.m3u8
 #EXTINF:-1 tvg-id="WACPDT2.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/00/AceTV-USA.png" group-title="Entertainment" user-agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36",WACP-DT2 (AceTV) (480p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
 http://v-pi.theus6tv.duckdns.org/hls/4.2/playlist.m3u8
