@@ -32,8 +32,8 @@ http://stream2.dynalias.com:1935/live/tvlive1/playlist.m3u8
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCjwXjnO3BGePtB7gSKEpoqA/live
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Canal 22 (XEIMT-TDT) [Geo-blocked]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://conceptoweb-studio.com/radio/video/canal22/
-#EXTINF:-1 tvg-id="Canal26.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/512px-Canal_26_logo_%282022%29.svg.png" group-title="News",Canal 26 (720p)
-http://200.115.193.177/live/26hd-720/playlist.m3u8
+#EXTINF:-1 tvg-id="Canal26.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/512px-Canal_26_logo_%282022%29.svg.png" group-title="News",Canal 26 (180p)
+http://live-edge01.telecentro.net.ar/live/smil:c26.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal28.mx" tvg-logo="https://i.imgur.com/lr4MZFg.png" group-title="Undefined",Canal 28 (720p) [Not 24/7]
 https://api.new.livestream.com/accounts/3789491/events/8003011/live.m3u8
 #EXTINF:-1 tvg-id="Canal44.mx" tvg-logo="https://i.imgur.com/YDp8MlN.png" group-title="Undefined",Canal 44 Chihuahua (720p) [Not 24/7]
@@ -46,8 +46,6 @@ https://edge.canaldelcongreso.gob.mx/live_sd2/smil:canal-sd2.smil/playlist.m3u8
 https://edge.canaldelcongreso.gob.mx/live_hd1/smil:canal-hd1.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalIberoamericano.mx" tvg-logo="https://www.ilce.edu.mx/images/home/ci.png" group-title="Culture",Canal Iberoamericano
 https://icsbaldeastd.aldeasolutions.mx/EVLiveCan18ABR/_definst_/mp4:7NBH6B8L/playlist.m3u8
-#EXTINF:-1 tvg-id="Capital21.mx" tvg-logo="https://i.imgur.com/P1pHy3j.jpg" group-title="Undefined",Capital 21 (720p) [Not 24/7]
-https://video.cdmx.gob.mx/livestream/stream.m3u8
 #EXTINF:-1 tvg-id="CGTN.cn" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/512px-CGTN.svg.png" group-title="News",CGTN (576p)
 https://news.cgtn.com/resource/live/english/cgtn-news.m3u8
 #EXTINF:-1 tvg-id="CGTNDocumentary.cn" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d6/CGTN_Documentary_logo.png" group-title="Documentary",CGTN Documentary (576p)
@@ -110,6 +108,8 @@ https://cdn3.wowza.com/1/SmVrQmZCUXZhVDgz/b3J3MFJv/hls/live/playlist.m3u8
 https://live-streams-notusa.televisa.com/channel02-b/index.m3u8
 #EXTINF:-1 tvg-id="France24English.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8a/France24.png" group-title="News",France 24 English (1080p)
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/FRANCE24English/live
+#EXTINF:-1 tvg-id="France24Espanol.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8a/France24.png" group-title="News",France 24 Español (1080p)
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/FRANCE24Espanol/live
 #EXTINF:-1 tvg-id="GaliciaTVAmerica.es" tvg-logo="https://cdn.mitvstatic.com/channels/ar_galicia-tv_m.png" group-title="Undefined",Galicia TV América (720p)
 http://america-crtvg.flumotion.com/playlist.m3u8
 #EXTINF:-1 tvg-id="GoldenPanregional.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Canal_Golden_logo.svg/512px-Canal_Golden_logo.svg.png" group-title="Undefined",Golden TV (240p) [Not 24/7]
@@ -168,8 +168,6 @@ http://201.168.205.12:8000/play/a0cp/index.m3u8
 https://appletree-mytime-samsungmexico.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="NASATV.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/NASA_TV.svg/512px-NASA_TV.svg.png" group-title="Science",NASA TV (720p)
 https://uplynkcontent.sinclairstoryline.com/channel/ddd76fdc1c0a456ba537e4f48e827d3e.m3u8
-#EXTINF:-1 tvg-id="NBTWorld.th" tvg-logo="https://i.imgur.com/GCcmL8E.png" group-title="Undefined",NBT World
-https://thainews.prd.go.th/lv/live/ch1_L_L.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/NHK_World-Japan_TV.svg/512px-NHK_World-Japan_TV.svg.png" group-title="Culture;News",NHK World Japan (1080p)
 https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
 #EXTINF:-1 tvg-id="NoticiasCanal10.mx" tvg-logo="https://i.imgur.com/y4akKrD.png" group-title="News",Noticias Canal 10 (360p) [Not 24/7]
@@ -190,14 +188,14 @@ https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d180092e97a5e10
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60d3583ef310610007fb02b1/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&serverSideAds=false&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Pluto TV Misterios (480p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcde2f53449c50009b2b4dc/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Pluto TV MTV (Mexico) (720p)
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5fab088b3279760007d4e4fd/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",POP TV (542p) [Not 24/7]
 https://5ca3e84a76d30.streamlock.net/gpacifico3/smil:obregon.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="PymesTeVe.us" tvg-logo="https://cdn.colombia.com/canales/pymes-teve-5713.jpg" group-title="Business",Pymes TeVe
 https://vse2-sa-all62.secdn.net/tvstartup6-channel/live/pymestv/playlist.m3u8
 #EXTINF:-1 tvg-id="QuieroTV.mx" tvg-logo="https://i.imgur.com/k0XbBp8.png" group-title="Undefined",Quiero TV (480p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.dailymotion.com/video/x8452uw
+#EXTINF:-1 tvg-id="RadioSanBorjaTV.pe" tvg-logo="https://i.imgur.com/xvMDTe9.png" group-title="Music",Radio San Borja TV (720p) [Not 24/7]
+https://5c3fb01839654.streamlock.net:1963/iptvsanborja/livesanborjatv/playlist.m3u8
 #EXTINF:-1 tvg-id="RCGTV2.mx" tvg-logo="https://i.imgur.com/hzJu6QT.png" group-title="Undefined",RCG TV 2 (360p) [Not 24/7]
 http://wowzacontrol.com:1936/stream23/stream23/playlist.m3u8
 #EXTINF:-1 tvg-id="RCGTV3.mx" tvg-logo="https://i.imgur.com/hzJu6QT.png" group-title="Undefined",RCG TV 3 (360p) [Not 24/7]
@@ -277,8 +275,6 @@ http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCxK8C1E8UZ5RipNXIBYEvTA/live
 #EXTINF:-1 tvg-id="TelevisaQueretaro.mx" tvg-logo="https://i.imgur.com/47c1AIS.png" group-title="Undefined",Televisa Queretaro
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UC9QNz6VS3gGz55dzxAQtgtA/live
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Televisa San Luis Potosí (720p) [Not 24/7]
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCaRuyaHshLdq462E9_pLzdA/live
 #EXTINF:-1 tvg-id="TelevisaSinaloa.mx" tvg-logo="https://i.imgur.com/nZ9HE94.png" group-title="Undefined",Televisa Sinaloa
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCtm1LvYEIQ_NrfOUVJ08YhQ/live
 #EXTINF:-1 tvg-id="TelevisaSonora.mx" tvg-logo="https://i.imgur.com/3FjHKAC.jpg" group-title="Undefined",Televisa Sonora (720p) [Not 24/7]
