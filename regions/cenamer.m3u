@@ -1,8 +1,6 @@
-#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/bo/comteco.com.bo.epg.xml.gz,https://iptv-org.github.io/epg/guides/gt/gatotv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/hn/gatotv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/hn/mi.tv.epg.xml.gz,https://iptv-org.github.io/epg/guides/ni/gatotv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/pa/gatotv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/sv/gatotv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/sv/mi.tv.epg.xml.gz"
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/bo/comteco.com.bo.epg.xml.gz,https://iptv-org.github.io/epg/guides/cr/gatotv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/gt/gatotv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/hn/gatotv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/hn/mi.tv.epg.xml.gz,https://iptv-org.github.io/epg/guides/ni/gatotv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/pa/gatotv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/sv/gatotv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/sv/mi.tv.epg.xml.gz"
 #EXTINF:-1 tvg-id="88Stereo.cr" tvg-logo="https://hosttec.online/wp-content/uploads/2020/03/img1920.jpg" group-title="Music",88 Stereo (720p) [Not 24/7]
 http://k3.usastreams.com/CableLatino/88stereo/playlist.m3u8
-#EXTINF:-1 tvg-id="AgapeTV.sv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Agape_8_2001.png/512px-Agape_8_2001.png" group-title="Undefined",Ágape TV Canal 8
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://twitch.tv/agapetv8
 #EXTINF:-1 tvg-id="AlfaOmegaVision.hn" tvg-logo="https://i.imgur.com/CMrA8OG.png" group-title="Undefined",Alfa & Omega Visión (360p)
 https://srv.panelcast.net/aovision/aovision/playlist.m3u8
 #EXTINF:-1 tvg-id="AlsaciasTV.hn" tvg-logo="https://pbs.twimg.com/profile_images/824829587867602944/0mgz4yF1.jpg" group-title="Undefined",Alsacias TV (ATV | Canal 28) (720p)
@@ -13,6 +11,8 @@ http://209.91.213.10:8088/play/a013
 http://inliveserver.com:1935/14510/14510/playlist.m3u8
 #EXTINF:-1 tvg-id="ANTV.pa" tvg-logo="https://i.imgur.com/UAqcj4Z.png" group-title="Legislative",ANTV
 https://dacastmmd.mmdlive.lldns.net/dacastmmd/bdc928e938f54ab280e8bfa0e265eddd/playlist.m3u8
+#EXTINF:-1 tvg-id="TVLegislativa.cr" tvg-logo="https://i.imgur.com/hmRkAIf.png" group-title="Legislative",Asamblea Legislativa (Costa Rica) (1080p)
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/user/parlamentocr/live
 #EXTINF:-1 tvg-id="AvivaTV.hn" tvg-logo="https://i.imgur.com/GN3jTFu.png" group-title="Undefined",Aviva TV (288p)
 https://video.misistemareseller.com/atvhonduras/atvhonduras/playlist.m3u8
 #EXTINF:-1 tvg-id="TVAztecaHonduras.hn" tvg-logo="https://i.imgur.com/vqH9Cpy.png" group-title="Undefined",Azteca Honduras
@@ -57,6 +57,8 @@ https://5ca9af4645e15.streamlock.net/canal33/smil:canal33.smil/playlist.m3u8
 https://rtmp.info/canal38/envivo/chunks.m3u8
 #EXTINF:-1 tvg-id="Canal69BarvisionTV.gt" tvg-logo="https://i.imgur.com/hzoxtKs.png" group-title="Religious",Canal 69 BarvisionTV (Biblia Central)
 https://stream.oursnetworktv.com/latin/BibliaCentral/playlist.m3u8
+#EXTINF:-1 tvg-id="CanaldeGobierno.gt" tvg-logo="https://i.imgur.com/pHmPt3H.png" group-title="Legislative",Canal de Gobierno
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/user/GobiernodeGuatemala/live
 #EXTINF:-1 tvg-id="CanalTVRadioMayaTGBA.gt" tvg-logo="https://i.imgur.com/hOvPS1R.png" group-title="Religious",Canal TV Radio Maya TGBA
 https://stream.oursnetworktv.com/latin/radioTGBAgtm/playlist.m3u8
 #EXTINF:-1 tvg-id="Catavision.hn" tvg-logo="https://i.imgur.com/Vao9gla.png" group-title="Undefined",Catavisión (300p) [Not 24/7]
@@ -121,8 +123,6 @@ https://5ca9af4645e15.streamlock.net/canal12/videocanal12/playlist.m3u8
 https://59ef525c24caa.streamlock.net/nicoyatv/nicoyatv/playlist.m3u8
 #EXTINF:-1 tvg-id="NimTV.gt" tvg-logo="https://i.imgur.com/h7gFzWN.png" group-title="Undefined",Nim TV
 https://cdn.streamhispanatv.net:3210/live/nimtvgtlive.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Omega Tv (288p) [Not 24/7]
-https://5caf24a595d94.streamlock.net:1937/8142/8142/playlist.m3u8
 #EXTINF:-1 tvg-id="OrbitaFM.sv" tvg-logo="https://i.imgur.com/ECC6jyU.png" group-title="Undefined",Órbita FM (720p) [Not 24/7]
 #EXTVLCOPT:http-referrer=https://ssh101.com/
 https://tna5.bozztv.com/OrbitaFM/index.m3u8
@@ -176,6 +176,8 @@ http://k4.usastreams.com/ARBtv/teleplus/playlist.m3u8
 https://59ef525c24caa.streamlock.net/ARBtv/ARBtv/playlist.m3u8
 #EXTINF:-1 tvg-id="TeleSURCostaRica.cr" tvg-logo="https://i.imgur.com/r5p97Ex.jpg" group-title="Undefined",TeleSUR Costa Rica (720p) [Not 24/7]
 http://k3.usastreams.com/telesur/telesur/playlist.m3u8
+#EXTINF:-1 tvg-id="Teletica7.cr" tvg-logo="https://i.imgur.com/GeIK8rC.png" group-title="Undefined",Teletica 7 (720p) [Not 24/7]
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.dailymotion.com/video/x29e3wg
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Teletica Radio
 https://m6gdar5eyn93-hls-live.5centscdn.com/TeleticaRadio/5444e8d6d0436ccb78704882f542e5ac.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal2.ni" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/2_de_nicaragua-mediano.png" group-title="Undefined",Televicentro Canal 2 (480p)
@@ -213,6 +215,8 @@ https://live-utv.unah.edu.hn/web/salida.m3u8
 http://k4.usastreams.com/videotour/videotour/playlist.m3u8
 #EXTINF:-1 tvg-id="VisionTV.gt" tvg-logo="https://i.imgur.com/OHFYPTW.png" group-title="Undefined",Visión TV
 https://cdn.streamhispanatv.net:3076/live/visiontvlive.m3u8
+#EXTINF:-1 tvg-id="VMLatino.cr" tvg-logo="https://www.m3u.cl/logo/1062_Canal_VM_Latino.png" group-title="Music",VM Latino (720p) [Not 24/7]
+https://59ef525c24caa.streamlock.net/vmtv/vmlatino/playlist.m3u8
 #EXTINF:-1 tvg-id="VoiceOverRadioTV.cr" tvg-logo="https://i.imgur.com/xaDRU2a.png" group-title="Music",VoiceOver Radio TV
 https://cloudvideo.servers10.com:8081/8198/index.m3u8
 #EXTINF:-1 tvg-id="VosTV.ni" tvg-logo="https://i.imgur.com/1Un4GlR.png" group-title="Undefined",Vos Tv (720p) [Not 24/7]
