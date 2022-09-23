@@ -17,6 +17,8 @@ https://artesimulcast.akamaized.net/hls/live/2030993/artelive_de/index.m3u8
 http://badentv-stream2.siebnich.info/rtplive/btv.stream/live.m3u8
 #EXTINF:-1 tvg-id="BibelTV.de" tvg-logo="https://i.imgur.com/0OoMMbd.png" group-title="Undefined",Bibel TV (720p)
 https://bibint01.iptv-playoutcenter.de/bibint01/bibint01.stream_all/playlist.m3u8
+#EXTINF:-1 tvg-id="BibelTVImpuls.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/bibeltv.png" group-title="Undefined",Bibel TV Impuls (720p)
+https://bibeltv02.iptv-playoutcenter.de/bibeltv02/bibeltv02.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-id="BibelTVMusik.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/bibeltv.png" group-title="Music",Bibel TV Musik (720p)
 http://bibeltv03.iptv-playoutcenter.de/bibeltv03/bibeltv03.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-id="BLKRegionalTV.de" tvg-logo="https://i.imgur.com/D5wePo5.jpg" group-title="Undefined",BLK TV Hohenmölsen (1080p) [Not 24/7]
@@ -51,8 +53,6 @@ https://euc-live.fl.freecaster.net/live/eucom/ebsp.m3u8
 https://5889e7d0d6e28.streamlock.net/ev1tv-live/_definst_/mp4:livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="ErzTVStollberg.de" tvg-logo="https://i.imgur.com/VenSjan.png" group-title="Undefined",Erz-TV Stollberg (576p)
 https://5acade5fc0c29.streamlock.net/kabeljournal/live2020.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="EuronewsGerman.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews German
-https://euronews.alteox.app/hls/de_stream.m3u8
 #EXTINF:-1 tvg-id="Filstalwelle.de" tvg-logo="https://i.imgur.com/19iKLvf.png" group-title="Undefined",Filstalwelle (576p)
 http://62.113.210.2/filstalwelle-live/mp4:livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="FinestTV.de" tvg-logo="https://i.imgur.com/OZzrMgS.png" group-title="Undefined",Finest TV (288p) [Not 24/7]
@@ -207,10 +207,10 @@ https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5e8b564ff59d130007
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5e8b580a233dc90007f0cb9d/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=1&deviceId=5e8b580a233dc90007f0cb9d&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=DE&serverSideAds=false&sid=4c53d6ac-a6d2-4c2c-9403-6101f770b205&terminate=false&userId=
 #EXTINF:-1 tvg-id="iCarlyPlusGermany.de" tvg-logo="https://images.pluto.tv/channels/5e8b580a233dc90007f0cb9d/colorLogoPNG.png" group-title="Kids",Pluto TV iCarly+ (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f3d2cb9f5b291000773807a/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=1&deviceId=5f3d2cb9f5b291000773807a&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=DE&serverSideAds=false&sid=4c128fa6-7ec2-4a50-a81b-37f9e8c1e48f&terminate=false&userId=
-#EXTINF:-1 tvg-id="PlutoTVInsideGermany.de" tvg-logo="https://images.pluto.tv/channels/5d767b4889bca2ce7b73ef2e/colorLogoPNG.png" group-title="Documentary",Pluto TV Inside (720p)
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8ed3892ed7bb000741a1d2/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
-#EXTINF:-1 tvg-id="PlutoTVMoviesGermany.de" tvg-logo="https://images.pluto.tv/channels/5ad8d3a31b95267e225e4e09/colorLogoPNG.png" group-title="Movies",Pluto TV Movies CH (720p)
-https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5dc2bdfec6cdc10009975e20/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+#EXTINF:-1 tvg-id="PlutoTVInsideGermany.de" tvg-logo="https://images.pluto.tv/channels/5d767b4889bca2ce7b73ef2e/colorLogoPNG.png" group-title="Documentary",Pluto TV Inside (Germany) (720p)
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d767b4889bca2ce7b73ef2e/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d767b4889bca2ce7b73ef2e&deviceLat=51.2993&deviceLon=9.4910&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=DE&serverSideAds=false&sid=303&terminate=false&userId=
+#EXTINF:-1 tvg-id="PlutoTVMoviesGermany.de" tvg-logo="https://images.pluto.tv/channels/5ad8d3a31b95267e225e4e09/colorLogoPNG.png" group-title="Movies",Pluto TV Movies (Germany) (720p)
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5c5c3b948002db3c3e0b262e/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5c5c3b948002db3c3e0b262e&deviceLat=51.2993&deviceLon=9.4910&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=DE&serverSideAds=false&sid=50&terminate=false&userId=
 #EXTINF:-1 tvg-id="N24Doku.de" tvg-logo="https://i.imgur.com/tqsIACJ.png" group-title="Documentary",Pluto TV N24 Doku (720p)
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60080e8a4bf36000076a81b1/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-id="EmmaeinfachmagischNickGermany.de" tvg-logo="https://images.pluto.tv/channels/5f4796368174910007756454/colorLogoPNG.png" group-title="Kids",Pluto TV Nick Emma einfach magisch! (720p)
@@ -249,6 +249,8 @@ https://edge.vedge.infomaniak.com/livecast/ik:rp_tv_1/playlist.m3u8
 https://5857499ee635b.streamlock.net/radiowesertv-live/_definst_/mp4:livestreamTV/playlist.m3u8
 #EXTINF:-1 tvg-id="RakutenTVActionMoviesGermany.de" tvg-logo="https://i.imgur.com/81NIxYJ.jpg" group-title="Movies",Rakuten Action Movies Germany (720p)
 https://rakuten-actionmovies-3-eu.rakuten.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="RakutenTVComedyMoviesAustria.at" tvg-logo="https://i.imgur.com/slOK2IH.jpg" group-title="Movies",Rakuten Comedy Movies Austria (720p)
+https://rakuten-comedymovies-5-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="RakutenTVComedyMoviesGermany.de" tvg-logo="https://i.imgur.com/slOK2IH.jpg" group-title="Movies",Rakuten Comedy Movies Germany (720p)
 https://rakuten-comedymovies-3-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="RakutenTVSpotlightGermany.de" tvg-logo="https://i.imgur.com/5bC53Xk.jpg" group-title="Movies",Rakuten Spotlight Germany (720p)
@@ -259,12 +261,8 @@ https://rakuten-topfree-3-eu.rakuten.wurl.tv/playlist.m3u8
 https://rakuten-actionmovies-5-at.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="RakutenTVActionMoviesSwitzerland.ch" tvg-logo="https://i.imgur.com/uMcwx2p.jpg" group-title="Movies",Rakuten TV Action Movies Switzerland (720p)
 https://rakuten-actionmovies-4-ch.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="RakutenTVComedyMoviesAustria.at" tvg-logo="https://i.imgur.com/slOK2IH.jpg" group-title="Movies",Rakuten TV Comedy Movies Austria (720p)
-https://rakuten-comedymovies-5-at.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="RakutenTVComedyMoviesSwitzerland.ch" tvg-logo="https://i.imgur.com/o1qKoje.jpg" group-title="Movies",Rakuten TV Comedy Movies Switzerland (720p)
 https://rakuten-comedymovies-4-ch.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="RakutenTVDramaAustria.at" tvg-logo="https://i.imgur.com/5bC53Xk.jpg" group-title="Movies",Rakuten TV Drama Austria (720p)
-https://rakuten-tvshows-5-at.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="RakutenTVDramaSwitzerland.ch" tvg-logo="https://i.imgur.com/dWNxCqp.png" group-title="Movies",Rakuten TV Drama Switzerland (720p)
 https://rakuten-tvshows-4-ch.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="RakutenTVFamilyAustria.at" tvg-logo="https://i.imgur.com/hboiinD.jpg" group-title="Family;Movies",Rakuten TV Family Austria (720p)
@@ -273,6 +271,8 @@ https://rakuten-family-5-at.samsung.wurl.tv/playlist.m3u8
 https://rakuten-family-5-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="RakutenTVFamilySwitzerland.ch" tvg-logo="https://i.imgur.com/hboiinD.jpg" group-title="Family;Movies",Rakuten TV Family Switzerland (720p)
 https://rakuten-family-4-ch.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="RakutenTVDramaAustria.at" tvg-logo="https://i.imgur.com/5bC53Xk.jpg" group-title="Movies",Rakuten TV Shows Austria (720p)
+https://rakuten-tvshows-5-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="RakutenTVDramaGermany.de" tvg-logo="https://i.imgur.com/5bC53Xk.jpg" group-title="Movies",Rakuten TV Shows Germany (720p)
 https://rakuten-tvshows-3-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="RakutenTVSpotlightAustria.at" tvg-logo="https://i.imgur.com/5bC53Xk.jpg" group-title="Movies",Rakuten TV Spotlight Austria (720p)
