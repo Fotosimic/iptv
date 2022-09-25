@@ -100,6 +100,8 @@ https://uplynkcontent.sinclairstoryline.com/channel/ddd76fdc1c0a456ba537e4f48e82
 https://thainews.prd.go.th/lv/live/ch1_L_L.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/NHK_World-Japan_TV.svg/512px-NHK_World-Japan_TV.svg.png" group-title="Culture;News",NHK World Japan (1080p)
 https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="NTVEurope.bd" tvg-logo="https://europentv.ntvbd.com/sites/all/themes/sloth/logo.png" group-title="General",NTV Europe (720p) [Not 24/7]
+https://cdn.appv.jagobd.com:444/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/ntvuk00332211.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="EuronewsEnglish.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Pluto TV Euronews (720p) [Not 24/7]
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60d3583ef310610007fb02b1/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&serverSideAds=false&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-id="PortoCanal.pt" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/ba/Logo_Porto_Canal.jpg" group-title="General",Porto Canal (360p) [Not 24/7]
@@ -121,9 +123,9 @@ https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
 #EXTINF:-1 tvg-id="RTP1.pt" tvg-logo="https://i.imgur.com/w7GV86i.png" group-title="General" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0",RTP1 (720p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0
 https://streaming-live.rtp.pt/liverepeater/rtpClean1HD.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="RTP3.pt" tvg-logo="https://i.imgur.com/ohXJmiR.png" group-title="News" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0",RTP3 (504p) [Not 24/7]
+#EXTINF:-1 tvg-id="RTP3.pt" tvg-logo="https://i.imgur.com/ohXJmiR.png" group-title="News" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0",RTP3 (720p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0
-https://streaming-live.rtp.pt/livetvhlsDVR/rtpndvr.smil/playlist.m3u8
+https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RTPAcores.pt" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/RTP_A%C3%A7ores_%282016%29.svg/512px-RTP_A%C3%A7ores_%282016%29.svg.png" group-title="General" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0",RTP Açores (720p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0
 https://streaming-live.rtp.pt/liverepeater/smil:rtpacoresHD.smil/playlist.m3u8
@@ -157,6 +159,8 @@ https://smart-tv.livedoomovie.com:4431/02_SPORTTV_3_720p/chunklist.m3u8
 #EXTINF:-1 tvg-id="SportTV4.pt" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/5/58/Sport.TV4.png" group-title="Sports" user-agent="Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/96.0.3809.25 Safari/537.36",Sport TV 4 (576p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/96.0.3809.25 Safari/537.36
 https://smart-tv.livedoomovie.com:4431/02_SPORTTV_4_720p/chunklist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",TCSM (1080p)
+https://stream.internet.one/RadioCaboVerde/video.m3u8
 #EXTINF:-1 tvg-id="TRTWorld.tr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TRT_World.svg/512px-TRT_World.svg.png" group-title="News",TRT World (720p) [Not 24/7]
 https://tv-trtworld.live.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TV3CAT.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/TV3CAT.svg/512px-TV3CAT.svg.png" group-title="Undefined",TV3CAT
