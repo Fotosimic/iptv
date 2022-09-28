@@ -3,8 +3,6 @@
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCVEaAWKfv7fE1c-ZuBs7TKQ/live
 #EXTINF:-1 tvg-id="1Plus1Sport.ua" tvg-logo="https://i.imgur.com/VpBVorp.png" group-title="Sports",1+1 Спорт (720p) [Not 24/7]
 https://live-k2301-kbp.1plus1.video/sport/smil:sport.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",4 канал (1080p)
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCQdSS9GSBbtSqW3oNB39KTw/live
 #EXTINF:-1 tvg-id="7kanal.ua" tvg-logo="https://i.imgur.com/nJvGdoj.jpg" group-title="Undefined",7 канал (720p)
 https://cdn10.live-tv.od.ua:8083/7tvod/7tvod-abr/playlist.m3u8
 #EXTINF:-1 tvg-id="24Kanal.ua" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/24_Group_Ukraine_04.png/512px-24_Group_Ukraine_04.png" group-title="News",24 Канал (1080p)
@@ -131,6 +129,8 @@ https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
 https://cdn-telkomsel-01.akamaized.net/Content/DASH/Live/channel(9ce3f094-4044-467e-84b7-b684a49571d5)/manifest.mpd
 #EXTINF:-1 tvg-id="SKITV.ch" tvg-logo="https://i.imgur.com/idKogRi.png" group-title="Sports",Ski TV (1080p) [Not 24/7]
 https://d2xeo83q8fcni6.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/SkiTV-SynapseTV/193.m3u8
+#EXTINF:-1 tvg-id="Skrypinua.ua" tvg-logo="https://i.imgur.com/XtG3rfj.png" group-title="Undefined",Skrypin.ua (1080p) [Not 24/7]
+https://open-cdn.lanet.tv/play/skrypin.m3u8
 #EXTINF:-1 tvg-id="SofyTV.ch" tvg-logo="https://i.imgur.com/Srxa6cR.png" group-title="Movies",Sofy TV (720p)
 https://sofy-ger-samsung.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="TravelGuideTV.ua" tvg-logo="https://i.imgur.com/Ga1jBEe.jpeg" group-title="Travel",Travel Guide TV (720p)
@@ -203,10 +203,6 @@ http://pershij-dlovij.cdn-02.cosmonova.net.ua/hls/pershij-dlovij_ua.m3u8
 #EXTINF:-1 tvg-id="PravdaTUT.ua" tvg-logo="https://i.imgur.com/mdsqwpi.png" group-title="Undefined" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0",ПравдаТУТ (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
 http://pravdatytkievshina.cdn-02.cosmonova.net.ua/hls/pravdatytkievshina_ua.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Репортер (720p) [Not 24/7]
-http://cdn1.live-tv.od.ua:8081/31chod/31chod-abr/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Репортер (720p) [Not 24/7]
-http://cdn1.live-tv.od.ua:8081/31chod/31chod/playlist.m3u8
 #EXTINF:-1 tvg-id="RTRPlaneta.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RTR-Planeta_Logo.svg/512px-RTR-Planeta_Logo.svg.png" group-title="General" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",РТР-Планета (480p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s15/index.m3u8
@@ -228,8 +224,6 @@ https://cdn10.live-tv.od.ua:8083/riood/tisod504/playlist.m3u8
 https://cdn1.live-tv.od.ua:8083/3tvod/3tvod-abr/playlist.m3u8
 #EXTINF:-1 tvg-id="TRKAleks.ua" tvg-logo="https://i.imgur.com/1uW5ex8.png" group-title="Undefined",ТРК Алекс (576p)
 http://46.46.112.223/live/livestream1.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",ТРК Репортер (480p) [Not 24/7]
-https://cdn1.live-tv.od.ua:8083/31chod/31chod-sub/playlist.m3u8
 #EXTINF:-1 tvg-id="HersonPlyus.ua" tvg-logo="https://i.imgur.com/mvpJKqt.png" group-title="Undefined",Херсон Плюс (576p)
 http://46.175.163.130/ks_plus/index.m3u8
 #EXTINF:-1 tvg-id="ChPinfo.ua" tvg-logo="https://i.imgur.com/2cYzroj.png" group-title="Undefined",ЧП Инфо (576p)
