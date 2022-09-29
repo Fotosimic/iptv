@@ -5,6 +5,9 @@ http://eu2.tv4e.gr:554/live/smil:myStream.sdp.smil/playlist.m3u8
 https://s1.cystream.net/live/34100/playlist.m3u8
 #EXTINF:-1 tvg-id="AcheloosTV.gr" tvg-logo="https://i.imgur.com/QjQxeAe.png" group-title="Undefined",Acheloos TV (576p) [Not 24/7]
 http://srv.viiideo.gr:1935/axeloos/live/playlist.m3u8
+#EXTINF:-1 tvg-id="AigaioTV.gr" tvg-logo="https://i.imgur.com/7LfuDJi.png" group-title="Undefined",Aigaio TV (360p) [Not 24/7]
+#EXTVLCOPT:http-referrer=https://ssh101.com/
+https://tna5.bozztv.com/aigaiotv1/index.m3u8
 #EXTINF:-1 tvg-id="AlertTV.gr" tvg-logo="https://www.alerttv.com.gr/wp-content/uploads/LogoAlert.png" group-title="Undefined",Alert (576p) [Not 24/7]
 https://itv.streams.ovh/ALEERT/ALEERT/playlist.m3u8
 #EXTINF:-1 tvg-id="AlfaDramas.gr" tvg-logo="https://i.imgur.com/39l3uRU.jpg" group-title="Movies",Alfa Dramas (226p) [Not 24/7]
@@ -35,8 +38,6 @@ https://vod.streams.ovh:3528/stream/play.m3u8
 https://dev.aftermind.xyz/edge-hls/unitrust/citychannel/index.m3u8?token=8TXWzhY3h6jrzqEqu
 #EXTINF:-1 tvg-id="CorfuTV.gr" tvg-logo="https://i.imgur.com/G7LHkTE.jpg" group-title="Undefined",Corfu TV (576p) [Not 24/7]
 https://itv.streams.ovh/corfuchannel/corfuchannel/playlist.m3u8
-#EXTINF:-1 tvg-id="TVCreta.gr" tvg-logo="https://i.imgur.com/CpIeJyt.png" group-title="Undefined",Creta (540p) [Not 24/7]
-http://live.streams.ovh:1935/tvcreta/tvcreta/playlist.m3u8
 #EXTINF:-1 tvg-id="DiavataTV.gr" tvg-logo="https://i.imgur.com/MjIyFg6.png" group-title="Undefined",Diavata TV (720p)
 https://video.streams.ovh:1936/DiavataTV/DiavataTV/playlist.m3u8
 #EXTINF:-1 tvg-id="DipsoTV.gr" tvg-logo="https://i.imgur.com/iL2o7Og.png" group-title="Undefined",Dipso TV (720p) [Not 24/7]
@@ -110,8 +111,8 @@ https://live.neatv.gr:8888/hls/neatv.m3u8
 http://live.netmaxtv.com:8080/live/live/playlist.m3u8
 #EXTINF:-1 tvg-id="NETVToronto.ca" tvg-logo="https://i.imgur.com/IYDllP5.jpg" group-title="Movies",NETV Toronto (720p) [Not 24/7]
 https://live.streams.ovh/NetvToronto/NetvToronto/playlist.m3u8
-#EXTINF:-1 tvg-id="NG.gr" tvg-logo="https://i.imgur.com/pK2p5ey.png" group-title="Music",NG (720p)
-https://live.streams.ovh/NGradio/NGradio/playlist.m3u8
+#EXTINF:-1 tvg-id="NG.gr" tvg-logo="https://i.imgur.com/pK2p5ey.png" group-title="Music",NG (614p)
+http://live.streams.ovh:1935/NGradio/NGradio/playlist.m3u8
 #EXTINF:-1 tvg-id="NRG91.gr" tvg-logo="https://i.imgur.com/1Zl1OJ5.png" group-title="Undefined",NRG 91 (720p) [Not 24/7]
 http://tv.nrg91.gr:1935/onweb/live/master.m3u8
 #EXTINF:-1 tvg-id="NRGTV.gr" tvg-logo="https://i.imgur.com/1Zl1OJ5.png" group-title="Undefined",NRG TV (720p)
@@ -146,8 +147,12 @@ http://78.83.87.222:9999/play/a016/index.m3u8
 https://s1.cystream.net/live/smile/playlist.m3u8
 #EXTINF:-1 tvg-id="StarChannel.gr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Star_Channel_Greece_logo.svg/512px-Star_Channel_Greece_logo.svg.png" group-title="Undefined",Star (720p)
 https://livestar.siliconweb.com/media/star1/star1mediumhd.m3u8
+#EXTINF:-1 tvg-id="Tilemousiki.gr" tvg-logo="https://i.imgur.com/wb4pLkW.jpg" group-title="Undefined",Tilemousiki (480p) [Not 24/7]
+http://wpso.com:1936/hls/music1.m3u8
 #EXTINF:-1 tvg-id="TV100.gr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/TV100_LOGO.jpg/512px-TV100_LOGO.jpg" group-title="Undefined",TV 100 (576p) [Not 24/7]
 https://live.fm100.gr/hls/tv100/index.m3u8
+#EXTINF:-1 tvg-id="TVCreta.gr" tvg-logo="https://i.imgur.com/CpIeJyt.png" group-title="Undefined",TV Creta (540p) [Not 24/7]
+https://live.streams.ovh/tvcreta/tvcreta/chunklist.m3u8
 #EXTINF:-1 tvg-id="TVFilopoli.gr" tvg-logo="https://i.imgur.com/GdgekUL.png" group-title="Undefined",TV Filopoli (360p) [Not 24/7]
 http://live.streams.ovh:1935/tvfilopoli/tvfilopoli/playlist.m3u8
 #EXTINF:-1 tvg-id="Xplore.gr" tvg-logo="https://i.imgur.com/ErFj6rR.png" group-title="Undefined",Xplore (714p) [Geo-blocked]
