@@ -52,6 +52,8 @@ https://cdn1.skygo.mn/live/disk1/ETV/HLS-FTA/ETV.m3u8
 http://178.33.224.197:1935/euroindiemusic/euroindiemusic/playlist.m3u8
 #EXTINF:-1 tvg-id="EuronewsSpanish.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews en Español (720p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/user/euronewses/live
+#EXTINF:-1 tvg-id="EuronewsEnglish.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews English
+https://euronews.alteox.app/hls/en_stream.m3u8
 #EXTINF:-1 tvg-id="EuronewsGerman.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews German
 https://euronews.alteox.app/hls/de_stream.m3u8
 #EXTINF:-1 tvg-id="EuronewsHungarian.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews Hungary (720p) [Not 24/7]
@@ -92,8 +94,6 @@ http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel
 https://cdn2.skygo.mn/live/disk1/NTVHD/DASH-FTA/NTVHD.mpd
 #EXTINF:-1 tvg-id="ONTV.mn" tvg-logo="https://www.lyngsat.com/logo/tv/oo/on-tv-mn.png" group-title="Undefined",ONTV
 https://cdn1.skygo.mn/live/disk1/ONTV/HLS-FTA/ONTV.m3u8
-#EXTINF:-1 tvg-id="EuronewsEnglish.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Pluto TV Euronews (720p) [Not 24/7]
-https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60d3583ef310610007fb02b1/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&serverSideAds=false&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-id="RedBullTV.at" tvg-logo="https://i.imgur.com/7NeBmWX.jpg" group-title="Sports",Red Bull TV (1080p)
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
 #EXTINF:-1 tvg-id="RTDocumentary.ru" tvg-logo="https://i.imgur.com/XJGki3v.png" group-title="Documentary",RT Documentary (1080p) [Geo-blocked]
@@ -105,8 +105,6 @@ https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
 #EXTINF:-1 tvg-id="RTPInternacional.pt" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/RTP_Internacional_2016_%28Reduced_Version%29.svg/512px-RTP_Internacional_2016_%28Reduced_Version%29.svg.png" group-title="General" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0",RTP Internacional (504p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0
 https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="RTPiAsia.pt" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/RTP_Internacional_2016_%28Reduced_Version%29.svg/512px-RTP_Internacional_2016_%28Reduced_Version%29.svg.png" group-title="General",RTP Internacional Asia (480p)
-http://210.210.155.37/qwr9ew/s/s38/index.m3u8
 #EXTINF:-1 tvg-id="SBNTV.mn" tvg-logo="https://www.lyngsat.com/logo/tv/ss/sbn_tv_mn.png" group-title="Undefined",SBN
 https://cdn2.skygo.mn/live/disk1/SBN/HLS-FTA/SBN.m3u8
 #EXTINF:-1 tvg-id="SEAToday.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/SEA_Today_Indonesia_Logo.png/512px-SEA_Today_Indonesia_Logo.png" group-title="Undefined",Sea Today (720p) [Geo-blocked]
@@ -121,8 +119,6 @@ https://cdn2.skygo.mn/live/disk1/Star/DASH-FTA/Star.mpd
 https://tv-trtworld.live.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TV5.mn" tvg-logo="https://i.imgur.com/dwtKgat.png" group-title="Undefined",TV5
 https://cdn2.skygo.mn/live/disk1/TV5HD/HLS-FTA/TV5HD.m3u8
-#EXTINF:-1 tvg-id="TV5MondeAsia.fr" tvg-logo="https://cms.dmpcdn.com/livetv/2022/01/18/ca2f0180-7814-11ec-8fd5-c549a9b471b9_webp_original.png" group-title="Undefined",TV5 Monde Asie (576p)
-http://210.210.155.37/dr9445/s/s24/index.m3u8
 #EXTINF:-1 tvg-id="TV8.mn" tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/a9/TV8_Mongolia.png" group-title="Undefined",TV8
 https://cdn1.skygo.mn/live/disk1/TV8HD/HLS-FTA/TV8HD.m3u8
 #EXTINF:-1 tvg-id="9TV.mn" tvg-logo="https://www.lyngsat.com/logo/tv/num/9_tv_mn.png" group-title="Undefined",TV9
