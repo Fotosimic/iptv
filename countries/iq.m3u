@@ -39,6 +39,8 @@ http://ns8.indexforce.com:1935/home/mystream/playlist.m3u8
 http://ns8.indexforce.com:1935/alsharqiyalive/mystream/playlist.m3u8
 #EXTINF:-1 tvg-id="AlEtejah.iq" tvg-logo="https://i.imgur.com/jFKKRjP.png" group-title="News",Al-Etejah (576p) [Not 24/7]
 http://streaming.aletejahtv.iq:1935/etejah-newLive/smil:etejahNew.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="AlJawadainTV.iq" tvg-logo="https://i.imgur.com/tLekUZU.png" group-title="Religious",Al-Jawadain TV (1080p) [Not 24/7]
+https://live.aljawadain.org/live/aljawadaintv/playlist.m3u8
 #EXTINF:-1 tvg-id="Alaraby2TV.uk" tvg-logo="https://i.imgur.com/pc0eSwY.png" group-title="News",Alaraby 2 TV (1080p)
 https://alaraby.cdn.octivid.com/alaraby2n/smil:alaraby2n.stream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AlarabyTV.uk" tvg-logo="https://i.imgur.com/LNI1HNi.png" group-title="News",Alaraby TV (1080p)
@@ -122,8 +124,8 @@ http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/user/eu
 https://euronews.alteox.app/hls/de_stream.m3u8
 #EXTINF:-1 tvg-id="EuronewsHungarian.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews Hungary (720p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/euronewsHungarian/live
-#EXTINF:-1 tvg-id="EuronewsItalian.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews Italian
-https://euronews.alteox.app/hls/it_stream.m3u8
+#EXTINF:-1 tvg-id="EuronewsItalian.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews Italiano (720p)
+https://rakuten-euronews-3-it.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="EuronewsPortuguese.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews Portuguese
 https://euronews.alteox.app/hls/pt_stream.m3u8
 #EXTINF:-1 tvg-id="EuronewsRussian.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews по-русски (720p)
@@ -146,8 +148,6 @@ https://kbsworld-ott.akamaized.net/hls/live/2002341/kbsworld/master.m3u8
 https://d1x82nydcxndze.cloudfront.net/live/index.m3u8
 #EXTINF:-1 tvg-id="KurdistanTV.iq" tvg-logo="https://i.imgur.com/GLfhYSH.png" group-title="General",Kurdistan TV (720p) [Not 24/7]
 https://5a3ed7a72ed4b.streamlock.net/live/SMIL:myStream.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="KurdMaxMusic.iq" tvg-logo="https://kurdmaxcms.com/asset/image/footer_logo/music_2.png" group-title="Music",KurdMax Music (720p) [Not 24/7]
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/kurdmaxmusic/live
 #EXTINF:-1 tvg-id="Kurdsat.iq" tvg-logo="https://i.imgur.com/xMZA2NM.png" group-title="Undefined",KurdSat (720p)
 http://ikomg2.s.llnwi.net/kurdsathd/playlist.m3u8
 #EXTINF:-1 tvg-id="KurdsatNews.iq" tvg-logo="https://www.lyngsat.com/logo/tv/kk/kurdsat_iq_news.png" group-title="News",KurdSat News (1080p) [Not 24/7]
@@ -223,6 +223,8 @@ https://602ccc850c9bb.streamlock.net/sterktv/smil:sterk.smil/playlist.m3u8
 https://tv-trtarabi.live.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TRTWorld.tr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TRT_World.svg/512px-TRT_World.svg.png" group-title="News",TRT World (720p) [Not 24/7]
 https://tv-trtworld.live.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TV5MondeAsia.fr" tvg-logo="https://cms.dmpcdn.com/livetv/2022/01/18/ca2f0180-7814-11ec-8fd5-c549a9b471b9_webp_original.png" group-title="Undefined",TV5 Monde Asie (576p)
+http://210.210.155.37/dr9445/s/s24/index.m3u8
 #EXTINF:-1 tvg-id="TVMInternacional.mz" tvg-logo="https://i.imgur.com/Ns3WrOQ.png" group-title="General",TVM Internacional (480p) [Not 24/7]
 http://online.tvm.co.mz:1935/live/smil:Channel2.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="UNWebTV.us" tvg-logo="https://i.imgur.com/lPyJhBN.png" group-title="News",UN Web TV (540p)

@@ -34,8 +34,6 @@ http://39.134.115.163:8080/PLTV/88888910/224/3221225618/index.m3u8
 http://39.134.115.163:8080/PLTV/88888910/224/3221225619/index.m3u8
 #EXTINF:-1 tvg-id="CCTV3.cn" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/3/34/CCTV-3_Logo.png" group-title="Entertainment",CCTV-3综艺 (1080p)
 http://39.134.115.163:8080/PLTV/88888910/224/3221225634/index.m3u8
-#EXTINF:-1 tvg-id="CCTV4Asia.cn" tvg-logo="https://i.imgur.com/cfvjieR.png" group-title="General",CCTV-4 Asia (576p)
-http://210.210.155.37/qwr9ew/s/s19/index.m3u8
 #EXTINF:-1 tvg-id="CCTV5Plus.cn" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/9/90/CCTV-5%2B_Logo.png/512px-CCTV-5%2B_Logo.png" group-title="Undefined",CCTV-5+体育赛事 (1080p)
 http://39.134.115.163:8080/PLTV/88888910/224/3221225649/index.m3u8
 #EXTINF:-1 tvg-id="CCTV5.cn" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/3/33/CCTV-5_Logo.png" group-title="Sports",CCTV-5体育 (1080p)
@@ -80,6 +78,8 @@ http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/ctitv
 http://50.7.220.74:8278/ctiasia_twn/playlist.m3u8?ct=19226&tid=MC3C8838319088383190&tsum=6eaf7a477dd08b06a5dc54b4c05e52e1
 #EXTINF:-1 tvg-id="CTVNewsChannel.tw" tvg-logo="https://i.imgur.com/OMuG8u9.png" group-title="News",CTV News Channel
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/twctvnews/live
+#EXTINF:-1 tvg-id="DragonTVInternational.cn" tvg-logo="https://www.lyngsat.com/logo/tv/dd/dragon-tv-cn.png" group-title="Undefined",Dragon TV International (360p)
+http://210.210.155.37/x6bnqe/s/s29/index.m3u8
 #EXTINF:-1 tvg-id="EBCFinancialNews.tw" tvg-logo="https://img-fnc.ebc.net.tw/EbcFnc/logoes/pc_logo.png" group-title="News",EBC Financial News (720p)
 http://50.7.220.74:8278/ettvcaijing_twn/playlist.m3u8?ct=17874&tid=m999b5a0f7fca17599138&tsum=345085d2d6d4401fdb3da968dfee5a54
 #EXTINF:-1 tvg-id="EBCForeignMovie.tw" tvg-logo="https://www.lyngsat.com/logo/tv/ee/ebc-foreign-movie-tw.png" group-title="Movies",EBC Foreign Movie (720p)
@@ -141,12 +141,14 @@ http://live4.tdm.com.mo/ch4/_definst_/sport_ch4.live/playlist.m3u8
 https://cdn-telkomsel-01.akamaized.net/Content/HLS/Live/channel(abe4ead2-1a88-4330-9f41-382fcf94bba2)/index.m3u8
 #EXTINF:-1 tvg-id="Thrill.hk" tvg-logo="https://i.imgur.com/isr5jto.png" group-title="Movies",Thrill (576p)
 http://210.210.155.37/qwr9ew/s/s34/index.m3u8
+#EXTINF:-1 tvg-id="ToonmaxTV.cn" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/b/b5/TOONMAX_logo.png" group-title="Kids",Toonmax TV (576p)
+http://210.210.155.37/qwr9ew/s/s50/index.m3u8
 #EXTINF:-1 tvg-id="TTVNews.tw" tvg-logo="https://i.imgur.com/2XqmrM0.png" group-title="News",TTV News
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/ttvnewsview/live
 #EXTINF:-1 tvg-id="Turkmenistan.tm" tvg-logo="https://i.imgur.com/zKWfwAw.png" group-title="General",Türkmenistan (112p) [Not 24/7]
 https://alpha.tv.online.tm/hls/ch007.m3u8
 #EXTINF:-1 tvg-id="TurkmenistanSport.tm" tvg-logo="https://turkmentv.gov.tm/assets/img/live-imgs/sport.png" group-title="Sports",Türkmenistan Sport (406p) [Not 24/7]
-https://alpha.tv.online.tm/legacyhls/ch004.m3u8
+https://alpha.tv.online.tm/hls/ch004.m3u8
 #EXTINF:-1 tvg-id="TVBRICSChinese.cn" tvg-logo="https://i.imgur.com/vLpm8tN.png" group-title="General",TV BRICS Chinese (1080p) [Not 24/7]
 https://brics.bonus-tv.ru/cdn/brics/chinese/playlist.m3u8
 #EXTINF:-1 tvg-id="TVBJadeMalaysia.my" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/203_144.png" group-title="Undefined",TVB Jade (720p)
@@ -157,8 +159,8 @@ http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
 http://50.7.220.74:8278/tvbs/playlist.m3u8?ct=19226&tid=MDED5111960351119603&tsum=49931e2d3885c468d56ffae2c2db9e6e
 #EXTINF:-1 tvg-id="TVBSNews.tw" tvg-logo="https://i.imgur.com/Hsop2If.png" group-title="News",TVBS News (720p)
 http://50.7.220.74:8278/tvbs_n/playlist.m3u8?ct=19226&tid=MEFE5283322452833224&tsum=5f4e9bb0782ab3aae36328763cba2ffd
-#EXTINF:-1 tvg-id="TVNMovies.hk" tvg-logo="https://i.imgur.com/oLzTyUX.png" group-title="Movies",tvN Movies (Indonesian Subtitle) (576p)
-http://210.210.155.37/dr9445/h/h21/index.m3u8
+#EXTINF:-1 tvg-id="TVNAsia.hk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Logo_tvN.svg/512px-Logo_tvN.svg.png" group-title="Undefined",tvN Asia (Indonesian Subtitle) (576p)
+http://210.210.155.37/dr9445/h/h20/index.m3u8
 #EXTINF:-1 tvg-id="TVS2.cn" tvg-logo="https://i.imgur.com/dmQHbXr.png" group-title="Undefined",TVS2 (576p)
 http://223.110.245.153/ott.js.chinamobile.com/PLTV/3/224/3221227005/index.m3u8
 #EXTINF:-1 tvg-id="VideolandSports.tw" tvg-logo="https://www.lyngsat.com/logo/tv/vv/videoland_sport.png" group-title="Sports",Videoland Sports (720p)
