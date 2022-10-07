@@ -1,8 +1,6 @@
 #EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/bs/rev.bs.epg.xml.gz,https://iptv-org.github.io/epg/guides/us-local/tvtv.us.epg.xml.gz,https://iptv-org.github.io/epg/guides/us/directv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/us/tvtv.us.epg.xml.gz"
 #EXTINF:-1 tvg-id="KERODT1.us" tvg-logo="https://scripps.com/wp-content/uploads/2019/01/local_media_23_abc.png" group-title="Undefined",23 ABC Bakersfield CA (KERO) (720p)
 https://content.uplynk.com/channel/ff809e6d9ec34109abfb333f0d4444b5.m3u8
-#EXTINF:-1 tvg-id="KIIOLD4.us" tvg-logo="https://i.imgur.com/XRJ9luY.png" group-title="Undefined",AABC TV (480p)
-https://streamer1.connectto.com/AABC_WEB_1201/index.m3u8
 #EXTINF:-1 tvg-id="KABCDT1.us" tvg-logo="https://imgur.com/nKAUCLF.jpg" group-title="News",ABC 7 Los Angeles CA (KABC-TV) (720p)
 https://content.uplynk.com/channel/ext/2118d9222a87420ab69223af9cfa0a0f/kabc_24x7_news.m3u8
 #EXTINF:-1 tvg-id="KXTVDT1.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ABC-2021-LOGO.svg/512px-ABC-2021-LOGO.svg.png" group-title="Undefined",ABC 10 Sacramento CA (KXTV) (1080p)
@@ -157,8 +155,10 @@ https://reflect-padnet-live.cablecast.tv/live/live.m3u8
 https://cdn3.wowza.com/5/WDIrTW5sM1JEY1NN/longbeach/G0020_001/playlist.m3u8
 #EXTINF:-1 tvg-id="LA36.us" tvg-logo="https://i.imgur.com/JxTzUEq.png" group-title="Education",Los Angeles Local Television Channel 36 (1080p)
 https://reflect-channel36-la.cablecast.tv/live-3/live/live.m3u8
-#EXTINF:-1 tvg-id="MarinTVEducationalChannel.us" tvg-logo="https://i.imgur.com/HsBBu8g.png" group-title="Education",Marin TV Educational Channel (San Rafael CA) (1080p)
+#EXTINF:-1 tvg-id="MarinTVCommunityChannel.us" tvg-logo="https://i.imgur.com/HsBBu8g.png" group-title="General",Marin TV Community Channel (San Rafael CA) (1080p)
 https://dacastmmd.mmdlive.lldns.net/dacastmmd/8e6d110b223b4aca9dd6f7c368baec07/playlist.m3u8
+#EXTINF:-1 tvg-id="MarinTVEducationalChannel.us" tvg-logo="https://i.imgur.com/HsBBu8g.png" group-title="Education",Marin TV Educational Channel (San Rafael CA) (1080p)
+https://dacastmmd.mmdlive.lldns.net/dacastmmd/6930291b02344cc88fec20504849dafd/playlist.m3u8
 #EXTINF:-1 tvg-id="MarinTVGovernmentChannel.us" tvg-logo="https://i.imgur.com/HsBBu8g.png" group-title="Legislative",Marin TV Government Channel (San Rafael CA) (1080p)
 https://dacastmmd.mmdlive.lldns.net/dacastmmd/ddf2a073e3da4acb9feb34bef6d58672/playlist.m3u8
 #EXTINF:-1 tvg-id="TheCityofMarina.us" tvg-logo="https://i.imgur.com/dzoCJ4J.png" group-title="Legislative",Marina TV (Marina CA) (720p)
@@ -247,6 +247,10 @@ https://cdn3.wowza.com/5/cXdyRHF0Z3kxN0k2/pinole/G0032_004/playlist.m3u8
 https://cdn3.wowza.com/5/cXdyRHF0Z3kxN0k2/pinole/G0032_002/playlist.m3u8
 #EXTINF:-1 tvg-id="PlacentiaTV.us" tvg-logo="https://i.imgur.com/dZXpidI.png" group-title="Legislative",Placentia TV (Placentia CA) (720p)
 https://cdn3.wowza.com/5/M0lyamVmM2JWcjhQ/placentia/G0928_002/playlist.m3u8
+#EXTINF:-1 tvg-id="PomonaInternetStreamingChannel.us" tvg-logo="https://i.imgur.com/80gaUbq.png" group-title="Undefined",Pomona Internet Streaming Channel (Pomona CA) (720p)
+https://live.pomonaca.gov/live-3/live/live.m3u8
+#EXTINF:-1 tvg-id="RCTV3.us" tvg-logo="https://i.imgur.com/7E2Fddx.png" group-title="General",Rancho Cucamonga RCTV3 (Rancho Cucamonga CA) (480p)
+https://vod.cityofrc.us/live-6/live/live.m3u8
 #EXTINF:-1 tvg-id="RiversideTV.us" tvg-logo="https://i.imgur.com/pB3yt49.png" group-title="General",RiversideTV (Riverside CA) (720p)
 https://cdn3.wowza.com/5/RXJNMFI3VlVkOEFP/riversideca/G0879_001/playlist.m3u8
 #EXTINF:-1 tvg-id="COETVChannel2.us" tvg-logo="https://i.imgur.com/8K1ww0r.png" group-title="General",San Luis Obispo County Office of Education COE-TV Channel 2 (1080p)
@@ -295,6 +299,8 @@ https://vallejo.cablecast.tv/live-3/live/live.m3u8
 https://cdn3.wowza.com/5/M0lyamVmM2JWcjhQ/weho/G0161_004/playlist.m3u8
 #EXTINF:-1 tvg-id="WVTV.us" tvg-logo="https://i.imgur.com/LPI8Yqu.png" group-title="Undefined",Westlake Village WVTV Channel 10 (Westlake Village CA) (360p)
 https://cdn3.wowza.com/5/cHYzekYzM2kvTVFH/westlakevillage/G0133_004/playlist.m3u8
+#EXTINF:-1 tvg-id="WestminsterWTVChannel.us" tvg-logo="https://i.imgur.com/RG8bjL7.png" group-title="Undefined",Westminster WTV Channel (Westminster CA) (360p)
+https://cdn3.wowza.com/5/R09KQXpaMWlrRjly/westminsterca/G0571_001/playlist.m3u8
 #EXTINF:-1 tvg-id="CityTVWhittier.us" tvg-logo="https://i.imgur.com/bEBrcPQ.png" group-title="Undefined",Whittier CityTV (Whittier CA) (720p)
 https://cdn-unified-hls.streamspot.com/ingest1/89cbf0c54c/playlist.m3u8?origin=1
 #EXTINF:-1 tvg-id="YouDotGov.us" tvg-logo="https://i.imgur.com/4Mc7baR.png" group-title="Legislative",YouDotGov
