@@ -388,8 +388,6 @@ https://live.islamchannel.tv/islamtv_english/live.m3u8
 http://w4.12all.tv:4000/play/itv1/index.m3u8
 #EXTINF:-1 tvg-id="ITV2.uk" tvg-logo="https://i.imgur.com/ykqaKxz.png" group-title="Undefined",ITV2 (432p) [Geo-blocked]
 http://31.220.41.88:8081/live/itv2.stream/chunks.m3u8
-#EXTINF:-1 tvg-id="ITV3.uk" tvg-logo="https://i.imgur.com/shfP24h.png" group-title="Undefined",ITV3 (432p) [Geo-blocked]
-http://31.220.41.88:8081/live/itv3.stream/chunks.m3u8
 #EXTINF:-1 tvg-id="ITV4.uk" tvg-logo="https://i.imgur.com/UnYqxiG.png" group-title="Undefined",ITV4 (302p) [Geo-blocked]
 http://31.220.41.88:8081/live/itv4.stream/chunks.m3u8
 #EXTINF:-1 tvg-id="ITV.uk" tvg-logo="https://i.imgur.com/SsgOgRF.png" group-title="Undefined",ITV (302p) [Geo-blocked]
@@ -664,8 +662,9 @@ https://vod2t.xpanded.com/x3tv2/index_wlan.m3u8
 http://95.154.194.78/tsstreamer/ZoomLDAI_SD.ts
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Zoom
 http://78.129.193.17/tsstreamer/ZoomLDAI_SD.ts
-#EXTINF:-1 tvg-id="Dorama.uk" tvg-logo="https://i.imgur.com/lHn6OlM.png" group-title="Movies",Дорама (1080p) [Not 24/7]
-https://sc.id-tv.kz/dorama_hd.m3u8
+#EXTINF:-1 tvg-id="Dorama.uk" tvg-logo="https://i.imgur.com/lHn6OlM.png" group-title="Movies" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Дорама (480p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+http://ott-cdn.ucom.am/s95/index.m3u8
 #EXTINF:-1 tvg-id="RTRPlaneta.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RTR-Planeta_Logo.svg/512px-RTR-Planeta_Logo.svg.png" group-title="General" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",РТР-Планета (480p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s15/index.m3u8

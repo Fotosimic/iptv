@@ -108,6 +108,8 @@ http://159.69.56.148:25461/live/evavision/2r4rfasf/38.m3u8
 https://vse2-na-us-ne24.secdn.net/logos-channel/live/christmas/playlist.m3u8
 #EXTINF:-1 tvg-id="Falastini.ps" tvg-logo="https://i.imgur.com/h1N60QR.png" group-title="Music",Falastini (720p)
 https://cdg8.edge.technocdn.com/palestiniantv_source/live/playlist.m3u8
+#EXTINF:-1 tvg-id="FarraPlay.py" tvg-logo="https://i.imgur.com/Zqz8h5h.png" group-title="Music",Farra Play (720p) [Not 24/7]
+http://159.203.148.226/live/farra.m3u8
 #EXTINF:-1 tvg-id="FOLXMusic.de" tvg-logo="https://i.imgur.com/R9f5Fmx.png" group-title="Music",FOLX Music (1080p)
 https://serve-first.folxplay.tv/folx/ch-4/master.m3u8
 #EXTINF:-1 tvg-id="FreshTV.am" tvg-logo="https://img.catcast.tv/uploads/09072021/logos/33718-60e8114945a4a.png" group-title="Music",Fresh TV (720p)
@@ -314,8 +316,8 @@ http://51.210.227.130/hls/stream.m3u8
 https://live.hungama.com/linear/nazrana/playlist.m3u8
 #EXTINF:-1 tvg-id="NCI.ci" tvg-logo="https://i.imgur.com/I3pv69r.png" group-title="Music",NCI (1080p)
 https://nci-live.secure2.footprint.net/nci/nci.isml/.m3u8
-#EXTINF:-1 tvg-id="NG.gr" tvg-logo="https://i.imgur.com/pK2p5ey.png" group-title="Music",NG (720p)
-https://live.streams.ovh/NGradio/NGradio/playlist.m3u8
+#EXTINF:-1 tvg-id="NG.gr" tvg-logo="https://i.imgur.com/pK2p5ey.png" group-title="Music",NG (614p)
+http://live.streams.ovh:1935/NGradio/NGradio/playlist.m3u8
 #EXTINF:-1 tvg-id="NojoumTV.jo" tvg-logo="https://i.imgur.com/6ttWNu0.jpg" group-title="Music",Nojoum TV (720p)
 https://nojoumhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="Ocko.cz" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/%C3%93%C4%8Dko_logo_2012.png/512px-%C3%93%C4%8Dko_logo_2012.png" group-title="Music",Óčko (540p)
@@ -648,5 +650,6 @@ http://chanson-video.hostingradio.ru:8080/hls/chansonabr/live.m3u8
 http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="TNTMusic.ru" tvg-logo="https://i.imgur.com/RenuH4S.png" group-title="Music",ТНТ Music (1080p)
 http://83.222.205.65:8080/tntmusic/index.m3u8
-#EXTINF:-1 tvg-id="ShansonTV.ru" tvg-logo="https://i.imgur.com/NBWyJJQ.png" group-title="Music",Шансон ТВ (512p) [Geo-blocked]
-http://hls.shansontv.cdnvideo.ru/shansontv/shansontv.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="ShansonTV.ru" tvg-logo="https://i.imgur.com/NBWyJJQ.png" group-title="Music" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Шансон ТВ (480p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+http://ott-cdn.ucom.am/s43/index.m3u8
