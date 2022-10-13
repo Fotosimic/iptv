@@ -1,16 +1,20 @@
 #EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/ba/mtel.ba.epg.xml.gz,https://iptv-org.github.io/epg/guides/ee-en/teliatv.ee.epg.xml.gz,https://iptv-org.github.io/epg/guides/eg-ar/elcinema.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/ge/magticom.ge.epg.xml.gz,https://iptv-org.github.io/epg/guides/it/guidatv.sky.it.epg.xml.gz,https://iptv-org.github.io/epg/guides/kr/seezntv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/kr/wavve.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/tr/digiturk.com.tr.epg.xml.gz,https://iptv-org.github.io/epg/guides/us-pluto/i.mjh.nz.epg.xml.gz"
-#EXTINF:-1 tvg-id="A1.ru" tvg-logo="https://i.imgur.com/lXlwfyw.png" group-title="Series" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",A1 (480p)
+#EXTINF:-1 tvg-id="A1.ru" tvg-logo="https://i.imgur.com/4qviOAh.png" group-title="Series" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",A1 (480p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s45/index.m3u8
-#EXTINF:-1 tvg-id="A2.ru" tvg-logo="https://i.imgur.com/GwQgT6X.png" group-title="Series" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",A2 (480p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
-http://ott-cdn.ucom.am/s33/index.m3u8
+#EXTINF:-1 tvg-id="A2.ru" tvg-logo="https://i.imgur.com/WzjFuij.png" group-title="Series",A2 (1080p) [Geo-blocked]
+https://okkotv-live.cdnvideo.ru/channel/A2_HD.m3u8
 #EXTINF:-1 tvg-id="AdultSwimBlackJesus.us" tvg-logo="https://i.imgur.com/QWzEK8i.png" group-title="Series",Adult Swim Black Jesus (1080p) [Geo-blocked]
 http://adultswim-vodlive.cdn.turner.com/live/black-jesus/stream.m3u8
 #EXTINF:-1 tvg-id="AdultSwimTheEricAndreShow.us" tvg-logo="https://i.imgur.com/HrMzEnX.png" group-title="Series",Adult Swim The Eric Andre Show (1080p) [Geo-blocked]
 http://adultswim-vodlive.cdn.turner.com/live/eric-andre/stream.m3u8
 #EXTINF:-1 tvg-id="AdultSwimYourPrettyFaceIsGoingToHell.us" tvg-logo="https://i.imgur.com/uLoRE4F.png" group-title="Series",Adult Swim Your Pretty Face Is Going To Hell (1080p) [Geo-blocked]
 https://adultswim-vodlive.cdn.turner.com/live/ypf/stream.m3u8
+#EXTINF:-1 tvg-id="AmediaHit.ru" tvg-logo="https://i.imgur.com/Jtfq9xA.png" group-title="Movies;Series",Amedia Hit (1080p) [Geo-blocked]
+https://okkotv-live.cdnvideo.ru/channel/Amedia_Hit_HD.m3u8
+#EXTINF:-1 tvg-id="AmediaPremium.ru" tvg-logo="https://i.imgur.com/L3c9gNk.png" group-title="Movies;Series" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Amedia Premium (480p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+http://ott-cdn.ucom.am/s64/index.m3u8
 #EXTINF:-1 tvg-id="AsiaN.kr" tvg-logo="https://i.imgur.com/DHJjmW5.png" group-title="Movies;Series",AsiaN (1080p)
 https://kr-streams.onrender.com/scraper?channel=215
 #EXTINF:-1 tvg-id="AVASeries.ir" tvg-logo="https://i.imgur.com/xd5R0R0.png" group-title="Series",AVA Series (720p)
@@ -19,8 +23,6 @@ http://51.210.199.4/hls/stream.m3u8
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60dafb9a0df1ba000758d37b/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&serverSideAds=false&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-id="ChannelChina.kr" tvg-logo="https://i.imgur.com/26Il3ba.png" group-title="Movies;Series",Channel China (1080p)
 https://kr-streams.onrender.com/scraper?channel=458
-#EXTINF:-1 tvg-id="ChunghwaTV.kr" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/8/84/%EC%A4%91%ED%99%94TV_logo.png" group-title="Movies;Series",Chunghwa TV (1080p)
-https://kr-streams.onrender.com/scraper?channel=287
 #EXTINF:-1 tvg-id="DarkMatterTV.us" tvg-logo="https://i.imgur.com/fNZwRtB.png" group-title="Series",Dark Matter TV (720p)
 https://distroscale-public.s3-us-west-2.amazonaws.com/strm/channels/darkmatter/v3.m3u8
 #EXTINF:-1 tvg-id="DarkMatterTVBrazil.br" tvg-logo="https://i.imgur.com/fNZwRtB.png" group-title="Series",Dark Matter TV Brazil (720p)
@@ -35,10 +37,12 @@ https://wifispeed.trapemn.tv:1936/infantil/energeek-2/playlist.m3u8
 https://stream.wifispeed.cl:3852/live/energeeklive.m3u8
 #EXTINF:-1 tvg-id="Entrepreneur.us" tvg-logo="https://i.imgur.com/Wb4WPPK.jpg" group-title="Series",Entrepreneur (720p)
 https://a.jsrdn.com/broadcast/7582ed85f7/+0000/c.m3u8
-#EXTINF:-1 tvg-id="FoxLifeRussia.ru" tvg-logo="https://i.imgur.com/27k3DtT.png" group-title="Series",Fox Life Russia (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-id="FoxLifeRussia.ru" tvg-logo="https://i.imgur.com/J7ITzuN.png" group-title="Series",Fox Life Russia (1080p) [Geo-blocked]
 https://okkotv-live.cdnvideo.ru/channel/Fox_Life_HD.m3u8
 #EXTINF:-1 tvg-id="FoxTurkey.tr" tvg-logo="https://i.imgur.com/homSiDa.png" group-title="Series",Fox Türkiye (720p)
 https://foxtv.blutv.com/blutv_foxtv_live/live.m3u8
+#EXTINF:-1 tvg-id="HauntTV.us" tvg-logo="https://i.imgur.com/jCaWSFK.png" group-title="Series",Haunt TV (1080p)
+https://haunttv-roku.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="Juntos.us" tvg-logo="https://i.imgur.com/UbomgHT.png" group-title="Series",Juntos (1080p)
 https://olympusamagi.pc.cdn.bitgravity.com/Juntos-roku/master.m3u8
 #EXTINF:-1 tvg-id="KBSDrama.kr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/KBS_DRAMA.svg/512px-KBS_DRAMA.svg.png" group-title="Series",KBS Drama (480p)
@@ -57,6 +61,8 @@ https://stitcheraws.unreel.me/wse-node04.powr.com/powr_480pt/ngrp:5eb1e88458ad78
 https://stitcheraws.unreel.me/wse-node04.powr.com/powr_480pt/ngrp:5eb1e84c95ee0253b97679d7_all/playlist.m3u8
 #EXTINF:-1 tvg-id="Novelisima.us" tvg-logo="https://www.novelisima.com/assets/images/logo.png" group-title="Series",Novelísima [Not 24/7]
 https://novelisima.akamaized.net/hls/live/2031534/novelisimaABR/master.m3u8
+#EXTINF:-1 tvg-id="OCN.kr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/OCN_Logo.svg/512px-OCN_Logo.svg.png" group-title="Movies;Series",OCN (1080p)
+https://kr-streams.onrender.com/scraper?channel=407
 #EXTINF:-1 tvg-id="PinkSciFiFantasy.rs" tvg-logo="https://i.imgur.com/kCwpgf7.png" group-title="Series",Pink Sci-Fi & Fantasy (576p)
 http://109.105.201.198/PINKSCIFI/playlist.m3u8
 #EXTINF:-1 tvg-id="PinkSerije.rs" tvg-logo="https://i.imgur.com/Hs06WsX.png" group-title="Series",Pink Serije (576p)
@@ -122,11 +128,11 @@ https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dc1cb279c91420009
 #EXTINF:-1 tvg-id="PlutoTVLives.us" tvg-logo="https://images.pluto.tv/channels/5d8beeb39b5d5d5f8c672530/colorLogoPNG.png" group-title="Series",Pluto TV Lives (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8beeb39b5d5d5f8c672530/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d8beeb39b5d5d5f8c672530&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=276&terminate=false&userId=
 #EXTINF:-1 tvg-id="PlutoTVLosarchivosdelFBI.us" tvg-logo="https://images.pluto.tv/channels/5e67d41b93312100076f3fca/colorLogoPNG.png" group-title="Series",Pluto TV Los archivos del FBI (720p)
-https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1acbed25948a0007ffbe65/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5e67d41b93312100076f3fca/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
 #EXTINF:-1 tvg-id="LoveHipHop.us" tvg-logo="https://images.pluto.tv/channels/5d51ddf0369acdb278dfb05e/colorLogoPNG.png" group-title="Series",Pluto TV Love & Hip Hop (720p) [Not 24/7]
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d51ddf0369acdb278dfb05e/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d51ddf0369acdb278dfb05e&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=283&terminate=false&userId=
-#EXTINF:-1 tvg-id="PlutoTVLoveStories.us" tvg-logo="https://images.pluto.tv/channels/5f15e181520cfa000771ce79/colorLogoPNG.png" group-title="Series",Pluto TV Love Stories (720p)
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f15e181520cfa000771ce79/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5f15e181520cfa000771ce79&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=147&terminate=false&userId=
+#EXTINF:-1 tvg-id="PlutoTVLoveStories.us" tvg-logo="https://images.pluto.tv/channels/5f15e181520cfa000771ce79/colorLogoPNG.png" group-title="Series",Pluto TV Love Stories (684p) [Not 24/7]
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f15e181520cfa000771ce79/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-id="PlutoTVMADEInBritain.us" tvg-logo="https://images.pluto.tv/channels/5e14486590ba3e0009d912ff/colorLogoPNG.png" group-title="Series",Pluto TV MADE In Britain (720p)
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5e14486590ba3e0009d912ff/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-id="PlutoTVMcLeodsDaughters.us" tvg-logo="https://images.pluto.tv/channels/5ea18e5df6dd1d0007cf7bad/colorLogoPNG.png" group-title="Series",Pluto TV McLeod's Daughters (720p)
@@ -145,8 +151,8 @@ https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f230e416b68ff0007
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f610042272f68000867685b/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
 #EXTINF:-1 tvg-id="PlutoTVMTVAreyoutheOne.us" tvg-logo="https://images.pluto.tv/channels/5f6108d8cc331900075e98e4/colorLogoPNG.png" group-title="Series",Pluto TV MTV Are you the One? (720p)
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f6108d8cc331900075e98e4/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
-#EXTINF:-1 tvg-id="MTVBlockParty.us" tvg-logo="https://images.pluto.tv/channels/5d3609cd6a6c78d7672f2a81/colorLogoPNG.png" group-title="Series",Pluto TV MTV Block Party (720p) [Not 24/7]
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d3609cd6a6c78d7672f2a81/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d3609cd6a6c78d7672f2a81&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=868&terminate=false&userId=
+#EXTINF:-1 tvg-id="MTVBlockParty.us" tvg-logo="https://images.pluto.tv/channels/5d3609cd6a6c78d7672f2a81/colorLogoPNG.png" group-title="Series",Pluto TV MTV Block Party (720p)
+http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS03/master.m3u8
 #EXTINF:-1 tvg-id="MTVDating.us" tvg-logo="https://images.pluto.tv/channels/5ca6899a37b88b269472ea4b/colorLogoPNG.png" group-title="Series",Pluto TV MTV Dating (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ca6899a37b88b269472ea4b/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5ca6899a37b88b269472ea4b&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=330&terminate=false&userId=
 #EXTINF:-1 tvg-id="PlutoTVMTVEmbarazadaalos16.us" tvg-logo="https://images.pluto.tv/channels/5f98537a5a4341000733aefe/colorLogoPNG.png" group-title="Series",Pluto TV MTV Embarazada a los 16 (720p)
@@ -212,7 +218,7 @@ https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5e1452156c07b50009
 #EXTINF:-1 tvg-id="Survivor.us" tvg-logo="https://images.pluto.tv/channels/5f21e7b24744c60007c1f6fc/colorLogoPNG.png" group-title="Series",Pluto TV Survivor (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f21e7b24744c60007c1f6fc/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5f21e7b24744c60007c1f6fc&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=296&terminate=false&userId=
 #EXTINF:-1 tvg-id="PlutoTVTeenSeriesFrance.fr" tvg-logo="https://images.pluto.tv/channels/5f8eb7e3d2ed18000746d09a/colorLogoPNG.png" group-title="Series",Pluto TV TEEN SERIES (720p)
-https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f8eb7e3d2ed18000746d09a/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8eb7e3d2ed18000746d09a/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
 #EXTINF:-1 tvg-id="PlutoTVTelenovelasSpain.es" tvg-logo="https://images.pluto.tv/channels/60b4c06717da110007ee1af6/colorLogoPNG.png" group-title="Series",Pluto TV Telenovelas (720p)
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60b4c06717da110007ee1af6/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&serverSideAds=false&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-id="TheAddamsFamily.us" tvg-logo="https://images.pluto.tv/channels/5d81607ab737153ea3c1c80e/colorLogoPNG.png" group-title="Series",Pluto TV The Addams Family (240p)
@@ -255,8 +261,8 @@ https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5877acecb16bb1e042
 http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5d48678d34ceb37d3c458a55/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
 #EXTINF:-1 tvg-id="PlutoTVWipeout.us" tvg-logo="https://images.pluto.tv/channels/5ab3e1242be690697279c75d/colorLogoPNG.png" group-title="Series",Pluto TV Wipeout (360p) [Not 24/7]
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ed6828192e8b3000743ef61/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
-#EXTINF:-1 tvg-id="PlutoTVYoMTV.us" tvg-logo="https://images.pluto.tv/channels/5d14fc31252d35decbc4080b/colorLogoPNG.png" group-title="Series",Pluto TV Yo! MTV (720p) [Not 24/7]
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/6176fd25e83a5f0007a464c9/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d14fc31252d35decbc4080b&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=873&terminate=false&userId=
+#EXTINF:-1 tvg-id="PlutoTVYoMTV.us" tvg-logo="https://images.pluto.tv/channels/5d14fc31252d35decbc4080b/colorLogoPNG.png" group-title="Series",Pluto TV Yo! MTV (720p)
+http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS01/master.m3u8
 #EXTINF:-1 tvg-id="RotanaDrama.sa" tvg-logo="https://i.imgur.com/IhUe8Ka.png" group-title="Series",Rotana Drama (1080p) [Geo-blocked]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://rotana.net/live-drama
 #EXTINF:-1 tvg-id="SuperTVHD.it" tvg-logo="https://i.imgur.com/jVni8a0.png" group-title="General;Series",Super TV (720p)
@@ -271,8 +277,8 @@ http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5aea40b351
 https://a.jsrdn.com/broadcast/e6bdcb5ae9/+0000/c.m3u8
 #EXTINF:-1 tvg-id="TopCrime.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Top_Crime_-_Logo_2013.svg/512px-Top_Crime_-_Logo_2013.svg.png" group-title="Series",Top Crime [Geo-blocked]
 https://live3-mediaset-it.akamaized.net/content/hls_h0_clr_vos/live/channel(lt)/index.m3u8
-#EXTINF:-1 tvg-id="tvN.kr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Logo_tvN.svg/512px-Logo_tvN.svg.png" group-title="Entertainment;Series",tvN (1080p)
-https://kr-streams.onrender.com/scraper?channel=280
+#EXTINF:-1 tvg-id="tvNDrama.kr" tvg-logo="https://i.imgur.com/f91ieU8.png" group-title="Series",tvN DRAMA (1080p)
+https://kr-streams.onrender.com/scraper?channel=282
 #EXTINF:-1 tvg-id="VIPSerial.ru" tvg-logo="https://i.imgur.com/qtjt9qv.png" group-title="Series",VIP Serial Russia (1080p) [Geo-blocked]
 https://okkotv-live.cdnvideo.ru/channel/VIP_Serial_HD.m3u8
 #EXTINF:-1 tvg-id="Xcorps.us" tvg-logo="https://i.imgur.com/SDKWWQu.png" group-title="Series",Xcorps (720p)

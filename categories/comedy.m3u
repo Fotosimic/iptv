@@ -1,6 +1,8 @@
 #EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/eg-ar/elcinema.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/ge/magticom.ge.epg.xml.gz,https://iptv-org.github.io/epg/guides/lt/cgates.lt.epg.xml.gz,https://iptv-org.github.io/epg/guides/ru/tv.yandex.ru.epg.xml.gz,https://iptv-org.github.io/epg/guides/us-pluto/i.mjh.nz.epg.xml.gz,https://iptv-org.github.io/epg/guides/us/directv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/us/tvtv.us.epg.xml.gz,https://iptv-org.github.io/epg/guides/us/watchyour.tv.epg.xml.gz"
 #EXTINF:-1 tvg-id="AdultSwimDreamCorpLLC.us" tvg-logo="https://i.imgur.com/reEE5HC.png" group-title="Comedy",Adult Swim Dream Corp LLC (1080p) [Geo-blocked]
 http://adultswim-vodlive.cdn.turner.com/live/DREAM-CORP-LLC/stream.m3u8
+#EXTINF:-1 tvg-id="AFV.us" tvg-logo="https://i.imgur.com/lG3OHxA.png" group-title="Comedy",AFV (720p)
+https://dai.google.com/linear/hls/event/18_lZXPySFa5_GRVEbOX_A/master.m3u8
 #EXTINF:-1 tvg-id="AFVenEspanol.us" tvg-logo="https://f9q4g5j6.ssl.hwcdn.net/5f7b66af901c6845181f33d3" group-title="Comedy",AFV en Español (720p) [Not 24/7]
 https://linear-46.frequency.stream/dist/plex/46/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="ArmeniaKomedi.am" tvg-logo="https://i.imgur.com/pvF7dGN.png" group-title="Comedy" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Armenia Քոմեդի (480p)
@@ -36,8 +38,6 @@ https://mst3k-vizio.amagi.tv/playlist.m3u8
 http://45.145.32.11:20007/paramount_comedy/video.m3u8
 #EXTINF:-1 tvg-id="PersianaComedy.fr" tvg-logo="https://i.imgur.com/0SxqumE.png" group-title="Comedy;Movies",Persiana Comedy (720p)
 http://51.210.199.27/hls/stream.m3u8
-#EXTINF:-1 tvg-id="AFV.us" tvg-logo="https://i.imgur.com/lG3OHxA.png" group-title="Comedy",Pluto TV AFV TV (720p) [Not 24/7]
-https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5e82b55ad0213e00079c509f/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-id="PlutoTVClassicTVUK.uk" tvg-logo="https://images.pluto.tv/channels/5d134a74ca91eedee1630faa/colorLogoPNG.png" group-title="Comedy",Pluto TV Classic TV (720p)
 http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5e46ae801f347500099d461a/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=35f76fb0-e986-11eb-a0af-c3b401f46211&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=2fac39a7-56bc-492e-ae1e-3f6fb6cef1bc
 #EXTINF:-1 tvg-id="PlutoTVComedieFrance.fr" tvg-logo="https://images.pluto.tv/channels/5f8eb91bb9b9e7000817e67f/colorLogoPNG.png" group-title="Comedy",Pluto TV Comédie (720p)
@@ -68,8 +68,8 @@ https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5cd149f021cb6c55e2
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5e82547b6b3df60007fec2b5/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5e82547b6b3df60007fec2b5&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=458&terminate=false&userId=
 #EXTINF:-1 tvg-id="PlutoTVStandUpUK.uk" tvg-logo="https://images.pluto.tv/channels/5d135e29a52c94dfe543c5d3/colorLogoPNG.png" group-title="Comedy",Pluto TV Stand Up (360p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5637d31f319573e26b64040b/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5637d31f319573e26b64040b&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=468&terminate=false&userId=
-#EXTINF:-1 tvg-id="TVLandSitcoms.us" tvg-logo="https://images.pluto.tv/channels/5c2d64ffbdf11b71587184b8/colorLogoPNG.png" group-title="Comedy",Pluto TV TV Land Sitcoms (720p) [Not 24/7]
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5c2d64ffbdf11b71587184b8/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5c2d64ffbdf11b71587184b8&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=455&terminate=false&userId=
+#EXTINF:-1 tvg-id="TVLandSitcoms.us" tvg-logo="https://images.pluto.tv/channels/5c2d64ffbdf11b71587184b8/colorLogoPNG.png" group-title="Comedy",Pluto TV TV Land Sitcoms (720p)
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5c2d64ffbdf11b71587184b8/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-id="RedboxComedy.us" tvg-logo="https://od.lk/s/MF8yMzE5OTIyMjBf/Redbox_512x512.png" group-title="Comedy",Redbox 2: Comedy (1080p)
 https://comedy-redbox.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="RotanaComedy.sa" tvg-logo="https://i.imgur.com/ZeHLXlw.png" group-title="Comedy",Rotana Comedy (1080p) [Geo-blocked]
@@ -86,5 +86,5 @@ http://188.40.68.167/russia/vip_comedy/playlist.m3u8
 https://sc.id-tv.kz/Kinokomediya_hd.m3u8
 #EXTINF:-1 tvg-id="Komediynoe.ru" tvg-logo="https://i.imgur.com/cEKe8XC.png" group-title="Comedy",Комедийное (540p)
 http://185.97.150.19:8082/2402
-#EXTINF:-1 tvg-id="Komediya.ru" tvg-logo="https://i.imgur.com/l0S0O1L.png" group-title="Comedy",Комедия (576p) [Not 24/7]
+#EXTINF:-1 tvg-id="Komediya.ru" tvg-logo="https://i.imgur.com/U9WCmkv.png" group-title="Comedy",Комедия (576p) [Not 24/7]
 http://188.40.68.167/russia/komediya/playlist.m3u8
