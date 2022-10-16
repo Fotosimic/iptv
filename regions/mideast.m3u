@@ -48,12 +48,12 @@ https://live2.alalam.ir/alalam.m3u8
 https://live-1.linuxway.info/aqsatv/live/tv/playlist.m3u8
 #EXTINF:-1 tvg-id="Alarabiya.ae" tvg-logo="https://i.imgur.com/w6PhITD.png" group-title="Undefined",Al Arabiya (1080p)
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/AlArabiya/live
-#EXTINF:-1 tvg-id="AlHadath.ae" tvg-logo="https://i.imgur.com/De4SEWE.png" group-title="Undefined",Al Arabiya Al Hadath (1080p) [Not 24/7]
-https://av.alarabiya.net/alarabiapublish/alhadath.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AlEkhbariya.sa" tvg-logo="https://i.imgur.com/NciF5rO.png" group-title="News",Al Ekhbariya (1080p)
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/ekhbariyatv/live
 #EXTINF:-1 tvg-id="AlGhadTV.eg" tvg-logo="https://i.imgur.com/ga6NXb9.png" group-title="News",Al Ghad (720p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/alghadtv/live
+#EXTINF:-1 tvg-id="AlHadath.ae" tvg-logo="https://i.imgur.com/De4SEWE.png" group-title="Undefined",Al Hadath TV (1080p)
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/AlHadath/live
 #EXTINF:-1 tvg-id="AlHokairGroupTV.sa" tvg-logo="https://i.imgur.com/587NrVQ.jpeg" group-title="General",AL HOKAIR Group TV (576p)
 http://82.212.74.3:8000/live/7513.m3u8
 #EXTINF:-1 tvg-id="Alhurra.us" tvg-logo="https://i.imgur.com/9r7Hydw.png" group-title="News",Al Hurra (720p)
@@ -116,12 +116,10 @@ https://svs.itworkscdn.net/alwoustalive/alwoustatv.smil/playlist.m3u8
 https://ikomg1.s.llnwi.net/alyaumtv/playlist.m3u8
 #EXTINF:-1 tvg-id="AlZahraTV.ir" tvg-logo="https://i.imgur.com/ffFbUmd.jpg" group-title="Undefined",Al Zahra TV (720p) [Not 24/7]
 https://live.al-zahratv.com/live/playlist2/index.m3u8
-#EXTINF:-1 tvg-id="AlBawadi.kw" tvg-logo="https://ewsat.com/img/AL_BAWADI.png" group-title="Undefined",Al-Bawadi (360p)
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Al-Bawadi (360p)
 https://gulfsat.cdn.easybroadcast.fr/live/Al-Bawadi_abr/playlist.m3u8
 #EXTINF:-1 tvg-id="AlEtejah.iq" tvg-logo="https://i.imgur.com/jFKKRjP.png" group-title="News",Al-Etejah (576p) [Not 24/7]
 http://streaming.aletejahtv.iq:1935/etejah-newLive/smil:etejahNew.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="AlJawadainTV.iq" tvg-logo="https://i.imgur.com/tLekUZU.png" group-title="Religious",Al-Jawadain TV (1080p) [Not 24/7]
-https://live.aljawadain.org/live/aljawadaintv/playlist.m3u8
 #EXTINF:-1 tvg-id="AlShahedTVHD.kw" tvg-logo="https://i.imgur.com/y7fjROb.png" group-title="Undefined",Al-Shahed (720p) [Not 24/7]
 https://gulfsat.cdn.easybroadcast.fr/abr_live/Al-Shahed/playlist.m3u8
 #EXTINF:-1 tvg-id="AlZahraTVTurkic.tr" tvg-logo="https://i.ibb.co/1LGHMzQ/lwkowCS.png" group-title="Undefined",Al-Zahra TV Turkic (720p) [Not 24/7]
@@ -186,8 +184,6 @@ https://anbsat.ddns.net/anb/live/ANB/playlist.m3u8
 https://5aafcc5de91f1.streamlock.net/atfal1.com/atfal2/playlist.m3u8
 #EXTINF:-1 tvg-id="ATV.kw" tvg-logo="https://i.imgur.com/d4u6bSp.png" group-title="Undefined",ATV (360p) [Not 24/7]
 https://gulfsat.cdn.easybroadcast.fr/live/Aladalah_abr/playlist.m3u8
-#EXTINF:-1 tvg-id="ATVAlanya.tr" tvg-logo="https://i.imgur.com/Jo6DJUe.png" group-title="Undefined",ATV Alanya (720p) [Not 24/7]
-http://stream2.taksimbilisim.com:1935/alanyatv/alanyatv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ATVSat.eg" tvg-logo="https://i.imgur.com/14EjTS3.png" group-title="Undefined",ATVSat (1080p) [Not 24/7]
 https://stream.atvsat.com/atvsatlive/smil:atvsatlive.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Audeh.ps" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/71/Nothing_whitespace_blank.png" group-title="Undefined",Audeh (480p)
@@ -210,6 +206,8 @@ https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8
 https://5c7b683162943.streamlock.net/live/ngrp:bahrainsportstwo_all/playlist.m3u8
 #EXTINF:-1 tvg-id="BayyinatTV.iq" tvg-logo="https://www.lyngsat.com/logo/tv/bb/baeynat_satellite_channel_iq.png" group-title="Undefined",Bayyinat TV
 https://nl2.livekadeh.com/hls2/Bayyinat.m3u8
+#EXTINF:-1 tvg-id="BelqeesTV.ye" tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/f4/Belqees_TV_log.png" group-title="Undefined",Belqees TV (1080p)
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCxA_zZwALQMmVMSZyLKC-Nw/live
 #EXTINF:-1 tvg-id="BenguturkTV.tr" tvg-logo="https://i.imgur.com/HwyLlTz.png" group-title="Undefined",BENGÜTÜRK TV (720p) [Not 24/7]
 https://tv.ensonhaber.com/tv/tr/benguturk/index.m3u8
 #EXTINF:-1 tvg-id="BeratTV.tr" tvg-logo="https://www.lyngsat.com/logo/tv/bb/berat-tv-tr.png" group-title="Undefined",Berat TV (720p) [Not 24/7]
@@ -328,8 +326,6 @@ https://waw2.artiyerelmedya.net/ertv/bant1/playlist.m3u8
 http://win20.yayin.com.tr/ertsahtv/ertsahtv/playlist.m3u8
 #EXTINF:-1 tvg-id="ErzurumWebTV.tr" tvg-logo="https://i.imgur.com/HF7N4Li.png" group-title="Undefined",Erzurum Web TV (720p)
 https://win29.yayin.com.tr/erzurumwebtv/erzurumwebtv/playlist.m3u8
-#EXTINF:-1 tvg-id="ETVManisa.tr" tvg-logo="https://i.ibb.co/QKXtdkz/sOd3INg.png" group-title="Undefined",ETV Manisa (1080p) [Not 24/7]
-https://broadcasttr.com:446/manisaetv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="ExtraNews.eg" tvg-logo="https://i.imgur.com/wVpTbzu.png" group-title="News",eXtra News (720p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UC65F33K2cXk9hGDbOQYhTOw/live
 #EXTINF:-1 tvg-id="FajerTV2.ps" tvg-logo="https://i.imgur.com/H8SaZXN.png" group-title="General",Fajer 2 TV (720p)
@@ -415,8 +411,6 @@ https://live.pars-israel.com/iptv/stream.m3u8
 http://51.210.199.31/hls/stream.m3u8
 #EXTINF:-1 tvg-id="JahanbinTV.ir" tvg-logo="https://www.lyngsat.com/logo/tv/jj/jahanbin_tv.png" group-title="Undefined",JAHANBIN (240p)
 http://cdn1.live.irib.ir:1935/epg-live/smil:jahanbin/playlist.m3u8
-#EXTINF:-1 tvg-id="JawharaFM.jo" tvg-logo="https://www.jawharafm.net/ar/static/fr/image/png/logo-jfm.png" group-title="Music",Jawhara FM (720p) [Not 24/7]
-http://streaming.toutech.net:1935/live/mp4:jawharafm.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="JeddahRadio.sa" tvg-logo="https://aloula.faulio.com/storage/mediagallery/81/4a/small_eccd6d8fce2cc3f33ac026e448cc675832522de4.png" group-title="Undefined",Jeddah Radio (720p)
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.aloula.sa/live/jeddahradio
 #EXTINF:-1 tvg-id="JordanTV.jo" tvg-logo="https://static.jrtv.gov.jo/resize-width/380/content/x/Mp/1/Poster.png" group-title="General",Jordan Satellite Channel
@@ -781,6 +775,8 @@ https://svs.itworkscdn.net/smc4sportslive/smc4.smil/playlist.m3u8
 https://svs.itworkscdn.net/smc1live/smc1.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ShowTV.tr" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/4/4b/Show_TV.svg/512px-Show_TV.svg.png" group-title="Undefined",Show TV (720p) [Not 24/7]
 https://tv.ensonhaber.com/tv/tr/showtv/index.m3u8
+#EXTINF:-1 tvg-id="SigmaTV.cy" tvg-logo="https://upload.wikimedia.org/wikipedia/en/5/55/Sigma_TV_Logo.png" group-title="Undefined",Sigma (576p) [Not 24/7]
+https://sl2.sigmatv.com/hls/live.m3u8
 #EXTINF:-1 tvg-id="SinopYildizTV.tr" tvg-logo="https://i.imgur.com/qk102lK.png" group-title="Undefined",Sinop Yildiz TV (360p)
 https://s01.vpis.io/sinopyildiz/sinopyildiz.m3u8
 #EXTINF:-1 tvg-id="SL1.ir" tvg-logo="https://i.imgur.com/n9cuM2W.jpg" group-title="Movies",SL 1 (720p)
@@ -856,6 +852,8 @@ https://59cba4d34b678.streamlock.net/canlitv/topraktv/playlist.m3u8
 https://59cba4d34b678.streamlock.net/canlitv/torbatv/playlist.m3u8
 #EXTINF:-1 tvg-id="TowheedTV.ae" tvg-logo="https://i.imgur.com/nsxrqta.jpg" group-title="Religious",Towheed TV (720p) [Not 24/7]
 http://avrstream.com:1935/live/towheedtv/playlist.m3u8
+#EXTINF:-1 tvg-id="ToyorAlJannah.jo" tvg-logo="https://i.imgur.com/rlC0Stt.png" group-title="Music",Toyor Al-Jannah (720p) [Not 24/7]
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/user/toyorlive/live
 #EXTINF:-1 tvg-id="TRT1.tr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/TRT_1_logo_%282021-%29.svg/512px-TRT_1_logo_%282021-%29.svg.png" group-title="Undefined",TRT 1 (720p) [Geo-blocked]
 https://tv-trt1.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TRT2.tr" tvg-logo="https://i.imgur.com/h9Q88CW.png" group-title="Undefined",TRT 2 [Geo-blocked]
