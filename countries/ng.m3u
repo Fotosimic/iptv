@@ -8,7 +8,7 @@ http://africatv.live.net.sa:1935/live/africatv2/playlist.m3u8
 #EXTINF:-1 tvg-id="AfricaTV3.ng" tvg-logo="https://i.imgur.com/dzIFvwM.png" group-title="Undefined",Africa TV3 (720p) [Not 24/7]
 http://africatv.live.net.sa:1935/live/africatv3/playlist.m3u8
 #EXTINF:-1 tvg-id="AlJazeeraEnglish.qa" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Aljazeera_eng.svg/512px-Aljazeera_eng.svg.png" group-title="News",Al Jazeera English (1080p)
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/aljazeeraenglish/live
+https://live-hls-v3-aje.getaj.net/AJE-V3/index.m3u8
 #EXTINF:-1 tvg-id="BabyTV.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png" group-title="Kids",BabyTV (1080p)
 http://194.163.179.246/slovenci/djeciji/babytv.m3u8
 #EXTINF:-1 tvg-id="BahrainInternational.bh" tvg-logo="https://www.lyngsat.com/logo/tv/bb/bahrain_tv_international.png" group-title="Undefined",Bahrain International (720p) [Not 24/7]
@@ -43,22 +43,20 @@ http://wpso.com:1936/hls/wzra.m3u8
 https://multimedia.eitb.eus/live-content/eitbbasque-hls/master.m3u8
 #EXTINF:-1 tvg-id="EuroIndieMusicChartTV.it" tvg-logo="https://i.imgur.com/UDFBYpN.png" group-title="Music",Euro Indie Music Chart TV (360p)
 http://178.33.224.197:1935/euroindiemusic/euroindiemusic/playlist.m3u8
-#EXTINF:-1 tvg-id="EuronewsSpanish.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews en Español (720p) [Not 24/7]
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/user/euronewses/live
 #EXTINF:-1 tvg-id="EuronewsGerman.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews German
 https://euronews.alteox.app/hls/de_stream.m3u8
 #EXTINF:-1 tvg-id="EuronewsHungarian.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews Hungary (720p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/euronewsHungarian/live
-#EXTINF:-1 tvg-id="EuronewsItalian.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews Italian
-https://euronews.alteox.app/hls/it_stream.m3u8
+#EXTINF:-1 tvg-id="EuronewsItalian.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews Italiano (720p)
+https://rakuten-euronews-3-it.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="EuronewsPortuguese.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews Portuguese
 https://euronews.alteox.app/hls/pt_stream.m3u8
-#EXTINF:-1 tvg-id="EuronewsRussian.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews по-русски (720p)
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCFzJjgVicCtFxJ5B0P_ei8A/live
+#EXTINF:-1 tvg-id="EuronewsRussian.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews Russian
+https://euronews.alteox.app/hls/ru_stream.m3u8
+#EXTINF:-1 tvg-id="EuronewsSpanish.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews Spanish
+https://euronews.alteox.app/hls/es_stream.m3u8
 #EXTINF:-1 tvg-id="France24English.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8a/France24.png" group-title="News",France 24 English (1080p)
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/FRANCE24English/live
-#EXTINF:-1 tvg-id="GalaxyTV.ng" tvg-logo="https://rndcdn.dstv.com/dstvcms/2018/07/03/GalaxyTV_logo_4-3_new_large_001_xlrg.png" group-title="Undefined",Galaxy TV (576p)
-https://5d846bfda90fc.streamlock.net:1935/live/galaxytv/playlist.m3u8
 #EXTINF:-1 tvg-id="InsightTV.nl" tvg-logo="https://i.imgur.com/7xmaoL0.png" group-title="Sports",Insight TV (1080p)
 https://insighttv-vizio.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="KBSWorld.kr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/KBS_World_%282009%29.svg/512px-KBS_World_%282009%29.svg.png" group-title="General",KBS World (720p)
@@ -117,6 +115,8 @@ http://online.tvm.co.mz:1935/live/smil:Channel2.smil/playlist.m3u8
 https://cdnapi.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_gb6tjmle/protocol/https/format/applehttp/a.m3u8
 #EXTINF:-1 tvg-id="WapTV.ng" tvg-logo="https://rndcdn.dstv.com/dstvcms/2016/10/20/WapTV_new4-4logo_xlrg.png" group-title="Undefined",Wap TV (720p)
 https://newproxy3.vidivu.tv/waptv/index.m3u8
+#EXTINF:-1 tvg-id="WazobiaMaxTVAbuja.ng" tvg-logo="https://rndcdn.dstv.com/dstvcms/2016/10/20/WazobiaMaz_new4-4logo_001_xlrg.png" group-title="Undefined",Wazobia Max TV Abuja (720p)
+https://wazobia.live:8333/channel/wmaxabuja.m3u8
 #EXTINF:-1 tvg-id="WazobiaMaxTVNigeria.ng" tvg-logo="https://rndcdn.dstv.com/dstvcms/2016/10/20/WazobiaMaz_new4-4logo_001_xlrg.png" group-title="Undefined",Wazobia Max TV Nigeria (720p)
 https://wazobia.live:8333/channel/wmax.m3u8
 #EXTINF:-1 tvg-id="WazobiaMaxTVPortHarcourt.ng" tvg-logo="https://rndcdn.dstv.com/dstvcms/2016/10/20/WazobiaMaz_new4-4logo_001_xlrg.png" group-title="Undefined",Wazobia Max TV Port Harcourt (720p)
