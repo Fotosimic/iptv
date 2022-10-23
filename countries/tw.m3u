@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/ao/guide.dstv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/bf/canalplus-afrique.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/bo/comteco.com.bo.epg.xml.gz,https://iptv-org.github.io/epg/guides/cz/m.tv.sms.cz.epg.xml.gz,https://iptv-org.github.io/epg/guides/dk/allente.se.epg.xml.gz,https://iptv-org.github.io/epg/guides/fr/chaines-tv.orange.fr.epg.xml.gz,https://iptv-org.github.io/epg/guides/gr/cosmote.gr.epg.xml.gz,https://iptv-org.github.io/epg/guides/hk-en/nowplayer.now.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/id-en/mncvision.id.epg.xml.gz,https://iptv-org.github.io/epg/guides/it/guidatv.sky.it.epg.xml.gz,https://iptv-org.github.io/epg/guides/lt/cgates.lt.epg.xml.gz,https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml.gz,https://iptv-org.github.io/epg/guides/ng/dstv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/nl/delta.nl.epg.xml.gz,https://iptv-org.github.io/epg/guides/ph/mysky.com.ph.epg.xml.gz,https://iptv-org.github.io/epg/guides/sg/starhubtvplus.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/tr/digiturk.com.tr.epg.xml.gz,https://iptv-org.github.io/epg/guides/uk/bt.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/us-pluto/i.mjh.nz.epg.xml.gz,https://iptv-org.github.io/epg/guides/za/guide.dstv.com.epg.xml.gz"
 #EXTINF:-1 tvg-id="AlJazeeraEnglish.qa" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Aljazeera_eng.svg/512px-Aljazeera_eng.svg.png" group-title="News",Al Jazeera English (1080p)
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/aljazeeraenglish/live
+https://live-hls-v3-aje.getaj.net/AJE-V3/index.m3u8
 #EXTINF:-1 tvg-id="AsiaTravel.tw" tvg-logo="https://www.lyngsat.com/logo/tv/aa/asia_travel_tv.png" group-title="Travel",Asia Travel (720p)
 http://50.7.220.74:8278/asiatravel_twn/playlist.m3u8?ct=19225&tid=MF2F4967516549675165&tsum=3b56404a8f861c7fef6ac79a798e4a8c
 #EXTINF:-1 tvg-id="BabyTV.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png" group-title="Kids",BabyTV (1080p)
@@ -22,29 +22,60 @@ https://bloomberg.com/media-manifest/streams/asia.m3u8
 https://bloomberg.com/media-manifest/streams/asia-event.m3u8
 #EXTINF:-1 tvg-id="BTVWorld.bd" tvg-logo="https://i.imgur.com/1Chamk9.png" group-title="General",BTV World (720p) [Not 24/7]
 https://cdn.appv.jagobd.com:444/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/btvbd-office-sg.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="CartoonNetworkTaiwan.tw" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png" group-title="Kids",Cartoon Network Taiwan (CN卡通频道) (720p)
+http://50.7.220.74:8278/momo1_twn/playlist.m3u8?ct=19225&tid=MA0A4898983648989836&tsum=bd109117d126916f203880b1f2063d5e
+#EXTINF:-1 tvg-id="CelestialMovies.hk" tvg-logo="https://i.imgur.com/KYP1xXZ.png" group-title="Movies",Celestial Movies (Indonesian Subtitle) (576p)
+http://210.210.155.37/dr9445/h/h14/index.m3u8
 #EXTINF:-1 tvg-id="CGTN.cn" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/512px-CGTN.svg.png" group-title="News",CGTN (576p)
 https://news.cgtn.com/resource/live/english/cgtn-news.m3u8
 #EXTINF:-1 tvg-id="CGTNDocumentary.cn" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d6/CGTN_Documentary_logo.png" group-title="Documentary",CGTN Documentary (576p)
 http://39.135.138.59:18890/PLTV/88888910/224/3221225645/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Cinemax Taiwan (720p)
+http://50.7.220.74:8278/cinemax_twn/playlist.m3u8?ct=17874&tid=mf18038aaba6311485855&tsum=63ee6bcdb705ee72ea3d0f0d84ed6df1
 #EXTINF:-1 tvg-id="ClassicArtsShowcase.us" tvg-logo="https://i.imgur.com/M6FFkc3.png" group-title="Classic",Classic Arts Showcase
 https://classicarts.akamaized.net/hls/live/1024257/CAS/master.m3u8
 #EXTINF:-1 tvg-id="CNAInternational.sg" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/CNA_new_logo.svg/512px-CNA_new_logo.svg.png" group-title="News",CNA International (1080p)
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
-#EXTINF:-1 tvg-id="CartoonNetworkTaiwan.tw" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png" group-title="Kids",CN卡通频道 (720p)
-http://50.7.220.74:8278/momo1_twn/playlist.m3u8?ct=19225&tid=MA0A4898983648989836&tsum=bd109117d126916f203880b1f2063d5e
-#EXTINF:-1 tvg-id="CTiNews.tw" tvg-logo="https://i.imgur.com/3bzjW0l.png" group-title="News",CTi News
+#EXTINF:-1 tvg-id="CTiEntertainment.tw" tvg-logo="https://i.imgur.com/bIQ3STm.png" group-title="Entertainment",CTi Entertainment (中天娛樂台) (720p)
+http://50.7.220.74:8278/ctient/playlist.m3u8?ct=17874&tid=m6780c60bd34a13540795&tsum=06089e289a460b0685447b7656d550e3
+#EXTINF:-1 tvg-id="CTiNews.tw" tvg-logo="https://i.imgur.com/3bzjW0l.png" group-title="News",CTi News (中天新聞台)
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/ctitv/live
-#EXTINF:-1 tvg-id="CTVNewsChannel.tw" tvg-logo="https://i.imgur.com/OMuG8u9.png" group-title="News",CTV News Channel
+#EXTINF:-1 tvg-id="CTiVariety.tw" tvg-logo="https://i.imgur.com/AbUMkqo.png" group-title="General",CTi Variety (中天綜合台) (720p)
+http://23.237.10.66:16372
+#EXTINF:-1 tvg-id="CTS.tw" tvg-logo="https://i.imgur.com/ISl9WsI.png" group-title="Undefined",CTS HD (華視) (720p)
+http://50.7.220.74:8278/ctshd_twn/playlist.m3u8?ct=19226&tid=MAFA1309481213094812&tsum=429f7c40691cdcc6c1fb108dbd11e002
+#EXTINF:-1 tvg-id="CTSNews.tw" tvg-logo="https://piceltaott-elta.cdn.hinet.net/upload/channel/910.png" group-title="News",CTS News (華視新聞資訊) [Geo-blocked]
+http://seb.sason.top/sc/hsxw_fhd.m3u8
+#EXTINF:-1 tvg-id="CTV.tw" tvg-logo="https://www.lyngsat.com/logo/tv/cc/ctv_tw.png" group-title="Undefined",CTV (CTV中視) (720p)
+http://50.7.220.74:8278/zhongshihd_twn/playlist.m3u8?ct=19226&tid=MB8B7313326473133264&tsum=ae7506028e559f3a6e2a3519b2f6a91e
+#EXTINF:-1 tvg-id="CTVClassic.tw" tvg-logo="https://www.lyngsat.com/logo/tv/cc/ctv_tw_classic.png" group-title="Classic",CTV Classic (中視經典台) (720p)
+http://50.7.220.74:8278/zhongshi_twn/playlist.m3u8?ct=18335&tid=mffe9aaf8765f&tsum=bcdd7a2ce4a5498b1449cb26a01150c0
+#EXTINF:-1 tvg-id="CTVNewsChannel.tw" tvg-logo="https://i.imgur.com/OMuG8u9.png" group-title="News",CTV News Channel (中视新闻台)
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/twctvnews/live
-#EXTINF:-1 tvg-id="DreamWorksChannelAsia.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/DreamWorks_Channel_Logo.svg/512px-DreamWorks_Channel_Logo.svg.png" group-title="Animation" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36",Dreamworks Channel Asia (Vietnamese dub) (1080p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
-https://livecdn.fptplay.net/hda3/dreamworks_vhls.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="DaAi1.tw" tvg-logo="https://i.imgur.com/KdJi9af.png" group-title="General",DaAi1 (大愛1) (720p)
+http://50.7.220.74:8278/daai_twn/playlist.m3u8?ct=19225&tid=MF5F4357730143577301&tsum=10c092424b1c12259444b68ad663c9eb
+#EXTINF:-1 tvg-id="DaAi2.tw" tvg-logo="https://i.imgur.com/KdJi9af.png" group-title="General",DaAi2 (大愛2) (720p)
+https://pulltv2.wanfudaluye.com/live/tv2.m3u8
+#EXTINF:-1 tvg-id="DaliTV.tw" tvg-logo="https://i.imgur.com/IjQnyO1.png" group-title="General",DaLi TV (大立電視台) (720p)
+http://www.dalitv.com.tw:4568/live/dali/index.m3u8
+#EXTINF:-1 tvg-id="DreamWorksChannelAsia.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/DreamWorks_Channel_Logo.svg/512px-DreamWorks_Channel_Logo.svg.png" group-title="Animation",DreamWorks (1080p)
+https://kr-streams.onrender.com/scraper?channel=451
 #EXTINF:-1 tvg-id="DWEnglish.de" tvg-logo="https://i.imgur.com/A1xzjOI.png" group-title="News",DW English (1080p)
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
-#EXTINF:-1 tvg-id="EBCForeignMovie.tw" tvg-logo="https://www.lyngsat.com/logo/tv/ee/ebc-foreign-movie-tw.png" group-title="Movies",EBC Foreign Movie (720p)
+#EXTINF:-1 tvg-id="EBCFinancialNews.tw" tvg-logo="https://img-fnc.ebc.net.tw/EbcFnc/logoes/pc_logo.png" group-title="News",EBC Financial News (東森財經新聞台) (1080p) [Not 24/7]
+http://seb.sason.top/sc/dscjxw_fhd.m3u8
+#EXTINF:-1 tvg-id="EBCForeignMovie.tw" tvg-logo="https://www.lyngsat.com/logo/tv/ee/ebc-foreign-movie-tw.png" group-title="Movies",EBC Foreign Movie (東森洋片台) (720p)
 http://50.7.220.74:8278/ettvwestern/playlist.m3u8?ct=17874&tid=mfdfc048e6c2416337202&tsum=cad39b26202d525ea820bee1d69e545f
-#EXTINF:-1 tvg-id="EBCMovie.tw" tvg-logo="https://www.lyngsat.com/logo/tv/ee/ebc-movie-tw.png" group-title="Movies",EBC Movie (720p)
+#EXTINF:-1 tvg-id="EBCMovie.tw" tvg-logo="https://www.lyngsat.com/logo/tv/ee/ebc-movie-tw.png" group-title="Movies",EBC Movie (東森電影台) (720p)
 http://50.7.220.74:8278/ettvmovie/playlist.m3u8?ct=19225&tid=MDED1943740419437404&tsum=120834a4218c4b5c3bb19efb8116f859
+#EXTINF:-1 tvg-id="EBCNews.tw" tvg-logo="https://i.imgur.com/obtCusJ.jpg" group-title="News",EBC News (東森新聞台) (1080p) [Not 24/7]
+http://seb.sason.top/sc/dsxw_fhd.m3u8
+#EXTINF:-1 tvg-id="EBCVariety.tw" tvg-logo="https://www.lyngsat.com/logo/tv/ee/ebc-variety-tw.png" group-title="Undefined",EBC Variety (東森綜合台) (720p)
+http://50.7.220.74:8278/ettvzhonghe/playlist.m3u8?ct=17874&tid=m65c4e525f24617101171&tsum=663db593cfeefc92ce4b5d7461988f3f
+#EXTINF:-1 tvg-id="EBCYoyo.tw" tvg-logo="https://i.imgur.com/sPApbGZ.png" group-title="Undefined",EBC Yoyo (東森幼幼台) (720p)
+http://50.7.220.74:8278/yoyo_twn/playlist.m3u8?ct=17874&tid=m84c9b210bc7f11269156&tsum=51340c8fb7ca02ab978ee0791843501d
+#EXTINF:-1 tvg-id="EraNews.tw" tvg-logo="https://i.imgur.com/DyQaf51.png" group-title="News",Era News (年代新聞台) (720p)
+http://50.7.220.74:8278/niandainews_twn/playlist.m3u8?ct=19226&tid=MA6A4647720946477209&tsum=48a66838dbcf633b2fb41307b29ef50a
 #EXTINF:-1 tvg-id="ERTWorld.gr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/ChannelLogo-ERTWORLD1.png/512px-ChannelLogo-ERTWORLD1.png" group-title="Undefined",ERT World (480p)
 http://wpso.com:1936/hls/wzra.m3u8
 #EXTINF:-1 tvg-id="ETBBasque.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/ETB_Basque_2022_logo.svg/512px-ETB_Basque_2022_logo.svg.png" group-title="Undefined",ETB Basque (480p)
@@ -53,8 +84,6 @@ https://multimedia.eitb.eus/live-content/eitbbasque-hls/master.m3u8
 http://50.7.220.74:8278/ettvnews/playlist.m3u8?ct=19225&tid=MAEA2793211727932117&tsum=151345e2ab6bc0c89ac85598f1988cd3
 #EXTINF:-1 tvg-id="EuroIndieMusicChartTV.it" tvg-logo="https://i.imgur.com/UDFBYpN.png" group-title="Music",Euro Indie Music Chart TV (360p)
 http://178.33.224.197:1935/euroindiemusic/euroindiemusic/playlist.m3u8
-#EXTINF:-1 tvg-id="EuronewsSpanish.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews en Español (720p) [Not 24/7]
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/user/euronewses/live
 #EXTINF:-1 tvg-id="EuronewsGerman.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews German
 https://euronews.alteox.app/hls/de_stream.m3u8
 #EXTINF:-1 tvg-id="EuronewsHungarian.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews Hungary (720p) [Not 24/7]
@@ -63,13 +92,23 @@ http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/euron
 https://euronews.alteox.app/hls/it_stream.m3u8
 #EXTINF:-1 tvg-id="EuronewsPortuguese.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews Portuguese
 https://euronews.alteox.app/hls/pt_stream.m3u8
-#EXTINF:-1 tvg-id="EuronewsRussian.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews по-русски (720p)
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCFzJjgVicCtFxJ5B0P_ei8A/live
+#EXTINF:-1 tvg-id="EuronewsRussian.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews Russian
+https://euronews.alteox.app/hls/ru_stream.m3u8
+#EXTINF:-1 tvg-id="EuronewsSpanish.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews Spanish
+https://euronews.alteox.app/hls/es_stream.m3u8
 #EXTINF:-1 tvg-id="France24English.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8a/France24.png" group-title="News",France 24 English (1080p)
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/FRANCE24English/live
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",GOOD TV CH1 綜合台 (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="FTV.tw" tvg-logo="https://www.ftv.com.tw/images/Ch_01.png" group-title="General",FTV (民視) (720p)
+http://50.7.220.74:8278/ftvhd_taiwan/playlist.m3u8?ct=18335&tid=m15b424641a89&tsum=ba82cdbfb8253c45a13df5354e6d0dbc
+#EXTINF:-1 tvg-id="FTVNews.tw" tvg-logo="https://i.imgur.com/6jbjVNy.png" group-title="News",FTV News (民視新聞台)
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/FTVCP/live
+#EXTINF:-1 tvg-id="FTVOne.tw" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ad/FTV_One.png" group-title="General",FTV One (民視第一台) (720p) [Not 24/7]
+http://seb.sason.top/ptv/ftv.php?id=dy
+#EXTINF:-1 tvg-id="FTVTaiwan.tw" tvg-logo="https://www.ftv.com.tw/images/Ch_03.png" group-title="News",FTV Taiwan (民視台灣台) (720p) [Not 24/7]
+http://seb.sason.top/ptv/ftv.php?id=tw
+#EXTINF:-1 tvg-id="GoodTV.tw" tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/ea/Good_tv_logo.png" group-title="Undefined",GOOD TV CH1 綜合台 (720p) [Not 24/7]
 https://live.streamingfast.net/osmflivech1.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",GOOD TV CH2 真理台 (720p)
+#EXTINF:-1 tvg-id="Good2.tw" tvg-logo="https://www.lyngsat.com/logo/tv/gg/good_tv2.png" group-title="Undefined",GOOD TV CH2 真理台 (720p)
 https://live.streamingfast.net/osmflivech2.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",GOOD TV CH3 真情部落格 短版 (720p)
 https://live.streamingfast.net/osmflivech3.m3u8
@@ -125,34 +164,50 @@ https://live.streamingfast.net/osmflivech47.m3u8
 https://live.streamingfast.net/osmflivech49.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",GOOD TV CH50 國際講員 中文發音 (720p) [Not 24/7]
 https://live.streamingfast.net/osmflivech50.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Great Wall Elite (720p)
+http://50.7.220.74:8278/chcfamily/playlist.m3u8?ct=18393&tid=ME7E3282776332827763&tsum=c098f25f9c140478d2a814b22a7ccbd3
 #EXTINF:-1 tvg-id="GorgeousSpaceTV.tw" tvg-logo="https://i.imgur.com/g9FKTkv.png" group-title="Lifestyle",GSTV Gorgeous Space TV (1080p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCoo-jAsJgM8z09ddlhcBlSA/live
+#EXTINF:-1 tvg-id="GTV1.tw" tvg-logo="https://www.lyngsat.com/logo/tv/gg/gala_tv_tw_variety.png" group-title="Undefined",GTV1 (八大第1台) (720p)
+http://50.7.220.74:8278/badafirst/playlist.m3u8?ct=17874&tid=mb8efded78b4e12042621&tsum=028ad819cd9a0f949a043d652fa3e164
+#EXTINF:-1 tvg-id="GTVDrama.tw" tvg-logo="https://www.lyngsat.com/logo/tv/gg/gala_tv_tw_drama.png" group-title="Series",GTV Drama (八大戏剧台) (720p)
+http://50.7.220.74:8278/badadrama/playlist.m3u8?ct=19225&tid=ME4E4734124647341246&tsum=c4e596572a79ad99675ee2137d1cc43d
+#EXTINF:-1 tvg-id="GTVEntertainment.tw" tvg-logo="https://www.lyngsat.com/logo/tv/gg/gala_tv_tw_entertainment.png" group-title="Entertainment",GTV Entertainment (八大综合台) (720p)
+http://50.7.220.74:8278/badazhonghe/playlist.m3u8?ct=19225&tid=MC7C4692263546922635&tsum=ffdc7a6397b511103e0df0b92e678790
 #EXTINF:-1 tvg-id="HollywoodMovieChannel.tw" tvg-logo="https://www.lyngsat.com/logo/tv/hh/hollywood_movie_channel.png" group-title="Movies",Hollywood (720p)
 http://50.7.220.74:8278/hollywoodmovies_twn/playlist.m3u8?ct=19225&tid=MECE5611281156112811&tsum=ad8884ee16b04f885f24bae98fc5fb9f
 #EXTINF:-1 tvg-id="IndigenousTV.tw" tvg-logo="https://i.imgur.com/RuAYuSM.png" group-title="Undefined",Indigenous TV (720p)
 http://streamipcf.akamaized.net/live/_definst_/smil:liveabr.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="InsightTV.nl" tvg-logo="https://i.imgur.com/7xmaoL0.png" group-title="Sports",Insight TV (1080p)
 https://insighttv-vizio.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="JETTV.tw" tvg-logo="https://i.imgur.com/j8aghTe.png" group-title="Undefined",JET綜合台 (720p)
+#EXTINF:-1 tvg-id="JETTV.tw" tvg-logo="https://i.imgur.com/j8aghTe.png" group-title="Undefined",JET TV (JET綜合台) (720p)
 http://50.7.220.74:8278/jettv_japan/playlist.m3u8?ct=19225&tid=MA7A4202687942026879&tsum=e84bc4851b9d6f6a18282c1efcb6ed1d
 #EXTINF:-1 tvg-id="Kanal10Asia.se" tvg-logo="https://i.imgur.com/RQXBwlz.png" group-title="Religious",Kanal 10 Asia (540p)
 http://cdn-kanal10.crossnet.net:1935/kanal10/kanal10asia/playlist.m3u8
 #EXTINF:-1 tvg-id="KBSWorld.kr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/KBS_World_%282009%29.svg/512px-KBS_World_%282009%29.svg.png" group-title="General",KBS World (720p)
 https://kbsworld-ott.akamaized.net/hls/live/2002341/kbsworld/master.m3u8
+#EXTINF:-1 tvg-id="LSTimeMovie.tw" tvg-logo="https://www.lyngsat.com/logo/tv/ll/ls_time_movie.png" group-title="Movies",LS Time Movie (720p)
+http://50.7.220.74:8278/cb7a1fec69/playlist.m3u8?ct=18335&tid=md05ab4002297&tsum=ebe4254ee0e073c2d3c9789e679c00a5
 #EXTINF:-1 tvg-id="MetroGlobeNetwork.id" tvg-logo="https://i.imgur.com/NTCI3lf.png" group-title="Culture",Metro Globe Network (1080p) [Not 24/7]
 https://edge.medcom.id/live-edge/smil:mgnch.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="MNBWorld.mn" tvg-logo="https://www.lyngsat.com/logo/tv/mm/mnb-world-mn.png" group-title="Undefined",MNB world
 https://live.mnb.mn/live/mnb_world.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",MNews (鏡電視新聞台)
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UC4LjkybVKXCDlneVXlKAbmw/live
 #EXTINF:-1 tvg-id="MyanmarInternationalTV.mm" tvg-logo="https://www.lyngsat.com/logo/tv/mm/myanmar-international-tv-mm.png" group-title="Undefined",Myanmar International TV (mitv) (480p)
 https://5a13fe32ef748.streamlock.net/mmplay/mitv/playlist.m3u8
 #EXTINF:-1 tvg-id="NASATV.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/NASA_TV.svg/512px-NASA_TV.svg.png" group-title="Science",NASA TV (720p)
 https://uplynkcontent.sinclairstoryline.com/channel/ddd76fdc1c0a456ba537e4f48e827d3e.m3u8
+#EXTINF:-1 tvg-id="NationalGeographicHDTaiwan.tw" tvg-logo="https://i.imgur.com/CRExAD5.png" group-title="Documentary",National Geographic HD (720p)
+http://50.7.220.74:8278/natgeohd_twn/playlist.m3u8?ct=17874&tid=ma1f0b9808d5014467661&tsum=73dfb91284f5b1358251546e6f03da3d
 #EXTINF:-1 tvg-id="NBTWorld.th" tvg-logo="https://i.imgur.com/GCcmL8E.png" group-title="Undefined",NBT World
 https://thainews.prd.go.th/lv/live/ch1_L_L.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="NHKWorldJapan.jp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/NHK_World-Japan_TV.svg/512px-NHK_World-Japan_TV.svg.png" group-title="Culture;News",NHK World Japan (YouTube) (1080p)
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCSPEjw8F2nQDtmUKPFNF7_A/live
+#EXTINF:-1 tvg-id="NHKWorldJapan.jp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/NHK_World-Japan_TV.svg/512px-NHK_World-Japan_TV.svg.png" group-title="Culture;News",NHK World Japan (1080p)
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
 #EXTINF:-1 tvg-id="EuronewsEnglish.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Pluto TV Euronews (720p) [Not 24/7]
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60d3583ef310610007fb02b1/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&serverSideAds=false&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+#EXTINF:-1 tvg-id="PTS.tw" tvg-logo="https://i.imgur.com/heENeBz.png" group-title="Undefined",PTS (公视) (720p)
+http://50.7.220.74:8278/ctv_taiwan/playlist.m3u8?ct=17990&tid=13765524&tsum=03eb77c1c186944b97737f14e95076c0
 #EXTINF:-1 tvg-id="PTVWorld.pk" tvg-logo="https://i.imgur.com/eeDFRgN.png" group-title="Undefined",PTV World (480p)
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCj-e7yp2_-qE-TPritppZGQ/live
 #EXTINF:-1 tvg-id="RedBullTV.at" tvg-logo="https://i.imgur.com/7NeBmWX.jpg" group-title="Sports",Red Bull TV (1080p)
@@ -162,74 +217,58 @@ http://uiptv.do.am/1ufc/300663722/playlist.m3u8
 #EXTINF:-1 tvg-id="RTPInternacional.pt" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/RTP_Internacional_2016_%28Reduced_Version%29.svg/512px-RTP_Internacional_2016_%28Reduced_Version%29.svg.png" group-title="General" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0",RTP Internacional (504p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0
 https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="RTPiAsia.pt" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/RTP_Internacional_2016_%28Reduced_Version%29.svg/512px-RTP_Internacional_2016_%28Reduced_Version%29.svg.png" group-title="General",RTP Internacional Asia (480p)
-http://210.210.155.37/qwr9ew/s/s38/index.m3u8
 #EXTINF:-1 tvg-id="SEAToday.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/SEA_Today_Indonesia_Logo.png/512px-SEA_Today_Indonesia_Logo.png" group-title="Undefined",Sea Today (720p) [Geo-blocked]
 https://cdn-telkomsel-01.akamaized.net/Content/DASH/Live/channel(9ce3f094-4044-467e-84b7-b684a49571d5)/manifest.mpd
-#EXTINF:-1 tvg-id="SETNews.tw" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/e/e1/SETN_logo.png" group-title="News",SET News (720p)
+#EXTINF:-1 tvg-id="SETNews.tw" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/e/e1/SETN_logo.png" group-title="News",SET News (三立新聞) (720p)
 http://50.7.220.74:8278/sanlixiju_twn/playlist.m3u8?ct=19226&tid=MBDB8405357084053570&tsum=78944c0951d21a699e46fff4318a3799
+#EXTINF:-1 tvg-id="SETTaiwan.tw" tvg-logo="https://www.lyngsat.com/logo/tv/ss/set_tv_taiwan.png" group-title="Undefined",SET Taiwan (三立臺灣台) (720p)
+http://50.7.220.74:8278/sanlitaiwan/playlist.m3u8?ct=17874&tid=m92ccadc4dc3718157816&tsum=3570a8198ca0fb7ebb803807e38b33fb
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",SET Variety (三立綜合台) (720p)
+http://50.7.220.74:8278/sanlizhonghe/playlist.m3u8?ct=17874&tid=m3362167a08a014596868&tsum=4472a7c943b67bf52fe5e836ca9f3b6b
 #EXTINF:-1 tvg-id="SKITV.ch" tvg-logo="https://i.imgur.com/idKogRi.png" group-title="Sports",Ski TV (1080p) [Not 24/7]
 https://d2xeo83q8fcni6.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/SkiTV-SynapseTV/193.m3u8
 #EXTINF:-1 tvg-id="SofyTV.ch" tvg-logo="https://i.imgur.com/Srxa6cR.png" group-title="Movies",Sofy TV (720p)
 https://sofy-ger-samsung.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Star Chinese Movies HD (星卫HD电影台) (720p)
+http://50.7.220.74:8278/xingwei_movie/playlist.m3u8?ct=17874&tid=ma80888ed462f18082236&tsum=2824e7b9d4ec19ce7b4f8f69d23d7ceb
 #EXTINF:-1 tvg-id="SupremeMasterTV.tw" tvg-logo="https://i.imgur.com/CiFGi8J.png" group-title="Undefined",Supreme Master TV (720p)
 https://lbs-us1.suprememastertv.com/720p.m3u8
+#EXTINF:-1 tvg-id="TaiwanIndigenousTV.tw" tvg-logo="https://www.lyngsat.com/logo/tv/tt/taiwan_indigenous_tv.png" group-title="General",Taiwan Indigenous TV (原住民電視) (720p)
+http://streamipcf.akamaized.net/live/_definst_/live_720/key_b1500.m3u8
 #EXTINF:-1 tvg-id="TaiwanPlusTV.tw" tvg-logo="https://i.imgur.com/SfcZyqm.png" group-title="Undefined",Taiwan Plus (1080p)
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UC7c6rvyAZLpKGk8ttVnpnLA/live
 #EXTINF:-1 tvg-id="TRTWorld.tr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TRT_World.svg/512px-TRT_World.svg.png" group-title="News",TRT World (720p) [Not 24/7]
 https://tv-trtworld.live.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="TTVNews.tw" tvg-logo="https://i.imgur.com/2XqmrM0.png" group-title="News",TTV News
+#EXTINF:-1 tvg-id="TTV.tw" tvg-logo="https://i.imgur.com/qGZtVd0.png" group-title="Undefined",TTV (台视) (720p)
+http://50.7.220.74:8278/ttv_taiwan/playlist.m3u8?ct=17874&tid=mdea1ba75c9e516139101&tsum=95f1742d36f959fe6e241587a4f8e970
+#EXTINF:-1 tvg-id="TTVNews.tw" tvg-logo="https://i.imgur.com/2XqmrM0.png" group-title="News",TTV News (台视新聞台)
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/ttvnewsview/live
 #EXTINF:-1 tvg-id="TV5MondeAsia.fr" tvg-logo="https://cms.dmpcdn.com/livetv/2022/01/18/ca2f0180-7814-11ec-8fd5-c549a9b471b9_webp_original.png" group-title="Undefined",TV5 Monde Asie (576p)
 http://210.210.155.37/dr9445/s/s24/index.m3u8
 #EXTINF:-1 tvg-id="TVBSAsia.tw" tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/e9/TVBS_Asia_logo_2017.png" group-title="Undefined",TVBS Asia (1080p)
 http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
+#EXTINF:-1 tvg-id="TVBSEntertainmentChannel.tw" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Tvbs-logo-42.png/512px-Tvbs-logo-42.png" group-title="Entertainment",TVBS Entertainment Channel (TVBS歡樂台) (720p)
+http://50.7.220.74:8278/tvbshuanle_twn/playlist.m3u8?ct=19193&tid=MC8C2318787923187879&tsum=394d2b9af3df7846e2cdc60d69dd4219
 #EXTINF:-1 tvg-id="TVBS.tw" tvg-logo="https://i.imgur.com/4RvCHWP.png" group-title="Undefined",TVBS HD (720p)
 http://50.7.220.74:8278/tvbs/playlist.m3u8?ct=19226&tid=MDED5111960351119603&tsum=49931e2d3885c468d56ffae2c2db9e6e
-#EXTINF:-1 tvg-id="TVBSNews.tw" tvg-logo="https://i.imgur.com/Hsop2If.png" group-title="News",TVBS News (720p)
-http://50.7.220.74:8278/tvbs_n/playlist.m3u8?ct=19226&tid=MEFE5283322452833224&tsum=5f4e9bb0782ab3aae36328763cba2ffd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",TVBS新聞 [Geo-blocked]
-http://seb.sason.top/sc/tvbsxw_fhd.m3u8
+#EXTINF:-1 tvg-id="TVBSNews.tw" tvg-logo="https://i.imgur.com/Hsop2If.png" group-title="News",TVBS News (TVBS新聞台)
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/TVBSNEWS01/live
 #EXTINF:-1 tvg-id="TVMInternacional.mz" tvg-logo="https://i.imgur.com/Ns3WrOQ.png" group-title="General",TVM Internacional (480p) [Not 24/7]
 http://online.tvm.co.mz:1935/live/smil:Channel2.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="UNWebTV.us" tvg-logo="https://i.imgur.com/lPyJhBN.png" group-title="News",UN Web TV (540p)
 https://cdnapi.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_gb6tjmle/protocol/https/format/applehttp/a.m3u8
+#EXTINF:-1 tvg-id="UniqueSatelliteTV.tw" tvg-logo="https://www.lyngsat.com/logo/tv/uu/unique-satellite-tv-tw.png" group-title="Undefined",Unique Satellite TV (非凡新聞台) (720p)
+http://50.7.220.74:8278/feifannews_twn/playlist.m3u8?ct=17874&tid=m050e7aad65f614336734&tsum=4ea1b829d195ac69a6c2ca51b21ae378
+#EXTINF:-1 tvg-id="VideolandMovie.tw" tvg-logo="https://www.lyngsat.com/logo/tv/vv/videoland_movie.png" group-title="Movies",Videoland Movie (緯來電影台) (720p)
+http://50.7.220.74:8278/videolandmovie/playlist.m3u8?ct=18335&tid=ma2dac66da407&tsum=9a5a39559f64a71081ef9b3a85f2886c
 #EXTINF:-1 tvg-id="VideolandSports.tw" tvg-logo="https://www.lyngsat.com/logo/tv/vv/videoland_sport.png" group-title="Sports",Videoland Sports (720p)
 http://50.7.220.74:8278/videolandsport/playlist.m3u8?ct=19226&tid=MA6A1192684511926845&tsum=0b7ca9a61e7371df68108a27dc358c68
 #EXTINF:-1 tvg-id="WorldFashionChannelInternational.ru" tvg-logo="https://i.imgur.com/D46u7eW.png" group-title="Lifestyle",World Fashion Channel International (1080p)
 https://wfcint.mediacdn.ru/cdn/wfcintweb/playlist.m3u8
 #EXTINF:-1 tvg-id="WorldPokerTour.us" tvg-logo="https://images.pluto.tv/channels/5f8ecfb9db6c180007a6d1b0/colorLogoPNG.png" group-title="Sports",World Poker Tour (1080p) [Not 24/7]
 https://d3w4n3hhseniak.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/WPT-DistroTV/150.m3u8
-#EXTINF:-1 tvg-id="GTVDrama.tw" tvg-logo="https://www.lyngsat.com/logo/tv/gg/gala_tv_tw_drama.png" group-title="Series",八大戏剧台 (720p)
-http://50.7.220.74:8278/badadrama/playlist.m3u8?ct=19225&tid=ME4E4734124647341246&tsum=c4e596572a79ad99675ee2137d1cc43d
-#EXTINF:-1 tvg-id="GTV1.tw" tvg-logo="https://www.lyngsat.com/logo/tv/gg/gala_tv_tw_variety.png" group-title="Undefined",八大第1台 (720p)
-http://50.7.220.74:8278/badafirst/playlist.m3u8?ct=17874&tid=mb8efded78b4e12042621&tsum=028ad819cd9a0f949a043d652fa3e164
-#EXTINF:-1 tvg-id="GTVEntertainment.tw" tvg-logo="https://www.lyngsat.com/logo/tv/gg/gala_tv_tw_entertainment.png" group-title="Entertainment",八大综合台 (720p)
-http://50.7.220.74:8278/badazhonghe/playlist.m3u8?ct=19225&tid=MC7C4692263546922635&tsum=ffdc7a6397b511103e0df0b92e678790
-#EXTINF:-1 tvg-id="TaiwanIndigenousTV.tw" tvg-logo="https://www.lyngsat.com/logo/tv/tt/taiwan_indigenous_tv.png" group-title="General",原住民電視 (720p)
-http://streamipcf.akamaized.net/live/_definst_/live_720/key_b1500.m3u8
 #EXTINF:-1 tvg-id="WXTV.tw" tvg-logo="https://i.imgur.com/s8tiTeb.png" group-title="Religious",唯心電視 (480p)
 http://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8
-#EXTINF:-1 tvg-id="DaAi1.tw" tvg-logo="https://i.imgur.com/KdJi9af.png" group-title="General",大愛1 (720p)
-http://50.7.220.74:8278/daai_twn/playlist.m3u8?ct=19225&tid=MF5F4357730143577301&tsum=10c092424b1c12259444b68ad663c9eb
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",大愛1 (720p)
-https://pulltv1.wanfudaluye.com/live/tv1.m3u8
-#EXTINF:-1 tvg-id="DaAi2.tw" tvg-logo="https://i.imgur.com/KdJi9af.png" group-title="General",大愛2 (720p)
-https://pulltv2.wanfudaluye.com/live/tv2.m3u8
-#EXTINF:-1 tvg-id="DaliTV.tw" tvg-logo="https://i.imgur.com/IjQnyO1.png" group-title="General",大立電視台 (720p)
-http://www.dalitv.com.tw:4568/live/dali/index.m3u8
-#EXTINF:-1 tvg-id="EraNews.tw" tvg-logo="https://i.imgur.com/DyQaf51.png" group-title="News",年代新聞台 (720p)
-http://50.7.220.74:8278/niandainews_twn/playlist.m3u8?ct=19226&tid=MA6A4647720946477209&tsum=48a66838dbcf633b2fb41307b29ef50a
-#EXTINF:-1 tvg-id="EBCNews.tw" tvg-logo="https://i.imgur.com/obtCusJ.jpg" group-title="News",東森新聞 (1080p) [Not 24/7]
-http://seb.sason.top/sc/dsxw_fhd.m3u8
-#EXTINF:-1 tvg-id="EBCFinancialNews.tw" tvg-logo="https://img-fnc.ebc.net.tw/EbcFnc/logoes/pc_logo.png" group-title="News",東森財經新聞 (1080p) [Not 24/7]
-http://seb.sason.top/sc/dscjxw_fhd.m3u8
-#EXTINF:-1 tvg-id="FTV.tw" tvg-logo="https://www.ftv.com.tw/images/Ch_01.png" group-title="General",民視 (720p) [Not 24/7]
-http://seb.sason.top/ptv/ftv.php?id=ms
-#EXTINF:-1 tvg-id="FTVTaiwan.tw" tvg-logo="https://www.ftv.com.tw/images/Ch_03.png" group-title="News",民視台灣 (720p) [Not 24/7]
-http://seb.sason.top/ptv/ftv.php?id=tw
-#EXTINF:-1 tvg-id="FTVOne.tw" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ad/FTV_One.png" group-title="General",民視第一 (720p) [Not 24/7]
-http://seb.sason.top/ptv/ftv.php?id=dy
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",立法院IVOD直播交通委員會 (450p)
 https://lylive-videorent.cdn.hinet.net/out/u/live/gop4/ly/ly-Live6/hls-cl-tv/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",立法院IVOD直播內政委員會 (450p)
@@ -250,7 +289,3 @@ https://lylive-videorent.cdn.hinet.net/out/u/live/gop4/ly/ly-Live5/hls-cl-tv/ind
 https://lylive-videorent.cdn.hinet.net/out/u/live/gop4/ly/ly-Live2/hls-cl-tv/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",立法院IVOD直播院會 (450p)
 https://lylive-videorent.cdn.hinet.net/out/u/live/gop4/ly/ly-Live1/hls-cl-tv/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",華視新聞資訊 [Geo-blocked]
-http://seb.sason.top/sc/hsxw_fhd.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",鏡電視新聞台
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UC4LjkybVKXCDlneVXlKAbmw/live
