@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/ao/guide.dstv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/ar/mi.tv.epg.xml.gz,https://iptv-org.github.io/epg/guides/bf/canalplus-afrique.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/bl/canalplus-caraibes.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/bo/comteco.com.bo.epg.xml.gz,https://iptv-org.github.io/epg/guides/cz/m.tv.sms.cz.epg.xml.gz,https://iptv-org.github.io/epg/guides/dk/allente.se.epg.xml.gz,https://iptv-org.github.io/epg/guides/es/gatotv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/fr/chaines-tv.orange.fr.epg.xml.gz,https://iptv-org.github.io/epg/guides/gr/cosmote.gr.epg.xml.gz,https://iptv-org.github.io/epg/guides/id-en/mncvision.id.epg.xml.gz,https://iptv-org.github.io/epg/guides/it/guidatv.sky.it.epg.xml.gz,https://iptv-org.github.io/epg/guides/lt/cgates.lt.epg.xml.gz,https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml.gz,https://iptv-org.github.io/epg/guides/ng/dstv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/nl/delta.nl.epg.xml.gz,https://iptv-org.github.io/epg/guides/se/allente.se.epg.xml.gz,https://iptv-org.github.io/epg/guides/tr/digiturk.com.tr.epg.xml.gz,https://iptv-org.github.io/epg/guides/uk/bt.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/uk/ontvtonight.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/uk/sky.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/uk/virginmedia.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/us-pluto/i.mjh.nz.epg.xml.gz,https://iptv-org.github.io/epg/guides/za/guide.dstv.com.epg.xml.gz"
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/ao_pt.xml.gz,https://iptv-org.github.io/epg/guides/ar_es.xml.gz,https://iptv-org.github.io/epg/guides/as_en.xml.gz,https://iptv-org.github.io/epg/guides/az_ru.xml.gz,https://iptv-org.github.io/epg/guides/be_fr.xml.gz,https://iptv-org.github.io/epg/guides/cy_el.xml.gz,https://iptv-org.github.io/epg/guides/dz_ar.xml.gz,https://iptv-org.github.io/epg/guides/es_es.xml.gz,https://iptv-org.github.io/epg/guides/ie_en.xml.gz,https://iptv-org.github.io/epg/guides/it_it.xml.gz,https://iptv-org.github.io/epg/guides/pt_pt.xml.gz,https://iptv-org.github.io/epg/guides/uk_en.xml.gz"
 #EXTINF:-1 tvg-id="4Music.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/4/49/4Music_logo_2018.svg/512px-4Music_logo_2018.svg.png" group-title="Music",4Music [Geo-blocked]
 https://csm-e-boxplus.tls1.yospace.com/csm/extlive/boxplus01,boxhits-alldev.m3u8?spotxc1=195996&spotxc2=190878&yo.up=https://boxtv.secure.footprint.net/boxhits/
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Africanews
@@ -20,7 +20,7 @@ http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/Almag
 #EXTINF:-1 tvg-id="AlbUKTV.uk" tvg-logo="https://i.imgur.com/gRvEH4v.png" group-title="Undefined",AlbUK TV (1080p) [Not 24/7]
 http://albuk.dyndns.tv:1935/albuk/albuk.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="AlHiwarTV.uk" tvg-logo="https://www.lyngsat.com/logo/tv/aa/al-hiwar-tv-uk.png" group-title="Undefined",Alhiwar TV (1080p) [Not 24/7]
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/alhiwarchannels/live
+https://mn-nl.mncdn.com/alhiwar_live/smil:alhiwar.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AnandTV.uk" tvg-logo="https://i.imgur.com/QMPfzzt.png" group-title="General",Anand TV (720p) [Not 24/7]
 https://live-anandtv.anandmedia.net/anandtvapp/anandtv/index.m3u8
 #EXTINF:-1 tvg-id="AriseNews.uk" tvg-logo="https://i.imgur.com/BlNMp0k.png" group-title="News",Arise News (576p)
@@ -275,22 +275,22 @@ https://ap02.iqplay.tv:8082/iqb8002/3m9n/playlist.m3u8
 #EXTINF:-1 tvg-id="EnglishClubTV.uk" tvg-logo="https://i.imgur.com/9FMvaRK.png" group-title="Undefined" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",English Club TV (480p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s37/index.m3u8
-#EXTINF:-1 tvg-id="ERTWorld.gr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/ChannelLogo-ERTWORLD1.png/512px-ChannelLogo-ERTWORLD1.png" group-title="Undefined",ERT World (720p)
-https://ert-live-bcbs15228.siliconweb.com/media/ert_world/ert_world.m3u8
+#EXTINF:-1 tvg-id="ERTWorld.gr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/ChannelLogo-ERTWORLD1.png/512px-ChannelLogo-ERTWORLD1.png" group-title="Undefined",ERT World (480p)
+http://wpso.com:1936/hls/wzra.m3u8
 #EXTINF:-1 tvg-id="ETBBasque.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/ETB_Basque_2022_logo.svg/512px-ETB_Basque_2022_logo.svg.png" group-title="Undefined",ETB Basque (480p)
 https://multimedia.eitb.eus/live-content/eitbbasque-hls/master.m3u8
 #EXTINF:-1 tvg-id="EuroIndieMusicChartTV.it" tvg-logo="https://i.imgur.com/UDFBYpN.png" group-title="Music",Euro Indie Music Chart TV (360p)
 http://178.33.224.197:1935/euroindiemusic/euroindiemusic/playlist.m3u8
-#EXTINF:-1 tvg-id="EuronewsSpanish.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews en Español (720p) [Not 24/7]
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/user/euronewses/live
 #EXTINF:-1 tvg-id="EuronewsGerman.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews German
 https://euronews.alteox.app/hls/de_stream.m3u8
 #EXTINF:-1 tvg-id="EuronewsHungarian.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews Hungary (720p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/euronewsHungarian/live
-#EXTINF:-1 tvg-id="EuronewsItalian.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews Italiano (720p)
-https://rakuten-euronews-3-it.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-id="EuronewsItalian.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews Italian
+https://euronews.alteox.app/hls/it_stream.m3u8
 #EXTINF:-1 tvg-id="EuronewsPortuguese.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews Portuguese
 https://euronews.alteox.app/hls/pt_stream.m3u8
+#EXTINF:-1 tvg-id="EuronewsSpanish.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews Spanish
+https://euronews.alteox.app/hls/es_stream.m3u8
 #EXTINF:-1 tvg-id="EuronewsRussian.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews по-русски (720p)
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCFzJjgVicCtFxJ5B0P_ei8A/live
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",EuronewsEng
@@ -305,8 +305,6 @@ http://109.169.55.98/tsstreamer/EuronewsRusLDAI_SD.ts
 http://109.169.55.98/tsstreamer/ExtremePlusLDAI_SD.ts
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",ExtremePlus
 http://176.227.215.109/tsstreamer/ExtremePlusLDAI_SD.ts
-#EXTINF:-1 tvg-id="FadakTV.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/13/FadakTV.png" group-title="Religious",Fadak TV (1080p) [Not 24/7]
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/KhodamAlMahdi2/live
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Fashion
 http://95.154.230.50/tsstreamer/FashionLDAI_SD.ts
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Fashion
@@ -333,10 +331,8 @@ http://seb.sason.top/ptv/ftv.php?id=tw
 http://78.129.193.17/tsstreamer/FuelLDAI_SD.ts
 #EXTINF:-1 tvg-id="GaliciaTVEuropa.es" tvg-logo="https://www.meo.pt/PublishingImages/canais/tv-galicia.png" group-title="Undefined",Galicia TV Europa (720p)
 http://europa-crtvg.flumotion.com/playlist.m3u8
-#EXTINF:-1 tvg-id="GarshomTV.uk" tvg-logo="https://i.imgur.com/KOM3xVi.png" group-title="Undefined",Garshom TV (360p) [Not 24/7]
-http://og2qd3aal7an-hls-live.5centscdn.com/garshomtv/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="GBNews.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/35/GB_News_Logo.svg/512px-GB_News_Logo.svg.png" group-title="News",GB News (1080p)
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/GBNewsOnline/live
+https://live-gbnews-ssai.simplestreamcdn.com/v1/master/82267e84b9e5053b3fd0ade12cb1a146df74169a/gbnews-live/live.m3u8
 #EXTINF:-1 tvg-id="GemsTV.uk" tvg-logo="https://i.imgur.com/9fJlCNW.png" group-title="Shop",Gems TV (360p)
 http://57d6b85685bb8.streamlock.net:1935/abrgemporiaukgfx/livestream_360p/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Hadi TV Azeri and Russian (720p)
@@ -369,8 +365,6 @@ https://hnc-free-viewlift.amagi.tv/HNC_AUSTRALIA.m3u8
 https://hncfree-samsung-uk.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Hype Tv
 http://35.189.69.44/tmp_hls/desibox/index.m3u8
-#EXTINF:-1 tvg-id="IdealWorld.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/2/26/Ideal_World_logo.png/512px-Ideal_World_logo.png" group-title="Shop",Ideal World TV (1080p) [Not 24/7]
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/IdealworldTvShopping/live
 #EXTINF:-1 tvg-id="InsightTV.nl" tvg-logo="https://i.imgur.com/7xmaoL0.png" group-title="Sports",Insight TV (1080p)
 https://insighttv-vizio.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="IonTV.uk" tvg-logo="https://i.imgur.com/fSg3txj.png" group-title="General",iON TV (576p)
@@ -488,7 +482,7 @@ http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5b68a18823ecb93393c
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Pluto TV Classic Movies (England) (720p)
 http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d134a74ca91eedee1630faa/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d134a74ca91eedee1630faa&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=903&terminate=false&userId=
 #EXTINF:-1 tvg-id="PlutoTVClassicTVUK.uk" tvg-logo="https://images.pluto.tv/channels/5d134a74ca91eedee1630faa/colorLogoPNG.png" group-title="Comedy",Pluto TV Classic TV (720p)
-https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5d134a74ca91eedee1630faa/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5e46ae801f347500099d461a/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=35f76fb0-e986-11eb-a0af-c3b401f46211&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=2fac39a7-56bc-492e-ae1e-3f6fb6cef1bc
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Pluto TV Crime (England) (720p) [Not 24/7]
 http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ea18cd42ee5410007e349dc/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5ea18cd42ee5410007e349dc&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=200&terminate=false&userId=
 #EXTINF:-1 tvg-id="PlutoTVDramaUK.uk" tvg-logo="https://images.pluto.tv/channels/5ddf91149880d60009d35d27/colorLogoPNG.png" group-title="Movies",Pluto TV Drama (England) (720p)
@@ -644,8 +638,9 @@ https://d3w4n3hhseniak.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d2
 http://95.154.194.78/tsstreamer/ZoomLDAI_SD.ts
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Zoom
 http://78.129.193.17/tsstreamer/ZoomLDAI_SD.ts
-#EXTINF:-1 tvg-id="Dorama.uk" tvg-logo="https://i.imgur.com/lHn6OlM.png" group-title="Movies",Дорама (1080p) [Not 24/7]
-https://sc.id-tv.kz/dorama_hd.m3u8
+#EXTINF:-1 tvg-id="Dorama.uk" tvg-logo="https://i.imgur.com/lHn6OlM.png" group-title="Movies" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Дорама (480p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+http://ott-cdn.ucom.am/s95/index.m3u8
 #EXTINF:-1 tvg-id="RTRPlaneta.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RTR-Planeta_Logo.svg/512px-RTR-Planeta_Logo.svg.png" group-title="General" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",РТР-Планета (480p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s15/index.m3u8

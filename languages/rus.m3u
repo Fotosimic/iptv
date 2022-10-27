@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/bf/canalplus-afrique.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/bl/canalplus-caraibes.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/by/tv.mail.ru.epg.xml.gz,https://iptv-org.github.io/epg/guides/cz/m.tv.sms.cz.epg.xml.gz,https://iptv-org.github.io/epg/guides/de/horizon.tv.epg.xml.gz,https://iptv-org.github.io/epg/guides/ee-en/teliatv.ee.epg.xml.gz,https://iptv-org.github.io/epg/guides/fr/canalplus.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/fr/chaines-tv.orange.fr.epg.xml.gz,https://iptv-org.github.io/epg/guides/ge/magticom.ge.epg.xml.gz,https://iptv-org.github.io/epg/guides/il/9tv.co.il.epg.xml.gz,https://iptv-org.github.io/epg/guides/kz/tv.yandex.ru.epg.xml.gz,https://iptv-org.github.io/epg/guides/lt/cgates.lt.epg.xml.gz,https://iptv-org.github.io/epg/guides/nl/delta.nl.epg.xml.gz,https://iptv-org.github.io/epg/guides/ru/tv.yandex.ru.epg.xml.gz,https://iptv-org.github.io/epg/guides/tr/digiturk.com.tr.epg.xml.gz,https://iptv-org.github.io/epg/guides/us/directv.com.epg.xml.gz"
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/as_en.xml.gz,https://iptv-org.github.io/epg/guides/az_ru.xml.gz,https://iptv-org.github.io/epg/guides/by_ru.xml.gz,https://iptv-org.github.io/epg/guides/ca_en.xml.gz,https://iptv-org.github.io/epg/guides/ee_et.xml.gz,https://iptv-org.github.io/epg/guides/fr_fr.xml.gz,https://iptv-org.github.io/epg/guides/kz_ru.xml.gz,https://iptv-org.github.io/epg/guides/ru_ru.xml.gz,https://iptv-org.github.io/epg/guides/uk_en.xml.gz,https://iptv-org.github.io/epg/guides/us_en.xml.gz"
 #EXTINF:-1 tvg-id="1HDMusicTelevision.ru" tvg-logo="https://i.imgur.com/6TjLUuF.png" group-title="Music",1HD Music Television (404p) [Not 24/7]
 https://sc.id-tv.kz/1hd.m3u8
 #EXTINF:-1 tvg-id="2x2.ru" tvg-logo="https://i.imgur.com/fhQFLEl.png" group-title="Entertainment",2x2 (720p) [Not 24/7]
@@ -184,6 +184,8 @@ https://streaming.astrakhan.ru/astrakhanrulivehd/playlist.m3u8
 http://xstream.afontovo.ru/afontovo_ya.m3u8
 #EXTINF:-1 tvg-id="Bashkortostan24.ru" tvg-logo="https://i.imgur.com/s34Wtz6.png" group-title="News",Башкортостан 24 (1080p)
 http://live.gtrk.tv/hls/b24-hls.m3u8
+#EXTINF:-1 tvg-id="Belarus3.by" tvg-logo="https://i.imgur.com/JkcDycn.png" group-title="General",Беларусь 3 (1080p) [Not 24/7]
+https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus3.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Belarus4.by" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Belarus_4.png/512px-Belarus_4.png" group-title="General",Беларусь 4 (576p)
 http://95.46.208.8:26258/belarus4
 #EXTINF:-1 tvg-id="Belarus24.by" tvg-logo="https://i.imgur.com/iVIlgrj.png" group-title="News",Беларусь 24 (1080p)
@@ -219,8 +221,9 @@ https://sc.id-tv.kz/domkino_hd.m3u8
 #EXTINF:-1 tvg-id="Domashniy.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Domashniy_tv_logo.svg/512px-Domashniy_tv_logo.svg.png" group-title="Entertainment" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Домашний (540p) [Geo-blocked]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 https://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY/variant.m3u8
-#EXTINF:-1 tvg-id="Dorama.uk" tvg-logo="https://i.imgur.com/lHn6OlM.png" group-title="Movies",Дорама (1080p) [Not 24/7]
-https://sc.id-tv.kz/dorama_hd.m3u8
+#EXTINF:-1 tvg-id="Dorama.uk" tvg-logo="https://i.imgur.com/lHn6OlM.png" group-title="Movies" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Дорама (480p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+http://ott-cdn.ucom.am/s95/index.m3u8
 #EXTINF:-1 tvg-id="Evronovosti.ru" tvg-logo="https://i.imgur.com/9eIZJSQ.png" group-title="News",Евроновости (576p)
 http://185.32.44.154/euronews/index.m3u8
 #EXTINF:-1 tvg-id="Enisey.ru" tvg-logo="https://i.imgur.com/GTXkAUu.png" group-title="Undefined",Енисей (1080p) [Not 24/7]
@@ -451,6 +454,8 @@ https://sitv.ru/hls/stv.m3u8
 https://bsttv.bonus-tv.ru/cdn/salyam/playlist.m3u8
 #EXTINF:-1 tvg-id="SamaraGIS.ru" tvg-logo="https://samaragis.ru/wp-includes/images/logo.png" group-title="Undefined",Самара ГИС (1080p) [Not 24/7]
 http://45.67.57.9:8080/new/new/playlist.m3u8
+#EXTINF:-1 tvg-id="Saratov24.ru" tvg-logo="https://i.imgur.com/hggQnNT.png" group-title="Undefined",Саратов 24 (1080p) [Not 24/7]
+https://saratov24.tv/online/playlist.php
 #EXTINF:-1 tvg-id="Sarafan.ru" tvg-logo="https://i.imgur.com/AgX6qoz.png" group-title="Undefined",Сарафан (576p) [Not 24/7]
 http://195.26.83.96:7024/play/82
 #EXTINF:-1 tvg-id="Svarozhichi.ua" tvg-logo="https://www.lyngsat.com/logo/tv/ss/svarozhychy-ua.png" group-title="Undefined",Сварожичи (720p)
@@ -517,7 +522,7 @@ http://strm.yandex.ru/kal/tntmusic/tntmusic0.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s90/index.m3u8
 #EXTINF:-1 tvg-id="3ABNRussia.ru" tvg-logo="https://i.imgur.com/8fKWpo3.png" group-title="Religious",Три Ангела (720p)
-https://hls.tv.3angels.ru/stream/HQ.m3u8
+https://hls.tv.3angels.ru/stream.m3u8
 #EXTINF:-1 tvg-id="FeniksplusKino.ru" tvg-logo="https://i.imgur.com/aVgoBCe.png" group-title="Movies",Феникс Кино (480p) [Geo-blocked]
 https://okkotv-live.cdnvideo.ru/channel/Phoenix.m3u8
 #EXTINF:-1 tvg-id="HuzurTV.tj" tvg-logo="https://i.imgur.com/Abg1fct.png" group-title="Undefined",Хузур ТВ (720p) [Not 24/7]
