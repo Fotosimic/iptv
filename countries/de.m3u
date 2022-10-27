@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/ao_pt.xml.gz,https://iptv-org.github.io/epg/guides/ar_es.xml.gz,https://iptv-org.github.io/epg/guides/as_en.xml.gz,https://iptv-org.github.io/epg/guides/az_ru.xml.gz,https://iptv-org.github.io/epg/guides/be_de.xml.gz,https://iptv-org.github.io/epg/guides/be_fr.xml.gz,https://iptv-org.github.io/epg/guides/cy_el.xml.gz,https://iptv-org.github.io/epg/guides/de_de.xml.gz,https://iptv-org.github.io/epg/guides/dz_ar.xml.gz,https://iptv-org.github.io/epg/guides/es_es.xml.gz,https://iptv-org.github.io/epg/guides/it_it.xml.gz,https://iptv-org.github.io/epg/guides/pt_pt.xml.gz"
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/af_en.xml.gz,https://iptv-org.github.io/epg/guides/al_en.xml.gz,https://iptv-org.github.io/epg/guides/ar_es.xml.gz,https://iptv-org.github.io/epg/guides/at_en.xml.gz,https://iptv-org.github.io/epg/guides/az_ru.xml.gz,https://iptv-org.github.io/epg/guides/be_de.xml.gz,https://iptv-org.github.io/epg/guides/de_de.xml.gz,https://iptv-org.github.io/epg/guides/de_en.xml.gz,https://iptv-org.github.io/epg/guides/es_es.xml.gz,https://iptv-org.github.io/epg/guides/hu_hu.xml.gz,https://iptv-org.github.io/epg/guides/it_it.xml.gz,https://iptv-org.github.io/epg/guides/pt_pt.xml.gz"
 #EXTINF:-1 tvg-id="123tv.de" tvg-logo="https://i.imgur.com/slSUDNX.png" group-title="Undefined",1-2-3 TV (270p)
 http://123tv-mx1.flex-cdn.net/index.m3u8
 #EXTINF:-1 tvg-id="3sat.de" tvg-logo="https://i.imgur.com/EYjMgEn.png" group-title="Undefined",3sat [Geo-blocked]
@@ -50,7 +50,7 @@ http://badentv-stream2.siebnich.info/rtplive/btv.stream/live.m3u8
 #EXTINF:-1 tvg-id="BahrainInternational.bh" tvg-logo="https://www.lyngsat.com/logo/tv/bb/bahrain_tv_international.png" group-title="Undefined",Bahrain International (720p) [Not 24/7]
 https://5c7b683162943.streamlock.net/live/ngrp:bahraininternational_all/playlist.m3u8
 #EXTINF:-1 tvg-id="BBCNews.uk" tvg-logo="https://i.imgur.com/rPzH88J.png" group-title="News",BBC News HD (720p) [Geo-blocked]
-https://cdnuk001.broadcastcdn.net/KUK-BBCNEWSHD/index.m3u8
+https://vs-cmaf-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_news_channel_hd/iptv_hd_abr_v1.mpd
 #EXTINF:-1 tvg-id="BBCWorldNewsEurope.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/BBC_World_News_2019.svg/512px-BBC_World_News_2019.svg.png" group-title="News" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",BBC World News (480p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s24/index.m3u8
@@ -93,8 +93,8 @@ http://ott-cdn.ucom.am/s65/index.m3u8
 https://cnn-cnninternational-1-de.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="DaVinci.de" tvg-logo="https://i.imgur.com/iBx7K1M.png" group-title="Undefined",Da Vinci
 http://sc.id-tv.kz/DaVinci_38_39.m3u8
-#EXTINF:-1 tvg-id="DasErste.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Das_Erste_2014.svg/512px-Das_Erste_2014.svg.png" group-title="Undefined",Das Erste (720p)
-https://derste247liveint.akamaized.net/hls/live/662735/daserste_int/master.m3u8
+#EXTINF:-1 tvg-id="DasErste.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Das_Erste_2014.svg/512px-Das_Erste_2014.svg.png" group-title="Undefined",Das Erste (720p) [Geo-blocked]
+https://mcdn.daserste.de/daserste/de/master.m3u8
 #EXTINF:-1 tvg-id="DeluxeLoungeHD.de" tvg-logo="https://i.imgur.com/DnMzWiG.png" group-title="Music",Deluxe Lounge HD
 https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/9a087b26-8be4-11eb-a7de-bacfe1f83627/0/master.m3u8?country=DE&optout=0&uid=749544ec3d9a45d48c600d03cac91dfd&vendor=philips
 #EXTINF:-1 tvg-id="DeutschesMusikFernsehen.de" tvg-logo="https://i.imgur.com/wUjgEUs.jpg" group-title="Music",Deutsches Musik Fernsehen (540p) [Not 24/7]
@@ -128,6 +128,8 @@ http://178.33.224.197:1935/euroindiemusic/euroindiemusic/playlist.m3u8
 http://5.135.92.131:1935/live/euroAl/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Euronews Deutsch (720p)
 https://rakuten-euronews-5-de.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-id="EuronewsSpanish.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews en Español (720p) [Not 24/7]
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/user/euronewses/live
 #EXTINF:-1 tvg-id="EuronewsGerman.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews German
 https://euronews.alteox.app/hls/de_stream.m3u8
 #EXTINF:-1 tvg-id="EuronewsHungarian.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews Hungary (720p) [Not 24/7]
@@ -136,8 +138,6 @@ http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/euron
 https://euronews.alteox.app/hls/it_stream.m3u8
 #EXTINF:-1 tvg-id="EuronewsPortuguese.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews Portuguese
 https://euronews.alteox.app/hls/pt_stream.m3u8
-#EXTINF:-1 tvg-id="EuronewsSpanish.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews Spanish
-https://euronews.alteox.app/hls/es_stream.m3u8
 #EXTINF:-1 tvg-id="EuronewsRussian.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews по-русски (720p)
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCFzJjgVicCtFxJ5B0P_ei8A/live
 #EXTINF:-1 tvg-id="FashionTVEurope.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/512px-Fashion_TV_logo.svg.png" group-title="Lifestyle",Fashion TV (1080p)
@@ -264,8 +264,6 @@ http://58bd5b7a98e04.streamlock.net/medienasa-live/ok-dessau_high/playlist.m3u8
 https://s.ok54.de/mok-gi/mok-gi/playlist.m3u8
 #EXTINF:-1 tvg-id="OKKaiserslautern.de" tvg-logo="https://i.imgur.com/SzGXrjb.png" group-title="Undefined",OK Kaiserslautern (720p) [Not 24/7]
 https://s.ok54.de/abr_okkl/webstream/playlist.m3u8
-#EXTINF:-1 tvg-id="OKKassel.de" tvg-logo="https://i.imgur.com/XsmPI4N.jpg" group-title="Undefined",OK Kassel (720p) [Not 24/7]
-https://s.ok54.de/mok-ks/kassel/playlist.m3u8
 #EXTINF:-1 tvg-id="OKLudwigshafen.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/okludwigshafen.png" group-title="Undefined",OK Ludwigshafen (720p) [Not 24/7]
 https://s.ok54.de/oklu/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="OKMagdeburg.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/okmagdeburg.png" group-title="Undefined",OK Magdeburg (1080p)
@@ -288,8 +286,6 @@ https://s.ok54.de/okswp/test/playlist.m3u8
 https://s.ok54.de/ott/webstream/playlist.m3u8
 #EXTINF:-1 tvg-id="OKWeinstrasseNeustadt.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/okweinstrasse.png" group-title="Undefined",OK Weinstraße (Neustadt) (432p)
 https://s.ok54.de/okweinstrasse/okweinstrasse/playlist.m3u8
-#EXTINF:-1 tvg-id="OKWernigerode.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/okwernigerode.png" group-title="Undefined",OK Wernigerode (1080p)
-http://58bd5b7a98e04.streamlock.net/medienasa-live/mp4:ok-wernigerode_high/playlist.m3u8
 #EXTINF:-1 tvg-id="oldenburgeins.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/oldenburgeins.png" group-title="Undefined",oldenburg eins (1080p) [Not 24/7]
 https://oeins.de/live/studio.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",ONE1 Music (1080p)
@@ -307,7 +303,7 @@ https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d767ae7b456c8cf26
 #EXTINF:-1 tvg-id="AutoMotorundSport.de" tvg-logo="https://i.imgur.com/SbCaP6F.png" group-title="Auto",Pluto TV Auto Motor Sport (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f760c3d41aa2d0007bfde19/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=1&deviceId=5f760c3d41aa2d0007bfde19&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=DE&serverSideAds=false&sid=c676a4b5-65d2-474a-b477-c04f8b88e727&terminate=false&userId=
 #EXTINF:-1 tvg-id="BeybladeBurstGermany.de" tvg-logo="https://images.pluto.tv/channels/5e8b551ddcd25500072c4dad/colorLogoPNG.png" group-title="Kids",Pluto TV Beyblade Burst Nick (720p)
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5e8b551ddcd25500072c4dad/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=1&deviceId=5e8b551ddcd25500072c4dad&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=DE&serverSideAds=false&sid=a38b88ed-0712-11eb-8b9f-0242ac110002&terminate=false&userId=
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5e8b551ddcd25500072c4dad/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-id="BlazeunddieMonsterMaschinenNickGermany.de" tvg-logo="https://images.pluto.tv/channels/5e8b60419becf60008c841fd/colorLogoPNG.png" group-title="Kids",Pluto TV Blaze Nick (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5e8b60419becf60008c841fd/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=1&deviceId=5e8b60419becf60008c841fd&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=DE&serverSideAds=false&sid=ebc579c0-0712-11eb-97af-0242ac110002&terminate=false&userId=
 #EXTINF:-1 tvg-id="BluesCluesGermany.de" tvg-logo="https://images.pluto.tv/channels/5e8b564ff59d130007363823/colorLogoPNG.png" group-title="Kids",Pluto TV Blue's Clues Nick (720p)

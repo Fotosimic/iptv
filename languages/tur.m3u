@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/ca_en.xml.gz,https://iptv-org.github.io/epg/guides/fr_fr.xml.gz,https://iptv-org.github.io/epg/guides/ru_ru.xml.gz,https://iptv-org.github.io/epg/guides/tr_tr.xml.gz,https://iptv-org.github.io/epg/guides/us_en.xml.gz"
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/ca_en.xml.gz,https://iptv-org.github.io/epg/guides/fr_fr.xml.gz,https://iptv-org.github.io/epg/guides/ru_ru.xml.gz,https://iptv-org.github.io/epg/guides/tr_en.xml.gz,https://iptv-org.github.io/epg/guides/tr_tr.xml.gz,https://iptv-org.github.io/epg/guides/us_en.xml.gz"
 #EXTINF:-1 tvg-id="24TV.tr" tvg-logo="https://i.imgur.com/8FO41es.png" group-title="Undefined" user-agent="Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36",24 TV (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
 https://mn-nl.mncdn.com/kanal24/smil:kanal24.smil/playlist.m3u8
@@ -18,6 +18,8 @@ http://win4.yayin.com.tr/postatv/postatv/playlist.m3u8
 http://stream.taksimbilisim.com:1935/altastv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="ArasTV.tr" tvg-logo="https://i.imgur.com/u660SjO.png" group-title="Undefined",ARAS TV (576p) [Not 24/7]
 http://1.rtmp.org/tv217/yayin.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="ATVAlanya.tr" tvg-logo="https://i.imgur.com/Jo6DJUe.png" group-title="Undefined",ATV Alanya (720p) [Not 24/7]
+http://stream2.taksimbilisim.com:1935/alanyatv/alanyatv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="BenguturkTV.tr" tvg-logo="https://i.imgur.com/HwyLlTz.png" group-title="Undefined",BENGÜTÜRK TV (720p) [Not 24/7]
 https://tv.ensonhaber.com/tv/tr/benguturk/index.m3u8
 #EXTINF:-1 tvg-id="BeratTV.tr" tvg-logo="https://www.lyngsat.com/logo/tv/bb/berat-tv-tr.png" group-title="Undefined",Berat TV (720p) [Not 24/7]
@@ -95,8 +97,8 @@ https://tv.ensonhaber.com/tv/tr/haberturk/index.m3u8
 #EXTINF:-1 tvg-id="HalkTV.tr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/42/Halk_TV_logo.png" group-title="Undefined" user-agent="Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36",Halk TV (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
 https://halktv-live.ercdn.net/halktv/halktv.m3u8
-#EXTINF:-1 tvg-id="HunatTV.tr" tvg-logo="https://i.imgur.com/XCEZY1z.png" group-title="Undefined",Hunat TV (480p) [Geo-blocked]
-https://waw2.artiyerelmedya.net/hunattv/bant1/playlist.m3u8
+#EXTINF:-1 tvg-id="HunatTV.tr" tvg-logo="https://i.imgur.com/XCEZY1z.png" group-title="Undefined",Hunat TV (480p) [Not 24/7]
+https://59cba4d34b678.streamlock.net/canlitv/hunattv/playlist.m3u8
 #EXTINF:-1 tvg-id="IBBTV.tr" tvg-logo="https://i.imgur.com/aXxAz84.png" group-title="Undefined",IBB TV (1080p)
 http://wowza.istweb.tv:1935/webtv/webtv_wowza1/playlist.m3u8
 #EXTINF:-1 tvg-id="IcelTV.tr" tvg-logo="https://i.imgur.com/CGwImKv.png" group-title="Undefined",Icel TV (720p) [Not 24/7]
@@ -248,6 +250,8 @@ http://stream.taksimbilisim.com:1935/tv41/bant1/playlist.m3u8
 http://stream.taksimbilisim.com:1935/tv52/smil:tv52.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TV100.tr" tvg-logo="https://i.imgur.com/ZvjuVGh.png" group-title="Undefined",tv100 (1080p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/watch?v=8jEXHzMTR7s
+#EXTINF:-1 tvg-id="TVDen.tr" tvg-logo="https://i.imgur.com/PFWOkNh.png" group-title="Undefined",TV Den (576p) [Not 24/7]
+http://canli.tvden.com.tr/hls/live.m3u8
 #EXTINF:-1 tvg-id="TVEm.tr" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/e/e9/TvEM_logosu.png" group-title="Undefined",TV Em (486p)
 http://cdn-tvem.yayin.com.tr/TVEM/TVEM/playlist.m3u8
 #EXTINF:-1 tvg-id="TVNet.tr" tvg-logo="https://i.imgur.com/NTWLhuL.png" group-title="Undefined",TVnet

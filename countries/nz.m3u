@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/ao_pt.xml.gz,https://iptv-org.github.io/epg/guides/ar_es.xml.gz,https://iptv-org.github.io/epg/guides/as_en.xml.gz,https://iptv-org.github.io/epg/guides/az_ru.xml.gz,https://iptv-org.github.io/epg/guides/cy_el.xml.gz,https://iptv-org.github.io/epg/guides/dz_ar.xml.gz,https://iptv-org.github.io/epg/guides/gu_es.xml.gz,https://iptv-org.github.io/epg/guides/it_it.xml.gz"
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/af_en.xml.gz,https://iptv-org.github.io/epg/guides/ar_es.xml.gz,https://iptv-org.github.io/epg/guides/az_ru.xml.gz,https://iptv-org.github.io/epg/guides/be_de.xml.gz,https://iptv-org.github.io/epg/guides/hu_hu.xml.gz,https://iptv-org.github.io/epg/guides/it_it.xml.gz"
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Action Hollywood Movies
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8
 #EXTINF:-1 tvg-id="AlJazeeraEnglish.qa" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Aljazeera_eng.svg/512px-Aljazeera_eng.svg.png" group-title="News",Al Jazeera English (1080p)
@@ -10,7 +10,7 @@ http://194.163.179.246/slovenci/djeciji/babytv.m3u8
 #EXTINF:-1 tvg-id="BahrainInternational.bh" tvg-logo="https://www.lyngsat.com/logo/tv/bb/bahrain_tv_international.png" group-title="Undefined",Bahrain International (720p) [Not 24/7]
 https://5c7b683162943.streamlock.net/live/ngrp:bahraininternational_all/playlist.m3u8
 #EXTINF:-1 tvg-id="BBCNews.uk" tvg-logo="https://i.imgur.com/rPzH88J.png" group-title="News",BBC News HD (720p) [Geo-blocked]
-https://cdnuk001.broadcastcdn.net/KUK-BBCNEWSHD/index.m3u8
+https://vs-cmaf-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_news_channel_hd/iptv_hd_abr_v1.mpd
 #EXTINF:-1 tvg-id="BeritaSatuWorld.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/BeritaSatuWorld.png/512px-BeritaSatuWorld.png" group-title="News",BeritaSatu World (720p) [Not 24/7]
 https://b1world.beritasatumedia.com/Beritasatu/B1World_manifest.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Bite
@@ -55,6 +55,8 @@ https://multimedia.eitb.eus/live-content/eitbbasque-hls/master.m3u8
 http://178.33.224.197:1935/euroindiemusic/euroindiemusic/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",EuroNews
 https://euronews-euronews-world-1-nz.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="EuronewsSpanish.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews en Español (720p) [Not 24/7]
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/user/euronewses/live
 #EXTINF:-1 tvg-id="EuronewsGerman.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews German
 https://euronews.alteox.app/hls/de_stream.m3u8
 #EXTINF:-1 tvg-id="EuronewsHungarian.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews Hungary (720p) [Not 24/7]
@@ -63,8 +65,6 @@ http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/euron
 https://euronews.alteox.app/hls/it_stream.m3u8
 #EXTINF:-1 tvg-id="EuronewsPortuguese.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews Portuguese
 https://euronews.alteox.app/hls/pt_stream.m3u8
-#EXTINF:-1 tvg-id="EuronewsSpanish.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews Spanish
-https://euronews.alteox.app/hls/es_stream.m3u8
 #EXTINF:-1 tvg-id="EuronewsRussian.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews по-русски (720p)
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCFzJjgVicCtFxJ5B0P_ei8A/live
 #EXTINF:-1 tvg-id="Firstlight.nz" tvg-logo="https://i.imgur.com/2TKL6BX.png" group-title="Undefined",Firstlight (576p)
@@ -194,8 +194,6 @@ https://travelxp-travelxp-1-nz.samsung.wurl.tv/playlist.m3u8
 https://tv-trtworld.live.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",True Crime Now
 https://alliantcontent-truecrimenow-3-nz.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="TVEInternacionalAsiaOceania.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Logo_TVE-Internacional.svg/512px-Logo_TVE-Internacional.svg.png" group-title="Undefined",TVE Internacional Asia-Oceania (576p)
-http://210.210.155.37/uq2663/h/h158/index2.m3u8
 #EXTINF:-1 tvg-id="TVMInternacional.mz" tvg-logo="https://i.imgur.com/Ns3WrOQ.png" group-title="General",TVM Internacional (480p) [Not 24/7]
 http://online.tvm.co.mz:1935/live/smil:Channel2.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TVNZ1.nz" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/TVNZ_1_logo.svg/512px-TVNZ_1_logo.svg.png" group-title="General",TVNZ 1 [Geo-blocked]

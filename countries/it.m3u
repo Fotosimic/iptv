@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/ao_pt.xml.gz,https://iptv-org.github.io/epg/guides/ar_es.xml.gz,https://iptv-org.github.io/epg/guides/as_en.xml.gz,https://iptv-org.github.io/epg/guides/az_ru.xml.gz,https://iptv-org.github.io/epg/guides/be_fr.xml.gz,https://iptv-org.github.io/epg/guides/cy_el.xml.gz,https://iptv-org.github.io/epg/guides/dz_ar.xml.gz,https://iptv-org.github.io/epg/guides/es_es.xml.gz,https://iptv-org.github.io/epg/guides/it_it.xml.gz,https://iptv-org.github.io/epg/guides/pt_pt.xml.gz"
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/af_en.xml.gz,https://iptv-org.github.io/epg/guides/al_en.xml.gz,https://iptv-org.github.io/epg/guides/ar_es.xml.gz,https://iptv-org.github.io/epg/guides/az_ru.xml.gz,https://iptv-org.github.io/epg/guides/be_de.xml.gz,https://iptv-org.github.io/epg/guides/es_es.xml.gz,https://iptv-org.github.io/epg/guides/hu_hu.xml.gz,https://iptv-org.github.io/epg/guides/it_en.xml.gz,https://iptv-org.github.io/epg/guides/it_it.xml.gz,https://iptv-org.github.io/epg/guides/pt_pt.xml.gz"
 #EXTINF:-1 tvg-id="12TVParma.it" tvg-logo="https://i.imgur.com/ZoTygGI.png" group-title="General",12 TV Parma (540p) [Not 24/7]
 https://5929b138b139d.streamlock.net/12TVParma/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="20Mediaset.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/20_Mediaset_2018.svg/512px-20_Mediaset_2018.svg.png" group-title="Undefined",20 Mediaset [Geo-blocked]
@@ -28,7 +28,7 @@ https://5c7b683162943.streamlock.net/live/ngrp:bahraininternational_all/playlist
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",BBC Drama
 https://bbceu-bbcdrama-2-it.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="BBCNews.uk" tvg-logo="https://i.imgur.com/rPzH88J.png" group-title="News",BBC News HD (720p) [Geo-blocked]
-https://cdnuk001.broadcastcdn.net/KUK-BBCNEWSHD/index.m3u8
+https://vs-cmaf-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_news_channel_hd/iptv_hd_abr_v1.mpd
 #EXTINF:-1 tvg-id="BBCWorldNewsEurope.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/BBC_World_News_2019.svg/512px-BBC_World_News_2019.svg.png" group-title="News" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",BBC World News (480p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s24/index.m3u8
@@ -113,6 +113,8 @@ https://multimedia.eitb.eus/live-content/eitbbasque-hls/master.m3u8
 http://178.33.224.197:1935/euroindiemusic/euroindiemusic/playlist.m3u8
 #EXTINF:-1 tvg-id="EuroTV.it" tvg-logo="https://i.imgur.com/zTYnT18.png" group-title="Undefined",Euro TV (720p) [Not 24/7]
 https://5f22d76e220e1.streamlock.net/eurotv/eurotv/playlist.m3u8
+#EXTINF:-1 tvg-id="EuronewsSpanish.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews en Español (720p) [Not 24/7]
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/user/euronewses/live
 #EXTINF:-1 tvg-id="EuronewsGerman.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews German
 https://euronews.alteox.app/hls/de_stream.m3u8
 #EXTINF:-1 tvg-id="EuronewsHungarian.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews Hungary (720p) [Not 24/7]
@@ -121,8 +123,6 @@ http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/euron
 https://euronews.alteox.app/hls/it_stream.m3u8
 #EXTINF:-1 tvg-id="EuronewsPortuguese.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews Portuguese
 https://euronews.alteox.app/hls/pt_stream.m3u8
-#EXTINF:-1 tvg-id="EuronewsSpanish.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews Spanish
-https://euronews.alteox.app/hls/es_stream.m3u8
 #EXTINF:-1 tvg-id="EuronewsRussian.fr" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews по-русски (720p)
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCFzJjgVicCtFxJ5B0P_ei8A/live
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Failarmy
@@ -430,8 +430,6 @@ https://dhx-teletubbies-2-it.samsung.wurl.tv/playlist.m3u8
 http://ts2000tv.streaming.nextware.it:8081/ts2000tv/ts2000tv/playlist.m3u8
 #EXTINF:-1 tvg-id="TeleVenezia.it" tvg-logo="https://i.imgur.com/RG4o4Ni.png" group-title="Undefined",TeleVenezia (576p)
 https://59d8c0cee6f3d.streamlock.net/televenezia/televenezia/playlist.m3u8
-#EXTINF:-1 tvg-id="TeleVideoAgrigento.it" tvg-logo="https://i.imgur.com/crMQmn4.png" group-title="Undefined",TeleVideo Agrigento (480p)
-https://59d7d6f47d7fc.streamlock.net/tva/tva/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Televisa Telenovelas
 https://televisa-televisa-1-it.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="TGCom24.it" tvg-logo="https://i.imgur.com/fPmvbGH.png" group-title="News",TGCom 24 [Geo-blocked]
